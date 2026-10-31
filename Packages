@@ -34,6 +34,24 @@ Description: 解除隔空投送十分钟限制，支持设置自定义关闭时�
 Name: AirDrop
 Author: iosdump
 
+Package: com.lenglengyu.ghallownetwork-rootless
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/Allow_Network-Rootless-0.0.1.deb
+Size: 10454
+MD5sum: ecff08888db448218b64d7997d34922a
+SHA1: fa922baf6e8a05326572bf0dd3410567d7d9b5d0
+SHA256: 5159cdbcf18eecb8e1221c3a7a75eee286eefedf38b3be78171bc8bea28d27ef
+SHA512: 8790252724488d720e56c80c99e421527045123e4cfc981cee571d87fe6ec3c7010f577683629b87d9d681908c51d703eb7f81c4bfededb86f90bc9a6366c947
+Description: 国行手机自动允许使用网络。
+Name: Allow Network-Rootless
+Author: lenglengyu
+
 Package: com.dao.appstoretroller
 Architecture: iphoneos-arm64e
 Version: 0.1.2
