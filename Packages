@@ -16,6 +16,26 @@ Name: Choicy
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Author: opa334 <opa334@protonmail.com>
 
+Package: cn.zqbb.stopautolaunchapps
+Architecture: iphoneos-arm64e
+Version: 2.5
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 1120
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
+Conflicts: zp.stopautolaunchapps
+Filename: debs/Hello_3Q-2.5_e.deb
+Size: 254952
+MD5sum: 10ecfd412cf9df7f3d643bc574f4a3f2
+SHA1: 2ec33e856e953fcde5347dc9eb831e03acee04ec
+SHA256: 0b7d5c67b6ea9c97cdb34418c21ce47e312ad166465d33fbb5332aaa892d3dfa
+SHA512: 6560c86a53a9a8b2af091ff0cd692249387cf86aee10ecdc50857c35a04771939d0ff320e6cf4cf716ab903ecadf0f154002958b0e243c4b36f84855921718c7
+Description: 别在后台热加载app咯! 
+ - 优点:节约内存,少杀后台.
+Author: zqbb
+Name: Hello 3Q
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
+
 Package: com.axs.ipslog
 Architecture: iphoneos-arm64e
 Version: 5.2.0-31
@@ -37,4 +57,151 @@ Name: IPSLog
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/ips.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
+
+Package: com.m4fn3.mikkyy
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: m4fn3
+Installed-Size: 1500
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/Mikkyy-1.0.1.deb
+Size: 345040
+MD5sum: 78f3d28f3f2fb8bdf9d027d01d54a05d
+SHA1: 78101e9a6c16f35bf031f47d8fc766ed24fcb4b5
+SHA256: f6613cc6c9febf468091d280380b0af5130b0525322cf153bb9990f80763ac35
+SHA512: d15bc622f12d0b35aa2cae0bc4f2e6387e0eb96cb372c11a94c1b2fa4acfa2fc0ef78c799c6415daf8802612c89df395b2e3cb312f7ce0b22612e1c2c175608b
+Description: Modern, lightweight theme engine for iOS 16 through 26. Applies icon themes to the Home Screen, Dock, App Switcher, Share Sheet, Settings, folder previews, and live Calendar and Clock icons.现代化轻量主题引擎，支持 iOS 16 ~ 26。可为主屏幕、程序坞、应用切换器、分享面板、设置、文件夹预览以及日历、时钟动态图标应用图标主题。
+Name: Mikkyy 主題管理
+Author: m4fn3
+Icon: https://m4fn3.github.io/repo/web/images/Mikkyy.png
+SileoDepiction: https://m4fn3.github.io/repo/web/depictions/Mikkyy.json
+
+Package: com.cydiabc.appdatas-rootless
+Architecture: iphoneos-arm64e
+Version: 1.9.1
+Section: Rootless
+Maintainer: Ai-小苹果™
+Installed-Size: 1656
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Filename: debs/appdatas_1.9.1_e.deb
+Size: 447376
+MD5sum: 331bb77deb9b092fa5ec8ec413cf992b
+SHA1: 279b17d20e7c63a93c023b2e7a7d8feb9cf9a44e
+SHA256: 1216a8ea94b2e5c6701d6370801071520f5ed1da1301e9022ce073250d1bfe04
+SHA512: 064b789bbfef8ba1ab22ff9327bc66f75f588336d76070294f2b2da52d4a24888c75c0b63370319dc13fdd2b3475f551fcef33e9bbbf36874c222d0a79fbe42d
+Description: AppData在桌面图标上滑动或长按菜单呼出面板，查看并管理任意应用的沙盒数据、权限、缓存与运行状态，具体功能和更新内容请在AppData设置界面查看
+A12: 1
+Name: AppData应用数据-Rootless
+Author: Ai-小苹果™&Fouad Raheb
+Sponsor: Ai-小苹果™
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Icon2: 16.png
+
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64e
+Version: 0.1.38.1
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 780
+Depends: firmware (>= 15.0)
+Filename: debs/insulation_0.1.38.1_e.deb
+Size: 57024
+MD5sum: 548758f431fed3ae2df216bb491d6c62
+SHA1: fd40899f9d37489c30a01a79d245d80c20af9f45
+SHA256: 75d9920232145bae39c8a3217091e8cb3dec60d0074df265fbfa86a7d44e19c9
+SHA512: faec1fb9a37f317941c6c17f743fbfa1886eb3454de2e9b4c76c1e5f39e61d4f596800d72c8fb316d48c4db429164c43d5e8c5e7dfbd85b6b57b061795f17972
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
+Name: insulation
+Author: be-huge & doimty
+
+Package: com.sini.photos
+Architecture: iphoneos-arm64e
+Version: 0.0.6-13
+Section: Tweaks
+Maintainer: iOSign
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/photos_0.0.6-13_e.deb
+Size: 3896
+MD5sum: 73cbd419b58c235f6ee044e3377cfcb9
+SHA1: 9de4f53ad7e2a57fb710d0736e10ab2ab4bfe973
+SHA256: 0ebad02d7fd67f911df146b53af9846c7df4b880c15ee043856b3d8fdf235492
+SHA512: f151bbcb8a4d19f5a93ab0c2f8c06261ce502a09479934bfb83f208cb82c816cf872bfa9a57c46d70becccbad7beb0f5ba2cc4a46d7f4f6764d5afd216c475ce
+Description: 自用备份。
+Author: iOSign
+icon: https://huayuarc.github.io/icon/xc.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/photos/js.json
+Name: 相册增强
+
+Package: com.crctdd.shorbar
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 560
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/shorbar_1.0.2_e.deb
+Size: 88592
+MD5sum: bc389e9f688101972bc208c2d3dcbeea
+SHA1: 01581e225f3c8f35c4065cc9615dd9293b8bada5
+SHA256: 2854dcf8ca2e5bc74878d059692a1225e4fa4b6fc5cc663b2ebe8ada739dcf82
+SHA512: 999665fe3fa0cd48766ad4b95889ef17f71c1dbb52d9333c3c60039269d7ffd5beee71ac20010a8db2821f3b7ce50f52c94d0ed6a7359fd5d3aff20fc76b8d04
+Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
+Name: ShortBar
+Author: crctdd
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.4.1
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 1272
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/stayalivelite_0.4.1_e.deb
+Size: 188524
+MD5sum: 3fab3c10374a4ebd001a8e7bd10dedc0
+SHA1: 8a46cf937c6c39efcb292b9209967bf812d24eb1
+SHA256: 854f2626019702e59b7a93d3dfdb4bacbf53fba67987651b0121e5422d9c98b7
+SHA512: 1d5545aadcaf4ccdd5f3b697e222d40b18747f9f1848058392fe0236fc9748346db6a0259ec5dc95c31da79909139f4fae9e6ab3bb409589d3c2cba1669629e1
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+
+Package: com.mtac.vitreux
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: Axs
+Installed-Size: 6160
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/vitreux_1.1_e.deb
+Size: 127186
+MD5sum: d3b2f756f776a631333b967748388225
+SHA1: 257927a9797280f13e77e30c9fc0c508899dbe60
+SHA256: 5a53474c5450ab124d0072dbaaf0df0d03828489e2c9d28855346e42be587199
+SHA512: fe5dabf1641faeb8681511bd2de85ad62af37cbfc3f1c1079b3b3e28aa77329b4c4fd78acf92abbb97cac06e814926d54b3933329bdad3e18ec383281ce697f7
+Description: 1.主打 iOS 26 系统液态玻璃设计。2.让旧系统体验液态玻璃风格。3.目前版本，效果主要体现在锁屏、主屏、控制中心、通知、App 资源库、小组件等。4.自定义选项丰富。可以自定义模糊设置等。5.目前仅仅支持 SpringBoard 范围。6.支持 iOS 15.x - 16.x 系统。
+Name: Vitreux 液态玻璃
+Author: MTAC
+Icon: https://axs66.github.io/repo/icon/vitreux.png
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/vitreux/js.json
+
+Package: com.xsxs18.voidy.zh-hans
+Architecture: iphoneos-arm64e
+Version: 1.0-1
+Section: Localization
+Maintainer: Minis
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.xsxs18.voidy (>= 1.0)
+Filename: debs/voidy.zh-hans_1.0-1_e.deb
+Size: 7932
+MD5sum: 0209e033b2347dcc32c54e3dd85c8a43
+SHA1: 9a3b2b2e625c0263a7c06cd7b969f53b711f1a43
+SHA256: 219170e0e224d54e2553b3495e4c5dfa90994a8ba0e8a98a0ec31af4212ac4d1
+SHA512: 76ce5c23446679d60191f329a6738fb2be40b057b78cd466a03f2cb679205514946cc4400325e68b34fc9f276682fe6122452868d1147ea211e5e9104de959a0
+Description: Simplified Chinese localization for Voidy.
+Name: Voidy 简体中文语言包
 
