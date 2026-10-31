@@ -4,5 +4,12 @@
   "No_Apple_MobileRepair.deb": { "name": "禁止在设置页面显示维修记录" },
   "nopassafterrespringsafe_0.0.3_e.deb": { "name": "注销不锁屏" },
   "pleasedontstopthemusic_2.2.0_e.deb": { "name": "请别暂停音乐" },
-  "No_Redirect_2.1_e.deb": { "name": "禁止跳转" }
+  "No_Redirect_2.1_e.deb": { "name": "禁止跳转" },
+  "EvoCenter16.deb": { "name": "EvoCenter16控制中心" },
+  "quickprefs_1.3.3_e.deb": { "name": "QuickPrefs" },
+  "appdatas_1.9.1_e.deb": { "name": "AppData应用数据" },
+  "AppStoreTroller_0.1.2_e.deb": { "name": "AppStoreTroller" },
+  "BetterAlarm_1.5_e.deb": { "name": "BetterAlarm中文版" },
+  "urlschemeguard_0.5.6_e.deb": { "name": "URL Scheme Guard Core" },
+  "icleanerpro_7.10.0-1_e.deb": { "name": "iCleaner Pro系统清理正版" }
 }
