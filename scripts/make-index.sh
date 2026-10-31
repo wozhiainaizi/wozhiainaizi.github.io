@@ -4,6 +4,7 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"; cd "$ROOT"
 REPO_URL="${REPO_URL:-https://wozhiainaizi.github.io/}"; mkdir -p debs
 command -v apt-ftparchive >/dev/null 2>&1 || { echo "缺少 apt-ftparchive"; exit 1; }
 DEBS_ABS="$ROOT/debs"
+PREV_DIR="$(mktemp -d)"; cp -f Packages "$PREV_DIR/Packages" 2>/dev/null || true
 if apt-ftparchive packages "$DEBS_ABS" >/dev/null 2>&1; then
   apt-ftparchive packages "$DEBS_ABS" | sed "s#^Filename: .*/#Filename: debs/#" > Packages
 else
@@ -11,6 +12,10 @@ else
   apt-ftparchive packages "$SCAN" | sed "s#^Filename: .*/#Filename: debs/#" > Packages
 fi
 [ -f overrides.json ] && command -v python3 >/dev/null 2>&1 && python3 scripts/apply-overrides.py
+if [ -f "$PREV_DIR/Packages" ]; then
+  PREV_PACKAGES="$PREV_DIR/Packages" python3 scripts/apply-sections.py
+fi
+rm -rf "$PREV_DIR"
 gzip -9 -kf Packages
 gen_hashes(){ local alg="$1"; shift; local f; for f in "$@"; do [ -f "$f" ] || continue;
   local size; size=$(wc -c < "$f" | tr -d ' '); local h;
