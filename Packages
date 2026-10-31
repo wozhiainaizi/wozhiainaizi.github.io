@@ -607,6 +607,51 @@ Author: Nathan
 Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 
+Package: com.cydiabc.icleanerpro
+Architecture: iphoneos-arm64e
+Version: 7.10.0-1
+Section: 工具
+Maintainer: Ai-小苹果
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/icleanerpro_7.10.0-1_e.deb
+Size: 2752334
+MD5sum: 221d2651eba92b0b7122d55e56dd2dcb
+SHA1: 9732b92353f2d5eda10b635e14514b4dc9e3b31d
+SHA256: 6f25934c30e6fe7457be14211987ebb38950b2fa0ca42abfea7121cdf4cd3177
+SHA512: c1941c0381450eb937e3d7563e5cb37b7e4857d18ef9b15c1cd0ddacac957281e24895aab960d4fda49f91f6dbd39df12b376bd2a170abb77fcd58bd6e466338
+Description: iOS系统 垃圾清理 & 插件管理工具，此版本为正版，需搭配iCleanerPro【破解补丁】使用，如提示激活国行自行解决联网问题，推荐插件：3DNetworkFixer修复联网
+A12: 1
+Name: iCleaner Pro系统清理【正版】-Rootless
+Author: Ivano Bilenchi
+Sponsor: Ai-小苹果
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Icon2: 5.png
+
+Package: com.cydiabc.icleanerprocrack2
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: 工具
+Maintainer: Anna
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/icleanerprocrack2_1.2_e.deb
+Size: 4808
+MD5sum: 535dd3bbf335a1c2af09f28607764041
+SHA1: 4dbe77da2f58ac416c9277f9d3e92c595bcd5eca
+SHA256: a84e73c1e277eb661decc232af7e8645a0e035354c002337b27c64fbc280903a
+SHA512: 84eb177ee7fe774990fe93c93d39688fe84947331e623e1bd5983e814e192a1075b4415e4bc5b6bb38c05325ce2b47fb5b88f50daf901be2e209697c5d6c63cb
+Description: iCleaner Pro破解全功能插件，此补丁搭配正版iCleaner Pro使用，网友分享
+A12: 1
+Name: iCleanerPro系统清理【破解补丁】-Rootless
+Author: Anna
+Sponsor: Anna
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Icon2: 5.png
+
 Package: cn.zqbb.hello.bundleid
 Architecture: iphoneos-arm64e
 Version: 1.6.1-5
@@ -736,6 +781,28 @@ SHA512: f159f6108a26ff2064f1c05e7273f9d9dfd803a3c2b9411ea87c3137a0c41aefb74a00b3
 Description: Disables passcode after a respring. This version does NOT modify system file. It's safe to use. 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。
 Name: NoPassAfterRespring (Safe)
 Author: Brend0n <brendonjkding@126.com>
+
+Package: com.sini.onesettings
+Architecture: iphoneos-arm64e
+Version: 2.2
+Section: Tweaks
+Maintainer: sini921
+Installed-Size: 1084
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
+Filename: debs/onesettings_2.2_e.deb
+Size: 296446
+MD5sum: 4abbe3b9471f3186e0de0413e91bed3e
+SHA1: db8ad48b0b1370e52f9151409d8436ba0fdbd578
+SHA256: 239cbdea9a9496fc166c1503ce5a3577377ef9b51bc69ccf4a5266920f59d5ce
+SHA512: 63985e0f325be46f07826b112b232ad6b2b9fe61f23ee72140b33db64277006fba8caa85999a7f8f8a39dbd6a7846cc230eacc95ba8aa775bfd5ea81363a0966
+Description: 设置美化，插件归类
+Author: Nightwind
+Name: OneSettings
+Sponsor: sini921
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/onesettings/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
 
 Package: com.anthopak.pancake-rootless
 Architecture: iphoneos-arm64e
