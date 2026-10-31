@@ -2,7 +2,9 @@ name: Build Jailbreak Repo
 on:
   push:
     branches: [main]
-    paths: ['debs/**','scripts/**']
+    paths: ['debs/**','scripts/**','assets/**']
+  schedule:
+    - cron: '0 * * * *'
   workflow_dispatch:
     inputs:
       reason:
