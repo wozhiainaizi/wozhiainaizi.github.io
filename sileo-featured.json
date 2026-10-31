@@ -1,13 +1,13 @@
 {
   "class": "FeaturedBannersView",
-  "itemSize": "{263, 148}",
+  "itemSize": "{375, 211}",
   "itemCornerRadius": 10,
   "banners": [
     {
       "url": "https://wozhiainaizi.github.io/assets/hero.jpg",
-      "title": "暗影大人",
+      "title": "",
       "package": "",
-      "hideShadow": false
+      "hideShadow": true
     }
   ]
 }
