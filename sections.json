@@ -1,6 +1,10 @@
 {
-  "keep": [
-    "Tweaks"
+  "sections": [
+    {
+      "name": "Tweaks",
+      "orig": "Tweaks",
+      "pkgs": []
+    }
   ],
   "other": "其它"
 }
