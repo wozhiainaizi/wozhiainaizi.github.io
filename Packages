@@ -990,28 +990,6 @@ Description: Disables passcode after a respring. This version does NOT modify sy
 Name: NoPassAfterRespring (Safe)
 Author: Brend0n <brendonjkding@126.com>
 
-Package: com.sini.onesettings
-Architecture: iphoneos-arm64e
-Version: 2.2
-Section: Tweaks
-Maintainer: sini921
-Installed-Size: 1084
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
-Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
-Filename: debs/onesettings_2.2_e.deb
-Size: 296446
-MD5sum: 4abbe3b9471f3186e0de0413e91bed3e
-SHA1: db8ad48b0b1370e52f9151409d8436ba0fdbd578
-SHA256: 239cbdea9a9496fc166c1503ce5a3577377ef9b51bc69ccf4a5266920f59d5ce
-SHA512: 63985e0f325be46f07826b112b232ad6b2b9fe61f23ee72140b33db64277006fba8caa85999a7f8f8a39dbd6a7846cc230eacc95ba8aa775bfd5ea81363a0966
-Description: 设置美化，插件归类
-Author: Nightwind
-Name: OneSettings
-Sponsor: sini921
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/onesettings/js.json
-icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
-
 Package: com.hk.pancake.cn.rl
 Architecture: iphoneos-arm64e
 Version: 2.2
