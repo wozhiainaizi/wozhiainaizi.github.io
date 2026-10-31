@@ -6,10 +6,10 @@ Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: 暗影大人 的越狱软件源
-Support: https://wozhiainaizi.github.io/wozhiainaizi.github.io/
+Support: https://wozhiainaizi.github.io/
 MD5Sum:
  174ec427f931144e2e5bd750bff5ce59  45001 Packages
- a5654dc09d5472ba1f60f41870993e64  19636 Packages.gz
+ cb1dc21c9febe4686c53e2d54ce0c87d  19636 Packages.gz
 SHA256:
  4eaf8fa4387d86918ec1079bdcddb203a03298b05adeb4db9730b934327e4878  45001 Packages
- 8659bbfd05c7c2e6e2243c2f6c4c5238c36d27e62a0145ba403b45737f024e1c  19636 Packages.gz
+ eeee5e0135985a61d97b5558b3fbdb3da335914e175069a8456785b7204ce262  19636 Packages.gz
