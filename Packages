@@ -77,6 +77,34 @@ Author: m4fn3
 Icon: https://m4fn3.github.io/repo/web/images/Mikkyy.png
 SileoDepiction: https://m4fn3.github.io/repo/web/depictions/Mikkyy.json
 
+Package: com.axs.tweakshub
+Architecture: iphoneos-arm64e
+Version: 5.2.0-88
+Section: Axs-Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 728
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.nightwind.onesettings, com.creaturecoding.shuffle, com.sop.settingsrevamp, com.hk.settingsrevamp, com.dao.settingsrevamp, byg.iosios.net.settingsrevamp
+Filename: debs/TweaksHub-5.2.0-88_e.deb
+Size: 68682
+MD5sum: 451e3da291a234cb3cb96a3f693c2294
+SHA1: 6d5245640913b441f56b631ebed43ae5e9e94f36
+SHA256: 4d4a84f4ce6480f768d3106aacdac1ae43235ecf51089e9b81a4bff894814cc2
+SHA512: c9063e702d6dffa808363912724a5773b59e26fc4c2f0661b406d4e3e905db0016bf8ac1adce200e4b4d9b9b410ea5bf902b5f413acfba26cc4b04bb4b231163
+Description: 集中收纳统一管理越狱插件与第三方 App 设置，支持插件自定义名称和图标。
+ * 设置首页同组并排两个入口：越狱插件 + 应用软件
+ * 自动隐藏其他插件的首页独立入口，整组收纳系统第三方 App 设置
+ * 越狱插件面板递归聚合所有已装插件设置
+ * 应用软件面板收录第三方 App 设置入口（点击仍进原生设置页）
+ * 支持 Prefs:root=TWEAKS_CELL / TWEAKS_APPS_CELL 深链直达
+ * 「附加功能」新增屏蔽部件与维修记录（隐藏非原装电池、维修记录相关提示行）
+ * 「附加功能」新增屏蔽系统更新提示（隐藏设置首页「现有 iOS xx 可用」行）
+ * 「附加功能」新增自定义插件名称与图标，图标放进 /var/mobile/Axs/TweaksHub/ 即可用
+Name: TweaksHub
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/tweakshub.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/tweakshub/js.json
+
 Package: com.cydiabc.appdatas-rootless
 Architecture: iphoneos-arm64e
 Version: 1.9.1
@@ -98,6 +126,24 @@ Author: Ai-小苹果™&Fouad Raheb
 Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/System.png
 Icon2: 16.png
+
+Package: com.squidforce.copyvault
+Architecture: iphoneos-arm64e
+Version: 1.9.0
+Section: Tweaks
+Maintainer: SquidForce
+Installed-Size: 6304
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/copyvault_1.9.0_e.deb
+Size: 4861682
+MD5sum: 6172359b098ec024212f25dccbf5471b
+SHA1: 823ac12f4281fbb6c8ab269c14499b472e217f9c
+SHA256: 949674e99a9eb8150f4514aac26ad1a54ec91480c597fdffbccb7ad0880b6cb0
+SHA512: 58b557bd5de8639ce57c83a27d917c359b0feb9c1e1e0d962faf97c1100ff544bd2ad1132dee7d8e1e7e003b1d3d86e179f1aaca74f91555216142cbaedec776
+Description: Your Copy Vault, Your Pasteboard
+Name: CopyVault
+Author: SquidForce
 
 Package: com.be-huge.insulation
 Architecture: iphoneos-arm64e

@@ -8,8 +8,8 @@ Components: main
 Description: wozhiainaizi 的越狱软件源
 Support: https://wozhiainaizi.github.io/wozhiainaizi.github.io/
 MD5Sum:
- 72bb5fd33e93c1a304d9bf7c4bb44041  9183 Packages
- 07303a114e573d22df6f88e57a132bac  4660 Packages.gz
+ 83b89dfdbaad3b7eaf68cc401a3c1350  11561 Packages
+ 901eeabc958077ee4ed6eabd74b78654  5684 Packages.gz
 SHA256:
- 31b3a1b6ff6b7121abf54772a15e442ce7751e2794a8801839d29cb90b8a4ba5  9183 Packages
- 69dabf5c0d450d08b50d638351320c2b8ff82434eead1fefdf0b458ccb094887  4660 Packages.gz
+ a392389573b3b4ecb6ef6cec37d77785df60a9b655e0e8320068b4192bd8b152  11561 Packages
+ 0057beea1a2b790f8859154ecfc60685bd0198ec7c3bfdbc1931dd6c7f033684  5684 Packages.gz
