@@ -1135,7 +1135,7 @@ SHA256: 5827ac6197868452dc054b52c6ace84e945e89bbb406e3d3fbab9a444055b4ce
 SHA512: e5bfd54daa50442dff6667d1eb04634eaa0c898c7467e51c715298698b96932d84d5c9c3ca76b03d107d38b0455da9053f186a5ab5e3481c61d8f91db306cf88
 Description: 音量管理，就是这么简单。包含功能：混响、多元化音量。本插件可以给每个APP单独设置音量等，但是不确定没有bug，作者人没了，不用反馈！
 Tag: 1
-Name: VolumeManager音量管理
+Name: VolumeManager 音量管理
 Author: sunshinesong
 Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
 Icon: file:///Applications/Cydia.app/Sections/System.png
