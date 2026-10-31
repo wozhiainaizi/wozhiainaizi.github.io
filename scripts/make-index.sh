@@ -18,7 +18,7 @@ gen_hashes(){ local alg="$1"; shift; local f; for f in "$@"; do [ -f "$f" ] || c
   printf ' %s  %s %s\n' "$h" "$size" "$f"; done; }
 { echo "Origin: 暗影大人"; echo "Label: 暗影大人"; echo "Suite: stable"; echo "Version: 1.0";
   echo "Codename: ios"; echo "Architectures: iphoneos-arm64 iphoneos-arm64e"; echo "Components: main";
-  echo "Description: 暗影大人 的越狱软件源"; echo "Support: $REPO_URL";
+  echo "Description: 暗影大人 的越狱软件源"; echo "Support: https://wozhiainaizi.github.io/";
   echo "MD5Sum:"; gen_hashes md5 Packages Packages.gz; echo "SHA256:"; gen_hashes sha256 Packages Packages.gz; } > Release
 
 # ---- 固定主页：每次重建强制生成，防止被外部模板覆盖 ----
