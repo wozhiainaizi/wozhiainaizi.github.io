@@ -1,15 +1,15 @@
-Origin: 暗影大人
-Label: 暗影大人
+Origin: wozhiainaizi 的源
+Label: wozhiainaizi 的源
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: 暗影大人 的越狱软件源
-Support: https://wozhiainaizi.github.io/
+Description: wozhiainaizi 的越狱软件源
+Support: https://wozhiainaizi.github.io/wozhiainaizi.github.io/
 MD5Sum:
  797d9bc6ed2681e9593927e8f4622111  29595 Packages
- 0e37fbeb8f87e1a54651382c39061298  13555 Packages.gz
+ 416c66702b55c2fd27db7ccdb5597a7d  13555 Packages.gz
 SHA256:
  05ea87246751922a71824c61e6df11eff0caee5c9971c5ac0ece2fbe31c55ed7  29595 Packages
- f1ff00de29c2b290e14f024961e23a68b32a42d12c66aa58c984a410b6c85413  13555 Packages.gz
+ f2686a71603110cc8075b44ca8f6893c02c1c85bf9e8221290493962466ef4ac  13555 Packages.gz
