@@ -545,6 +545,83 @@ Name: SneakyCam 隐私相机
 Author: Huayuarc,Spark
 icon: https://huayuarc.github.io/icon/SneakyCam.png
 
+Package: com.susudear.stayshot
+Architecture: iphoneos-arm64e
+Version: 0.5.5
+Section: Tweaks
+Maintainer: SuSuDear
+Installed-Size: 2340
+Provides: com.jontelang.snapper3 (= 1.2.1)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
+Conflicts: com.jontelang.snapper3
+Replaces: com.jontelang.snapper3
+Filename: debs/StayShot-0.5.5.deb
+Size: 229952
+MD5sum: 578d3b9fb3f8a098bb638b5dbd4821e9
+SHA1: 82a7f0ce6c28a4036f945f67d28a0932b79d872a
+SHA256: 23841f7fce68046245fe0b852dcf203e05242a2ac29785c100cea5fae1443e37
+SHA512: c32d51cba3331daa31086e13a1b99587c8f55a4854f061290c2499737ce43d35f707bb54515080e82415a6acf3984b301ab91ec9f693d241a22ee16eb1f6f42d
+Description: StayShot 独立的 iOS 截图工具，支持普通模式、冻结模式、区域截图、截图历史和屏幕浮窗。
+Name: StayShot
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+SileoDepiction: https://repo.susubaby.cn/json/stayshot.json
+Author: SuSuDear
+
+Package: com.susudear.stayshot.markup
+Architecture: iphoneos-arm64e
+Version: 1.6.1
+Section: Tweaks
+Maintainer: SuSuDear
+Installed-Size: 640
+Depends: com.susudear.stayshot (>= 0.5.1), mobilesubstrate, firmware (>= 15.1)
+Filename: debs/StayShot_Edit-1.6.1.deb
+Size: 153344
+MD5sum: bbb33c0e1872c845ed10ce945dce8d6a
+SHA1: 2262300f152e7a6878e670938d8b0b11c366d242
+SHA256: 404464cabe970a1e13cc2d1b8202663f7fc933789fb13fa50cfafd91b45e5245
+SHA512: 882b2b670a4372d3a3503323a232c4a8cc455550a3b8a4429e28502d0bfccf7357e8a15ba58efca48f637e1043581a60b994abb653a80188f9ac2e210b4aaf38
+Description: StayShot Edit 的冻结截图编辑扩展，支持箭头、涂鸦、高亮、马赛克和方框，并支持复制或保存编辑结果。
+Name: StayShot Edit
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+SileoDepiction: https://repo.susubaby.cn/json/stayshotedit.json
+Author: SuSuDear
+
+Package: com.susudear.stayshot.long-screenshot
+Architecture: iphoneos-arm64e
+Version: 1.5.0
+Section: Tweaks
+Maintainer: SuSuDear
+Installed-Size: 784
+Depends: com.susudear.stayshot (>= 0.2.4), mobilesubstrate, firmware (>= 15.1), dev.theos.orion (>= 1.0.0)
+Filename: debs/StayShot_Long_Screenshot-1.5.0.deb
+Size: 155890
+MD5sum: 54d410c2bf37a9023a9072bd4f336df4
+SHA1: 1c8e1b6b903a548ff41ddd170f41f2ee19782b1c
+SHA256: b3d56d35b65314cc7536453ac3ee6b233352a89680cd482104716656e24ea234
+SHA512: 9724a760ec48cf5131c0ac6aa8fc3bd913222c9194526f431a3a10094d25896742ab1df1a1a736ebec941dfc64ff9808432178503cfdd7a2d1411a746e8296d7
+Description: Long screenshot action and capture controller for StayShot.
+Name: StayShot Long Screenshot
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+Author: SuSuDear
+
+Package: com.susudear.susuocr
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Section: Tweaks
+Maintainer: SuSuDear
+Installed-Size: 1188
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/SuSuOCR-1.1.1.deb
+Size: 197178
+MD5sum: 909648c720834d77986fd4aa8c876812
+SHA1: 2fc48141cb64a6673b9bdb8586468a6924c17fd1
+SHA256: 48f5662ca2df2f94d9649a9a03e3cdde6c42f8079ffe325152c68372b3861b3e
+SHA512: 48c0da8db6a43ef258b978785c9fee75c36a051229fbddf4d6ec216e797bf4e8ab85dbfa5767a14bd1ce42abe481d7687d7924514b0c0491001739364a7c7fb7
+Description: 内置百度 OCR、GLM 和 Qwen 流式普通翻译；保留自定义 OCR、百度翻译及 AI 截图处理。
+Name: SuSuOCR
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/susuocr.png
+
 Package: com.dao.tvlock
 Architecture: iphoneos-arm64e
 Version: 1.2.3
@@ -562,6 +639,25 @@ Description: 很棒的老电视关屏动画，根据开源编译，已内置简�
 Name: TVLock(RootHide)
 Author: Wes <wes.hamster@gmail.com>
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/tvlock/js.json
+
+Package: com.susudear.themecore
+Architecture: iphoneos-arm64e
+Version: 0.5.1
+Section: Tweaks
+Maintainer: SuSuDear
+Installed-Size: 736
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/ThemeCore-0.5.1.deb
+Size: 126894
+MD5sum: 031706c2277bb7b5ed5f14aa43061046
+SHA1: 67f07a640761c0fa6854a1a5a4f5d7df1127ddbb
+SHA256: 3ee4ad4b9e30829c6b2a479aba16e1a004897292cd7a8746c23d66f2b6bf7964
+SHA512: 62b8dbe9c58fc3872c64f05e91397a145e3161898bde52f90e0d82ef5cc375a892bad5076d84f8ab8406bd2b52b2ae3e50f0c89c8b0fcf84751c53aa16835e84
+Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
+Name: ThemeCore
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/ThemeCore.png
 
 Package: com.iosdump.trollcmtweak
 Architecture: iphoneos-arm64e
