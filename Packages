@@ -484,7 +484,7 @@ SHA1: 294d8e346bb5f3102f606ad4ba6ee4693512bad3
 SHA256: 3352393fe43084255cacd71dbb6a23f0b01d7424a3f0e888f052b5c93222efa0
 SHA512: 72f1c3be5255a6cccb3d0d765365a574382a43b6a5b500b66524bc76a6c6ccb5ecc5f5b8a241052a37e03e3fab9cd4872d1a56fe9c86923545c22265106a2365
 Description: 使手机在锁屏状态也可以继续录屏。修复支持Dopamine，感谢原作者提供的思路。
-Name: 锁屏录屏RecordAnywhere
+Name: RecordAnywhere 锁屏录屏
 Author: Muirey03 & lclrc
 
 Package: com.cydiabc.satella-rootless
@@ -541,7 +541,7 @@ SHA1: 5a74d9170bf201c380e02a1a1bf7cd1df31a1e11
 SHA256: 7ac676ae00228a7fbd313f43b2ca36bef00da4453580115a9ff324642eb65664
 SHA512: d2df015dec8552bb5469ca5b814ae100e2b16ff11c1edc945e6c4af52352422748f3be78f0ca5d139c7fe131044747093216e2db133695a65fd1437c12f022e6
 Description: 简化roothide越狱安装rootless插件时的流程
-Name: SmoothInstall(roothide)
+Name: SmoothInstall
 Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/smoothinstall.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/smoothinstall/js.json
@@ -655,7 +655,7 @@ SHA1: 4a0006bb03db9f15c9be284d477669ecc634672b
 SHA256: 446c57a98eaefd25fa2c31f0f766fbdec879712b99c8622e2678f4ad8988deeb
 SHA512: b4b57b029066902e404685eddb387891efee831e9c8d6aa7e83bfcd44ab9a18ce5f7812d062d90b465340e6e1e2bef21f8f0b86d31718b7333ff4ee800492e2a
 Description: 很棒的老电视关屏动画，根据开源编译，已内置简体中文。
-Name: TVLock(RootHide)
+Name: TVLock
 Author: Wes <wes.hamster@gmail.com>
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/tvlock/js.json
 
@@ -1418,7 +1418,7 @@ SHA256: b082b727b0c51301a63a9cefd2c0f088ac591b3be921dec8d042f98b6aef09c3
 SHA512: dc13e137916ce1b491d0684b0d81baebde31ea8daf8c1bdaf0343df770a98ed0a5abaa8807a41b0ae62e8f183b811ccf421fceb656bc8739675c08a12f76af99
 Description: 轻量级下拉清理通知，通知栏快速下拉即可清理
 A12: 1
-Name: PullClearNC清理通知-Rootless
+Name: PullClearNC清理通知
 Author: Netskao
 Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
@@ -1504,7 +1504,7 @@ SHA1: 87938e07a6d9e46b545dab061ee4f98c7973cc7b
 SHA256: bca8c59bbec1af8139f852e1fec7dac536024b2e131e847915cd375840f76848
 SHA512: 4c3c26d5e32718585656a5b298dd211a61caa20be7f8bf8545797ed30ced5cb0f97165593250075f3dd3b6552466ac57f9b555ea9b28f6d82be731bc62e2fcb2
 Description: 三星风格彩虹键盘光效，重写版，支持 arm64e 系统进程注入，含设置页
-Name: 彩虹键盘光效 (Reborn)
+Name: 彩虹键盘光效
 Author: JudeGor
 
 Package: com.hbs.safariexploitguard
@@ -1731,7 +1731,7 @@ SHA1: c17c810116bb84db338403768b48fd5ca621e1f2
 SHA256: 29c74a76973a2732f73440d194331ac10f527d416915597a05847d18bcf6dd5f
 SHA512: 7035cb4b1fb299e94a7d29821c93b179760cce7e65a43cc2cdf4f84d6d1c6ce9107e9e69a57bcaae8efce9735021ef82006954d96191bfb342c5cce8fcaa668c
 Description: 让你的设备在主屏/锁屏上下雪！根据开源，定制的中文版。
-Name: Stella 中文版(rootless)
+Name: Stella中文版
 Author: yan
 
 Package: com.crctdd.surgeactive
