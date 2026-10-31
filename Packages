@@ -150,6 +150,23 @@ Name: Choicy
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Author: opa334 <opa334@protonmail.com>
 
+Package: com.crctdd.choicy-patch
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 96
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, com.opa334.choicy (>= 1.4), com.opa334.altlist (>= 1.0.4)
+Filename: debs/Choicy_choicy-patch_0.0.2_e.deb
+Size: 13342
+MD5sum: ff5474b5214367a8a9d5dd796853f4c8
+SHA1: 867684810d26bf47a051cdf68c08cb593b111d46
+SHA256: 62cceb0fd744056a193957923b665d19a983b5936d3b05a9a476d7d019817836
+SHA512: 3c431f911788c8375aae83456c0ee018b4887e1bca357c3a8a7797f2652c7c2b56188820e4d523405628ac1458b1ee1088939ad04ac831ba962910570d3fe8fc
+Description: 给Choicy增加已设置置顶 / 进程页面本地缓存。(支持iOS 15-17)
+Name: Choicy Patch
+Author: crctdd
+
 Package: cn.dao.relaxin.cocoatop
 Architecture: iphoneos-arm64e
 Version: 2.3.3.1
@@ -1112,6 +1129,22 @@ SHA512: 19c01a8725d76386f92332774933bdf1ce69bebf02f66930121df2b32447f461d8308874
 Description: 通过悬浮触发点，将点击映射到指定位置，内置多种触发结果。(支持iOS 15-17)
 Name: TapLink
 Author: crctdd
+
+Package: com.doimty.urlschemeguard
+Architecture: iphoneos-arm64e
+Version: 0.5.6
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 1016
+Depends: firmware (>= 14.0), roothide (>= 0.0.1), ellekit | mobilesubstrate, preferenceloader
+Filename: debs/urlschemeguard_0.5.6_e.deb
+Size: 146788
+MD5sum: 32683acb9c6b35006712f293c870c6e7
+SHA1: d71fcab09f9b969dc7d6d137c72dd1ac771f42a1
+SHA256: 2ba4309ae57730f6d30502d14fe1bcbc457ac9587704f444aa4a3ded746030e0
+SHA512: 30bf2b193e79a07f4b99cf0ec12c070f8a86b44cb302b6ad4a6edd38db21b4ddb2dc962cdfccc6546202108647fe081b031cc29b72c5f85b20a5dcc230990111
+Description: Rule-driven URL scheme interception core. Blocks or redirects URL schemes globally or per calling app, enforced in both the calling app and the Launch Services daemon (lsd). Includes a Settings pane with installed-app and URL-scheme discovery.
+Tag: purpose::uikit, compatible::ios14
 
 Package: com.mtac.vitreux
 Architecture: iphoneos-arm64e
