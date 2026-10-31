@@ -1585,6 +1585,26 @@ Description: Pin screenshots on the screen.
 Name: Snapper 3
 Author: Jonathan Winger-lang
 
+Package: com.sini921.thexforsnapper3
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: 美化插件
+Maintainer: theX
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin
+Filename: debs/snapper3图片替换.deb
+Size: 100234
+MD5sum: 2f6176086e095741d54f25fd9bea8fa5
+SHA1: 7bf0ee58240d8193d7f91d66b06450d00cda8f60
+SHA256: a16b22c6617d75a7fc584ceb1dc647b0b8a44ac586370966990b679d50ab07b0
+SHA512: 9dd9282850fb8e06b198847f56cfa0fec7beea1be9ab26a34948a6ad6c22bbdfd1c9980a1ededd63749c046bf3c76858f3a60c470866f867c390c9ac217dae5a
+Description: 季伯仰备份
+Name: snapper3霓虹蓝发光效果主题(rootless)
+Author: theX
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/thexforsnapper3/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
+
 Package: com.spark.snowboard
 Architecture: iphoneos-arm64e
 Version: 1.5.37-Beta4-rootless
