@@ -1,3 +1,22 @@
+Package: cn.zqbb.fix120hz
+Architecture: iphoneos-arm64e
+Version: 3.3.3-5
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 6396
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/120hz_3.3.3-5_e.deb
+Size: 1850532
+MD5sum: 879b3c8f4deca047820a61eca747beb0
+SHA1: 074953df546f37b5c7745538fda7c65b77a5dc9b
+SHA256: 0a006fd0fdc21bcebe491cc21a67c26d769b0ee3e09e1fba4b6dd72d36e430fa
+SHA512: 7e53e3f029ccd26e706bd4255669cbf7e86f555553bf65fda19d3053d45a4318777100cb59e50962127a5522f7a7805dd9c46e99d535a99c533e70306e28a5d8
+Description: 
+ - Unlock dynamic refresh rate from 80hz to 120hz
+ - .
+ - 解锁动态刷新率80hz到120hz.
+
 Package: com.dao.appstoretroller
 Architecture: iphoneos-arm64e
 Version: 0.1.2
@@ -197,6 +216,26 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/ips.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
 
+Package: com.jontelang.instalauncher2
+Architecture: iphoneos-arm64e
+Version: 1.11.0
+Section: Tweaks
+Maintainer: Jonathan Winger Lang <jontelang@gmail.com>
+Installed-Size: 1188
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.jontelang.instalauncher2.beta
+Filename: debs/InstaLauncher_2_1.11.0_e.deb
+Size: 200092
+MD5sum: 92a8032c761d76a51a6f3c40e097983e
+SHA1: 1e822aea00893f7c73ad868cf86bdc599b83bf98
+SHA256: 4f143595f649f26177468a3cf5b6ac1c3fd2fd825c4043e6bae5bd573dfcba28
+SHA512: 97997be8af9c429b0aaf4721b8d0f3c1192dcf6d1f6d1dd9767f3590db23036978fb6362b795d89ea2c25b43ba9d09e15037c8f5c535048f3f523aa40103bfda
+Description: Launch ANY app instantly 通过插件激活出来的侧边栏，可以快速打开APP，操作简单+丝滑，设置丰富。
+Author: Jonathan Winger Lang <jontelang@gmail.com>
+Name: InstaLauncher 2 快捷应用
+icon: https://huayuarc.github.io/icon/Icon-small.png
+
 Package: com.m4fn3.mikkyy
 Architecture: iphoneos-arm64e
 Version: 1.0.1
@@ -215,6 +254,50 @@ Name: Mikkyy 主題管理
 Author: m4fn3
 Icon: https://m4fn3.github.io/repo/web/images/Mikkyy.png
 SileoDepiction: https://m4fn3.github.io/repo/web/depictions/Mikkyy.json
+
+Package: com.sini.noapplemobilerepair
+Architecture: iphoneos-arm64e
+Version: 0.0.1-103
+Section: 越狱插件
+Maintainer: xybp888
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/No_Apple_MobileRepair.deb
+Size: 15170
+MD5sum: 34c5cd236c5cffc8b62bf421871739d3
+SHA1: 3c38d1a86d194e39b4cf1564e28e7a3d18f894b4
+SHA256: 34a9ad60bafe73e45a583d4248cc5b3dec30208896c7bf1cf6d0d4b847535e9e
+SHA512: 0f160b495a717197e4995b40588adb0ae826c3e2d9a5036914d5b6b3fb2ef58d7bbf0fd0b3b28a8b9dd6ebf659f880b797b82e52bd92e38aaf7fb765a3506a78
+Description: No Apple MobileRepair
+ (禁止在设置页面显示维修记录,例如更换电池的提醒,屏幕等)
+ 本插件免费使用,安装即可生效,无设置!
+ 本插件在 16.5 多巴胺越狱环境下测试通过,其他系统自行测试
+ 1.更换第三方电池后，开启显示正常电池健康值。
+ 2.屏蔽关于本机显示未知部件记录。
+ 3.屏蔽设置显示红1以及电池更新提醒信息。
+ 4.屏蔽设置系统OTA 升级显示红1提醒信息
+icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/noapplemobilerepair/js.json
+Name: No Apple MobileRepair(rootless)
+Author: xybp888
+
+Package: com.82flex.noredirect
+Architecture: iphoneos-arm64e
+Version: 2.1
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 832
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.libsandy
+Filename: debs/No_Redirect_2.1_e.deb
+Size: 91248
+MD5sum: 832ba88a44f18d6e5594582f4a4d3792
+SHA1: 366cbdf1dec96c96efced0c3ed65deb6c1a52c8b
+SHA256: 8fd67f9b2b9758b68950e57d780988d54bb0fc7456d2852db731102b0635c69d
+SHA512: 819974349a196472577c560f855bb01431f9d0e2600bafa356460d07631e3da2ae922fc94bba12288f2151e5f51e223a10935bb9c17b722ffa6b20a722c1f8cb
+Description: Stop specified apps from redirecting to App Store, Safari or other apps.
+Name: No Redirect
+Author: Lessica <82flex@gmail.com>
 
 Package: com.doimty.promotion
 Architecture: iphoneos-arm64e
@@ -448,6 +531,24 @@ Description: Enable DND when a screen recording is initiated.
 Name: DNDMyRecording
 Author: gilshahar7, 0xkuj
 
+Package: com.binglan.dynamicfx
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Section: Tweaks
+Maintainer: 冰蓝
+Installed-Size: 772
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/dynamicfx_1.0.7_e.deb
+Size: 103194
+MD5sum: 9300858b253f551613de66d63515acca
+SHA1: c0a47556483a8481540112f194194dd1a69145fd
+SHA256: f6b67b38d4176a2fbab3c7226b85570d0377b96deb8b89ddf789000cd1f2bb92
+SHA512: 286c6476cc7e37bed4413d571a9b8009b75818f910895d164931fd3c0660fc9e25143a47cbe7df270e7f2cbe4ae98c99ab415f467d25e165c8d9849d66e6db10
+Description: 灵动岛背景？
+Name: DynamicFX
+Author: 冰蓝
+
 Package: com.cydia.love.dynamicnotland-Rootless
 Architecture: iphoneos-arm64e
 Version: 1.2.4
@@ -525,6 +626,24 @@ Description: Icon masks for SnowBoard
 Name: SnowBoard Icon Masks Extension
 Author: Spark
 
+Package: com.crctdd.memtrim
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 388
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/memtrim_0.0.2_e.deb
+Size: 71676
+MD5sum: 13868da5467edc7ebef48f4887a8f14b
+SHA1: c4051eeb9b5a21c1533871afb252185b66c806a6
+SHA256: 2bb22166f174bb72bae2d0487d6dffcb475fc3f847c43ae5961a9125478cfc97
+SHA512: 56115c12efd09c8cda350c2f61dc3f571ca42fa16d4d25ad6268b188b6c714af214661fe4f0a4ed56c6c5a38e3130c642e8c40fc46f4e3ab015a7171be0401f6
+Homepage: https://crctdd.github.io/repo/
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Name: MemTrim
+Author: crctdd
+
 Package: com.brend0n.nopassafterrespringsafe
 Architecture: iphoneos-arm64e
 Version: 0.0.3
@@ -584,6 +703,27 @@ icon: https://huayuarc.github.io/icon/xc.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/photos/js.json
 Name: 相册增强
 
+Package: com.mikey820.pleasedontstopthemusic
+Architecture: iphoneos-arm64e
+Version: 2.2.0
+Section: Tweaks
+Maintainer: Mikey <splatmikey@gmail.com>
+Installed-Size: 191
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: debs/pleasedontstopthemusic_2.2.0_e.deb
+Size: 62258
+MD5sum: a8308ebb2e3728eb5559bc919f0a8554
+SHA1: bbfdab0a66851a16bdce8b01ba8df8e2a8e137bf
+SHA256: abec38ce1472c6b911016c2c04ae3fa220dada29886ce513cf261b27560913a0
+SHA512: 340ccaca9ed439acd3f104d7bbeb9efee46ee8357f9b4743ca4b3756e656ab8ccda289291b9e8cb1efbf319d90b4370f3e1d088eb3d5bbd5e9fa121a359c06b2
+Description: Prevent apps (e.g. Roblox) from pausing your background music
+Tag: compatible_min::ios14.0
+Author: Mikey <splatmikey@gmail.com>
+Name: PleaseDontStopTheMusic
+Icon: https://img.chariz.cloud/icon/pleasedontstopmusic/icon@3x.png
+Depiction: https://chariz.com/get/pleasedontstopmusic
+
 Package: com.anthopak.quickprefs-rootless
 Architecture: iphoneos-arm64e
 Version: 1.3.3
@@ -623,6 +763,26 @@ SHA512: 4c3c26d5e32718585656a5b298dd211a61caa20be7f8bf8545797ed30ced5cb0f9716559
 Description: 三星风格彩虹键盘光效，重写版，支持 arm64e 系统进程注入，含设置页
 Name: 彩虹键盘光效 (Reborn)
 Author: JudeGor
+
+Package: com.hbs.safariexploitguard
+Architecture: iphoneos-arm64e
+Version: 0.2.3
+Section: Tweaks
+Maintainer: hbs
+Installed-Size: 268
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: debs/safariexploitguard_0.2.3_e.deb
+Size: 39768
+MD5sum: 82d1dd27baa082a040c9ba2bfd69397c
+SHA1: 4a670c67e7a84ee940b1d2f1febb78fc96c2a6b0
+SHA256: a775de1420b6849c82b2f927538d351981e2b9e3ece4c569cb91dfd384221c4e
+SHA512: f28337ed7484178d357cd8bb3ea3c7853a8eb94487e50650ab5206434caab5699041cb657d1a73589bb4567d5a200c424e4079319656e3f01558b3fea4f7c198
+Description: Coruna / DarkSword 漏洞利用拦截防护插件
+ 通过执行特征拦截与浏览器白名单防护机制，在越狱 iPhone / iPad 上阻止疑似利用 Coruna 或 DarkSword 漏洞链的高危网页。
+ 本插件结合当前项目的拦截能力，并参考 82Flex / Lessica 提供的 WebKitPlayground 思路实现，用于提升浏览安全性并保护用户隐私。
+Name: SafariExploitGuard
+Author: hbs
 
 Package: com.cydia.love.settingswidgets.rootless
 Architecture: iphoneos-arm64e
@@ -678,6 +838,21 @@ SHA512: 999665fe3fa0cd48766ad4b95889ef17f71c1dbb52d9333c3c60039269d7ffd5beee71ac
 Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
 Name: ShortBar
 Author: crctdd
+
+Package: com.sini921.smoothinstall
+Architecture: iphoneos-arm64e
+Version: 0.0.1-1
+Section: 越狱插件
+Maintainer: SINI
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/smoothinstall_0.0.1-1_e.deb
+Size: 5596
+MD5sum: 614fb8e0b858a913a5ba874f1c90b4ea
+SHA1: c61b06afd7b583ea80292a321fb21f3e6b99acda
+SHA256: 869e3f5b874bf7c935459aaba803165073be8b3cc25f2dde70b7d958be030b32
+SHA512: 97eb62fd3a53e12271619e5dbecf94c073bfdcc357cc0a2b0ada39180fbcffcf8d9401fca7c68911fa366ea5f170b54f7e8c4f34dfde32c2538e94f88e4aa055
+Description: 简化roothide越狱安装rootless插件时的流程
 
 Package: com.spark.snowboard
 Architecture: iphoneos-arm64e
