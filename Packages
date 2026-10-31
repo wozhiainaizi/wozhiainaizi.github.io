@@ -996,22 +996,6 @@ Name: Adytum
 Icon: https://img.chariz.cloud/icon/adytum/icon@3x.png
 Depiction: https://chariz.com/get/adytum
 
-Package: com.yourepo.ok95.gif
-Architecture: iphoneos-arm64e
-Version: 1.0.0
-Section: Tweaks
-Maintainer: liuf <kk99588077@gmail.com>
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.yourepo.ok95.gif_1.0.0_iphoneos-arm64e.deb
-Size: 20418
-MD5sum: 8f20bc228d51e750444553564b751656
-SHA1: 0f6815f00babe127b2d377cd1597d0ffd51d68f4
-SHA256: ef9b7cd69d93479b7dd7967e3b6959c48a406f840a2fab308e885f2453bfda6b
-SHA512: 58e6047adba02c53912342fe2176f03f183415f952d4dc4020314bbbf0af7069d73c2c4a9a39b54afdd0b72210930134bd4e0bf993d75ea1e69fc873694da23f
-Description: 灵动岛GIF背景 i!
-Name: 灵动岛GIF背景
-Author: liuf <kk99588077@gmail.com>
-
 Package: com.squidforce.copyvault
 Architecture: iphoneos-arm64e
 Version: 1.9.0
