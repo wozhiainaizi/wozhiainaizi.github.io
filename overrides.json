@@ -11,5 +11,8 @@
   "AppStoreTroller_0.1.2_e.deb": { "name": "AppStoreTroller" },
   "BetterAlarm_1.5_e.deb": { "name": "BetterAlarm中文版" },
   "urlschemeguard_0.5.6_e.deb": { "name": "URL Scheme Guard Core" },
-  "icleanerpro_7.10.0-1_e.deb": { "name": "iCleaner Pro系统清理正版" }
+  "icleanerpro_7.10.0-1_e.deb": { "name": "iCleaner Pro系统清理正版" },
+  "pancake.deb": { "name": "PanCake简体中文包" },
+  "pancake_2.3_e.deb": { "name": "PanCake" },
+  "PopoutButtons.deb": { "name": "PopOutButtons按钮动画" }
 }
