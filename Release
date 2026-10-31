@@ -8,8 +8,8 @@ Components: main
 Description: 暗影大人 的越狱软件源
 Support: https://wozhiainaizi.github.io/
 MD5Sum:
- fe8c3d73aac24ff77efcab9a990b54aa  90751 Packages
- 8775731418312b9123c00d7eae3ea267  37883 Packages.gz
+ 895d9f345e44a1f1317cfcbfdfeca710  90025 Packages
+ 87d20141aafbc094a5d2df03d20fa8de  37597 Packages.gz
 SHA256:
- 9c9bfe7db6909edd89aad790791c7462fc30f96b530d273d13b1e2b21baf3aa4  90751 Packages
- 92c31f7cf0867cf74782e1bee7db3487254d53e607835105685038917feea752  37883 Packages.gz
+ 9db5ff3d131aa586220688b8774dfa5dcb8ef027fadf7755135c0c91283cc107  90025 Packages
+ 971cdd35b0db744fa7e3932a6343fccc2360e1252153b0faab9d474dd7a3676c  37597 Packages.gz

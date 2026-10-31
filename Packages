@@ -2028,24 +2028,6 @@ Description: Lightweight system cleaner for rootless and roothide jailbreaks.
 Name: Voidy
 Author: xsxs18
 
-Package: com.sunshinesong.volume-manager
-Architecture: iphoneos-arm64e
-Version: 1.0.3
-Section: Tweaks
-Maintainer: sunshinesong
-Installed-Size: 1104
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: debs/volume-manager_1.0.3.deb
-Size: 183678
-MD5sum: 723affea9238664eb6c417d6c148ec68
-SHA1: c00eee9500af65d3c59e17a34f6e7303ac00bf76
-SHA256: a05263afceb01977a3fe4ae5103a8fa99070ddafa08ff23c343cb3cfe73c2e29
-SHA512: f958610c11a707c0ed14ab67f6affdc0876e51300775fa38adaeef371c72c56b4488f75930ce5e563fc064b98fd649ee66a7fcd874177376354cc8d9c81d7c9b
-Description: 音量管理，就是这么简单。包含功能：混响、多元化音量。
-Name: VolumeManager
-Author: sunshinesong
-
 Package: com.huayuarc.zombiereaper
 Architecture: iphoneos-arm64e
 Version: 1.0.0-1+debug
