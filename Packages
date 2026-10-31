@@ -531,24 +531,6 @@ Description: Enable DND when a screen recording is initiated.
 Name: DNDMyRecording
 Author: gilshahar7, 0xkuj
 
-Package: com.binglan.dynamicfx
-Architecture: iphoneos-arm64e
-Version: 1.0.7
-Section: Tweaks
-Maintainer: 冰蓝
-Installed-Size: 772
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: debs/dynamicfx_1.0.7_e.deb
-Size: 103194
-MD5sum: 9300858b253f551613de66d63515acca
-SHA1: c0a47556483a8481540112f194194dd1a69145fd
-SHA256: f6b67b38d4176a2fbab3c7226b85570d0377b96deb8b89ddf789000cd1f2bb92
-SHA512: 286c6476cc7e37bed4413d571a9b8009b75818f910895d164931fd3c0660fc9e25143a47cbe7df270e7f2cbe4ae98c99ab415f467d25e165c8d9849d66e6db10
-Description: 灵动岛背景？
-Name: DynamicFX
-Author: 冰蓝
-
 Package: com.cydia.love.dynamicnotland-Rootless
 Architecture: iphoneos-arm64e
 Version: 1.2.4
