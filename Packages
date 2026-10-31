@@ -410,6 +410,24 @@ Tag: supports::roothide
 Name: ProMotion 120Hz
 Author: doimty
 
+Package: com.lclrc.recordanywhere
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Section: Tweaks
+Maintainer: Muirey03 & lclrc
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/RecordAnvwhere.deb
+Size: 6220
+MD5sum: 5dcf766bea98769695bffb227e537e7c
+SHA1: 294d8e346bb5f3102f606ad4ba6ee4693512bad3
+SHA256: 3352393fe43084255cacd71dbb6a23f0b01d7424a3f0e888f052b5c93222efa0
+SHA512: 72f1c3be5255a6cccb3d0d765365a574382a43b6a5b500b66524bc76a6c6ccb5ecc5f5b8a241052a37e03e3fab9cd4872d1a56fe9c86923545c22265106a2365
+Description: 使手机在锁屏状态也可以继续录屏。修复支持Dopamine，感谢原作者提供的思路。
+Name: 锁屏录屏RecordAnywhere
+Author: Muirey03 & lclrc
+
 Package: com.sini921.smoothinstall
 Architecture: iphoneos-arm64e
 Version: 0.0.1-1
