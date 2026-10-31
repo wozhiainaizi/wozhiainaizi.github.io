@@ -857,6 +857,26 @@ Author: Nathan
 Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 
+Package: com.Axs.filzacrack
+Architecture: iphoneos-arm64e
+Version: 1.1-9
+Section: Tweaks
+Maintainer: Nets
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.filzacrack, netskao.filzacrack-rootless
+Filename: debs/filzacrack_1.1-9.deb
+Size: 39948
+MD5sum: c6857912468a8cc6ac7471cfb29156d1
+SHA1: bc3c4cce48501ab70718f68570c18d2dcf65d047
+SHA256: a8858dbb549bcfddf9b200a4328cdc077beb59b2bc07035cdb7cbae1e51f699c
+SHA512: 25d1915eef1abf986d0feedeb240a2c7b12f62758cb797cc54f8deec254e9f9b0e5b4aa748b7e0c85a1ef33ef59ee21a445a374d699d01809ecc3959b7f9551d
+Description: Filza解锁全部功能，请在官方源安装Filza。Netskao新更的版本，上架备份。
+Name: Filza Crack
+Author: Netskao
+Icon: https://axs66.github.io/pro/icon/filza.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/filzacrack/js.json
+
 Package: com.cydiabc.icleanerpro
 Architecture: iphoneos-arm64e
 Version: 7.10.0-1
@@ -1312,6 +1332,25 @@ Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
 Name: ShortBar
 Author: crctdd
 
+Package: com.jontelang.snapper3
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Section: Tweaks
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/snapper3_1.2.1.deb
+Size: 2269722
+MD5sum: 9aac52ee8dc5c0068890928e2b216868
+SHA1: 493332127ff1f89d8b39c900b14d435b9076ffe7
+SHA256: 6eecb228f1f1b21e1e7924de718490837bbdf3bc48c722949ff65521344f64af
+SHA512: d34c446766cb84931c8a3713fe134d413768752b41eca707e8ba62b020f5440bd2a42c1a0fee70cfbfd463d25b2263d53a98c3d441cb37481e4a3189802181af
+Description: Pin screenshots on the screen.
+Name: Snapper 3
+Author: Jonathan Winger-lang
+
 Package: com.spark.snowboard
 Architecture: iphoneos-arm64e
 Version: 1.5.37-Beta4-rootless
@@ -1351,6 +1390,24 @@ Description: 分屏，不必太复杂，一切从简即可。
 Name: split-view-pro
 Author: sunshinesong
 TS: sp-sss
+
+Package: com.squidforce.squidextender
+Architecture: iphoneos-arm64e
+Version: 3.7.4
+Section: Tweaks
+Maintainer: SquidForce
+Installed-Size: 10136
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: debs/squidextender_3.7.4.deb
+Size: 6935898
+MD5sum: 60d70845891b36cbe6996e9c4f7eaf47
+SHA1: 82e255d64400c6da155ae16c2480624931ac8f06
+SHA256: 4a92ed49a1552950589497dfc9c7b6c20b07a3c861a933559fa91c797c97482e
+SHA512: dcd7031ea6686067fbd50f771b8d79a2ea50b3b94d4c03a4afb85ae3724fa1537e21a15cf757eb6bc2d9675842749a38e0c728f0960904d9a952d1a569947a1b
+Description: Extend your keyboard to be more POWERFULL!
+Name: SquidExtender
+Author: SquidForce
 
 Package: com.crctdd.stayalivelite
 Architecture: iphoneos-arm64e
