@@ -851,6 +851,86 @@ Description: Single DND Toggle for iOS 16
 Name: CCDND
 Author: 0xkuj
 
+Package: cn.zqbb.fix120hz
+Architecture: iphoneos-arm64e
+Version: 3.3.3-3
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 1216
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/cn.zqbb.fix120hz_3.3.3-3_iphoneos-arm64e.deb
+Size: 413408
+MD5sum: 98811b3beab76487759c0aa8a807be99
+SHA1: f452915a76eb552da9eec8ebb7e8f633cab8635f
+SHA256: 07ce9907b66f0427b8c4409dab4523f65fa246012f0ecbe6cf28fd97eb02136c
+SHA512: 39cf13b1db398167ff3b5ced367a59b0fbb7c9690ad240ab8c619c6e48b383ef08159b911a9f548ae8b21a2679f0a30553c0d646e9fc9581778d06835acbd169
+Description:
+ - Unlock dynamic refresh rate from 80hz to 120hz
+ - .
+ - 解锁动态刷新率80hz到120hz.
+Name: Hello 120Hz
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
+
+Package: cn.zqbb.hello.memorystatus
+Architecture: iphoneos-arm64e
+Version: 3.9.0-6
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 11476
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 14.0), preferenceloader, launchctl
+Filename: debs/cn.zqbb.hello.memorystatus_3.9.0-6_iphoneos-arm64e.deb
+Size: 3067422
+MD5sum: 2e7492c9d464414ae9b606a96ac53321
+SHA1: 155a8815d4ed6815522393c6a9136dc118ff40f4
+SHA256: 97b86c1b2a5128670765e5f0b658171f6fec522d90c5b242570351ce46378c2b
+SHA512: 9f995f711f493c76120ae7b8972cf52f52d5acd70f0233b29c646ab9a96f27132c4ad1684ab7b91ef3eb7c76dcf0d43f8563c14248eaead9f6cebb114a9c097f
+Description: Set memorystatus to avoid being killed by the system
+Author: zqbb
+Name: Hello Memory Status
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.memorystatus.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.memorystatus
+
+Package: cn.zqbb.hello.qactions
+Architecture: iphoneos-arm64e
+Version: 1.3.0-1
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 2480
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Filename: debs/cn.zqbb.hello.qactions_1.3.0-1_iphoneos-arm64e.deb
+Size: 667232
+MD5sum: 1dc668bac51f743707763182fecd44ee
+SHA1: 5a99e0704d3b46b4b54ea49035fe180558ff0a95
+SHA256: 6b47aeebbb202564cf0b393dc11a0fb93037a6e0acb1db1d3d36b53d5afe2fb9
+SHA512: 8e3bd51a6be036ffdacdc1e7496b75d217c9c312ca1cf181c48315b486446aabece1696d8b70c2374cf1e5ba6454f2462644bc9e1494cfef04494ea975a195af
+Description: 通过锁屏界面的手电筒和相机快速调用指定APP快捷操作，体验一键直达。
+Name: Hello QActions
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.qactions
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.qactions
+
+Package: cn.zqbb.hello.quick.panel
+Architecture: iphoneos-arm64e
+Version: 1.0.0-5
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 5488
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/cn.zqbb.hello.quick.panel_1.0.0-5_iphoneos-arm64e.deb
+Size: 1498688
+MD5sum: 677002f21733799860208de00798c6dd
+SHA1: fd03c8aa72c5d0a16a0ad695ce19ebea366486c5
+SHA256: b1f984eb377d2eb244ca4cdcf735ab97f8f811050e2ef2d9664f8715fa1ad30e
+SHA512: 2eb350624e23a0eff53a50e9628be13ae82127d4b5dd7ccdf93e3faf59ad7ea49852fcc4fc17bb8719426a6e6e46301fd8336240b9ee5652eed36f0645a9e8d1
+Description: 快捷面板~
+Name: Hello QuickPanel
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.quick.panel.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.quick.panel
+
 Package: com.axs.screenshellpro
 Architecture: iphoneos-arm64e
 Version: 5.2.0-61
