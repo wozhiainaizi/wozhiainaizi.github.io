@@ -58,8 +58,8 @@ main{padding:18px 16px 48px;max-width:720px;margin:0 auto}
 <div class="sub2">RootHide 专用 · Sileo / Zebra 通用</div>
 </div>
 <div class="btns">
-<a class="btn" href="sileo://source/https%3A%2F%2Fwozhiainaizi.github.io%2F">在 Sileo 中打开</a>
-<a class="btn" href="zbra://sources/add/https%3A%2F%2Fwozhiainaizi.github.io%2F">在 Zebra 中打开</a>
+<a class="btn" href="sileo://source/https://wozhiainaizi.github.io/">在 Sileo 中打开</a>
+<a class="btn" href="zebra://sources/add/https://wozhiainaizi.github.io/">在 Zebra 中打开</a>
 </div>
 <div class="nav" id="nav"></div>
 </div></div>
