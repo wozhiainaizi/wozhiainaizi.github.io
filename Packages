@@ -77,6 +77,41 @@ Author: m4fn3
 Icon: https://m4fn3.github.io/repo/web/images/Mikkyy.png
 SileoDepiction: https://m4fn3.github.io/repo/web/depictions/Mikkyy.json
 
+Package: com.dao.tvlock
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Section: 嗨-工具
+Maintainer: Wes <wes.hamster@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.wrp1002.tvlock, com.dao.tvlock.cn
+Filename: debs/TVLock-1.2.3.deb
+Size: 34368
+MD5sum: 7118db3255c6bd9838c9fade6588fb34
+SHA1: 4a0006bb03db9f15c9be284d477669ecc634672b
+SHA256: 446c57a98eaefd25fa2c31f0f766fbdec879712b99c8622e2678f4ad8988deeb
+SHA512: b4b57b029066902e404685eddb387891efee831e9c8d6aa7e83bfcd44ab9a18ce5f7812d062d90b465340e6e1e2bef21f8f0b86d31718b7333ff4ee800492e2a
+Description: 很棒的老电视关屏动画，根据开源编译，已内置简体中文。
+Name: TVLock(RootHide)
+Author: Wes <wes.hamster@gmail.com>
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/tvlock/js.json
+
+Package: com.charlieleung.trollopenjb
+Architecture: iphoneos-arm64e
+Version: 1.5.2+offline.5
+Section: Tweaks
+Maintainer: 一刀
+Installed-Size: 55444
+Depends: firmware (>= 15.0),mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.libsandy
+Filename: debs/TrollOpen_1.5.2_e.deb
+Size: 16761890
+MD5sum: d12abbab3231b73801fb8081cfce8d0b
+SHA1: d2cb238fce13f3e82e5d556b93c50729357e93e2
+SHA256: e6212d8e47f3280f417c9efef5f250ce53cc460f92112c954c71b19973056411
+SHA512: f626dfd42b917f7a99d1070a5eb63e9feb7a21356ed458ecaea8f784731737bef149f3738287aff83e3cb183070e0754a748bc7f90d3cadd1a01c463c28d1e7b
+Description: 内置离线版，在16系统隐根状态测试正常，其他系统自测。
+Name: TrollOpen
+Author: 一刀
+
 Package: com.axs.tweakshub
 Architecture: iphoneos-arm64e
 Version: 5.2.0-88
@@ -145,6 +180,25 @@ Description: Your Copy Vault, Your Pasteboard
 Name: CopyVault
 Author: SquidForce
 
+Package: com.opa334.crane
+Architecture: iphoneos-arm64e
+Version: 1.3.18-2
+Section: Tweaks
+Maintainer: opa334
+Installed-Size: 3268
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy (>=1.1.6), com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: debs/crane_1.3.18-2_e.deb
+Size: 1566476
+MD5sum: 589731d83ad7344b8779a1cd60aa0cf1
+SHA1: f3955d3cd988cd511f39ec0c7909212c3f696931
+SHA256: 86d2bb389b687f75bc4261894b2ee4062ba7bfc011649a1fd7b81a17637f056b
+SHA512: f6e93e7449a9d9b6aedb20e97e00683d351e651fc6770f9401375eceee4ec3c5edbeae4e25292d86a8b4a2e3722811221010b9e936e96674805e849a4bafd394
+Description: Multiple containers for your applications!
+Name: Crane
+Author: opa334
+
 Package: com.be-huge.insulation
 Architecture: iphoneos-arm64e
 Version: 0.1.38.1
@@ -161,6 +215,24 @@ SHA512: faec1fb9a37f317941c6c17f743fbfa1886eb3454de2e9b4c76c1e5f39e61d4f596800d7
 Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
 Name: insulation
 Author: be-huge & doimty
+
+Package: com.brend0n.nopassafterrespringsafe
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Section: Tweaks
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/nopassafterrespringsafe_0.0.3_e.deb
+Size: 4870
+MD5sum: 380ee9bb4d86b987b9df3a6ff700ce79
+SHA1: b96abb1ee19cf1e452b4d41f38c7bfb4ace88a2a
+SHA256: 751bb98df286190a41c6a52dfbf15280f87a09e830f6ae36fc5128bf273b695d
+SHA512: f159f6108a26ff2064f1c05e7273f9d9dfd803a3c2b9411ea87c3137a0c41aefb74a00b3ec4bb29851dbcc67e9bb1664031dad7aa0988497f293c842bdac0de6
+Description: Disables passcode after a respring. This version does NOT modify system file. It's safe to use. 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。
+Name: NoPassAfterRespring (Safe)
+Author: Brend0n <brendonjkding@126.com>
 
 Package: com.sini.photos
 Architecture: iphoneos-arm64e
