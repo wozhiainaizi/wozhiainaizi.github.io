@@ -410,7 +410,7 @@ Description: No Apple MobileRepair
  4.屏蔽设置系统OTA 升级显示红1提醒信息
 icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/noapplemobilerepair/js.json
-Name: 禁止在设置页面显示维修记录
+Name: No Apple MobileRepair 禁止在设置页面显示维修记录
 Author: xybp888
 
 Package: com.82flex.noredirect
@@ -427,7 +427,7 @@ SHA1: 366cbdf1dec96c96efced0c3ed65deb6c1a52c8b
 SHA256: 8fd67f9b2b9758b68950e57d780988d54bb0fc7456d2852db731102b0635c69d
 SHA512: 819974349a196472577c560f855bb01431f9d0e2600bafa356460d07631e3da2ae922fc94bba12288f2151e5f51e223a10935bb9c17b722ffa6b20a722c1f8cb
 Description: Stop specified apps from redirecting to App Store, Safari or other apps.
-Name: 禁止跳转
+Name: No Redirect 禁止跳转
 Author: Lessica <82flex@gmail.com>
 
 Package: byg.iosios.net.popoutbuttons
@@ -1283,7 +1283,7 @@ SHA1: b96abb1ee19cf1e452b4d41f38c7bfb4ace88a2a
 SHA256: 751bb98df286190a41c6a52dfbf15280f87a09e830f6ae36fc5128bf273b695d
 SHA512: f159f6108a26ff2064f1c05e7273f9d9dfd803a3c2b9411ea87c3137a0c41aefb74a00b3ec4bb29851dbcc67e9bb1664031dad7aa0988497f293c842bdac0de6
 Description: Disables passcode after a respring. This version does NOT modify system file. It's safe to use. 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。
-Name: 注销不锁屏
+Name: NoPassAfterRespring 注销不锁屏
 Author: Brend0n <brendonjkding@126.com>
 
 Package: com.sini.onesettings
@@ -1425,7 +1425,7 @@ SHA512: 340ccaca9ed439acd3f104d7bbeb9efee46ee8357f9b4743ca4b3756e656ab8ccda28929
 Description: Prevent apps (e.g. Roblox) from pausing your background music
 Tag: compatible_min::ios14.0
 Author: Mikey <splatmikey@gmail.com>
-Name: 请别暂停音乐
+Name: PleaseDontStopTheMusic 请别暂停音乐
 Icon: https://img.chariz.cloud/icon/pleasedontstopmusic/icon@3x.png
 Depiction: https://chariz.com/get/pleasedontstopmusic
 
