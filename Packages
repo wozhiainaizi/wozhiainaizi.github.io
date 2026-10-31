@@ -1,3 +1,60 @@
+Package: com.dao.betteralarm
+Architecture: iphoneos-arm64e
+Version: 1.5
+Section: 嗨-工具
+Maintainer: 妖刀
+Installed-Size: 756
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Conflicts: com.noisyflake.betteralarm, com.hk.betteralarm.cn, com.hk.betteralarm.cn.rl, com.hk.betteralarm, com.qms.betteralarm
+Filename: debs/BetterAlarm_1.5_e.deb
+Size: 295786
+MD5sum: e2b37972691623e148429cd431cea8ab
+SHA1: 1d8c623d1f76acb8e63852ca89b5c3c9e5fb90f0
+SHA256: 1713fb015b3cc1b70f065120027dcf2e31ed7e6280e79e7546d674700bb922c2
+SHA512: 5ce660b7b9ecba08d2eca6ea3001b08951db1144999b898d75339e6bcfbead9d3adcd43575e333cc99a9a165b58834f822e260a1f241fc32122eb2c135a65dbb
+Description: 漂亮的定时器和闹钟提醒，根据开源编译。
+Name: BetterAlarm中文版(RootHide)
+Author: NoisyFlake
+
+Package: com.axs.cpufree
+Architecture: iphoneos-arm64e
+Version: 5.2.0-72
+Section: Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1492
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/CPU_Free-5.2.0-72.deb
+Size: 142248
+MD5sum: ea5fb57dc59e58ed7af5a5879ca8da16
+SHA1: 885992662c7b3a3719395f769ccf712c579032fc
+SHA256: 1135a7c796d00d949a04fc1163395162c3e4749f74ff6701132a4dc6d50828ca
+SHA512: d3ea2a4816b5c0eee45a0ee1984d6857952f850788ce8c884ec3e228ab49f413fb8aaf3a08bddbba8aff444ccacd7d4b29ee26ff44b091ca05ff153ec5aba366
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU实时频率：显示大核最大驻留档位（实际工作频率），低功耗模式下不超过上限 2016MHz。
+ * 五、状态栏显示
+ * 1. 状态栏显示大核实时频率 + 整机 CPU 占用率（形如 3468MHz 42%），文字颜色跟随状态栏；
+ * 2. 位置可用面板的「水平 / 垂直偏移」微调，避开其它状态栏插件。
+ * 六、机型适配
+ * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
+ * 七、刷新率管理
+ * 1. 支持 10 / 30 / 60 / 80 / 120Hz 优选帧率、全局注入及应用排除；
+ * 2. 提供系统调试 HUD 与 120fps 系统录屏支持，实际效果受设备和系统限制。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+
 Package: com.opa334.choicy
 Architecture: iphoneos-arm64e
 Version: 1.5.4
@@ -15,6 +72,49 @@ Description: Advanced Tweak Configuration!
 Name: Choicy
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Author: opa334 <opa334@protonmail.com>
+
+Package: cn.dao.relaxin.cocoatop
+Architecture: iphoneos-arm64e
+Version: 2.3.3.1
+Section: 嗨-系统
+Maintainer: SXX, Domo
+Installed-Size: 936
+Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject, cn.zqbb.cocoatop64.relaxin
+Replaces: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
+Filename: debs/CocoaTop64_Relaxin_-2.3.3.1_e.deb
+Size: 243830
+MD5sum: d7b86bb1c0e3bc80fa8d156eb3cff44b
+SHA1: 7cdfd0e8032765aee190065210926b98bbf69f2e
+SHA256: 3dd6512aab08107dc50234ca9b5ab2eb8ed0b3c2e18be3e18cd000186e478250
+SHA512: 2fca811d6d88227f5daa6a06f97c9dce53b4b353fe7a621b1e843b2cfb0d26b8591732273b934f9766fd94b00cbbdbe8c8a9a8a9f0b9cfa54644d1ae3378347d
+Description: CocoaTop64 进程查看，基于真皮版定制：中文翻译+UI微调+更新图标等。
+Name: CocoaTop64 中文版(Relaxin)
+Author: Domo, SXX
+
+Package: com.axs.ios16dao
+Architecture: iphoneos-arm64e
+Version: 5.2.0-244
+Section: 灵动岛
+Maintainer: Axs
+Installed-Size: 704
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: debs/GIF_ios16dao_5.2.0-244_e.deb
+Size: 117956
+MD5sum: f69bac9e48db71c992ec7577704b4415
+SHA1: da3c45b2baf7cc9a9bee3b2fe10cdfb884fbcd95
+SHA256: 5ad280cd984a6b8e27b18457e82348bb0cd872a9a70b2a7645068fd8e252b76e
+SHA512: 11d3585cb8d3cf2fb9c73adeb6fa89cd790f8d90057856ed8617aacfd40a0e1bd8f8d60164c897386b64ffbd96d72030bc844bef6a0e560bdb9e271c88e39a7b
+Description: 一款市面上最优秀、功能最完整、最稳定的灵动岛插件。集成授权校验联系:VCR66T
+ * 1. 动态岛自定义背景，支持 PNG/JPG/GIF/MP4。
+ * 2. 录屏的时候，可以隐藏原生岛黑色区域，让效果更美观。
+ * 3. 内置纯代码灵动光圈（如彩虹环、彩虹流星、舞台灯、跑马灯、纯色线框）、漂亮的七彩随机光圈阴影等特效。
+ * 4. 灵动岛左右两侧自定义png图片帧率动画（如写轮眼、跳舞等玩法）。
+ * 5. 本插件无需任何依赖、支持手势录屏触发，已经达到极致水平。
+Name: ios16~17动态岛
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
+SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
 
 Package: cn.zqbb.stopautolaunchapps
 Architecture: iphoneos-arm64e
@@ -76,6 +176,43 @@ Name: Mikkyy 主題管理
 Author: m4fn3
 Icon: https://m4fn3.github.io/repo/web/images/Mikkyy.png
 SileoDepiction: https://m4fn3.github.io/repo/web/depictions/Mikkyy.json
+
+Package: com.doimty.promotion
+Architecture: iphoneos-arm64e
+Version: 1.0.14-1
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 108
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/ProMotion_120Hz-1.0.14-1_e.deb
+Size: 19460
+MD5sum: 4104e1df96fd208defcebf7a065634eb
+SHA1: 6753b547c235583176256c2bdcd0d2c4e21b09df
+SHA256: b96bfa462178b034897400cec04cdbd334a27453f8582f6738de0dc6e7c741ff
+SHA512: a11a5a4daaf01a7547860465610080f8a0e873016007d24354cc82d1e23591e4b156b886226ef990343f92eaffe0d6061bff40e8fdecb92ef93d92acfe0bb040
+Description: High-refresh policy tweak for supported iPhone Pro models, with app and system refresh requests and a persistent SpringBoard keepalive.
+Tag: supports::roothide
+Name: ProMotion 120Hz
+Author: doimty
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.1.2
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 448
+Depends: firmware (>= 15.0), firmware (<= 17.4), mobilesubstrate, preferenceloader
+Filename: debs/SneakyCam-2.1.2_e.deb
+Size: 124320
+MD5sum: 9d6923b34531bd266b4a6e39b72bde2c
+SHA1: ebdac972ebaacfd30e8b3f6c511a46b15ce0008a
+SHA256: 6c567096a987133a33a69fbf48724e2350222c239609141321da36d8b95c50e7
+SHA512: 45cdb11a0c2cda174e78ef744cefc3d094410e0b503c5d8edae0f7a3dc72192047bde0ee289035fb90ae49adf2d6b94cbd2b911d913fe0a1569d5f6f11517eda
+Description: Native SneakyCam capture build for iOS 15.0–17.4, Dopamine rootless and RootHide. 支持锁屏拍照/录像、录像声音、跨设备摄像头回退、会话中断恢复和多代音量键 API。视频或照片默认保存到系统相册，也可保存至 /var/mobile/Media/Camera。
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
 
 Package: com.dao.tvlock
 Architecture: iphoneos-arm64e
@@ -219,6 +356,46 @@ Description: Multiple containers for your applications!
 Name: Crane
 Author: opa334
 
+Package: com.gilshahar7.dndmyrecording
+Architecture: iphoneos-arm64e
+Version: 1.3
+Section: Tweaks
+Maintainer: gilshahar7, 0xkuj
+Installed-Size: 216
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/dndmyrecording_1.3_e.deb
+Size: 9084
+MD5sum: 9733fbf26511ff35523941a84821afcb
+SHA1: 967a72f9cd26e1e0d7b6cd10b56e955adf49daf6
+SHA256: b399eb43f4babd4da771f39f3e09298e4609122566844420cb5aa9576defddce
+SHA512: a39f0bdd04c9de4bca9734517422b3173bc98757f8a3e5297efda34f3beab770b431a2ad6fc92b13eddbc20da4c39e480852a9db4c9a98ac5a6391c6f7d58c8d
+Description: Enable DND when a screen recording is initiated.
+Name: DNDMyRecording
+Author: gilshahar7, 0xkuj
+
+Package: com.cydia.love.dynamicnotland-Rootless
+Architecture: iphoneos-arm64e
+Version: 1.2.4
+Section: 应用插件
+Maintainer: Ant 蚂蚁源™ <admin@cydia.pro>
+Installed-Size: 348
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.nathan.dynamicnotland
+Filename: debs/dynamicnotland_1.2.4_e.deb
+Size: 16622
+MD5sum: e5edc17164d3fb6d83eaa65527026fbf
+SHA1: 8c6f1df7eae1a2ff4459eae5aa2e99135d0c8449
+SHA256: 2275584ca6af3d95e4952d5a0ee718e5a8a712cc1345fca017ad23e8322b7eca
+SHA512: 19be88f4eda06b8cf3e49f7818816b2692bb7157c926731df1f0c3b160d86d439f2ef1789b48f72813c04cd2e7d0821d9896e4e8c437f9b7f82da7f91b8ba3d2
+Description: 在 14 Pro 系列上，隐藏未使用时的灵动岛，有些有强迫症的人有此需求，能理解但不支持！
+Tag: 1
+Name: DynamicNotLand隐藏灵动岛
+Author: Nathan
+Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+
 Package: com.be-huge.insulation
 Architecture: iphoneos-arm64e
 Version: 0.1.38.1
@@ -235,6 +412,26 @@ SHA512: faec1fb9a37f317941c6c17f743fbfa1886eb3454de2e9b4c76c1e5f39e61d4f596800d7
 Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
 Name: insulation
 Author: be-huge & doimty
+
+Package: com.cydia.love.lindongdaodonhua-rootless
+Architecture: iphoneos-arm64e
+Version: 1.1.8
+Section: 应用插件
+Maintainer: Ant 蚂蚁源™ <admin@cydia.pro>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/lindongdaodonhua_1.1.8_e.deb
+Size: 37796
+MD5sum: 514b31c100cba87582b6b7622db035d6
+SHA1: c574731dc7c639044e71c3bb813ff609f13b38cf
+SHA256: 9d476c9018ef5c7650aeb8a7596c5099eba0db49c64049a4c7a1f75f07ad755b
+SHA512: 0eb942e7c7c421390a760d0e3a2f051f974bd92875549d872defb4d7b34d6e9ac06d5f618e1fafde6cc78043dc397680af14792bf42066d2212fa37beeec415e
+Description: 用于灵动岛专辑及屏幕录制动态跳舞动画整合，只支持有灵动岛的用户，大家自行测试，灵动半岛就不用试了哈！
+Tag: 1
+Name: 灵动岛跳舞动画
+Author: Simon
+Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 
 Package: com.brend0n.nopassafterrespringsafe
 Architecture: iphoneos-arm64e
@@ -254,6 +451,28 @@ Description: Disables passcode after a respring. This version does NOT modify sy
 Name: NoPassAfterRespring (Safe)
 Author: Brend0n <brendonjkding@126.com>
 
+Package: com.anthopak.pancake-rootless
+Architecture: iphoneos-arm64e
+Version: 2.3
+Section: Tweaks
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), com.opa334.altlist, firmware (>= 11.0)
+Filename: debs/pancake_2.3_e.deb
+Size: 126596
+MD5sum: fd08dd2b6fe37a3b634a871e2d19aaa0
+SHA1: 460df04c7e52e2d683eaa840c823e958477a63e4
+SHA256: 456254f97dfa1c64a16fa921fa4776087d5cf85ca6fcf9cadbd392cdd24b7345
+SHA512: 24bfea6629ef4121240dc79e5eab3120830e232d47c83c1844f7b03a4177481967533c2d0353be4778f1dfe2b011f910b0a9491843ad494a82908774158a33a9
+Homepage: https://repo.anthopak.dev
+Description: Interactive dismiss gesture on the whole screen in all apps and ability to restore previous page
+Name: PanCake (Rootless)
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.pancake-rootless.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake-rootless/icon.png
+Author: AnthoPak <anthopakdev@gmail.com>
+
 Package: com.sini.photos
 Architecture: iphoneos-arm64e
 Version: 0.0.6-13
@@ -272,6 +491,44 @@ Author: iOSign
 icon: https://huayuarc.github.io/icon/xc.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/photos/js.json
 Name: 相册增强
+
+Package: com.cydia.love.settingswidgets.rootless
+Architecture: iphoneos-arm64e
+Version: 1.2.3.1
+Section: 应用插件
+Maintainer: Ant 蚂蚁源™ <admin@cydia.pro>
+Installed-Size: 512
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/settingswidgets_1.2.3.1_e.deb
+Size: 85526
+MD5sum: 2e07c36c336d115cdf99512b2f421a7e
+SHA1: 9a3ac12580c4af4a0f25abc91a2bede7b4f1f88b
+SHA256: 31da512dc33868be58dd98d37cfdde123978d23ce0bda9748f29b78e86be7833
+SHA512: a45e225bd1a254bd2723554b4e70fd8346d42f2ff485576f6f8dc65810f107bd7f2d4f9ffb771b21db2de8ced5e332544cbeae83c1e8beb875f6d857ed084e12
+Tag: 1
+Name: SettingsWidgets小组件
+Author: shepgoba
+Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+
+Package: com.iosdump.shellx
+Architecture: iphoneos-arm64e
+Version: 11.3
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 11452
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.crctdd.sbtrim
+Filename: debs/shellx_11.3_e.deb
+Size: 2601634
+MD5sum: 875d7936255d0996660a65e605aa1d06
+SHA1: 995a1741bdeba8f0177736626107c88e10e64085
+SHA256: 16cd095a77a219a2cdd122048e644f2d9c6bb8a7a99e16939a8fd19b858feb75
+SHA512: f2ef597cfd261d637972a59226fb476062f8f63ea8eb01096489533f4bbfbe42e1cecabbe570a58ad01c0112780550ad69730c2011039e023ae78e3f0ad7d700
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Name: SHELLX
+Author: iosdump
 
 Package: com.crctdd.shorbar
 Architecture: iphoneos-arm64e
@@ -342,4 +599,26 @@ SHA256: 219170e0e224d54e2553b3495e4c5dfa90994a8ba0e8a98a0ec31af4212ac4d1
 SHA512: 76ce5c23446679d60191f329a6738fb2be40b057b78cd466a03f2cb679205514946cc4400325e68b34fc9f276682fe6122452868d1147ea211e5e9104de959a0
 Description: Simplified Chinese localization for Voidy.
 Name: Voidy 简体中文语言包
+
+Package: com.xsxs18.voidy
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Applications
+Maintainer: xsxs18
+Installed-Size: 1000
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Recommends: uikittools
+Filename: debs/voidy_1.0_e.deb
+Size: 387476
+MD5sum: 7e79f8eb7691b549fd03563d637b862e
+SHA1: 8340363303e8129a29fdce553971e7d82fa49211
+SHA256: 2905b5660e109291c45636f92c37f4454fe34ceae1d2da40e3ac94b7d6c22391
+SHA512: ecb3e4c04c5d9eefb2582973504d7395f117b5cc68b6dc165d76fb1cb766d813efffabaad179464789c2df2e63c0b80be7cdbd7a053a1241b621e0ea968722c2
+Description: Lightweight system cleaner for rootless and roothide jailbreaks.
+ Removes caches, logs, temporary files and package leftovers, manages
+ tweaks and launch daemons, finds large files and orphaned packages and
+ can clean automatically on a schedule.
+Name: Voidy
+Author: xsxs18
 
