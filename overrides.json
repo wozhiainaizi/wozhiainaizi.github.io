@@ -1,28 +1,80 @@
 {
-  "Hello_120Hz.deb": { "name": "Hello 120Hz" },
-  "cn.zqbb.fix120hz_3.3.3-3_iphoneos-arm64e.deb": { "name": "Hello 120Hz" },
-  "No_Apple_MobileRepair.deb": { "name": "No Apple MobileRepair 禁止在设置页面显示维修记录" },
-  "nopassafterrespringsafe_0.0.3_e.deb": { "name": "NoPassAfterRespring 注销不锁屏" },
-  "pleasedontstopthemusic_2.2.0_e.deb": { "name": "PleaseDontStopTheMusic 请别暂停音乐" },
-  "No_Redirect_2.1_e.deb": { "name": "No Redirect 禁止跳转" },
-  "EvoCenter16.deb": { "name": "EvoCenter16控制中心" },
-  "quickprefs_1.3.3_e.deb": { "name": "QuickPrefs" },
-  "appdatas_1.9.1_e.deb": { "name": "AppData应用数据" },
-  "AppStoreTroller_0.1.2_e.deb": { "name": "AppStoreTroller" },
-  "BetterAlarm_1.5_e.deb": { "name": "BetterAlarm中文版" },
-  "urlschemeguard_0.5.6_e.deb": { "name": "URL Scheme Guard Core" },
-  "icleanerpro_7.10.0-1_e.deb": { "name": "iCleaner Pro系统清理正版" },
-  "pancake.deb": { "name": "PanCake简体中文包" },
-  "pancake_2.3_e.deb": { "name": "PanCake" },
-  "PopoutButtons.deb": { "name": "PopOutButtons按钮动画" },
-  "pkg_1793429122919.deb": { "name": "PullClearNC清理通知" },
-  "SmoothInstall(roothide)-0.0.1-1.deb": { "name": "SmoothInstall" },
-  "stella_1.1.5.deb": { "name": "Stella中文版" },
-  "TVLock-1.2.3.deb": { "name": "TVLock" },
-  "rainbowkeyboard.reborn_1.0.8_e.deb": { "name": "彩虹键盘光效" },
-  "RecordAnvwhere.deb": { "name": "RecordAnywhere 锁屏录屏" },
-  "Satella.deb": { "name": "Satella内购破解" },
-  "icleanerprocrack2_1.2_e.deb": { "name": "iCleanerPro系统清理破解补丁" },
-  "CocoaTop64_Relaxin_-2.3.3.1_e.deb": { "name": "CocoaTop64中文版" },
-  "snapper3图片替换.deb": { "name": "Snapper3霓虹蓝发光效果主题" }
+  "Hello_120Hz.deb": {
+    "name": "Hello 120Hz"
+  },
+  "cn.zqbb.fix120hz_3.3.3-3_iphoneos-arm64e.deb": {
+    "name": "Hello 120Hz"
+  },
+  "No_Apple_MobileRepair.deb": {
+    "name": "No Apple MobileRepair 禁止在设置页面显示维修记录"
+  },
+  "nopassafterrespringsafe_0.0.3_e.deb": {
+    "name": "NoPassAfterRespring 注销不锁屏"
+  },
+  "pleasedontstopthemusic_2.2.0_e.deb": {
+    "name": "PleaseDontStopTheMusic 请别暂停音乐"
+  },
+  "No_Redirect_2.1_e.deb": {
+    "name": "No Redirect 禁止跳转"
+  },
+  "EvoCenter16.deb": {
+    "name": "EvoCenter16 控制中心"
+  },
+  "quickprefs_1.3.3_e.deb": {
+    "name": "QuickPrefs"
+  },
+  "appdatas_1.9.1_e.deb": {
+    "name": "AppData 应用数据"
+  },
+  "AppStoreTroller_0.1.2_e.deb": {
+    "name": "AppStoreTroller"
+  },
+  "BetterAlarm_1.5_e.deb": {
+    "name": "BetterAlarm 中文版"
+  },
+  "urlschemeguard_0.5.6_e.deb": {
+    "name": "URL Scheme Guard Core"
+  },
+  "icleanerpro_7.10.0-1_e.deb": {
+    "name": "iCleaner Pro 系统清理正版"
+  },
+  "pancake.deb": {
+    "name": "PanCake 简体中文包"
+  },
+  "pancake_2.3_e.deb": {
+    "name": "PanCake"
+  },
+  "PopoutButtons.deb": {
+    "name": "PopOutButtons 按钮动画"
+  },
+  "pkg_1793429122919.deb": {
+    "name": "PullClearNC 清理通知"
+  },
+  "SmoothInstall(roothide)-0.0.1-1.deb": {
+    "name": "SmoothInstall"
+  },
+  "stella_1.1.5.deb": {
+    "name": "Stella 中文版"
+  },
+  "TVLock-1.2.3.deb": {
+    "name": "TVLock"
+  },
+  "rainbowkeyboard.reborn_1.0.8_e.deb": {
+    "name": "彩虹键盘光效"
+  },
+  "RecordAnvwhere.deb": {
+    "name": "RecordAnywhere 锁屏录屏"
+  },
+  "Satella.deb": {
+    "name": "Satella 内购破解"
+  },
+  "icleanerprocrack2_1.2_e.deb": {
+    "name": "iCleanerPro 系统清理破解补丁"
+  },
+  "CocoaTop64_Relaxin_-2.3.3.1_e.deb": {
+    "name": "CocoaTop64 中文版"
+  },
+  "snapper3图片替换.deb": {
+    "name": "Snapper3 霓虹蓝发光效果主题"
+  }
 }
