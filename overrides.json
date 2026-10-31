@@ -2,5 +2,7 @@
   "Hello_120Hz.deb": { "name": "cn.zqbb.fix120hz" },
   "cn.zqbb.fix120hz_3.3.3-3_iphoneos-arm64e.deb": { "name": "cn.zqbb.fix120hz 破解" },
   "No_Apple_MobileRepair.deb": { "name": "禁止在设置页面显示维修记录" },
-  "nopassafterrespringsafe_0.0.3_e.deb": { "name": "注销不锁屏" }
+  "nopassafterrespringsafe_0.0.3_e.deb": { "name": "注销不锁屏" },
+  "pleasedontstopthemusic_2.2.0_e.deb": { "name": "请别暂停音乐" },
+  "No_Redirect_2.1_e.deb": { "name": "禁止跳转" }
 }
