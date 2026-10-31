@@ -590,6 +590,27 @@ Author: Nathan
 Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 
+Package: xyz.cypwn.immortalizer
+Architecture: iphoneos-arm64e
+Version: 2.2
+Section: Tweaks
+Maintainer: CyPwn
+Installed-Size: 660
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Filename: debs/immortalizer_2.2_e.deb
+Size: 64924
+MD5sum: b04ae8864a8833c205bc499ee3526e03
+SHA1: 87242d32af3a3ab78b15537d695605e42872af84
+SHA256: 93bd46180f8e0e8cd99fa5c9333143fb526aad73673d8a3ec8bf5c8b34195bdb
+SHA512: f29dfd2dd9e958026049f232f1dcdc50e51e4e8dd0144909d58e1592f692bbc3056dd4f161f70dc6c175ebd99f2d424d3877ffe940a2aec25a6675da5e54fe9b
+Description: Foreground your apps even if they are in the background!
+Depiction: https://repo.cypwn.xyz/depiction/2874
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/2874
+Icon: https://repo.cypwn.xyz/packages/Immortalizer-Rootless/icon.png
+Name: Immortalizer
+Author: sergy
+
 Package: com.be-huge.insulation
 Architecture: iphoneos-arm64e
 Version: 0.1.38.1
