@@ -210,25 +210,6 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
 SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
 
-Package: cn.zqbb.fix120hz
-Architecture: iphoneos-arm64e
-Version: 3.3.3-5
-Section: zqbb Tweaks
-Maintainer: zqbb
-Installed-Size: 6396
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
-Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
-Filename: debs/Hello120Hz.deb
-Size: 1850532
-MD5sum: 879b3c8f4deca047820a61eca747beb0
-SHA1: 074953df546f37b5c7745538fda7c65b77a5dc9b
-SHA256: 0a006fd0fdc21bcebe491cc21a67c26d769b0ee3e09e1fba4b6dd72d36e430fa
-SHA512: 7e53e3f029ccd26e706bd4255669cbf7e86f555553bf65fda19d3053d45a4318777100cb59e50962127a5522f7a7805dd9c46e99d535a99c533e70306e28a5d8
-Description: 
- - Unlock dynamic refresh rate from 80hz to 120hz
- - .
- - 解锁动态刷新率80hz到120hz.
-
 Package: cn.zqbb.stopautolaunchapps
 Architecture: iphoneos-arm64e
 Version: 2.5
