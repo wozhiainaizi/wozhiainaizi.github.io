@@ -202,6 +202,26 @@ Description: CocoaTop64 进程查看，基于真皮版定制：中文翻译+UI�
 Name: CocoaTop64 中文版(Relaxin)
 Author: Domo, SXX
 
+Package: com.jaysuen.ccflex16
+Architecture: iphoneos-arm64e
+Version: 1.0.0-beta.1
+Section: Tweaks
+Maintainer: JaySuen
+Installed-Size: 6444
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.wkk.betterccbrightness
+Replaces: com.wkk.betterccbrightness
+Filename: debs/EvoCenter16.deb
+Size: 452964
+MD5sum: c08f96a0bbbbdd313393ca6ef1053bd5
+SHA1: 3032199d9297d0283cb5c7380e15db1755f5a08a
+SHA256: 1aa8f66455bf5452d303bb04f5a0387697f75457c77f8fa279ef602ea270148a
+SHA512: eff5c630dd7da987206014dea202127a18b1c209de6dffa7bd9e7c90645c33b5b0c2f1070966fc86f62ab4cd86605febe4518d52342d1045657056accdf19d12
+Description: A modern, resizable and highly customizable Control Center for iOS 16.
+Name: EvoCenter16
+Author: JaySuen
+
 Package: byg.iosios.net.freepip
 Architecture: iphoneos-arm64e
 Version: 0.0.6-2
@@ -246,6 +266,24 @@ Name: ios16~17动态岛
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
 SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
+
+Package: cn.zqbb.hello.mnt
+Architecture: iphoneos-arm64e
+Version: 1.2.2
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 3172
+Filename: debs/HelloMnt-1.2.2.deb
+Size: 862340
+MD5sum: 3cd0b4b46e1ad565579462beaa31f8a4
+SHA1: 654139e2062d51b6024880b5751942887e217981
+SHA256: 3df40e2bcc485887dd071022db493557c685bd96424629bd9b0846bf6e2ffe83
+SHA512: 09cfc48a3e38d9607aeb6c47e3ba3ecd44f45ab6439c1f3223e6df5d4642304c5f176250f2818de6bffb34f0fbe1a02c4f7ad583ed3fe42e0502e591b53f28b7
+Description: Relaxin 挂载器!
+Name: HelloMnt
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.mnt.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.mnt
 
 Package: cn.zqbb.fix120hz
 Architecture: iphoneos-arm64e
@@ -390,6 +428,26 @@ SHA512: 819974349a196472577c560f855bb01431f9d0e2600bafa356460d07631e3da2ae922fc9
 Description: Stop specified apps from redirecting to App Store, Safari or other apps.
 Name: No Redirect
 Author: Lessica <82flex@gmail.com>
+
+Package: byg.iosios.net.popoutbuttons
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: 杂七杂八
+Maintainer: 搬运工
+Installed-Size: 481
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Filename: debs/PopoutButtons.deb
+Size: 73852
+MD5sum: 59cf4cf06a64bde777b1a78a2fb8e241
+SHA1: bd33101644c69f5707ee62eba1f05a8814d2e112
+SHA256: 40d6d8f741fea6076fef988b829e55253a479823ff31f4031e66af05b0ca2c41
+SHA512: d88781f0e2c6a281e0b3dba8badd64a4ba255433ac52cf16e10a590822aa5674aa2f360eb020f52776e734934f2d7d26eeb7ceeb1aadaa26b327d534b891bda6
+Description: 本插件功能：让你的音量键和电源键每按一次，在手机屏幕里显示动画效果，这是模仿iOS18的一个功能，还可以自定义按钮动画的大小，喜欢的小伙伴们可以试试，感谢M哥汉化插件，搬运工源全体员工向你表示感谢！
+Name: PopOutButtons按钮动画-Rootless
+Author: tesla_man
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: com.doimty.promotion
 Architecture: iphoneos-arm64e
@@ -913,6 +971,23 @@ Name: OneSettings
 Sponsor: sini921
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/onesettings/js.json
 icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
+
+Package: com.hk.pancake.cn.rl
+Architecture: iphoneos-arm64e
+Version: 2.2
+Section: 嗨-汉化
+Maintainer: Ball <ball@hackcn.net>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/pancake.deb
+Size: 3372
+MD5sum: ed864983cc95c3f04a134b0594f01429
+SHA1: 241b637a66ccc026373a91203fa5939a675d4c04
+SHA256: 1ff09ac16907acbd9d4f585fdad06d00e1476484c9665c828bcf50e30fed7838
+SHA512: 04b68c46df6b6df62911d3c888ab6896722fe953698928d395cada50fba4d67d46927fb0f9df22e28bb49bd0fa353a295a112eddb8a96846ab29f8ddaa123f0e
+Description: PanCake 简体中文包(rootless)。
+Name: PanCake 简体中文包(rootless)
+Author: Ball <ball@hackcn.net>
 
 Package: com.anthopak.pancake-rootless
 Architecture: iphoneos-arm64e
