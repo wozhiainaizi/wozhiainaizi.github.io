@@ -488,6 +488,23 @@ Author: tesla_man
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: preferenceloader
+Architecture: iphoneos-arm64e
+Version: 2.2.8
+Section: System
+Maintainer: ProcursusTeam <support@procurs.us>
+Installed-Size: 340
+Depends: mobilesubstrate
+Filename: debs/PreferenceLoader-2.2.8.deb
+Size: 15816
+MD5sum: 621ec4c3191efae712a22fcd72233690
+SHA1: e691ab207e6a9af4a432af3e53432d83e94d72a7
+SHA256: 3c9cbbd49afea965457d8be48245df1c798270042482b6281476e0534163a4eb
+SHA512: bfc1a40c8d30c333f4427b13c61118b117742aa3b98d9661fca93ab0aa6ca77d4594271f57872f0d5ec5537143ec938ae8c4449b54b6d37e0cb0c0f2e191fdb6
+Description: load preferences in style
+Author: Dhinak G <dhinak@dhinak.net>
+Name: PreferenceLoader
+
 Package: com.doimty.promotion
 Architecture: iphoneos-arm64e
 Version: 1.0.14-1
@@ -1250,6 +1267,24 @@ Description: 解除温控，一切从简即可。支持命令行切换模式：i
 Name: insulation
 Author: be-huge & doimty
 
+Package: com.opa334.libsandy
+Architecture: iphoneos-arm64e
+Version: 1.1.6-4
+Section: System
+Maintainer: opa334
+Installed-Size: 468
+Filename: debs/libSandy-1.1.6-4.deb
+Size: 19562
+MD5sum: 288946aff58fc1d2a9ec4ab4da6b0d30
+SHA1: 30a1d53cf5f8095a5fa9eacf07707aaf1d213f63
+SHA256: 81a1eeb17480b6ee200f8f4bf815892e6f58cc55f5aea6d7abe899db11da4bb5
+SHA512: dbd735c4e97fe9cfed216d6d8bc6641391399723612f7c747f88c86b43a8c41eec7bae25964cf0e2c7c7775e3b7695f03ba2c96cbc2b7311a4c2e1c78d236252
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Name: libSandy
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Author: opa334
+
 Package: com.cydia.love.lindongdaodonhua-rootless
 Architecture: iphoneos-arm64e
 Version: 1.1.8
@@ -1528,6 +1563,23 @@ SHA512: 4c3c26d5e32718585656a5b298dd211a61caa20be7f8bf8545797ed30ced5cb0f9716559
 Description: 三星风格彩虹键盘光效，重写版，支持 arm64e 系统进程注入，含设置页
 Name: 彩虹键盘光效
 Author: JudeGor
+
+Package: rootless-compat
+Architecture: iphoneos-arm64e
+Version: 2.0.1
+Section: RootHide Patches
+Maintainer: roothide
+Installed-Size: 300
+Depends: com.roothide.patchloader(>= 0.0.4)
+Filename: debs/rootless-compat-2.0.1.deb
+Size: 42110
+MD5sum: 61b06ff7e409d2eebef5e34fe28be38d
+SHA1: 1cbd3ff9fe3ab966b99eec7fdc08bc48596ae6b3
+SHA256: d255796e2fc7cd1b849cd376414e7a62bb0a2c7d149115b344e00f422371298d
+SHA512: b991c042024e37a5d8d119dd6e6a8707a7f126675a097ae59ccc5098b8ae189ffa3165178c8fe292917ea33a12eeda09a81cc620c24cec2704acedb0c92409b3
+Description: Compat Layer for Rootless Tweaks
+Name: rootless-compat
+Author: roothide
 
 Package: com.hbs.safariexploitguard
 Architecture: iphoneos-arm64e
