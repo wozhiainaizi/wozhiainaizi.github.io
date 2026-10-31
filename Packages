@@ -318,6 +318,25 @@ Tag: supports::roothide
 Name: ProMotion 120Hz
 Author: doimty
 
+Package: com.sini921.smoothinstall
+Architecture: iphoneos-arm64e
+Version: 0.0.1-1
+Section: 越狱插件
+Maintainer: SINI
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/SmoothInstall(roothide)-0.0.1-1.deb
+Size: 5584
+MD5sum: 7826538e46c6c871d1df73adc42b8d78
+SHA1: 5a74d9170bf201c380e02a1a1bf7cd1df31a1e11
+SHA256: 7ac676ae00228a7fbd313f43b2ca36bef00da4453580115a9ff324642eb65664
+SHA512: d2df015dec8552bb5469ca5b814ae100e2b16ff11c1edc945e6c4af52352422748f3be78f0ca5d139c7fe131044747093216e2db133695a65fd1437c12f022e6
+Description: 简化roothide越狱安装rootless插件时的流程
+Name: SmoothInstall(roothide)
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/smoothinstall.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/smoothinstall/js.json
+
 Package: com.huayuarc.sneakycam
 Architecture: iphoneos-arm64e
 Version: 2.1.2
@@ -838,21 +857,6 @@ SHA512: 999665fe3fa0cd48766ad4b95889ef17f71c1dbb52d9333c3c60039269d7ffd5beee71ac
 Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
 Name: ShortBar
 Author: crctdd
-
-Package: com.sini921.smoothinstall
-Architecture: iphoneos-arm64e
-Version: 0.0.1-1
-Section: 越狱插件
-Maintainer: SINI
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/smoothinstall_0.0.1-1_e.deb
-Size: 5596
-MD5sum: 614fb8e0b858a913a5ba874f1c90b4ea
-SHA1: c61b06afd7b583ea80292a321fb21f3e6b99acda
-SHA256: 869e3f5b874bf7c935459aaba803165073be8b3cc25f2dde70b7d958be030b32
-SHA512: 97eb62fd3a53e12271619e5dbecf94c073bfdcc357cc0a2b0ada39180fbcffcf8d9401fca7c68911fa366ea5f170b54f7e8c4f34dfde32c2538e94f88e4aa055
-Description: 简化roothide越狱安装rootless插件时的流程
 
 Package: com.spark.snowboard
 Architecture: iphoneos-arm64e
