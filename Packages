@@ -427,7 +427,7 @@ SHA1: 366cbdf1dec96c96efced0c3ed65deb6c1a52c8b
 SHA256: 8fd67f9b2b9758b68950e57d780988d54bb0fc7456d2852db731102b0635c69d
 SHA512: 819974349a196472577c560f855bb01431f9d0e2600bafa356460d07631e3da2ae922fc94bba12288f2151e5f51e223a10935bb9c17b722ffa6b20a722c1f8cb
 Description: Stop specified apps from redirecting to App Store, Safari or other apps.
-Name: No Redirect
+Name: 禁止跳转
 Author: Lessica <82flex@gmail.com>
 
 Package: byg.iosios.net.popoutbuttons
@@ -1403,7 +1403,7 @@ SHA512: 340ccaca9ed439acd3f104d7bbeb9efee46ee8357f9b4743ca4b3756e656ab8ccda28929
 Description: Prevent apps (e.g. Roblox) from pausing your background music
 Tag: compatible_min::ios14.0
 Author: Mikey <splatmikey@gmail.com>
-Name: PleaseDontStopTheMusic
+Name: 请别暂停音乐
 Icon: https://img.chariz.cloud/icon/pleasedontstopmusic/icon@3x.png
 Depiction: https://chariz.com/get/pleasedontstopmusic
 
