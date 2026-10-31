@@ -140,6 +140,26 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/tweakshub.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/tweakshub/js.json
 
+Package: com.eolnmsuk.antidarksword
+Architecture: iphoneos-arm64e
+Version: 4.9.3
+Section: Tweaks
+Maintainer: EolnMsuk
+Installed-Size: 9148
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/antidarksword_4.9.3_e.deb
+Size: 7159160
+MD5sum: f67f5335f3a7b6145c94790b93a7b006
+SHA1: a7682b25f91177c9d54ee17fca78a00d80f96f0f
+SHA256: bf69e3df83feec3d2ee7f5cd2150f5bdf9e9f4ea09d1af527a56045661aa0c91
+SHA512: f7e057f9aca80d39c46cf509aede99018392149fe181c0060c2bbf1c8c3813daf9f3b930ce16f5c676a4b76035fc365631d45af6ea032fa1d8cae4c4b824ac33
+Description: Security framework to defend against WebKit RCE and iMessage zero-click exploits like Coruna / DarkSword / BLASTPASS. 防御WebKit RCE和iMessage零点击漏洞的安全框架，如Coruna/DarkSword/BLASTPASS。
+Name: AntiDarkSword
+Author: EolnMsuk
+Icon: https://raw.githubusercontent.com/EolnMsuk/AntiDarkSword/refs/heads/main/antidarkswordprefs/Resources/sicon.png
+SileoDepiction: https://raw.githubusercontent.com/EolnMsuk/AntiDarkSword/main/depiction.json
+
 Package: com.cydiabc.appdatas-rootless
 Architecture: iphoneos-arm64e
 Version: 1.9.1
