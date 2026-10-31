@@ -199,7 +199,7 @@ SHA1: 7cdfd0e8032765aee190065210926b98bbf69f2e
 SHA256: 3dd6512aab08107dc50234ca9b5ab2eb8ed0b3c2e18be3e18cd000186e478250
 SHA512: 2fca811d6d88227f5daa6a06f97c9dce53b4b353fe7a621b1e843b2cfb0d26b8591732273b934f9766fd94b00cbbdbe8c8a9a8a9f0b9cfa54644d1ae3378347d
 Description: CocoaTop64 进程查看，基于真皮版定制：中文翻译+UI微调+更新图标等。
-Name: CocoaTop64 中文版(Relaxin)
+Name: CocoaTop64中文版
 Author: Domo, SXX
 
 Package: com.jaysuen.ccflex16
@@ -1600,7 +1600,7 @@ SHA1: 7bf0ee58240d8193d7f91d66b06450d00cda8f60
 SHA256: a16b22c6617d75a7fc584ceb1dc647b0b8a44ac586370966990b679d50ab07b0
 SHA512: 9dd9282850fb8e06b198847f56cfa0fec7beea1be9ab26a34948a6ad6c22bbdfd1c9980a1ededd63749c046bf3c76858f3a60c470866f867c390c9ac217dae5a
 Description: 季伯仰备份
-Name: snapper3霓虹蓝发光效果主题(rootless)
+Name: Snapper3霓虹蓝发光效果主题
 Author: theX
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/thexforsnapper3/js.json
 icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
