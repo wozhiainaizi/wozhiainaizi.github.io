@@ -410,7 +410,7 @@ Description: No Apple MobileRepair
  4.屏蔽设置系统OTA 升级显示红1提醒信息
 icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/noapplemobilerepair/js.json
-Name: No Apple MobileRepair(rootless)
+Name: 禁止在设置页面显示维修记录
 Author: xybp888
 
 Package: com.82flex.noredirect
@@ -1261,7 +1261,7 @@ SHA1: b96abb1ee19cf1e452b4d41f38c7bfb4ace88a2a
 SHA256: 751bb98df286190a41c6a52dfbf15280f87a09e830f6ae36fc5128bf273b695d
 SHA512: f159f6108a26ff2064f1c05e7273f9d9dfd803a3c2b9411ea87c3137a0c41aefb74a00b3ec4bb29851dbcc67e9bb1664031dad7aa0988497f293c842bdac0de6
 Description: Disables passcode after a respring. This version does NOT modify system file. It's safe to use. 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。
-Name: NoPassAfterRespring (Safe)
+Name: 注销不锁屏
 Author: Brend0n <brendonjkding@126.com>
 
 Package: com.sini.onesettings
