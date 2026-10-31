@@ -13,6 +13,9 @@ import json
 import os
 import re
 
+# Sileo 分类展示顺序（把「其他」排最后，必装在中间）
+SECTION_ORDER = ["优先安装", "越狱必装", "插件依赖", "其他"]
+
 
 def parse_prev(path):
     """解析 Packages 文本 → {package_id: section}"""
@@ -27,28 +30,40 @@ def parse_prev(path):
     return out
 
 
-def apply_mapping(mapping, default_section=None):
-    """按 mapping({pid: section}) 重写 Packages；未列出的包按 default_section 处理。"""
+def apply_mapping(mapping, default_section=None, section_order=None):
+    """按 mapping({pid: section}) 重写 Packages；未列出的包按 default_section 处理。
+    传入 section_order 时按 Section 稳定重排包块顺序（同组保持原相对顺序）。"""
     with open("Packages", encoding="utf-8", errors="ignore") as f:
         text = f.read()
     parts = re.split(r"(\n\n+)", text)
-
-    def fix_block(block):
+    entries = []
+    i = 0
+    while i < len(parts):
+        block = parts[i]
+        sep = parts[i + 1] if i + 1 < len(parts) else ""
+        i += 2
         m = re.search(r"^Package:\s*(.+)$", block, re.M)
-        if not m:
-            return block
-        pid = m.group(1).strip()
-        if pid in mapping:
-            new_sec = "Section: " + mapping[pid]
-        elif default_section is not None:
-            new_sec = "Section: " + default_section
-        else:
-            return block
-        if re.search(r"^Section:\s*.+$", block, re.M):
-            return re.sub(r"^Section:\s*.+$", new_sec, block, count=1, flags=re.M)
-        return re.sub(r"^(Package:\s*.+)$", r"\1\n" + new_sec, block, count=1, flags=re.M)
-
-    fixed = "".join(fix_block(b) for b in parts)
+        if m:
+            pid = m.group(1).strip()
+            new_sec = None
+            if pid in mapping:
+                new_sec = "Section: " + mapping[pid]
+            elif default_section is not None:
+                new_sec = "Section: " + default_section
+            if new_sec is not None:
+                if re.search(r"^Section:\s*.+$", block, re.M):
+                    block = re.sub(r"^Section:\s*.+$", new_sec, block, count=1, flags=re.M)
+                else:
+                    block = re.sub(r"^(Package:\s*.+)$", r"\1\n" + new_sec, block, count=1, flags=re.M)
+        sm = re.search(r"^Section:\s*(.+)$", block, re.M)
+        sec = sm.group(1).strip() if sm else ""
+        entries.append((sec, block, sep))
+    if i < len(parts):  # 尾部残余元素
+        entries.append(("", parts[i], ""))
+    if section_order:
+        order = {s: idx for idx, s in enumerate(section_order)}
+        entries.sort(key=lambda e: order.get(e[0], len(order)))
+    fixed = "".join(b + s for _, b, s in entries)
     with open("Packages", "w", encoding="utf-8") as f:
         f.write(fixed)
     return sum(1 for pid in mapping if re.search(r"^Package:\s*" + re.escape(pid) + r"\s*$", fixed, re.M))
@@ -59,7 +74,7 @@ def main():
     if os.path.exists("sections.json"):
         with open("sections.json", encoding="utf-8") as f:
             mapping = json.load(f)
-        kept = apply_mapping(mapping, default_section="其他")
+        kept = apply_mapping(mapping, default_section="其他", section_order=SECTION_ORDER)
         print("分组控制: sections.json 生效，%d 个包自定义分组，其余归「其他」" % kept)
         return
 
