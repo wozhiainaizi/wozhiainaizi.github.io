@@ -91,5 +91,8 @@
   },
   "GIF_ios16dao_5.2.0-244_e.deb": {
     "name": "ios16~17 动态岛"
+  },
+  "com.cydia.love.volume-manager-rootless_1.0.3_iphoneos-arm64e.deb": {
+    "name": "VolumeManager 音量管理"
   }
 }
