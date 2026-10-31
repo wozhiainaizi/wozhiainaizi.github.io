@@ -123,7 +123,7 @@ SHA256: b37f3a0b246af8e7e161f672db67d9b9606b70ff2614310047c0aaecc44d215e
 SHA512: a30e4806d1d4ea09ff95615971c940f25636b56de88cf58aab3290fd89e1308dc3169ded33ecbf2551436c71d33af56db96764735c8cde88d73eac0d829d1a15
 Description: 点开一个APP，控制中心点击按钮即可
 Tag: 1
-Name: CCSupport真后台
+Name: CCSupport 真后台
 Author: @akusio_RR
 Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
@@ -295,7 +295,7 @@ SHA1: 9b5808941f4f6fa8c23f5eaab278eb7bf678ee93
 SHA256: 27fe3a05e334f03a2705e4a4d2bd3317d1c88bc0400ba81657cb96eda79f86c1
 SHA512: 5af06e6c18c023afa9a8d6197379a7b350b79db0798af89c024fee2dc02da65889c86742b6dcf90ce73eb3058547bb3887b97ec3143c3bcce66f2155e86c7b89
 Description: 系统画中画功能增强，基于开源，优化了一些代码，改进了一些细节，长按画中画窗口切换模式，灰色边框为自由模式(即随意放大缩小移动位置)，橙色边框为固定模式(即原生模式)，非常的好用，搬运工源，万古长青！
-Name: FreePIP画中画增强
+Name: FreePIP 画中画增强
 Author: Soh Satoh,SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -320,7 +320,7 @@ Description: 一款市面上最优秀、功能最完整、最稳定的灵动岛�
  * 3. 内置纯代码灵动光圈（如彩虹环、彩虹流星、舞台灯、跑马灯、纯色线框）、漂亮的七彩随机光圈阴影等特效。
  * 4. 灵动岛左右两侧自定义png图片帧率动画（如写轮眼、跳舞等玩法）。
  * 5. 本插件无需任何依赖、支持手势录屏触发，已经达到极致水平。
-Name: ios16~17动态岛
+Name: ios16~17 动态岛
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
 SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
@@ -852,7 +852,7 @@ SHA1: 54f82d29003f2930093b0d580b9d369aafc576f4
 SHA256: 069804ccf2239098357d4f10ae0468196f616276fe3b45ea85624f5010aa8acf
 SHA512: aaa4b96a5561ecb3e620c27e2d3e1030598ea9b5a4433a1ce0f35f8cbd9c5bf8c8c8a500f8d86f58263e8b7f92c617ecb6f5740ae2651393a39f0ad4fe116104
 Description: A modified TrollStore by iosdump for jailbroken iOS
-Name: TrollStore Lite (RootHide)
+Name: TrollStore Lite 白巨魔
 Author: opa334&iosdump
 
 Package: com.axs.tweakshub
@@ -1212,7 +1212,7 @@ SHA256: 2275584ca6af3d95e4952d5a0ee718e5a8a712cc1345fca017ad23e8322b7eca
 SHA512: 19be88f4eda06b8cf3e49f7818816b2692bb7157c926731df1f0c3b160d86d439f2ef1789b48f72813c04cd2e7d0821d9896e4e8c437f9b7f82da7f91b8ba3d2
 Description: 在 14 Pro 系列上，隐藏未使用时的灵动岛，有些有强迫症的人有此需求，能理解但不支持！
 Tag: 1
-Name: DynamicNotLand隐藏灵动岛
+Name: DynamicNotLand 隐藏灵动岛
 Author: Nathan
 Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
