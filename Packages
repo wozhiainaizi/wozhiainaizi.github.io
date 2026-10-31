@@ -508,6 +508,24 @@ Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Icon2: 16.png
 
+Package: com.susudear.screencore
+Architecture: iphoneos-arm64e
+Version: 2.0.5
+Section: Tweaks
+Maintainer: SuSu
+Installed-Size: 3092
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/ScreenCore-2.0.5_1.deb
+Size: 485248
+MD5sum: 418e1c029504cf7a861f571f98386f35
+SHA1: 8f525338fbcf19acf66c02f602189889c3d1c09b
+SHA256: 4081026da03c7b2b8f2c4ccef444aa2a26b389c740199c6eb7de2aa428dad0e5
+SHA512: 97ed09621c2a7c9d485771bd4a8c59ee123f4fc23eccd51770fb20a0e286a777db107b9932b4f19f1c641ab973da33eae184ae3e0e06a24220576a5140d284f5
+Description: 分屏而已
+Name: ScreenCore
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+
 Package: com.sini921.smoothinstall
 Architecture: iphoneos-arm64e
 Version: 0.0.1-1
