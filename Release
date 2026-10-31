@@ -1,5 +1,5 @@
-Origin: 暗影大人
-Label: 暗影大人
+Origin: - 暗影大人
+Label: - 暗影大人
 Suite: stable
 Version: 1.0
 Codename: ios
@@ -9,7 +9,7 @@ Description: 暗影大人 的越狱软件源
 Support: https://wozhiainaizi.github.io/
 MD5Sum:
  d5c628eb8a3c9482b902e50412a0d65c  60372 Packages
- 7e86d9c094db7b27f8ec46eec6fda6ed  25944 Packages.gz
+ c5ba0ce0de82c5d99abf3ed5fded830f  25944 Packages.gz
 SHA256:
  3eb693fab8a76d37bbeba6fdf5e7581c1cfdb419d5b1447b665fe3cab7d53282  60372 Packages
- a0261232626c44a17ae356e7d4ac3ee258b72c8fe7c37bdaca1506b47da100cb  25944 Packages.gz
+ 8f71089ae25d4ef5b2d7946b644163405e11b25f94576a13b26e37ee51c0ff14  25944 Packages.gz
