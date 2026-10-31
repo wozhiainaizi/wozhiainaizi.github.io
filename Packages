@@ -907,6 +907,24 @@ Description: Single DND Toggle for iOS 16
 Name: CCDND
 Author: 0xkuj
 
+Package: cn.llld.urljg.roothide
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Section: RootHide
+Maintainer: 来了老弟
+Installed-Size: 1104
+Depends: firmware (>= 14.0), roothide (>= 0.0.1), ellekit | mobilesubstrate
+Filename: debs/cn.llld.urljg.roothide_1.1.0_iphoneos-arm64e.deb
+Size: 676414
+MD5sum: 34e37c6a76c9f22f44b46b5469b884bd
+SHA1: 95e0d30d3ee44100f47cbdf64f9b8edd78369121
+SHA256: 10b52cb0a42b0ee51f84707fc56414bed4d6d4fe40aacca00eb20c6e99089199
+SHA512: 590d75c13776de78ddbc2b11dd2d17f482c0d40a1ec5854781d31292d0027eb1c1a95cb06fb6b54624535ee277c232290b4b8b10d55713f6766f2d6bec5b66f6
+Description: URL管家（RootHide 版）— 统一接管本机 URL Scheme（隐藏 / 重定向），支持单应用或者全局，也可防范某些应用检测某东东
+Tag: purpose::uikit, compatible::ios14
+Name: URL管家-隐根
+Author: 来了老弟
+
 Package: cn.zqbb.fix120hz
 Architecture: iphoneos-arm64e
 Version: 3.3.3-3
