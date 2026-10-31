@@ -1332,6 +1332,26 @@ Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
 Name: ShortBar
 Author: crctdd
 
+Package: com.sini921.thexforsnapper3
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: 美化插件
+Maintainer: theX
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin
+Filename: debs/snapper3.deb
+Size: 100234
+MD5sum: 2f6176086e095741d54f25fd9bea8fa5
+SHA1: 7bf0ee58240d8193d7f91d66b06450d00cda8f60
+SHA256: a16b22c6617d75a7fc584ceb1dc647b0b8a44ac586370966990b679d50ab07b0
+SHA512: 9dd9282850fb8e06b198847f56cfa0fec7beea1be9ab26a34948a6ad6c22bbdfd1c9980a1ededd63749c046bf3c76858f3a60c470866f867c390c9ac217dae5a
+Description: 季伯仰备份
+Name: snapper3霓虹蓝发光效果主题(rootless)
+Author: theX
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/thexforsnapper3/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
+
 Package: com.jontelang.snapper3
 Architecture: iphoneos-arm64e
 Version: 1.2.1
@@ -1407,6 +1427,25 @@ SHA256: 4a92ed49a1552950589497dfc9c7b6c20b07a3c861a933559fa91c797c97482e
 SHA512: dcd7031ea6686067fbd50f771b8d79a2ea50b3b94d4c03a4afb85ae3724fa1537e21a15cf757eb6bc2d9675842749a38e0c728f0960904d9a952d1a569947a1b
 Description: Extend your keyboard to be more POWERFULL!
 Name: SquidExtender
+Author: SquidForce
+
+Package: com.lclrc.squidgesturepro
+Architecture: iphoneos-arm64e
+Version: 2.7.6
+Section: Tweaks
+Maintainer: SquidForce
+Installed-Size: 6636
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture
+Filename: debs/squidgesturepro_2.7.6.deb
+Size: 5332216
+MD5sum: 451602f539f7ffa74ac1de052dbb50bb
+SHA1: 5917fd4867d0b8f76ffeff87b40122ea7e2ed4ac
+SHA256: f9f6a9ddb46f3ec9162905c4ec6da034704982c0c0cfbf723b411313ce764d15
+SHA512: d6b446414cb06e6c8bd99f53c673bae553fec801a8367ded7485485356e56e97f88d07ad44dda5388128db78b681fe8650822ff46947ed7b865f22c2a019bca6
+Description: Gestures
+Name: SquidGesture Pro
 Author: SquidForce
 
 Package: com.crctdd.stayalivelite
