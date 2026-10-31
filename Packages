@@ -720,6 +720,30 @@ Description: Single DND Toggle for iOS 16
 Name: CCDND
 Author: 0xkuj
 
+Package: com.axs.screenshellpro
+Architecture: iphoneos-arm64e
+Version: 5.2.0-61
+Section: Tweaks
+Maintainer: Axs
+Installed-Size: 540
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/com.axs.screenshellpro_5.2.0-61_iphoneos-arm64e.deb
+Size: 68114
+MD5sum: 7650747904cb474726c3d402ce6c51c0
+SHA1: 6bbcf7a974d3009d003dffd1fd4daf52cd211fbe
+SHA256: 69e96316da9f0ed516040db2edc52296acff5401e14f70c0b3e7a9596356a7ca
+SHA512: 15b41d6ac5937914693ea18c651f33a6b5237684fcec2d49b7fe88e415e2697c85f9b215ba3ff62bb276bb0d492eac4d60c5ef50d296c3bf19f4ffb8b427bf03
+Description: 专业的 iOS 全局水印&套壳『截屏.录屏』增强工具。插件需要授权才能使用。授权请联系微信：VCR66T
+ * 1. 录屏套壳渲染极快。
+ * 2. 渲染过程中手机不发烫。
+ * 3. 插件不需要任何依赖。
+ * 4. 本插件是目前市面上最好的录屏套壳渲染工具。
+Name: ScreenShell Pro
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/screenshellpro.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenshellpro/js.json
+
 Package: com.squidforce.copyvault
 Architecture: iphoneos-arm64e
 Version: 1.9.0
