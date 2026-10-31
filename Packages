@@ -285,7 +285,7 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.mnt.png
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.mnt
 
-Name: cn.zqbb.fix120hz
+Name: Hello 120Hz
 Package: cn.zqbb.fix120hz
 Architecture: iphoneos-arm64e
 Version: 3.3.3-5
@@ -870,7 +870,7 @@ Description:
  - Unlock dynamic refresh rate from 80hz to 120hz
  - .
  - 解锁动态刷新率80hz到120hz.
-Name: cn.zqbb.fix120hz 破解
+Name: Hello 120Hz
 Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
