@@ -14,7 +14,7 @@ import os
 import re
 
 # Sileo 分类展示顺序（把「其他」排最后，必装在中间）
-SECTION_ORDER = ["1 优先安装", "2 越狱必装", "3 插件依赖", "4 其他"]
+SECTION_ORDER = ["优先安装", "必装", "插件依赖", "杂项"]
 
 
 def parse_prev(path):
@@ -74,8 +74,8 @@ def main():
     if os.path.exists("sections.json"):
         with open("sections.json", encoding="utf-8") as f:
             mapping = json.load(f)
-        kept = apply_mapping(mapping, default_section="4 其他", section_order=SECTION_ORDER)
-        print("分组控制: sections.json 生效，%d 个包自定义分组，其余归「4 其他」" % kept)
+        kept = apply_mapping(mapping, default_section="杂项", section_order=SECTION_ORDER)
+        print("分组控制: sections.json 生效，%d 个包自定义分组，其余归「杂项」" % kept)
         return
 
     # 保留模式
