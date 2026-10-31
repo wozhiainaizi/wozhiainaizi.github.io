@@ -486,6 +486,45 @@ Description: 使手机在锁屏状态也可以继续录屏。修复支持Dopamin
 Name: 锁屏录屏RecordAnywhere
 Author: Muirey03 & lclrc
 
+Package: com.cydiabc.satella-rootless
+Architecture: iphoneos-arm64e
+Version: 1.9.0-1
+Section: 工具
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Conflicts: xyz.cypwn.satella, emt.paisseon.satella, com.dao.satella.cn
+Filename: debs/Satella.deb
+Size: 94580
+MD5sum: 279815a96d851a4e94a292274a74287e
+SHA1: 419cea1ba2cb2f9d4e82f34c0e614910f811ba96
+SHA256: ed419f02528eea01d7ebcc8a92399577caab6e8176221c74e28551db97d0a872
+SHA512: 951a0fa9153b80be88254aac5c688171f8f21f1792ab9a640961263faaa8ce849df26c898a770dae9dd30fab8879e54c48b236f5ad2115e24bcfda090b7d0368
+Description: 牛X的应用内购买破解器，具体效果预览截图
+A12: 1
+Name: Satella内购破解 - Rootless
+Author: Paisseon
+Sponsor: Ai-小苹果™
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 16.png
+
+Package: com.dao.satella.cn
+Architecture: iphoneos-arm64e
+Version: 1.9.0
+Section: 嗨-汉化
+Maintainer: 妖刀
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/Satella_-1.9.0.deb
+Size: 4272
+MD5sum: 6026cc79cb15753fd803ddda1e4c5a63
+SHA1: 4f0aee08dbc36405e7279975a5b969d9999aab9d
+SHA256: 96a5bb1543f30fdf40ebe0cdfed73bb79b2bfc723742120db8407c1c074b1d71
+SHA512: 9bf02afd603d96dd58d194f29ce8d5d099f3c3287e8f5295454878701f8b6020efa0df6369d77e95e3dcf88bbab5fea0994934ec4b4e0217efeba8a238b65abe
+Description: Satella 简体中文包(RootHide)。
+Name: Satella 简体中文包(RootHide)
+Author: 妖刀
+
 Package: com.sini921.smoothinstall
 Architecture: iphoneos-arm64e
 Version: 0.0.1-1
@@ -602,6 +641,24 @@ Name: TweaksHub
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/tweakshub.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/tweakshub/js.json
+
+Package: com.82flex.unseen
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Section: Tweaks
+Maintainer: 82flex
+Installed-Size: 492
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), preferenceloader
+Filename: debs/Unseen-.deb
+Size: 63470
+MD5sum: 4fe0b833ea598f82a64e1ac7840a511a
+SHA1: 6e7c2c02072f6bd1f54038f9e403f3d08b0ce9b4
+SHA256: 204e5e0eaf16f8127c519219268a26d969f56a41f33c2809a93a179a06b6c076
+SHA512: 54b81a60ba10b98746aefb504fcbcbee39989bc40c287edf48f992a0bbdba52217dcd9c49123a1fb540054a0734e05d0e11f0c1a147e1fa20439cbf3c36bd4df
+Description: Neutralizes CALayer disableUpdateMask in the render server
+Name: Unseen
+Author: 82flex
 
 Package: com.eolnmsuk.antidarksword
 Architecture: iphoneos-arm64e
@@ -1251,6 +1308,25 @@ Description: Snowboard theming engine
 Name: SnowBoard
 Author: Spark & Dennis D. Bednarz
 
+Package: com.sunshinesong.split-view-pro
+Architecture: iphoneos-arm64e
+Version: 1.3.7
+Section: Tweaks
+Maintainer: sunshinesong
+Installed-Size: 5624
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: debs/split-view-pro_1.3.7.deb
+Size: 4383110
+MD5sum: 9c3164690eabe1181d38d19df24e22de
+SHA1: 07943f20048979e54cac4f5703127c9d3c992a0f
+SHA256: cebb6abe4e7c1be4b7c660c34272fcb840964264c7417e503fbf914b4b892bbc
+SHA512: 8826d9ebdaeb4432cc1ba62af5c38b2b0e3c1c7d978b82a7ed72e23932e8254524185c3fc6c45a7aae60864cb474365bcb335b957692e5fb0ebd127cc99ca7ba
+Description: 分屏，不必太复杂，一切从简即可。
+Name: split-view-pro
+Author: sunshinesong
+TS: sp-sss
+
 Package: com.crctdd.stayalivelite
 Architecture: iphoneos-arm64e
 Version: 0.4.1
@@ -1267,6 +1343,25 @@ SHA512: 1d5545aadcaf4ccdd5f3b697e222d40b18747f9f1848058392fe0236fc9748346db6a025
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Name: StayAlive Lite
 Author: crctdd
+
+Package: com.dao.stella
+Architecture: iphoneos-arm64e
+Version: 1.1.5
+Section: 嗨-工具
+Maintainer: yan & 刀刀
+Installed-Size: 1332
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.ginsu.comet
+Conflicts: com.yan.stella, xyz.cypwn.stella
+Filename: debs/stella_1.1.5.deb
+Size: 470052
+MD5sum: 94973ccd38fa3b9d352dea723aaa61a0
+SHA1: c17c810116bb84db338403768b48fd5ca621e1f2
+SHA256: 29c74a76973a2732f73440d194331ac10f527d416915597a05847d18bcf6dd5f
+SHA512: 7035cb4b1fb299e94a7d29821c93b179760cce7e65a43cc2cdf4f84d6d1c6ce9107e9e69a57bcaae8efce9735021ef82006954d96191bfb342c5cce8fcaa668c
+Description: 让你的设备在主屏/锁屏上下雪！根据开源，定制的中文版。
+Name: Stella 中文版(rootless)
+Author: yan
 
 Package: com.crctdd.surgeactive
 Architecture: iphoneos-arm64e
