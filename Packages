@@ -1,3 +1,21 @@
+Package: com.dao.appstoretroller
+Architecture: iphoneos-arm64e
+Version: 0.1.2
+Section: 嗨-工具
+Maintainer: Mineek
+Installed-Size: 524
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: dev.mineek.appstoretroller
+Filename: debs/AppStoreTroller_0.1.2_e.deb
+Size: 20270
+MD5sum: 61dc35659d2222ee4a54a6e2bc034011
+SHA1: f057380b9e2b59cf2fdf57d99f4c3fdcbe04eaf3
+SHA256: 824f91323d753feaf50e131bfdf6b08851090f2d20be7835f50731e4a68507c7
+SHA512: 7e1200f13b842f5e0a6a90fb01fe5d1aa312caf70d1a593142c5740839e96a7ccfa4d2f1b7d2b1a5f4b5db5e21e56a4a1d8e6cb2d375548927e8d7fa8bea6888
+Description: 伪装成合适的iOS版本，并获取需高iOS版本的应用。
+Name: AppStoreTroller(RootHide)
+Author: Mineek
+
 Package: com.dao.betteralarm
 Architecture: iphoneos-arm64e
 Version: 1.5
@@ -15,6 +33,27 @@ SHA512: 5ce660b7b9ecba08d2eca6ea3001b08951db1144999b898d75339e6bcfbead9d3adcd435
 Description: 漂亮的定时器和闹钟提醒，根据开源编译。
 Name: BetterAlarm中文版(RootHide)
 Author: NoisyFlake
+
+Package: com.cydia.love.backgrounderaction15-rootless
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: Fugu15专区
+Maintainer: Ant 蚂蚁源™ <admin@cydia.pro>
+Installed-Size: 340
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: debs/CCSupport_0.1.0_e.deb
+Size: 13348
+MD5sum: a3ac5a01d5c1857c8826ae2a9da21b0e
+SHA1: f264fb7b52b41f367bc9e3cc0ab4010caf867aaa
+SHA256: b37f3a0b246af8e7e161f672db67d9b9606b70ff2614310047c0aaecc44d215e
+SHA512: a30e4806d1d4ea09ff95615971c940f25636b56de88cf58aab3290fd89e1308dc3169ded33ecbf2551436c71d33af56db96764735c8cde88d73eac0d829d1a15
+Description: 点开一个APP，控制中心点击按钮即可
+Tag: 1
+Name: CCSupport真后台
+Author: @akusio_RR
+Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 
 Package: com.axs.cpufree
 Architecture: iphoneos-arm64e
@@ -232,6 +271,23 @@ Name: TVLock(RootHide)
 Author: Wes <wes.hamster@gmail.com>
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/tvlock/js.json
 
+Package: com.iosdump.trollcmtweak
+Architecture: iphoneos-arm64e
+Version: 1.1.8
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/TrollCM_1.1.8_e.deb
+Size: 56602
+MD5sum: 9f68cfad57f38150cc80bb59aa77a761
+SHA1: 9ad6d2812031ff005eba167e66c8e913f8de86b7
+SHA256: 444dbfca89caed3817fae04a36fb1c4dbec5bafa5753218e61d37dc161aea063
+SHA512: 2d5507d325b844c053ae0f034e6c0cd23345ef298d5a2ef3f63e8d0656c86b236e315733bd86d50895f0c29bc7762f1042bdd2b6541580137360a49b50265015
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Name: TrollCM
+Author: iosdump
+
 Package: com.charlieleung.trollopenjb
 Architecture: iphoneos-arm64e
 Version: 1.5.2+offline.5
@@ -318,6 +374,24 @@ Author: Ai-小苹果™&Fouad Raheb
 Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/System.png
 Icon2: 16.png
+
+Package: com.0xkuj.ccdnd
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 180
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.opa334.ccsupport
+Filename: debs/ccdnd_1.0_iphoneos-arm64e.deb
+Size: 11448
+MD5sum: 1e6b3c00325816a7d7fa04e133f1d546
+SHA1: 8016ef36b5873b9e340c8e2100c4a9e64e1b80b1
+SHA256: e2dac1c5977565b7d43a81b87ccb3d2f7784a868e4b152e9d476eb6409cb7c16
+SHA512: 64ecfd4cd940179d2c39a711a3121d7f7a7995c6741c38832083249cbc35014b1093ec1e3b517288ab60ec98c4faa03438b815c5a4abc84f272eef1fb7b4105e
+Description: Single DND Toggle for iOS 16
+Name: CCDND
+Author: 0xkuj
 
 Package: com.squidforce.copyvault
 Architecture: iphoneos-arm64e
@@ -491,6 +565,24 @@ Author: iOSign
 icon: https://huayuarc.github.io/icon/xc.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/photos/js.json
 Name: 相册增强
+
+Package: com.minis.rainbowkeyboard.reborn
+Architecture: iphoneos-arm64e
+Version: 1.0.8+arm64e11
+Section: Tweaks
+Maintainer: JudeGor
+Installed-Size: 184
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/rainbowkeyboard.reborn_1.0.8_e.deb
+Size: 12764
+MD5sum: 9829de45271d91c5e3445894a4f7e82b
+SHA1: 87938e07a6d9e46b545dab061ee4f98c7973cc7b
+SHA256: bca8c59bbec1af8139f852e1fec7dac536024b2e131e847915cd375840f76848
+SHA512: 4c3c26d5e32718585656a5b298dd211a61caa20be7f8bf8545797ed30ced5cb0f97165593250075f3dd3b6552466ac57f9b555ea9b28f6d82be731bc62e2fcb2
+Description: 三星风格彩虹键盘光效，重写版，支持 arm64e 系统进程注入，含设置页
+Name: 彩虹键盘光效 (Reborn)
+Author: JudeGor
 
 Package: com.cydia.love.settingswidgets.rootless
 Architecture: iphoneos-arm64e
