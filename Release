@@ -1,0 +1,15 @@
+Origin: wozhiainaizi 的源
+Label: wozhiainaizi 的源
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: wozhiainaizi 的越狱软件源
+Support: https://wozhiainaizi.github.io/wozhiainaizi.github.io/
+MD5Sum:
+ 61058ab0b6289829675c97a27a8f6956  1813 Packages
+ f5c0a04783568cf22bd43a80d366e5aa  1166 Packages.gz
+SHA256:
+ 7ef552a5b06eb25ef4455e1d68b5457c1f424447da9c3b4009fe2ec0186aed99  1813 Packages
+ b2eddc7793b799d7e1841d5097e900c34c48233f7dbd8f2b46b56c8672e8bae7  1166 Packages.gz
