@@ -17,6 +17,25 @@ Description:
  - .
  - 解锁动态刷新率80hz到120hz.
 
+Package: com.rain.120hzstable
+Architecture: iphoneos-arm64e
+Version: 1.3.0+crack1
+Section: Tweaks
+Maintainer: Rain
+Installed-Size: 972
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
+Conflicts: com.rain.120hzpro
+Filename: debs/120hzstable_1.3.0_e.deb
+Size: 81336
+MD5sum: 86a51d8c92872f9b4dfc1512360a563a
+SHA1: 3b47e3657cb28ebe1e844368cf27ea21e54cb119
+SHA256: 54c0e9acf212090b072bf8a5a397648b5563cd0875b6094146d84550d3d66a8d
+SHA512: 669df388c178aa2d3600ee143885698d8465d2d2cb61bc966b895e015be0d386ba7cac7b578bcb841191cd5b1ffec76c6ed44a4281e50a211e083c2315022435
+Description: 专注核心 80Hz/120Hz 调度的精简方案；适合不需要 Pro 扩展功能、注重流畅稳定与低负担的用户。支持 iOS 15.0 及以上。
+Name: RainFlow 120Hz
+Author: Rain
+
 Package: com.dao.appstoretroller
 Architecture: iphoneos-arm64e
 Version: 0.1.2
