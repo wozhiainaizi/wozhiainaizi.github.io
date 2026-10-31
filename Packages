@@ -744,6 +744,24 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/screenshellpro.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenshellpro/js.json
 
+Package: com.be-huge.floating-view
+Architecture: iphoneos-arm64e
+Version: 1.6.0-6
+Section: Tweaks
+Maintainer: be-huge
+Installed-Size: 3360
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.be-huge.floating-view_1.6.0-6_iphoneos-arm64e.deb
+Size: 1771730
+MD5sum: cba48e5bea1e58f68bdb28b3b73e4c23
+SHA1: 0036b0f68922138498230c48df959572383a651a
+SHA256: 7ebdbc67e7d398d824996928358c051d29eb5085e61865b96d23b52dde23fab4
+SHA512: 322ff4730dd8bbf49b69482acb7e879f91152014479be52dde52af955f1d2569c0314b9f8e64582d66c50220b84d4fbf7ecbb0af6df6902c701862fa94eeb783
+Description: 分屏，不必太复杂，一切从简即可。
+Name: floatingView
+Author: be-huge
+
 Package: com.squidforce.copyvault
 Architecture: iphoneos-arm64e
 Version: 1.9.0
