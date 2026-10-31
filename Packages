@@ -507,6 +507,24 @@ Author: Simon
 Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 
+Package: com.spark.snowboard.masks
+Architecture: iphoneos-arm64e
+Version: 1.2.2-Beta2-rootless
+Section: SnowBoard Extensions
+Maintainer: Spark
+Installed-Size: 340
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: debs/masks.deb
+Size: 25498
+MD5sum: f2ef5564c172743344f9c996a12cba74
+SHA1: 8c3c9b8c7392178018a7dbbe01d63ff7b8eb074e
+SHA256: a12c981a0dd17a78f3e744e88fde06bfe5e85fcef49faee05ba03e49e4328a45
+SHA512: 5acc2b6680babc88e3a0995dc90e9662c337de06805cea2fb97faf531630d3ced32affd0d41719102e32569078ed108c75521c94477d72a5ff737b15bf81bed8
+Description: Icon masks for SnowBoard
+Name: SnowBoard Icon Masks Extension
+Author: Spark
+
 Package: com.brend0n.nopassafterrespringsafe
 Architecture: iphoneos-arm64e
 Version: 0.0.3
@@ -565,6 +583,28 @@ Author: iOSign
 icon: https://huayuarc.github.io/icon/xc.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/photos/js.json
 Name: 相册增强
+
+Package: com.anthopak.quickprefs-rootless
+Architecture: iphoneos-arm64e
+Version: 1.3.3
+Section: Tweaks
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Filename: debs/quickprefs_1.3.3_e.deb
+Size: 528972
+MD5sum: 8059eef5a1b0799d49829617d7a7c643
+SHA1: 18c9a94d007e736f58e127828a7ca2290186fa27
+SHA256: 4b6b6352024d373119e33425e7f7bda8e67f9d8067777e72716486d3f1215bc5
+SHA512: db509a80b3ecbc0c9884da5f6291221b33c404a552abc72c3fa502ed287e79097783e1303b05322b308c6e90aeaef09391c03579efb9d1d4bbd11cd661afd872
+Homepage: https://repo.anthopak.dev
+Description: Quickly access settings prefs from 3D Touch Menu
+Name: QuickPrefs (Rootless)
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.quickprefs-rootless.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.quickprefs-rootless.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.quickprefs-rootless.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.quickprefs-rootless/icon.png
+Author: AnthoPak <anthopakdev@gmail.com>
 
 Package: com.minis.rainbowkeyboard.reborn
 Architecture: iphoneos-arm64e
@@ -639,6 +679,27 @@ Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
 Name: ShortBar
 Author: crctdd
 
+Package: com.spark.snowboard
+Architecture: iphoneos-arm64e
+Version: 1.5.37-Beta4-rootless
+Section: Tweaks
+Maintainer: Spark
+Installed-Size: 3268
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: debs/snowboard_1.5.37_e.deb
+Size: 2590388
+MD5sum: cd02a8ff59f63db3900c6ba97b4f677f
+SHA1: 0be8e6c4e9e76d70fd2306249c206611c084bf5a
+SHA256: ff73c1abee2c966e219136ddbc9325138df03688f51b8f8582e36d25c4f99945
+SHA512: 9ba96e1a6c1b559e70d0958346bd7b0d75ccfcdc24f2352050b71e530182ca4172f0e80b4fe7c4f0af27e6f013a27e22a7de5f9a969a8ea64197975936e9c9a7
+Description: Snowboard theming engine
+Name: SnowBoard
+Author: Spark & Dennis D. Bednarz
+
 Package: com.crctdd.stayalivelite
 Architecture: iphoneos-arm64e
 Version: 0.4.1
@@ -654,6 +715,23 @@ SHA256: 854f2626019702e59b7a93d3dfdb4bacbf53fba67987651b0121e5422d9c98b7
 SHA512: 1d5545aadcaf4ccdd5f3b697e222d40b18747f9f1848058392fe0236fc9748346db6a0259ec5dc95c31da79909139f4fae9e6ab3bb409589d3c2cba1669629e1
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Name: StayAlive Lite
+Author: crctdd
+
+Package: com.crctdd.taplink
+Architecture: iphoneos-arm64e
+Version: 0.0.6
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 960
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/taplink_0.0.6_e.deb
+Size: 146612
+MD5sum: aca5927aec1ccd01de3e3814875dfa25
+SHA1: 65585ee8c4477bc8d48a3503ec5a80d11b9e8118
+SHA256: 38687107acb939e1f5b4e56143aef1290a586b8174385d74601d9b5abfcfe8f0
+SHA512: 19c01a8725d76386f92332774933bdf1ce69bebf02f66930121df2b32447f461d830887439bdb9eb7164ab761e838f24d33611dfd42c2b2d3af236bd6de13021
+Description: 通过悬浮触发点，将点击映射到指定位置，内置多种触发结果。(支持iOS 15-17)
+Name: TapLink
 Author: crctdd
 
 Package: com.mtac.vitreux
@@ -713,4 +791,22 @@ Description: Lightweight system cleaner for rootless and roothide jailbreaks.
  can clean automatically on a schedule.
 Name: Voidy
 Author: xsxs18
+
+Package: com.huayuarc.zombiereaper
+Architecture: iphoneos-arm64e
+Version: 1.0.0-1+debug
+Section: Tweaks
+Maintainer: Mr_佳先生  ♥
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/zombiereaper_1.0.0-1_e.deb
+Size: 3568
+MD5sum: 4569b5b27b72de43a8c7e646c782ae09
+SHA1: 63dbab79ab05017fa26eedf7bab91b11fe7b5d38
+SHA256: 8ac7bd2936f46daea115746f1f1b7b8db235161a9b043d7da7622f07cb6b035b
+SHA512: b5de88678108343ecee6fd930a9a4e7be409f140851c28094fecb5159fbd6650d0ab6f60276caceb1419afc60c8f132b814987b84ffbc00538abe47398e965ce
+Description: Auto-reap zombie child processes for SpringBoard 后台每5秒自动清理SpringBoard产生的僵尸子进程，防止大量调用外部脚本后堆积僵尸进程、耗尽系统PID，避免后续命令无法正常拉起。仅作用于SpringBoard进程。
+Name: ZombieReaper 清理子进程
+Author: Mr_佳先生  ♥
+icon: https://huayuarc.github.io/icon/zombiereaper.jpg
 
