@@ -839,6 +839,22 @@ Description: Record your phone calls like never before.
 Name: TrollRecorder JB
 Author: Lessica <82flex@gmail.com>
 
+Package: com.opa334.trollstorelite
+Architecture: iphoneos-arm64e
+Version: 2.1.1-2
+Section: Applications
+Maintainer: opa334
+Installed-Size: 11424
+Filename: debs/TrollStore_Lite_RootHide_-2.1.1-2.deb
+Size: 3683204
+MD5sum: 21d1f0104f9fd8b7ee17ec29411538a8
+SHA1: 54f82d29003f2930093b0d580b9d369aafc576f4
+SHA256: 069804ccf2239098357d4f10ae0468196f616276fe3b45ea85624f5010aa8acf
+SHA512: aaa4b96a5561ecb3e620c27e2d3e1030598ea9b5a4433a1ce0f35f8cbd9c5bf8c8c8a500f8d86f58263e8b7f92c617ecb6f5740ae2651393a39f0ad4fe116104
+Description: A modified TrollStore by iosdump for jailbroken iOS
+Name: TrollStore Lite (RootHide)
+Author: opa334&iosdump
+
 Package: com.axs.tweakshub
 Architecture: iphoneos-arm64e
 Version: 5.2.0-88
