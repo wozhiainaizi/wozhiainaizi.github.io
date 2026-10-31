@@ -202,6 +202,27 @@ Description: CocoaTop64 进程查看，基于真皮版定制：中文翻译+UI�
 Name: CocoaTop64中文版
 Author: Domo, SXX
 
+Package: ellekit
+Architecture: iphoneos-arm64e
+Version: 1.2-3
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Breaks: com.opa334.libsandy (<= 1.1.6-3)
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Filename: debs/ElleKit-1.2-3.deb
+Size: 127496
+MD5sum: 2473c5e45b18fbb060dce0d12e141431
+SHA1: 47c2d19c67ea5189d5d75e67083fdd475b6e6e97
+SHA256: 741d3ffd332290c12b06a28f12e79443132203876d5539c7dd92ad18ab6a14d3
+SHA512: 048178e2d5ce5eca290740ebb43abf8e85c25d076ccf28fea3171d9c525064e07a61a5e6342af2dd5619a94313b03f20e6ce3a74950465ea8cbe3910aa6bf536
+Description: ElleKit tweak injection libraries and loader
+Name: ElleKit
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+
 Package: com.jaysuen.ccflex16
 Architecture: iphoneos-arm64e
 Version: 1.0.0-beta.1
@@ -366,6 +387,23 @@ Description: Launch ANY app instantly 通过插件激活出来的侧边栏，可
 Author: Jonathan Winger Lang <jontelang@gmail.com>
 Name: InstaLauncher 2 快捷应用
 icon: https://huayuarc.github.io/icon/Icon-small.png
+
+Package: oldabi
+Architecture: iphoneos-arm64e
+Version: 2.0.1+roothide-1
+Section: Tweaks
+Maintainer: Nightwind
+Installed-Size: 68
+Depends: ellekit (>= 0.4), cy+cpu.arm64e, firmware (>= 15.0)
+Filename: debs/Legacy_arm64e_Support-2.0.1_roothide-1.deb
+Size: 3230
+MD5sum: 0921bde066ba31af91cae0c698bfe9b4
+SHA1: e00af52776e864f70735fa70d28207504ebfb737
+SHA256: 5db6b7c544b6afe1dd719ca29caf0cfb0c869d2855f33662ad7fd68097b04af1
+SHA512: f214f752ebd6066907cd947307e0bc42b95e0b90f846bf748ce8b5db12da23eced2e060577446bdd27012c3ed5d3a519740adb28dd5ef69e2473d0273e838191
+Description: Support for legacy arm64e ABI in iOS 15.0+
+Name: Legacy arm64e Support
+Author: Nightwind
 
 Package: com.m4fn3.mikkyy
 Architecture: iphoneos-arm64e
