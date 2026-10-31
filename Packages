@@ -17,6 +17,23 @@ Description: 专注核心 80Hz/120Hz 调度的精简方案；适合不需要 Pro
 Name: RainFlow 120Hz
 Author: Rain
 
+Package: com.iosdump.airdrop
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/AirDrop-0.0.2.deb
+Size: 7432
+MD5sum: 3a9c44a88731f309908dafb3a90e6461
+SHA1: a583b2814d184c922cc58aea09159f9bc3721dc1
+SHA256: a1229d3c7e5d7bb4cb6c3de8d589013dfd6b52336e6947b351bd67ee35c0ab52
+SHA512: 5fdd5c216c2f662fb4f153333dc568dd8ecc07f04939180fd0471e18cd10ed477d4ac05942b54b0d40ec69b849c63de3b5d9cee4a05eb59e98859fb4ccf1b002
+Description: 解除隔空投送十分钟限制，支持设置自定义关闭时间，4秒内控制中心隔空投送连续点击两次所有人即可触发设置弹窗，支持iOS16.1.1+
+Name: AirDrop
+Author: iosdump
+
 Package: com.dao.appstoretroller
 Architecture: iphoneos-arm64e
 Version: 0.1.2
@@ -184,6 +201,26 @@ SHA512: 2fca811d6d88227f5daa6a06f97c9dce53b4b353fe7a621b1e843b2cfb0d26b859173227
 Description: CocoaTop64 进程查看，基于真皮版定制：中文翻译+UI微调+更新图标等。
 Name: CocoaTop64 中文版(Relaxin)
 Author: Domo, SXX
+
+Package: byg.iosios.net.freepip
+Architecture: iphoneos-arm64e
+Version: 0.0.6-2
+Section: 系统增强
+Maintainer: 搬运工
+Installed-Size: 440
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/FreePIP.deb
+Size: 55884
+MD5sum: 8738568f8c1552f10652543946ab0bdd
+SHA1: 9b5808941f4f6fa8c23f5eaab278eb7bf678ee93
+SHA256: 27fe3a05e334f03a2705e4a4d2bd3317d1c88bc0400ba81657cb96eda79f86c1
+SHA512: 5af06e6c18c023afa9a8d6197379a7b350b79db0798af89c024fee2dc02da65889c86742b6dcf90ce73eb3058547bb3887b97ec3143c3bcce66f2155e86c7b89
+Description: 系统画中画功能增强，基于开源，优化了一些代码，改进了一些细节，长按画中画窗口切换模式，灰色边框为自由模式(即随意放大缩小移动位置)，橙色边框为固定模式(即原生模式)，非常的好用，搬运工源，万古长青！
+Name: FreePIP画中画增强
+Author: Soh Satoh,SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: com.axs.ios16dao
 Architecture: iphoneos-arm64e
@@ -899,6 +936,48 @@ Author: iOSign
 icon: https://huayuarc.github.io/icon/xc.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/photos/js.json
 Name: 相册增强
+
+Package: byg.iosios.net.classickeyboardxs-rootless
+Architecture: iphoneos-arm64e
+Version: 1.1-9
+Section: 系统增强
+Maintainer: 搬运工
+Installed-Size: 1044
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/pkg_1793429119002.deb
+Size: 391124
+MD5sum: 916b1b39ad4241383a8f33501217e503
+SHA1: 4d54bf609e095e532fef277b2ff20e724461a6dc
+SHA256: e6bb71c03d768d0e2cc4e7d9d42bc21825fd499e8504e44fab0a0eed3a4189e2
+SHA512: f34dab98cbb700bb87e9ad2d60464220f4505f0116d6c466ce289f8d3c1769977db84c07c67cfd6cfef9c9a48905778a815ff5420c54d9d711e31a198087b4aa
+Description: 自定义X键盘底部高度，地球底部高度等，非常不错的一个插件，键盘低了，用起来很舒服，搬运工源，永久免费，大家多多推荐！
+Name: 原生键盘高度调整
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.cydiabc.pullclearnc-rootless
+Architecture: iphoneos-arm64e
+Version: 1.1-8
+Section: Fugu15
+Maintainer: Nets
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/pkg_1793429122919.deb
+Size: 9112
+MD5sum: e4284dfb021687c3ca72e778e15c4515
+SHA1: 60a6ce4250268857eba864deea8f28fc6deb2c19
+SHA256: b082b727b0c51301a63a9cefd2c0f088ac591b3be921dec8d042f98b6aef09c3
+SHA512: dc13e137916ce1b491d0684b0d81baebde31ea8daf8c1bdaf0343df770a98ed0a5abaa8807a41b0ae62e8f183b811ccf421fceb656bc8739675c08a12f76af99
+Description: 轻量级下拉清理通知，通知栏快速下拉即可清理
+A12: 1
+Name: PullClearNC清理通知-Rootless
+Author: Netskao
+Sponsor: Ai-小苹果™
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 16.png
 
 Package: com.mikey820.pleasedontstopthemusic
 Architecture: iphoneos-arm64e
