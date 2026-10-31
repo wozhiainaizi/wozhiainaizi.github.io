@@ -477,6 +477,23 @@ Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/System.png
 Icon2: 16.png
 
+Package: com.crctdd.autocopyverify
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 740
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/autocopyverify_0.0.5_e.deb
+Size: 77884
+MD5sum: 57577047708f37ac35850896edc2b82b
+SHA1: 19c0462ea790dafc10ed15bb38d3db986c1428e0
+SHA256: 1a220ff5406933c519d28f8a0924ca1d6513ad6ce1507cdf5dae9825b620d53e
+SHA512: 78ced1de28d2de623061843dfb63dfbb1b4d32b09608b75465e6b6ea06f67de63d7a3685b0214048a36334f9558a011822c4ec1b03a23cc74599d3823daaa21e
+Description: 自动复制短信、系统邮件、部分主流第三方邮件的验证码到剪切板，第三方邮件只能从临时通知框内获取，获取不到则无法复制；无设置项。（支持iOS 15-17）
+Name: Auto Copy Verify
+Author: crctdd
+
 Package: com.0xkuj.ccdnd
 Architecture: iphoneos-arm64e
 Version: 1.0.0
@@ -589,6 +606,24 @@ Name: DynamicNotLand隐藏灵动岛
 Author: Nathan
 Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+
+Package: cn.zqbb.hello.bundleid
+Architecture: iphoneos-arm64e
+Version: 1.6.1-5
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 10780
+Filename: debs/id_bundleid_1.6.1-5_e.deb
+Size: 2962200
+MD5sum: b7c82b74436c4f6f8d48a1c5e1ba4296
+SHA1: 03c10edd63dc35e68c584bdcd6538b2cca294aed
+SHA256: 90bb548545c8c7398cce4828ac8ffb79fca9902e943d0abea2bd55a4243af200
+SHA512: d0791077dccffaba52c2defcdb6beb0f47954187a541998d12aa35b3e0755bc3d9324199700cb5f307a21be106c1462f3c36f160e17954e546c872f522b6e118
+Description: 伪装越狱和巨魔应用，让商店应用更难检测越狱!
+Name: HelloBundleID
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.bundleid
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.bundleid
 
 Package: xyz.cypwn.immortalizer
 Architecture: iphoneos-arm64e
@@ -991,6 +1026,24 @@ Description: Lightweight system cleaner for rootless and roothide jailbreaks.
  can clean automatically on a schedule.
 Name: Voidy
 Author: xsxs18
+
+Package: com.sunshinesong.volume-manager
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: Tweaks
+Maintainer: sunshinesong
+Installed-Size: 1104
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/volume-manager_1.0.3.deb
+Size: 183678
+MD5sum: 723affea9238664eb6c417d6c148ec68
+SHA1: c00eee9500af65d3c59e17a34f6e7303ac00bf76
+SHA256: a05263afceb01977a3fe4ae5103a8fa99070ddafa08ff23c343cb3cfe73c2e29
+SHA512: f958610c11a707c0ed14ab67f6affdc0876e51300775fa38adaeef371c72c56b4488f75930ce5e563fc064b98fd649ee66a7fcd874177376354cc8d9c81d7c9b
+Description: 音量管理，就是这么简单。包含功能：混响、多元化音量。
+Name: VolumeManager
+Author: sunshinesong
 
 Package: com.huayuarc.zombiereaper
 Architecture: iphoneos-arm64e
