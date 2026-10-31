@@ -34,5 +34,5 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git checkout -B main
-          git add -A
+          git add -A -- ':!.github/workflows'
           if git diff --cached --quiet; then echo "索引无变化，跳过"; else git commit -m "chore: rebuild repo index" && git push -f origin main; fi
