@@ -508,23 +508,6 @@ Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Icon2: 16.png
 
-Package: com.dao.satella.cn
-Architecture: iphoneos-arm64e
-Version: 1.9.0
-Section: 嗨-汉化
-Maintainer: 妖刀
-Installed-Size: 152
-Depends: mobilesubstrate
-Filename: debs/Satella_-1.9.0.deb
-Size: 4272
-MD5sum: 6026cc79cb15753fd803ddda1e4c5a63
-SHA1: 4f0aee08dbc36405e7279975a5b969d9999aab9d
-SHA256: 96a5bb1543f30fdf40ebe0cdfed73bb79b2bfc723742120db8407c1c074b1d71
-SHA512: 9bf02afd603d96dd58d194f29ce8d5d099f3c3287e8f5295454878701f8b6020efa0df6369d77e95e3dcf88bbab5fea0994934ec4b4e0217efeba8a238b65abe
-Description: Satella 简体中文包(RootHide)。
-Name: Satella 简体中文包(RootHide)
-Author: 妖刀
-
 Package: com.sini921.smoothinstall
 Architecture: iphoneos-arm64e
 Version: 0.0.1-1
