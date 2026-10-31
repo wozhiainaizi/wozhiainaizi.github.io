@@ -597,6 +597,23 @@ Description: 内置离线版，在16系统隐根状态测试正常，其他系�
 Name: TrollOpen
 Author: 一刀
 
+Package: wiki.qaq.trapp.jb
+Architecture: iphoneos-arm64e
+Version: 4.7.5-3677
+Section: Applications
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 65808
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.libsandy
+Filename: debs/TrollRecorder_JB-4.7.5-3677.deb
+Size: 16782310
+MD5sum: bf8c6784470d2cf7bac07f36c95897b2
+SHA1: 54c72c9c36854cb0126ac8144b55a1b2fa27291f
+SHA256: d96f8d0c510a6f66099780c7d8853fff70756a75aaaf719df21203fc38c50c3e
+SHA512: 1b97a8b51b5b3c48ffeaa29db7be43e7465631f16810fa63c2e4f215a55d6fdade76599ba7c1beeb55b9eb2282d7e035f8748d63a2055e569af43d48b8d884fd
+Description: Record your phone calls like never before.
+Name: TrollRecorder JB
+Author: Lessica <82flex@gmail.com>
+
 Package: com.axs.tweakshub
 Architecture: iphoneos-arm64e
 Version: 5.2.0-88
