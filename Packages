@@ -88,6 +88,25 @@ Description: 漂亮的定时器和闹钟提醒，根据开源编译。
 Name: BetterAlarm中文版
 Author: NoisyFlake
 
+Package: com.wkk.ccdnd
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 180
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.opa334.ccsupport
+Filename: debs/CCDND-1.0.deb
+Size: 14188
+MD5sum: e01dcd9ea76dbc45e0acef8485a4687f
+SHA1: 5fc519388ab309de10c1285536762cc73dfe728f
+SHA256: 390a70d78e7abbedb69fa6e41a1ba0e9319e0f7f0b7c5ab80c77ab256024e92b
+SHA512: b68a3db62e083783f57a478c580e1864a3330fad4bf57b27f8631ccf9baead59679d88b7a97b7a86b8099ca5fa16f91f136d14a1b1a1350669aaf6884020ee9d
+Description: 控制中心勿扰模式单模块。
+Name: CCDND
+Author: 0xkuj
+Icon: https://s1.imagehub.cc/images/2025/01/01/3db11086ea6cf08a97f71f69e0dd03df.png
+
 Package: com.cydia.love.backgrounderaction15-rootless
 Architecture: iphoneos-arm64e
 Version: 0.1.0
@@ -906,24 +925,6 @@ SHA512: 78ced1de28d2de623061843dfb63dfbb1b4d32b09608b75465e6b6ea06f67de63d7a3685
 Description: 自动复制短信、系统邮件、部分主流第三方邮件的验证码到剪切板，第三方邮件只能从临时通知框内获取，获取不到则无法复制；无设置项。（支持iOS 15-17）
 Name: Auto Copy Verify
 Author: crctdd
-
-Package: com.0xkuj.ccdnd
-Architecture: iphoneos-arm64e
-Version: 1.0.0
-Section: Tweaks
-Maintainer: 0xkuj
-Installed-Size: 180
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: com.opa334.ccsupport
-Filename: debs/ccdnd_1.0_iphoneos-arm64e.deb
-Size: 11448
-MD5sum: 1e6b3c00325816a7d7fa04e133f1d546
-SHA1: 8016ef36b5873b9e340c8e2100c4a9e64e1b80b1
-SHA256: e2dac1c5977565b7d43a81b87ccb3d2f7784a868e4b152e9d476eb6409cb7c16
-SHA512: 64ecfd4cd940179d2c39a711a3121d7f7a7995c6741c38832083249cbc35014b1093ec1e3b517288ab60ec98c4faa03438b815c5a4abc84f272eef1fb7b4105e
-Description: Single DND Toggle for iOS 16
-Name: CCDND
-Author: 0xkuj
 
 Package: cn.llld.urljg.roothide
 Architecture: iphoneos-arm64e
