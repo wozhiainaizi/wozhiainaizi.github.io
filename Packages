@@ -445,7 +445,7 @@ SHA1: bd33101644c69f5707ee62eba1f05a8814d2e112
 SHA256: 40d6d8f741fea6076fef988b829e55253a479823ff31f4031e66af05b0ca2c41
 SHA512: d88781f0e2c6a281e0b3dba8badd64a4ba255433ac52cf16e10a590822aa5674aa2f360eb020f52776e734934f2d7d26eeb7ceeb1aadaa26b327d534b891bda6
 Description: 本插件功能：让你的音量键和电源键每按一次，在手机屏幕里显示动画效果，这是模仿iOS18的一个功能，还可以自定义按钮动画的大小，喜欢的小伙伴们可以试试，感谢M哥汉化插件，搬运工源全体员工向你表示感谢！
-Name: PopOutButtons按钮动画-Rootless
+Name: PopOutButtons按钮动画
 Author: tesla_man
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -1338,7 +1338,7 @@ SHA1: 241b637a66ccc026373a91203fa5939a675d4c04
 SHA256: 1ff09ac16907acbd9d4f585fdad06d00e1476484c9665c828bcf50e30fed7838
 SHA512: 04b68c46df6b6df62911d3c888ab6896722fe953698928d395cada50fba4d67d46927fb0f9df22e28bb49bd0fa353a295a112eddb8a96846ab29f8ddaa123f0e
 Description: PanCake 简体中文包(rootless)。
-Name: PanCake 简体中文包(rootless)
+Name: PanCake简体中文包
 Author: Ball <ball@hackcn.net>
 
 Package: com.anthopak.pancake-rootless
@@ -1356,7 +1356,7 @@ SHA256: 456254f97dfa1c64a16fa921fa4776087d5cf85ca6fcf9cadbd392cdd24b7345
 SHA512: 24bfea6629ef4121240dc79e5eab3120830e232d47c83c1844f7b03a4177481967533c2d0353be4778f1dfe2b011f910b0a9491843ad494a82908774158a33a9
 Homepage: https://repo.anthopak.dev
 Description: Interactive dismiss gesture on the whole screen in all apps and ability to restore previous page
-Name: PanCake (Rootless)
+Name: PanCake
 Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.pancake-rootless.php
 SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
 ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
