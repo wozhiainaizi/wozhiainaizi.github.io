@@ -16,7 +16,7 @@ gen_hashes(){ local alg="$1"; shift; local f; for f in "$@"; do [ -f "$f" ] || c
   local size; size=$(wc -c < "$f" | tr -d ' '); local h;
   case "$alg" in md5) h=$(md5sum "$f"|awk '{print $1}');; sha256) h=$(sha256sum "$f"|awk '{print $1}');; esac
   printf ' %s  %s %s\n' "$h" "$size" "$f"; done; }
-{ echo "Origin: 暗影大人"; echo "Label: 暗影大人"; echo "Suite: stable"; echo "Version: 1.0";
+{ echo "Origin: - 暗影大人"; echo "Label: - 暗影大人"; echo "Suite: stable"; echo "Version: 1.0";
   echo "Codename: ios"; echo "Architectures: iphoneos-arm64 iphoneos-arm64e"; echo "Components: main";
   echo "Description: 暗影大人 的越狱软件源"; echo "Support: https://wozhiainaizi.github.io/";
   echo "MD5Sum:"; gen_hashes md5 Packages Packages.gz; echo "SHA256:"; gen_hashes sha256 Packages Packages.gz; } > Release
