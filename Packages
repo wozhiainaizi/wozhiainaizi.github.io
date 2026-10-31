@@ -619,6 +619,24 @@ Name: ScreenCore
 Author: SuSu
 Icon: https://repo.susubaby.cn/icons/ScreenCore.png
 
+Package: com.susudear.sharingdalertwatchdog
+Architecture: iphoneos-arm64e
+Version: 1.0.8
+Section: Tweaks
+Maintainer: SuSuDear
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/SharingdAlertWatchdog-1.0.8.deb
+Size: 11704
+MD5sum: e8e9e8ec350a6e89664228c2279a3aa8
+SHA1: ad0d3701c26c7d173f9f66c023e94de2446a78e3
+SHA256: 0f91d992e7e98a792a06c1b092cb21e2c7944960dab45fb968c7d23ebfc2ee66
+SHA512: 23232822580dc1217d8a36d762ebc4a18ab8080aeebe0a7520b72af8b948200c474c8ea69a6fbd4852f5754c249ea71efaefd451e63fb24049a67e440e15c8bb
+Description: 各位开发者是否遇到了 Airdrop 投送后，移动端无法出现菜单，界面卡住崩溃？那试试SharingdAlertWatchdog 吧，他或许可以解决你的困扰
+Name: SharingdAlertWatchdog
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/airdrop.png
+
 Package: com.sini921.smoothinstall
 Architecture: iphoneos-arm64e
 Version: 0.0.1-1
