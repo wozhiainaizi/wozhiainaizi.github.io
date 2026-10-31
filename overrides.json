@@ -14,5 +14,11 @@
   "icleanerpro_7.10.0-1_e.deb": { "name": "iCleaner Pro系统清理正版" },
   "pancake.deb": { "name": "PanCake简体中文包" },
   "pancake_2.3_e.deb": { "name": "PanCake" },
-  "PopoutButtons.deb": { "name": "PopOutButtons按钮动画" }
+  "PopoutButtons.deb": { "name": "PopOutButtons按钮动画" },
+  "pkg_1793429122919.deb": { "name": "PullClearNC清理通知" },
+  "SmoothInstall(roothide)-0.0.1-1.deb": { "name": "SmoothInstall" },
+  "stella_1.1.5.deb": { "name": "Stella中文版" },
+  "TVLock-1.2.3.deb": { "name": "TVLock" },
+  "rainbowkeyboard.reborn_1.0.8_e.deb": { "name": "彩虹键盘光效" },
+  "RecordAnvwhere.deb": { "name": "RecordAnywhere 锁屏录屏" }
 }
