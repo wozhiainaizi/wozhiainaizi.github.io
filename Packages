@@ -49,7 +49,7 @@ SHA1: f057380b9e2b59cf2fdf57d99f4c3fdcbe04eaf3
 SHA256: 824f91323d753feaf50e131bfdf6b08851090f2d20be7835f50731e4a68507c7
 SHA512: 7e1200f13b842f5e0a6a90fb01fe5d1aa312caf70d1a593142c5740839e96a7ccfa4d2f1b7d2b1a5f4b5db5e21e56a4a1d8e6cb2d375548927e8d7fa8bea6888
 Description: 伪装成合适的iOS版本，并获取需高iOS版本的应用。
-Name: AppStoreTroller(RootHide)
+Name: AppStoreTroller
 Author: Mineek
 
 Package: com.dao.betteralarm
@@ -67,7 +67,7 @@ SHA1: 1d8c623d1f76acb8e63852ca89b5c3c9e5fb90f0
 SHA256: 1713fb015b3cc1b70f065120027dcf2e31ed7e6280e79e7546d674700bb922c2
 SHA512: 5ce660b7b9ecba08d2eca6ea3001b08951db1144999b898d75339e6bcfbead9d3adcd43575e333cc99a9a165b58834f822e260a1f241fc32122eb2c135a65dbb
 Description: 漂亮的定时器和闹钟提醒，根据开源编译。
-Name: BetterAlarm中文版(RootHide)
+Name: BetterAlarm中文版
 Author: NoisyFlake
 
 Package: com.cydia.love.backgrounderaction15-rootless
@@ -219,7 +219,7 @@ SHA1: 3032199d9297d0283cb5c7380e15db1755f5a08a
 SHA256: 1aa8f66455bf5452d303bb04f5a0387697f75457c77f8fa279ef602ea270148a
 SHA512: eff5c630dd7da987206014dea202127a18b1c209de6dffa7bd9e7c90645c33b5b0c2f1070966fc86f62ab4cd86605febe4518d52342d1045657056accdf19d12
 Description: A modern, resizable and highly customizable Control Center for iOS 16.
-Name: EvoCenter16
+Name: EvoCenter16控制中心
 Author: JaySuen
 
 Package: byg.iosios.net.freepip
@@ -811,7 +811,7 @@ SHA256: 1216a8ea94b2e5c6701d6370801071520f5ed1da1301e9022ce073250d1bfe04
 SHA512: 064b789bbfef8ba1ab22ff9327bc66f75f588336d76070294f2b2da52d4a24888c75c0b63370319dc13fdd2b3475f551fcef33e9bbbf36874c222d0a79fbe42d
 Description: AppData在桌面图标上滑动或长按菜单呼出面板，查看并管理任意应用的沙盒数据、权限、缓存与运行状态，具体功能和更新内容请在AppData设置界面查看
 A12: 1
-Name: AppData应用数据-Rootless
+Name: AppData应用数据
 Author: Ai-小苹果™&Fouad Raheb
 Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/System.png
@@ -1144,7 +1144,7 @@ SHA256: 6f25934c30e6fe7457be14211987ebb38950b2fa0ca42abfea7121cdf4cd3177
 SHA512: c1941c0381450eb937e3d7563e5cb37b7e4857d18ef9b15c1cd0ddacac957281e24895aab960d4fda49f91f6dbd39df12b376bd2a170abb77fcd58bd6e466338
 Description: iOS系统 垃圾清理 & 插件管理工具，此版本为正版，需搭配iCleanerPro【破解补丁】使用，如提示激活国行自行解决联网问题，推荐插件：3DNetworkFixer修复联网
 A12: 1
-Name: iCleaner Pro系统清理【正版】-Rootless
+Name: iCleaner Pro系统清理正版
 Author: Ivano Bilenchi
 Sponsor: Ai-小苹果
 Icon: file:///Applications/Cydia.app/Sections/Utilities.png
@@ -1482,7 +1482,7 @@ SHA256: 4b6b6352024d373119e33425e7f7bda8e67f9d8067777e72716486d3f1215bc5
 SHA512: db509a80b3ecbc0c9884da5f6291221b33c404a552abc72c3fa502ed287e79097783e1303b05322b308c6e90aeaef09391c03579efb9d1d4bbd11cd661afd872
 Homepage: https://repo.anthopak.dev
 Description: Quickly access settings prefs from 3D Touch Menu
-Name: QuickPrefs (Rootless)
+Name: QuickPrefs
 Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.quickprefs-rootless.php
 SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.quickprefs-rootless.json
 ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.quickprefs-rootless.json
@@ -1768,6 +1768,7 @@ Description: 通过悬浮触发点，将点击映射到指定位置，内置多�
 Name: TapLink
 Author: crctdd
 
+Name: URL Scheme Guard Core
 Package: com.doimty.urlschemeguard
 Architecture: iphoneos-arm64e
 Version: 0.5.6
