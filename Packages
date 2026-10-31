@@ -974,6 +974,44 @@ Description: 分屏，不必太复杂，一切从简即可。
 Name: floatingView
 Author: be-huge
 
+Package: com.kernelrw.adytum
+Architecture: iphoneos-arm64e
+Version: 3.0
+Section: Tweaks
+Maintainer: Kernelrw <drtramadolmorphine@gmail.com>
+Installed-Size: 2757
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist, com.opa334.ccsupport, preferenceloader
+Conflicts: com.sergy.immortalizer, com.sergy.immortalizerjailed, com.sergy.immortalizers, com.dao.immortalizer, com.evgeniy.immortalizerreborn, xyz.cypwn.immortalizer
+Filename: debs/com.kernelrw.adytum_3.0_iphoneos-arm64e.deb
+Size: 787018
+MD5sum: 64da4f7eaed056eb80875a53f04cf87e
+SHA1: 8311cfa2d4f969f3f57cb4d9d3feff24a8d85c6a
+SHA256: 09b1f8ed7a4878a976c668c8f0d110b815fdbe67e4eb738f0de72d799b4cea0c
+SHA512: cce4c91e2376752d08c4b219453a95db4ce74bae71acb16335d878eaac15e999ae51cb4d1211956780a903006d5845adeddd53d31116fcf8996cda4cacf9e27b
+Description: True application backgrounding management.
+Tag: compatible_min::ios15.0
+Author: Kernelrw <drtramadolmorphine@gmail.com>
+Name: Adytum
+Icon: https://img.chariz.cloud/icon/adytum/icon@3x.png
+Depiction: https://chariz.com/get/adytum
+
+Package: com.yourepo.ok95.gif
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: liuf <kk99588077@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.yourepo.ok95.gif_1.0.0_iphoneos-arm64e.deb
+Size: 20418
+MD5sum: 8f20bc228d51e750444553564b751656
+SHA1: 0f6815f00babe127b2d377cd1597d0ffd51d68f4
+SHA256: ef9b7cd69d93479b7dd7967e3b6959c48a406f840a2fab308e885f2453bfda6b
+SHA512: 58e6047adba02c53912342fe2176f03f183415f952d4dc4020314bbbf0af7069d73c2c4a9a39b54afdd0b72210930134bd4e0bf993d75ea1e69fc873694da23f
+Description: 灵动岛GIF背景 i!
+Name: 灵动岛GIF背景
+Author: liuf <kk99588077@gmail.com>
+
 Package: com.squidforce.copyvault
 Architecture: iphoneos-arm64e
 Version: 1.9.0
