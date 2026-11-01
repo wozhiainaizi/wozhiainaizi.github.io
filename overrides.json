@@ -94,5 +94,17 @@
   },
   "com.cydia.love.volume-manager-rootless_1.0.3_iphoneos-arm64e.deb": {
     "name": "VolumeManager 音量管理"
+  },
+  "Allow_Network-Rootless-0.0.1.deb": {
+    "name": "Allow Network"
+  },
+  "cn.llld.urljg.roothide_1.1.0_iphoneos-arm64e.deb": {
+    "name": "URL 管家"
+  },
+  "灵动通知iOS16-正式版_RootHide_-1.4.0.deb": {
+    "name": "灵动通知iOS16-正式版"
+  },
+  "电话助手iOS16-正式版_Roothide_-3.3.1.deb": {
+    "name": "电话助手iOS16-正式版"
   }
 }
