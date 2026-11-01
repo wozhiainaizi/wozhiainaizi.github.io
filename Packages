@@ -2000,6 +2000,27 @@ Name: AmbientBadge
 Author: Banana
 icon: https://huayuarc.github.io/icon/AmbientBadge.png
 
+Package: jp.dcsyhi.culprit
+Architecture: iphoneos-arm64e
+Version: 1.0.1-zh
+Section: 红尘琐事
+Maintainer: 灰灰 (汉化维护)
+Installed-Size: 500
+Depends: firmware (>=15.0)
+Filename: debs/jp.dcsyhi.culprit_1.0.1-zh_iphoneos-arm64e.deb
+Size: 157104
+MD5sum: c8f2b763b5741e0bbd5e2a4e57439f56
+SHA1: d74b0316c1f31842838ca2f9f826470429c1b8dd
+SHA256: c5739b6ec5da98b750edd675642d7c79d0202f7cd7329fb41a7afe6588c3ff6d
+SHA512: 51595a2e4c08afc1bf1d6ee09249e7d83e30acfffae1fa25f82286348e9b34ebd38d4ed06940ce9fc8c3f0bff4ec376d33b006dd0ac3fd807b037662582822f6
+Description: 按进程分组查看崩溃报告，点开可看概要、崩溃栈、工程摘要和 .ips 全文。中文汉化：灰灰 与 MIAO。配色与排版参考 slog (Ethan Arbuckle, https://github.com/EthanArbuckle/slog)。
+Name: Culprit
+Depiction: https://dcsyhi1998.github.io/depiction/Culprit.html
+SileoDepiction: https://dcsyhi1998.github.io/Sileodepiction/Culprit.json
+Icon: https://dcsyhi1998.github.io/icons/Culprit/Culprit.png
+Author: Dcsyhi
+Translator: 灰灰 与 MIAO (=^･ω･^=)
+
 Package: com.spark.snowboard.masks
 Architecture: iphoneos-arm64e
 Version: 1.2.2-Beta2-rootless
