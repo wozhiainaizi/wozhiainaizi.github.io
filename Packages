@@ -35,6 +35,45 @@ Author: Netskao
 Icon: https://axs66.github.io/pro/icon/filza.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/filzacrack/js.json
 
+Package: com.jontelang.snapper3
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Section: 初入仙途
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/snapper3_1.2.1.deb
+Size: 2269722
+MD5sum: 9aac52ee8dc5c0068890928e2b216868
+SHA1: 493332127ff1f89d8b39c900b14d435b9076ffe7
+SHA256: 6eecb228f1f1b21e1e7924de718490837bbdf3bc48c722949ff65521344f64af
+SHA512: d34c446766cb84931c8a3713fe134d413768752b41eca707e8ba62b020f5440bd2a42c1a0fee70cfbfd463d25b2263d53a98c3d441cb37481e4a3189802181af
+Description: Pin screenshots on the screen.
+Name: Snapper 3
+Author: Jonathan Winger-lang
+
+Package: com.sini921.thexforsnapper3
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: 初入仙途
+Maintainer: theX
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin
+Filename: debs/snapper3图片替换.deb
+Size: 100234
+MD5sum: 2f6176086e095741d54f25fd9bea8fa5
+SHA1: 7bf0ee58240d8193d7f91d66b06450d00cda8f60
+SHA256: a16b22c6617d75a7fc584ceb1dc647b0b8a44ac586370966990b679d50ab07b0
+SHA512: 9dd9282850fb8e06b198847f56cfa0fec7beea1be9ab26a34948a6ad6c22bbdfd1c9980a1ededd63749c046bf3c76858f3a60c470866f867c390c9ac217dae5a
+Description: 季伯仰备份
+Name: Snapper 3 霓虹蓝发光效果主题
+Author: theX
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/thexforsnapper3/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
+
 Package: com.squidforce.squidextender
 Architecture: iphoneos-arm64e
 Version: 3.7.4
@@ -88,7 +127,7 @@ SHA1: 3b47e3657cb28ebe1e844368cf27ea21e54cb119
 SHA256: 54c0e9acf212090b072bf8a5a397648b5563cd0875b6094146d84550d3d66a8d
 SHA512: 669df388c178aa2d3600ee143885698d8465d2d2cb61bc966b895e015be0d386ba7cac7b578bcb841191cd5b1ffec76c6ed44a4281e50a211e083c2315022435
 Description: 专注核心 80Hz/120Hz 调度的精简方案；适合不需要 Pro 扩展功能、注重流畅稳定与低负担的用户。支持 iOS 15.0 及以上。
-Name: RainFlow 120Hz
+Name: 120Hz RainFlow
 Author: Rain
 
 Package: com.lenglengyu.ghallownetwork-rootless
@@ -327,7 +366,7 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.mnt.png
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.mnt
 
-Name: Hello 120Hz
+Name: 120Hz Hello
 Package: cn.zqbb.fix120hz
 Architecture: iphoneos-arm64e
 Version: 3.3.3-5
@@ -405,7 +444,7 @@ SHA256: b96bfa462178b034897400cec04cdbd334a27453f8582f6738de0dc6e7c741ff
 SHA512: a11a5a4daaf01a7547860465610080f8a0e873016007d24354cc82d1e23591e4b156b886226ef990343f92eaffe0d6061bff40e8fdecb92ef93d92acfe0bb040
 Description: High-refresh policy tweak for supported iPhone Pro models, with app and system refresh requests and a persistent SpringBoard keepalive.
 Tag: supports::roothide
-Name: ProMotion 120Hz
+Name: 120Hz ProMotion
 Author: doimty
 
 Package: com.susudear.screencore
@@ -622,10 +661,44 @@ Description:
  - Unlock dynamic refresh rate from 80hz to 120hz
  - .
  - 解锁动态刷新率80hz到120hz.
-Name: Hello 120Hz
+Name: 120Hz Hello
 Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
+
+Package: com.aptzh
+Architecture: iphoneos-arm64e
+Version: 1.3-3+debug
+Section: 本命法器
+Maintainer: Custom
+Installed-Size: 240
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.aptzh_1.3-3_debug_iphoneos-arm64e.deb
+Size: 29372
+MD5sum: e42eddc902294bacc1e4da61a4c4bc5e
+SHA1: cf050ebe007fe7e87781848a02f4e9511ff6d8e5
+SHA256: 0275c663a69dc4a1bdc0b4ec04c53ebab141941a5d1869c1de622c0969a4457b
+SHA512: 998207b7c6a0cbcf720ee6fcdcd8edda65f864541b83810a0cf4206f56bef808f62f5be40b13725b57cf18afc3e43dbbde74e6db1e0a5924b7eb2112dd1d2529
+Description:  Sileo软件源刷新、dpkg安装日志完整汉化，覆盖全部报错与输出文本
+Name: Sileo 汉化
+Author: Custom
+
+Package: com.hades.locktouchx
+Architecture: iphoneos-arm64e
+Version: 2.3
+Section: 本命法器
+Maintainer: hades
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.hades.locktouchx_2.3_iphoneos-arm64e.deb
+Size: 17176
+MD5sum: 9be4251cf3b3839081535691c2e0a70d
+SHA1: 852533059b5bc1e5059f75283081e4ca900ec452
+SHA256: 8ef9a6e6f68f7480f317b99f27f66195a8419b39fab8c5bb4a3f242769cfc8c7
+SHA512: ccbb19e1ad00652fc193198ee18817d70c94466a8ab489a5ccb7ad13d410ac42fdf7d6930c71c33b88dbf1bc3693f70bb0e0bdcca39e1112a7631ee27050e3c4
+Description: 为 App (文件夹) 添加生物识别锁（Touch ID / Face ID），点击受保护 App (文件夹) 需认证；长按 App (文件夹) 菜单开启/关闭。
+Name: LockTouchX
+Author: hades
 
 Package: com.squidforce.copyvault
 Architecture: iphoneos-arm64e
@@ -769,6 +842,23 @@ SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/2874
 Icon: https://repo.cypwn.xyz/packages/Immortalizer-Rootless/icon.png
 Name: Immortalizer
 Author: sergy
+
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64e
+Version: 0.1.38.1
+Section: 本命法器
+Maintainer: doimty
+Installed-Size: 780
+Depends: firmware (>= 15.0)
+Filename: debs/insulation_0.1.38.1_e.deb
+Size: 57024
+MD5sum: 548758f431fed3ae2df216bb491d6c62
+SHA1: fd40899f9d37489c30a01a79d245d80c20af9f45
+SHA256: 75d9920232145bae39c8a3217091e8cb3dec60d0074df265fbfa86a7d44e19c9
+SHA512: faec1fb9a37f317941c6c17f743fbfa1886eb3454de2e9b4c76c1e5f39e61d4f596800d72c8fb316d48c4db429164c43d5e8c5e7dfbd85b6b57b061795f17972
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
+Name: CPU insulation
+Author: be-huge & doimty
 
 Package: com.cydia.love.lindongdaodonhua-rootless
 Architecture: iphoneos-arm64e
@@ -959,6 +1049,23 @@ SHA256: 2854dcf8ca2e5bc74878d059692a1225e4fa4b6fc5cc663b2ebe8ada739dcf82
 SHA512: 999665fe3fa0cd48766ad4b95889ef17f71c1dbb52d9333c3c60039269d7ffd5beee71ac20010a8db2821f3b7ce50f52c94d0ed6a7359fd5d3aff20fc76b8d04
 Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
 Name: ShortBar
+Author: crctdd
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.4.1
+Section: 本命法器
+Maintainer: crctdd
+Installed-Size: 1272
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/stayalivelite_0.4.1_e.deb
+Size: 188524
+MD5sum: 3fab3c10374a4ebd001a8e7bd10dedc0
+SHA1: 8a46cf937c6c39efcb292b9209967bf812d24eb1
+SHA256: 854f2626019702e59b7a93d3dfdb4bacbf53fba67987651b0121e5422d9c98b7
+SHA512: 1d5545aadcaf4ccdd5f3b697e222d40b18747f9f1848058392fe0236fc9748346db6a0259ec5dc95c31da79909139f4fae9e6ab3bb409589d3c2cba1669629e1
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
 Author: crctdd
 
 Package: com.crctdd.taplink
@@ -1204,6 +1311,27 @@ Tag: role::developer
 Name: libSandy
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
 Author: opa334
+
+Package: org.coolstar.libhooker
+Architecture: iphoneos-arm64e
+Version: 1.6.9-11+roothide
+Priority: optional
+Section: 筑基炼气
+Maintainer: libhooker roothide port contributors
+Installed-Size: 892
+Provides: ellekit (= 1.2-3), mobilesubstrate (= 99)
+Depends: firmware (>= 16.0), firmware (<< 18.0), roothide
+Conflicts: ellekit, mobilesubstrate, com.ex.substitute, science.xnu.substitute, com.saurik.substrate.safemode
+Replaces: ellekit, mobilesubstrate, com.ex.libsubstitute
+Filename: debs/libhooker_1.6.9-11_roothide_iphoneos-arm64e.deb
+Size: 49948
+MD5sum: 89afcfb8ad6c56c2a5e64d35598eaacb
+SHA1: d3091ab61ce5dc2de6b5bc852138180e997d7da0
+SHA256: f748eebb42a5e7d8a595e49ef56c74b76810482403e70493a59f071bcd473260
+SHA512: 9fcbad4c94f6fbc7abb1dbb974ca835a1f4fd97cbebcad55575a411d03921b6149bf9b5e25658491d3deedf08c9a6437bb380c3c2be6f1519bc3a40394086d31
+Description: libhooker engine, tweak loader and safe mode for iOS 16+ roothide
+Name: libhooker 微调加载器
+Author: CoolStar and contributors
 
 Package: rootless-compat
 Architecture: iphoneos-arm64e
@@ -1678,23 +1806,6 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.quick.panel.png
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.quick.panel
 
-Package: com.aptzh
-Architecture: iphoneos-arm64e
-Version: 1.3-3+debug
-Section: 红尘琐事
-Maintainer: Custom
-Installed-Size: 240
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.aptzh_1.3-3_debug_iphoneos-arm64e.deb
-Size: 29372
-MD5sum: e42eddc902294bacc1e4da61a4c4bc5e
-SHA1: cf050ebe007fe7e87781848a02f4e9511ff6d8e5
-SHA256: 0275c663a69dc4a1bdc0b4ec04c53ebab141941a5d1869c1de622c0969a4457b
-SHA512: 998207b7c6a0cbcf720ee6fcdcd8edda65f864541b83810a0cf4206f56bef808f62f5be40b13725b57cf18afc3e43dbbde74e6db1e0a5924b7eb2112dd1d2529
-Description:  Sileo软件源刷新、dpkg安装日志完整汉化，覆盖全部报错与输出文本
-Name: Sileo 汉化
-Author: Custom
-
 Package: com.axs.screenshellpro
 Architecture: iphoneos-arm64e
 Version: 5.2.0-61
@@ -1757,23 +1868,6 @@ Name: VolumeManager 音量管理
 Author: sunshinesong
 Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
 Icon: file:///Applications/Cydia.app/Sections/System.png
-
-Package: com.hades.locktouchx
-Architecture: iphoneos-arm64e
-Version: 2.3
-Section: 红尘琐事
-Maintainer: hades
-Installed-Size: 204
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.hades.locktouchx_2.3_iphoneos-arm64e.deb
-Size: 17176
-MD5sum: 9be4251cf3b3839081535691c2e0a70d
-SHA1: 852533059b5bc1e5059f75283081e4ca900ec452
-SHA256: 8ef9a6e6f68f7480f317b99f27f66195a8419b39fab8c5bb4a3f242769cfc8c7
-SHA512: ccbb19e1ad00652fc193198ee18817d70c94466a8ab489a5ccb7ad13d410ac42fdf7d6930c71c33b88dbf1bc3693f70bb0e0bdcca39e1112a7631ee27050e3c4
-Description: 为 App (文件夹) 添加生物识别锁（Touch ID / Face ID），点击受保护 App (文件夹) 需认证；长按 App (文件夹) 菜单开启/关闭。
-Name: LockTouchX(RootHide)
-Author: hades
 
 Package: com.kernelrw.adytum
 Architecture: iphoneos-arm64e
@@ -1870,44 +1964,6 @@ Name: HelloBundleID
 Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.bundleid
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.bundleid
-
-Package: com.be-huge.insulation
-Architecture: iphoneos-arm64e
-Version: 0.1.38.1
-Section: 红尘琐事
-Maintainer: doimty
-Installed-Size: 780
-Depends: firmware (>= 15.0)
-Filename: debs/insulation_0.1.38.1_e.deb
-Size: 57024
-MD5sum: 548758f431fed3ae2df216bb491d6c62
-SHA1: fd40899f9d37489c30a01a79d245d80c20af9f45
-SHA256: 75d9920232145bae39c8a3217091e8cb3dec60d0074df265fbfa86a7d44e19c9
-SHA512: faec1fb9a37f317941c6c17f743fbfa1886eb3454de2e9b4c76c1e5f39e61d4f596800d72c8fb316d48c4db429164c43d5e8c5e7dfbd85b6b57b061795f17972
-Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
-Name: insulation
-Author: be-huge & doimty
-
-Package: org.coolstar.libhooker
-Architecture: iphoneos-arm64e
-Version: 1.6.9-11+roothide
-Priority: optional
-Section: 红尘琐事
-Maintainer: libhooker roothide port contributors
-Installed-Size: 892
-Provides: ellekit (= 1.2-3), mobilesubstrate (= 99)
-Depends: firmware (>= 16.0), firmware (<< 18.0), roothide
-Conflicts: ellekit, mobilesubstrate, com.ex.substitute, science.xnu.substitute, com.saurik.substrate.safemode
-Replaces: ellekit, mobilesubstrate, com.ex.libsubstitute
-Filename: debs/libhooker_1.6.9-11_roothide_iphoneos-arm64e.deb
-Size: 49948
-MD5sum: 89afcfb8ad6c56c2a5e64d35598eaacb
-SHA1: d3091ab61ce5dc2de6b5bc852138180e997d7da0
-SHA256: f748eebb42a5e7d8a595e49ef56c74b76810482403e70493a59f071bcd473260
-SHA512: 9fcbad4c94f6fbc7abb1dbb974ca835a1f4fd97cbebcad55575a411d03921b6149bf9b5e25658491d3deedf08c9a6437bb380c3c2be6f1519bc3a40394086d31
-Description: libhooker engine, tweak loader and safe mode for iOS 16+ roothide
-Name: libhooker (roothide port)
-Author: CoolStar and contributors
 
 Package: com.spark.snowboard.masks
 Architecture: iphoneos-arm64e
@@ -2072,45 +2128,6 @@ Description: Coruna / DarkSword 漏洞利用拦截防护插件
 Name: SafariExploitGuard
 Author: hbs
 
-Package: com.jontelang.snapper3
-Architecture: iphoneos-arm64e
-Version: 1.2.1
-Section: 红尘琐事
-Maintainer: Jonathan Winger-lang
-Installed-Size: 4148
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
-Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/snapper3_1.2.1.deb
-Size: 2269722
-MD5sum: 9aac52ee8dc5c0068890928e2b216868
-SHA1: 493332127ff1f89d8b39c900b14d435b9076ffe7
-SHA256: 6eecb228f1f1b21e1e7924de718490837bbdf3bc48c722949ff65521344f64af
-SHA512: d34c446766cb84931c8a3713fe134d413768752b41eca707e8ba62b020f5440bd2a42c1a0fee70cfbfd463d25b2263d53a98c3d441cb37481e4a3189802181af
-Description: Pin screenshots on the screen.
-Name: Snapper 3
-Author: Jonathan Winger-lang
-
-Package: com.sini921.thexforsnapper3
-Architecture: iphoneos-arm64e
-Version: 1.0.1
-Section: 红尘琐事
-Maintainer: theX
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 15.0)
-Replaces: com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin
-Filename: debs/snapper3图片替换.deb
-Size: 100234
-MD5sum: 2f6176086e095741d54f25fd9bea8fa5
-SHA1: 7bf0ee58240d8193d7f91d66b06450d00cda8f60
-SHA256: a16b22c6617d75a7fc584ceb1dc647b0b8a44ac586370966990b679d50ab07b0
-SHA512: 9dd9282850fb8e06b198847f56cfa0fec7beea1be9ab26a34948a6ad6c22bbdfd1c9980a1ededd63749c046bf3c76858f3a60c470866f867c390c9ac217dae5a
-Description: 季伯仰备份
-Name: Snapper3 霓虹蓝发光效果主题
-Author: theX
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/thexforsnapper3/js.json
-icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
-
 Package: com.spark.snowboard
 Architecture: iphoneos-arm64e
 Version: 1.5.37-Beta4-rootless
@@ -2150,23 +2167,6 @@ Description: 分屏，不必太复杂，一切从简即可。
 Name: split-view-pro
 Author: sunshinesong
 TS: sp-sss
-
-Package: com.crctdd.stayalivelite
-Architecture: iphoneos-arm64e
-Version: 0.4.1
-Section: 红尘琐事
-Maintainer: crctdd
-Installed-Size: 1272
-Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
-Filename: debs/stayalivelite_0.4.1_e.deb
-Size: 188524
-MD5sum: 3fab3c10374a4ebd001a8e7bd10dedc0
-SHA1: 8a46cf937c6c39efcb292b9209967bf812d24eb1
-SHA256: 854f2626019702e59b7a93d3dfdb4bacbf53fba67987651b0121e5422d9c98b7
-SHA512: 1d5545aadcaf4ccdd5f3b697e222d40b18747f9f1848058392fe0236fc9748346db6a0259ec5dc95c31da79909139f4fae9e6ab3bb409589d3c2cba1669629e1
-Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
-Name: StayAlive Lite
-Author: crctdd
 
 Package: com.dao.stella
 Architecture: iphoneos-arm64e
