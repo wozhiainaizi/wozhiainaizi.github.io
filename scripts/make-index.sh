@@ -102,3 +102,5 @@ fi
 echo "索引完成: $(grep -c '^Package:' Packages) 个包"
 
 # 触发构建标记: 2026-11-01 包名覆盖(Allow Network/URL管家/灵动通知/电话助手)
+
+# 触发构建标记: 2026-11-01 批量改名分组(CPU insulation/Snapper/libhooker/LockTouchX/120Hz系/StayAlive/Sileo汉化)

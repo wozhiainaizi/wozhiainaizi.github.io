@@ -1,9 +1,9 @@
 {
   "Hello_120Hz.deb": {
-    "name": "Hello 120Hz"
+    "name": "120Hz Hello"
   },
   "cn.zqbb.fix120hz_3.3.3-3_iphoneos-arm64e.deb": {
-    "name": "Hello 120Hz"
+    "name": "120Hz Hello"
   },
   "No_Apple_MobileRepair.deb": {
     "name": "No Apple MobileRepair 禁止在设置页面显示维修记录"
@@ -75,7 +75,7 @@
     "name": "CocoaTop64 中文版"
   },
   "snapper3图片替换.deb": {
-    "name": "Snapper3 霓虹蓝发光效果主题"
+    "name": "Snapper 3 霓虹蓝发光效果主题"
   },
   "TrollStore_Lite_RootHide_-2.1.1-2.deb": {
     "name": "TrollStore Lite 白巨魔"
@@ -106,5 +106,20 @@
   },
   "电话助手iOS16-正式版_Roothide_-3.3.1.deb": {
     "name": "电话助手iOS16-正式版"
+  },
+  "insulation_0.1.38.1_e.deb": {
+    "name": "CPU insulation"
+  },
+  "libhooker_1.6.9-11_roothide_iphoneos-arm64e.deb": {
+    "name": "libhooker 微调加载器"
+  },
+  "com.hades.locktouchx_2.3_iphoneos-arm64e.deb": {
+    "name": "LockTouchX"
+  },
+  "ProMotion_120Hz-1.0.14-1_e.deb": {
+    "name": "120Hz ProMotion"
+  },
+  "120hzstable_1.3.0_e.deb": {
+    "name": "120Hz RainFlow"
   }
 }
