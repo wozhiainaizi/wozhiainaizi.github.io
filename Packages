@@ -73,6 +73,27 @@ Author: Netskao
 Icon: https://axs66.github.io/pro/icon/filza.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/filzacrack/js.json
 
+Package: org.coolstar.libhooker
+Architecture: iphoneos-arm64e
+Version: 1.6.9-11+roothide
+Priority: optional
+Section: 初入仙途
+Maintainer: libhooker roothide port contributors
+Installed-Size: 892
+Provides: ellekit (= 1.2-3), mobilesubstrate (= 99)
+Depends: firmware (>= 16.0), firmware (<< 18.0), roothide
+Conflicts: ellekit, mobilesubstrate, com.ex.substitute, science.xnu.substitute, com.saurik.substrate.safemode
+Replaces: ellekit, mobilesubstrate, com.ex.libsubstitute
+Filename: debs/libhooker_1.6.9-11_roothide_iphoneos-arm64e.deb
+Size: 49948
+MD5sum: 89afcfb8ad6c56c2a5e64d35598eaacb
+SHA1: d3091ab61ce5dc2de6b5bc852138180e997d7da0
+SHA256: f748eebb42a5e7d8a595e49ef56c74b76810482403e70493a59f071bcd473260
+SHA512: 9fcbad4c94f6fbc7abb1dbb974ca835a1f4fd97cbebcad55575a411d03921b6149bf9b5e25658491d3deedf08c9a6437bb380c3c2be6f1519bc3a40394086d31
+Description: libhooker engine, tweak loader and safe mode for iOS 16+ roothide
+Name: libhooker 微调加载器
+Author: CoolStar and contributors
+
 Package: com.jontelang.snapper3
 Architecture: iphoneos-arm64e
 Version: 1.2.1
@@ -1349,27 +1370,6 @@ Tag: role::developer
 Name: libSandy
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
 Author: opa334
-
-Package: org.coolstar.libhooker
-Architecture: iphoneos-arm64e
-Version: 1.6.9-11+roothide
-Priority: optional
-Section: 筑基炼气
-Maintainer: libhooker roothide port contributors
-Installed-Size: 892
-Provides: ellekit (= 1.2-3), mobilesubstrate (= 99)
-Depends: firmware (>= 16.0), firmware (<< 18.0), roothide
-Conflicts: ellekit, mobilesubstrate, com.ex.substitute, science.xnu.substitute, com.saurik.substrate.safemode
-Replaces: ellekit, mobilesubstrate, com.ex.libsubstitute
-Filename: debs/libhooker_1.6.9-11_roothide_iphoneos-arm64e.deb
-Size: 49948
-MD5sum: 89afcfb8ad6c56c2a5e64d35598eaacb
-SHA1: d3091ab61ce5dc2de6b5bc852138180e997d7da0
-SHA256: f748eebb42a5e7d8a595e49ef56c74b76810482403e70493a59f071bcd473260
-SHA512: 9fcbad4c94f6fbc7abb1dbb974ca835a1f4fd97cbebcad55575a411d03921b6149bf9b5e25658491d3deedf08c9a6437bb380c3c2be6f1519bc3a40394086d31
-Description: libhooker engine, tweak loader and safe mode for iOS 16+ roothide
-Name: libhooker 微调加载器
-Author: CoolStar and contributors
 
 Package: rootless-compat
 Architecture: iphoneos-arm64e
