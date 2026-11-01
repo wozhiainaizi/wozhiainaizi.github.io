@@ -1797,6 +1797,26 @@ Name: Adytum
 Icon: https://img.chariz.cloud/icon/adytum/icon@3x.png
 Depiction: https://chariz.com/get/adytum
 
+Package: com.roothide.patcher
+Architecture: iphoneos-arm64e
+Version: 2.1.4-1+debug
+Section: 红尘琐事
+Maintainer: roothide
+Installed-Size: 4124
+Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), uikittools(>= 2.1.6-4)
+Filename: debs/com.roothide.patcher_2.1.4-1_debug_iphoneos-arm64e.deb
+Size: 1202360
+MD5sum: 55fabb004a2a813381b2830c63593d05
+SHA1: 0c3c5018b28d1130742a57ef92969b01aef642cf
+SHA256: 40b9aaddd4bd3a294337cc7694c57dbd3496714c3871c6c1c4646c72abc1ee86
+SHA512: 0799b0e667f0bde473e3e22fee560bc01a7b1b082e51d9b6e7858df7592376ebdc9fb532d0c7eff3a7a197d56ebeea3131839a70cb75fba373d1dba96aea1eff
+Description: patch rootless package to roothide, not work for all packages.
+Name: RootHide Patcher
+Author: roothide
+Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
+Depiction: https://github.com/roothide/RootHidePatcher
+Support: https://github.com/roothide/RootHidePatcher
+
 Package: com.binglan.dynamicfx
 Architecture: iphoneos-arm64e
 Version: 1.0.7
