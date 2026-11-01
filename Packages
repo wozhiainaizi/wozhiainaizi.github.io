@@ -742,6 +742,26 @@ Description:  Sileo软件源刷新、dpkg安装日志完整汉化，覆盖全部
 Name: Sileo 汉化
 Author: Custom
 
+Package: com.axs.ios16dao
+Architecture: iphoneos-arm64e
+Version: 5.2.0-205
+Section: 本命法器
+Maintainer: Axs
+Installed-Size: 664
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: debs/com.axs.ios16dao_5.2.0-205_iphoneos-arm64e.deb
+Size: 103586
+MD5sum: 248cda9eb1b8bf169e47715d785e29b2
+SHA1: 2b23fa850805737c392086d42d3e158702d2260a
+SHA256: a0bdaca0c9240f629ac09a43b05d06d3ce428f299a23f52979b1e51ca05f3247
+SHA512: bd45c02eeaa79430869ce787e6a33f98aab1162df74caf235b1cc7aff3d147156a7278098c1cb0bdd8624325fc50cb3e18d0fed48360b17bffacd008255bd1e4
+Description: 灵动岛媒体美化增强，支持 PNG/JPG/GIF/MP4,录屏隐藏原生岛与阴影兼容控制。集成授权校验联系:VCR66T
+Name: ios16灵动岛
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
+SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
+
 Package: com.hades.locktouchx
 Architecture: iphoneos-arm64e
 Version: 2.3
