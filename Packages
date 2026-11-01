@@ -1929,6 +1929,23 @@ Name: Adytum
 Icon: https://img.chariz.cloud/icon/adytum/icon@3x.png
 Depiction: https://chariz.com/get/adytum
 
+Package: com.snail.always120.roothide
+Architecture: iphoneos-arm64e
+Version: 1.2.0
+Section: 红尘琐事
+Maintainer: Snail <mu514983786@gmail.com>
+Installed-Size: 992
+Depends: mobilesubstrate (>= 0.9.5000),preferenceloader,com.opa334.altlist
+Filename: debs/com.snail.always120.roothide_1.2.0_iphoneos-arm64e.deb
+Size: 260898
+MD5sum: 6aad4ed526a9a8b7425b5974c84e821e
+SHA1: 5a7a53fdc8126d6fa92bc965d68434968bb7c642
+SHA256: 50c94da4bcb38ffad2b71101e94a12105ac81fef1d5edd9aa252953677bb5d00
+SHA512: d54ce6766ff593d98684cb0c2099bf77bcaf14e6087a56399fca9ec2a395ec304d44f2b6a76081614d6dbf2fc2dc0b3688fe8b5800377e7b11f84c38f4f6ea93
+Description: 使iOS 15/16越狱高刷机型自适应/锁定120HZ。 Make iOS 15/16 ProMotion Devices auto-adpat/reach to 120Hz.
+Name: 蜗牛自适应+锁定120 Always120
+Author: Snail <mu514983786@gmail.com>
+
 Package: com.binglan.dynamicfx
 Architecture: iphoneos-arm64e
 Version: 1.0.7
