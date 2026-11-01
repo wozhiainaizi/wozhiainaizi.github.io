@@ -2054,6 +2054,25 @@ Name: Adytum
 Icon: https://img.chariz.cloud/icon/adytum/icon@3x.png
 Depiction: https://chariz.com/get/adytum
 
+Package: com.lclrc.hammerit
+Architecture: iphoneos-arm64e
+Version: 1.7.1
+Section: 红尘琐事
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64e.deb
+Size: 2753700
+MD5sum: 5357e6377ddea40a0dcef1e64a860ca5
+SHA1: 7038a97ecd64dd6343e3919107e002df2dbf4ea7
+SHA256: 0f566fd0eae88041d0f3e75483d61c54358d47837c7732d73bfd1ec1a404a796
+SHA512: 9fa3ba58c767836752d8723ec519e5f33974c8c493708fcfe8e4bc4d1765bf8270f808a7ae73b5601aaa94ac698ba06872e9988655cc3877cd32686bbbed2ff8
+Description: Control your text or translate as you wish.
+Name: Hammer It
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+
 Package: com.snail.always120.roothide
 Architecture: iphoneos-arm64e
 Version: 1.2.0
