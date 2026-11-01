@@ -2073,6 +2073,25 @@ Name: Hammer It
 Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 
+Package: com.m4fn3.k2gecamen
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Section: 红尘琐事
+Maintainer: mafu
+Installed-Size: 8928
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: debs/com.m4fn3.k2gecamen_1.1.0_iphoneos-arm64e.deb
+Size: 8460210
+MD5sum: 5b31e8a0d14c66c42a9619458c6f2201
+SHA1: 8995d1d43354d7f3d30396f0b70d64de1bf66bc6
+SHA256: b516fdee42159a1ba21fb5c750bf90733aa196548f060f1b32bdddf8e281b872
+SHA512: b3a2db1891b60901618cc082499c60a6536a58cf6c93d893c00f5649e997a15f47659037204a78255c5176a91b38ae542a2420646e509c0f00e8bbcb39b91306
+Description: Capture moments with photos, videos, and audio in the background with ease.
+Name: K2gecamen
+Author: mafu
+Icon: https://m4fn3.github.io/repo/web/images/K2gecamen.png
+
 Package: com.snail.always120.roothide
 Architecture: iphoneos-arm64e
 Version: 1.2.0
