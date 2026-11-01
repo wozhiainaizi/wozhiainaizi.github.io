@@ -1273,6 +1273,24 @@ Description: Enable system-wide performance HUD from the control center.
 Name: caperfhudmodule 全局性能悬浮监测模块
 Author: khanhduytran0
 
+Package: com.charlieleung.trollopenjb
+Architecture: iphoneos-arm64e
+Version: 1.3.7
+Section: 本命法器
+Maintainer: Charlie Leung
+Installed-Size: 4460
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: debs/分屏trollopenjb_1.3.7.deb
+Size: 3324626
+MD5sum: 7f9db8f7d1bbdb5bb515fc31308ac2e6
+SHA1: bbea6ed75a68505e0e06c89a75d33e3e0df598d3
+SHA256: 77a572cb4215b192ee20f9a37671f13c86068841b71a4e5a1d4a840c52e6f0c4
+SHA512: 93c079ac2e3913a57aca7e96dde0dcf5d3b25d3f2b04bfd5aeeb5ba9c9e4b6de5d73ddf098a9304a46fd575b602c6c6e7c31f1068b774d7197ed364ac09e6ef1
+Description: TrollOpen 的越狱版本，支持 ios16 及以上，免费公开版，无后续更新，不需要反馈 bug。QQ 群：1094778353，后续付费更新联系群主或群管理。小黑子闭嘴吧，看看什么是最强分屏！
+Name: TrollOpen
+Author: Charlie Leung
+
 Package: daniel.batman
 Architecture: iphoneos-arm64e
 Version: 0.0.2-1+debug
