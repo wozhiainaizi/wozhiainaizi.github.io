@@ -1982,6 +1982,24 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.bundleid
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.bundleid
 
+Package: iya.banana.billie.ambientbadge
+Architecture: iphoneos-arm64e
+Version: 0.1.16
+Section: 红尘琐事
+Maintainer: Banana
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iya.banana.billie.ambientbadge_0.1.16_iphoneos-arm64e.deb
+Size: 115672
+MD5sum: c0a2f1d51e299fe386c252dabfcf6942
+SHA1: ba4c25ff528c5a8f7f5ce4fc8f275d7ed68b4cf5
+SHA256: 24a9c01612a111fe120f9a7ede30f19f73d04b0765030064c6c6d581d0fb1b4e
+SHA512: 92bc54a94002af86607bbd457bed6082d2e67b64b121be2a2a3530e6bf4463541557142a4e8ec080c18e95bccd3b5ff5fbe58300dd143bacc5fce5676053587c
+Description: 为桌面通知角标加入玻璃质感与柔和光晕。Custom notification badge styles with adaptive ambient glow. For Billie.
+Name: AmbientBadge
+Author: Banana
+icon: https://huayuarc.github.io/icon/AmbientBadge.png
+
 Package: com.spark.snowboard.masks
 Architecture: iphoneos-arm64e
 Version: 1.2.2-Beta2-rootless
