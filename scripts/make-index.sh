@@ -116,3 +116,5 @@ echo "索引完成: $(grep -c '^Package:' Packages) 个包"
 # trigger-build: assets/bg.jpg + sileo-featured.json itemSize 430x242 (2026-11-01 16:9 banner)
 
 # trigger-build: sileo-featured.json itemSize 398x224 symmetric margins (2026-11-01)
+
+# trigger-build: libhooker 微调加载器移到初入仙途 (2026-11-01)
