@@ -125,8 +125,9 @@ list.addEventListener('click',e=>{const c=e.target.closest('.card');if(!c)return
   var hero=document.querySelector('.hero');
   hero.addEventListener('mouseenter',function(){clearInterval(timer);});
   hero.addEventListener('mouseleave',restart);
-  hero.addEventListener('touchstart',function(){clearInterval(timer);},{passive:true});
-  hero.addEventListener('touchend',restart);
+  var touchX=0;
+  hero.addEventListener('touchstart',function(e){touchX=e.changedTouches[0].clientX;clearInterval(timer);},{passive:true});
+  hero.addEventListener('touchend',function(e){var dx=e.changedTouches[0].clientX-touchX;if(Math.abs(dx)>50){show((idx+(dx<0?1:-1)+slides.length)%slides.length);}restart();},{passive:true});
   restart();
 })();
 </script></body></html>
@@ -159,4 +160,4 @@ echo "索引完成: $(grep -c '^Package:' Packages) 个包"
 
 # trigger-build: 6个包改名分组(120Hz Always/AmbientBadge/batman/caperfhudmodule/Liquid(G)ass/CursorPro) (2026-11-01)
 
-# trigger-build: 网页hero轮播改为3图(删banner1群像)+隐藏翻页点dots (2026-11-01)
+# trigger-build: banner3/4换高清版 + hero支持左右滑动手动翻页(自动轮播保留) + dots隐藏 (2026-11-01)
