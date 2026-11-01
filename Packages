@@ -106,7 +106,7 @@ SHA1: fa922baf6e8a05326572bf0dd3410567d7d9b5d0
 SHA256: 5159cdbcf18eecb8e1221c3a7a75eee286eefedf38b3be78171bc8bea28d27ef
 SHA512: 8790252724488d720e56c80c99e421527045123e4cfc981cee571d87fe6ec3c7010f577683629b87d9d681908c51d703eb7f81c4bfededb86f90bc9a6366c947
 Description: 国行手机自动允许使用网络。
-Name: Allow Network-Rootless
+Name: Allow Network
 Author: lenglengyu
 
 Package: com.dao.appstoretroller
@@ -1068,7 +1068,7 @@ SHA1: f98c31684da2ce8c47375e1f228edf7a9f56ac70
 SHA256: bcaeec09627fe09eba39e698ff5d6e574cd0f490c57023bba4673ca6567f0883
 SHA512: 6356cc6126ce0cb2a00857cb44a320015ed308e2dbea3ffab6f49d8fadd70b2e274632bd8ed5ef1eb7626ef7f9cccf43c478478c8d9b8e3a47850d276da2f6ff
 Description: 完美的使用原生灵动岛展示系统通知等...
-Name: 灵动通知iOS16-正式版(RootHide)
+Name: 灵动通知iOS16-正式版
 Author: xybp888
 Depiction: https://apt.htv123.com/view/999
 SileoDepiction: https://apt.htv123.com/sileo/999
@@ -1087,7 +1087,7 @@ SHA1: 90cc7d01077e40ac900fe4fdd062064ca1b50ed3
 SHA256: ca6ba4f75ef74d5f822e557fb466fd1087a32902fa2b47dfeb8f5997bd6a0a5d
 SHA512: 068f6cb115e90d7a46cfbae0e0766d87e4f2201deeaa2088cccffe3f709cda97c5a3b85dd21d49bd98f232c029bb106d2a895fde4e12206c6e0d93190b9489cd
 Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
-Name: 电话助手iOS16-正式版(Roothide)
+Name: 电话助手iOS16-正式版
 Author: xybp888
 Depiction: https://apt.htv123.com/view/1111
 SileoDepiction: https://apt.htv123.com/sileo/1111
@@ -1597,7 +1597,7 @@ SHA256: 10b52cb0a42b0ee51f84707fc56414bed4d6d4fe40aacca00eb20c6e99089199
 SHA512: 590d75c13776de78ddbc2b11dd2d17f482c0d40a1ec5854781d31292d0027eb1c1a95cb06fb6b54624535ee277c232290b4b8b10d55713f6766f2d6bec5b66f6
 Description: URL管家（RootHide 版）— 统一接管本机 URL Scheme（隐藏 / 重定向），支持单应用或者全局，也可防范某些应用检测某东东
 Tag: purpose::uikit, compatible::ios14
-Name: URL管家-隐根
+Name: URL 管家
 Author: 来了老弟
 
 Package: cn.zqbb.hello.memorystatus
