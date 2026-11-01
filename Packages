@@ -2282,6 +2282,42 @@ Name: Indicators
 Icon: https://sini921.github.io/repo/sileodepiction/icon/indicators.png
 Author: LacertosusDeus & SINI
 
+Package: com.yourepo.axs.edgesiri
+Architecture: iphoneos-arm64e
+Version: 3.1.1-9
+Section: 红尘琐事
+Maintainer: tangerine <qiaozhani000@163.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/com.yourepo.axs.edgesiri_3.1.1-9_iphoneos-arm64e.deb
+Size: 22468
+MD5sum: 46f5f15fadee1e1aede5c706e7584005
+SHA1: af69485a2ffbd8bce461a3d5ad9f086e7ff896bc
+SHA256: af74a75f635683e33f1eb80f93951f6f48491ae149706ffd2f34ebb9a1458040
+SHA512: 9c53e6cd74ebd5f263ca1c93a8fba471222bf6adcd9a8763849cb6cbdf8bab80d3b294ad4e8ebede03eabc5389e092e1ac028139caf4c5ef477a58bd15370dd6
+Description: 模仿iOS18唤醒Siri边框效果，无设置项。安装即生效-----EdgeSiri是一款为 iOS设计的越狱插件，它能够在 Siri 激活时在屏幕周围显示彩色边框。这个边框不仅增加了视觉吸引力，还能在 Siri 被使用时提供更加直观的反馈。
+Name: EdgeSiri
+Author: tangerine <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/siri.png
+
+Package: com.yourepo.axs.muteplay
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: 红尘琐事
+Maintainer: uz.ra <qiaozhani000@163.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/com.yourepo.axs.muteplay_1.0_iphoneos-arm64e.deb
+Size: 5334
+MD5sum: f6875b25a727cfee071ed8a12cfb53db
+SHA1: b37500925d792ea304f166d2edef36bf264dbf35
+SHA256: de366903ad573ca3170c777caba2bd172dccd326dfba2ab145327d548726d88e
+SHA512: 004d0b76852a2476d8fcfab4e56ae88ae6e4f85b975bcbf199070859d0bb9adf5c6e897d0298dee7cf909717e00dd870dff49b4626d2d51f35bafa9a57df0154
+Description: Mute notifications while playing music。播放音乐的时候，不会因为消息通知，影响音量大小。
+Name: MutePlay避免通知影响音量
+Author: uz.ra <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/muteplay.png
+
 Package: com.zqbb.savephotos
 Architecture: iphoneos-arm64e
 Version: 1.1-1
