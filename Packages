@@ -1905,6 +1905,60 @@ Description: Choicy白名单 (支持iOS 15-17 roothide)
 Name: Choicy-Whitelist
 Author: crctdd
 
+Package: com.crctdd.disablecarrierpop
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: 红尘琐事
+Maintainer: crctdd
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/com.crctdd.disablecarrierpop_0.0.1_iphoneos-arm64e.deb
+Size: 3504
+MD5sum: acb51dafab8a2c83b5c8b1ac863bda32
+SHA1: 2dbc4295b3650aa871b20df0a53cc731d36bc7d1
+SHA256: e506d3d96a18664a632322eeb2f08e428833ab8c52275bd69fe107add47d6796
+SHA512: 4507aaa0f790e2b6102df6ae4a763a50f04b49e6060c92b496374ee6b1f9ea5fc9f0b6cd4b1762cf9c37fc2b0978c3e95e3db65bd622bda4b671e53eb40fb4bf
+Description: 禁用运营商弹窗；无设置项。(支持iOS 15-17)
+Name: Disable CarrierPoP
+Author: crctdd
+
+Package: com.crctdd.filzarename
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Priority: optional
+Section: 红尘琐事
+Maintainer: crctdd
+Installed-Size: 96
+Depends: firmware (>= 15.0), firmware (<< 18.0)
+Conflicts: com.crctdd.filzadebname
+Replaces: com.crctdd.filzadebname
+Filename: debs/com.crctdd.filzarename_0.0.1_iphoneos-arm64e.deb
+Size: 17000
+MD5sum: 6f6a337ba2b043aa4bf58ce471438506
+SHA1: d6f9b48b659a22967d8cf833fbfdf11893bcdfd9
+SHA256: bc41f7acdae11db2ea806950267dfaa0e506214aa3732924dc6a20d12bae0a63
+SHA512: 898f96f07adf70967a18b716891910b12821b01802bba3a8f9f828066ec938517fb625b327f32fdeeb93b707e776c9685d712f6531284581fa49109bb3573e8b
+Description: 在Filza内的.deb/.ipa/.tipa安装包长按可规范命名。
+Name: Filza Rename
+Author: crctdd
+
+Package: com.crctdd.mobileslideshowhook
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Section: 红尘琐事
+Maintainer: crctdd
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/com.crctdd.mobileslideshowhook_0.0.5_iphoneos-arm64e.deb
+Size: 31938
+MD5sum: 0f73596973877a7305956c4fe83059e5
+SHA1: 67f442d19169e16222d52316f092ca088e4a7a37
+SHA256: 65d7edf17f07184e69dfb91e79fa14ec82afcbb4019955b319afd22ea4be9732
+SHA512: 59a602fed83acb4334cfad79f9e15588358dde7aa66a818bcc9a23d5749b56a767ae7b2cd41a56d22b47a6cc919014b58e8291fe98f5a721d678b65734437bac
+Description: 系统相册增加视频进度条 (支持iOS 15-17)
+Name: 系统相册视频进度条
+Author: crctdd
+
 Package: com.cydia.love.volume-manager-Rootless
 Architecture: iphoneos-arm64e
 Version: 1.0.3
@@ -1925,6 +1979,58 @@ Name: VolumeManager 音量管理
 Author: sunshinesong
 Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
 Icon: file:///Applications/Cydia.app/Sections/System.png
+
+Package: com.doimty.fiona
+Architecture: iphoneos-arm64e
+Version: 0.3
+Section: 红尘琐事
+Maintainer: doimty
+Installed-Size: 304
+Depends: firmware (>= 15.0)
+Filename: debs/com.doimty.fiona_0.3_iphoneos-arm64e.deb
+Size: 4908
+MD5sum: 35545bdc292d9c982cccf6c21ecfa912
+SHA1: c7859ec8d79d530d538a92d6afd216c8a5fe96a2
+SHA256: b280dbd7d0d521cc24d3c3a083f6f0fac71cf6d894534ae269fe0136c14e932c
+SHA512: 29132164a41628f075fd9a3fed636b970516d5b4c0c8092648fe266f6e8874cad09dc46051fb18c31913b3c55bb6b1cd499ae7d4f6106bc68e8f753697bf6ae0
+Description: 锁屏时保持 WiFi 连接；热点无客户端时不自动关闭。无开关，安装即生效；
+Name: Fiona
+Author: doimty
+
+Package: com.iosdump.jumpselect
+Architecture: iphoneos-arm64e
+Version: 1.3
+Section: 红尘琐事
+Maintainer: iosdump
+Installed-Size: 612
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.iosdump.jumpselect_1.3_iphoneos-arm64e.deb
+Size: 98830
+MD5sum: 2117af6795e6a197fa4958c0bf9d1bf0
+SHA1: 4e73628bea066aaa90df765baaa8735b79418e99
+SHA256: 344ac4587d90e291916a42ca0eaf54e63ef724e46c4c7882235d3c6d7a4c5758
+SHA512: 0c461c98b360833bf08ee37d97596ce1b0962471cec0d4037cecd9c7a49d7301643ef8224fe3e1e7b236ac1073131689e2b16c4282406397be895cfae99bce60
+Description: 应用跳转拦截重定向选择器，支持 iOS 14-17 所有越狱
+Name: JumpSelect
+Author: iosdump
+
+Package: com.iosign.camera
+Architecture: iphoneos-arm64e
+Version: 0.1-2
+Section: 红尘琐事
+Maintainer: iOSign
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.iosign.camera_0.1-2_iphoneos-arm64e.deb
+Size: 4302
+MD5sum: c0b23bfb429e3dcd7b8ff9e00fda639e
+SHA1: fca48f9485f502f5b9adf808124dea9082b08413
+SHA256: dbfc248c109653b698da12b0719fd97711b510556910b2512f90362c0b6b1714
+SHA512: 8f23515a719c5ccd71824636deb3e5c98317a594ff95bae1e57529572e27efe60fcf7d21431699116c95d9a14868a02cc277e249ffa52e6345b1398349d10f94
+Description: 系统相机开启全屏拍照，禁用拍照快门声音
+Name: 全屏相机
+Author: iOSign
 
 Package: com.kernelrw.adytum
 Architecture: iphoneos-arm64e
