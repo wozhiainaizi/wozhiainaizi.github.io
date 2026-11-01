@@ -2092,6 +2092,42 @@ Name: K2gecamen
 Author: mafu
 Icon: https://m4fn3.github.io/repo/web/images/K2gecamen.png
 
+Package: com.netskao.disableshuttersound
+Architecture: iphoneos-arm64e
+Version: 1.1-2
+Section: 红尘琐事
+Maintainer: Netskao
+Installed-Size: 149
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.netskao.disableshuttersound_1.1-2_iphoneos-arm64e.deb
+Size: 4528
+MD5sum: ec75546166a90744f00bd2d9d811b837
+SHA1: 1e0b61d10631d8028258813a28f397c994124f79
+SHA256: f04d864169a126f895f74a7849ad4ec8b57ddc8ce566646d0cc6bf4a00e55180
+SHA512: d901d7189245ca42bbd422e44a9004c1474bf162a9727a41d809e8ae08f3f75f9cb22ce26463f052201bc92bff4cbb88538c87a23892f9d4dd70f2d63ef86ea7
+Description: 禁用拍照快门声音
+Name: 禁用拍照快门声音
+Author: Netskao
+
+Package: com.sini921.indicators
+Architecture: iphoneos-arm64e
+Version: 1.2-23
+Section: 红尘琐事
+Maintainer: LacertosusDeus & SINI
+Installed-Size: 584
+Depends: mobilesubstrate
+Filename: debs/com.sini921.indicators_1.2-23_iphoneos-arm64e.deb
+Size: 81600
+MD5sum: 95e3c82421f32ffbf76dd5960b4ca940
+SHA1: 1595b0207f0e48b5e81377534ba4673a3c9d799f
+SHA256: 8eff405ee38e8b83065fe0035d656140e28a7caaeb0a6a74637085cdece284c0
+SHA512: 123fb9b3afa5665be5e8aa8efca6cfc215a1c7e6160945c06a0d71fa1ceb95b3dbc8e75bb3f589d4942f7ccf7e0070008372048b43b37858a990646a298c46b5
+Description: VPN、勿扰模式、手电筒打开时右上角显示对应的指示灯，基于开源重新编译，修复支持iOS15+无根/隐根越狱。
+Name: Indicators
+Icon: https://sini921.github.io/repo/sileodepiction/icon/indicators.png
+Author: LacertosusDeus & SINI
+
 Package: com.snail.always120.roothide
 Architecture: iphoneos-arm64e
 Version: 1.2.0
@@ -2108,6 +2144,42 @@ SHA512: d54ce6766ff593d98684cb0c2099bf77bcaf14e6087a56399fca9ec2a395ec304d44f2b6
 Description: 使iOS 15/16越狱高刷机型自适应/锁定120HZ。 Make iOS 15/16 ProMotion Devices auto-adpat/reach to 120Hz.
 Name: 蜗牛自适应+锁定120 Always120
 Author: Snail <mu514983786@gmail.com>
+
+Package: com.zqbb.savephotos
+Architecture: iphoneos-arm64e
+Version: 1.1-1
+Section: 红尘琐事
+Maintainer: zqbb
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: debs/com.zqbb.savephotos_1.1-1_iphoneos-arm64e.deb
+Size: 3296
+MD5sum: 1751150cd474aa50ff0f747272d0a6d8
+SHA1: d40c1bc63b1cb61cb3fd2dd18b5ea39ab9f606be
+SHA256: 42f539dc5c21251f0b5cdfd22d65496d73e1db34ee676f7f567c20f353199490
+SHA512: e54084d6844eeff3a6947567f7cc0504a39e677e86f1959ff550675fbfb364f3cab91a15d60a70b88eb88d87075b678fceaaa579d809c63d76497397ec8998e0
+Description: 全屏截图按钮增加(保存至相册)功能,超过7个按钮时UI补全至7个,强迫症福音~!!!
+Name: Hello Snapper3
+Author: zqbb
+SileoDepiction: https://rootless.002599.xyz/web/com.zqbb.savephotos
+
+Package: dylv.liquidass.zh-hans
+Architecture: iphoneos-arm64e
+Version: 0.0.9a
+Section: 红尘琐事
+Maintainer: dylv
+Installed-Size: 3756
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: debs/dylv.liquidass.zh-hans_0.0.9a_iphoneos-arm64e.deb
+Size: 1367872
+MD5sum: 46fb91372961f420541d4e2aac45591b
+SHA1: a1abf0a5caaaef1171331eec9017ab247531cf78
+SHA256: c7547180dfc592507b3e00bbe952415d01209e975627168733b702e0592e4f88
+SHA512: 86c0408b6cbb5193e4eb553c212a3769a41437eb0c0da8276c40502c71499d451adb8e63d1237346a2dd6ef5c7f2068f2c8008ac04efae43a4f8906af9a1484f
+Description: next level diarrhea. 完善了简体中文翻译，默认设置简体中文
+Name: Liquid (Gl)ass (简体中文版)
+Author: dylv
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
 
 Package: com.binglan.dynamicfx
 Architecture: iphoneos-arm64e
@@ -2439,6 +2511,36 @@ SHA256: 2ba4309ae57730f6d30502d14fe1bcbc457ac9587704f444aa4a3ded746030e0
 SHA512: 30bf2b193e79a07f4b99cf0ec12c070f8a86b44cb302b6ad4a6edd38db21b4ddb2dc962cdfccc6546202108647fe081b031cc29b72c5f85b20a5dcc230990111
 Description: Rule-driven URL scheme interception core. Blocks or redirects URL schemes globally or per calling app, enforced in both the calling app and the Launch Services daemon (lsd). Includes a Settings pane with installed-app and URL-scheme discovery.
 Tag: purpose::uikit, compatible::ios14
+
+Package: wiki.qaq.inspector
+Architecture: iphoneos-arm64e
+Version: 0.6.8
+Priority: optional
+Section: 红尘琐事
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 2808
+Depends: firmware (>= 15.0), uikittools, launchctl
+Filename: debs/wiki.qaq.inspector_0.6.8_iphoneos-arm64e.deb
+Size: 1053008
+MD5sum: 27901cb9333a6ed4d00ceccf56cddadc
+SHA1: 2072c4f90d9439220248b52b5782b8d56a32d103
+SHA256: 2aab97384e47931f9f1d698f1bbdb63fda024137fce60200c5279975689b09a1
+SHA512: c6316fb93e67670e3f94770f65903b066e0327693d2f9f5501da72bb9c1e4c9d61439d78ecec87b3f249de3061ecc1c7b4d84998575a530a0739374ea6582484
+Description: Live process inspector for iOS on custom firmware (roothide)
+ See what your device is actually doing. Every running process, refreshed once a
+ second, with its CPU share, memory, thread count and owner. Search by name or
+ PID, sort by any column, filter down to system, user or app processes, and
+ pause the list to hold a moment still. Open a process for its threads, open
+ files and sockets, Mach ports, loaded modules, sandbox status and disk and
+ network use, then quit it, force quit it, or export the whole report. The
+ `inspector` command answers the same questions from a terminal. Available
+ in English, Simplified Chinese, Japanese, Russian, German, French, Spanish and
+ Arabic.
+Name: Inspector
+Icon: https://owngoal-dev.github.io/Inspector/icon.png
+Depiction: https://owngoal-dev.github.io/Inspector/
+SileoDepiction: https://owngoal-dev.github.io/Inspector/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: com.sini921.cursorpro
 Architecture: iphoneos-arm64e
