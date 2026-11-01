@@ -110,3 +110,5 @@ echo "索引完成: $(grep -c '^Package:' Packages) 个包"
 # 触发: DNDMyRecording/floatingView/split-view/TrollOpen/ScreenCore 加中文说明
 
 # 触发: Sileo主页Featured横幅换居家图(bg.jpg),头像还原
+
+# 触发: Featured横幅放大(375x280)
