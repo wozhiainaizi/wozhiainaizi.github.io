@@ -1166,6 +1166,27 @@ Description: load preferences in style
 Author: Dhinak G <dhinak@dhinak.net>
 Name: PreferenceLoader
 
+Package: ellekit
+Architecture: iphoneos-arm64e
+Version: 1.2-3+deadlockfix1
+Priority: optional
+Section: 筑基炼气
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Breaks: com.opa334.libsandy (<= 1.1.6-3)
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Filename: debs/ellekit_1.2-3_deadlockfix1_iphoneos-arm64e.deb
+Size: 127108
+MD5sum: b0ee5ac505e4510cb98ffb328d2ad730
+SHA1: a47b296684cbd247231abeaf3e4dbf210c9a0c29
+SHA256: c14e13ed54ee7025a9bf791f75cbd06e20e593703e4fe3a607ff1880078bc86c
+SHA512: 748ebf3005d43ce56ff252a8688ac20fab30de0ad1ba5d730896179c7abd7e08aa7ad0dce85610ceb642933652129600abf7bffafa44018e963e456b2c38dd01
+Description: ElleKit tweak injection libraries and loader
+Name: ElleKit
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+
 Package: com.opa334.libsandy
 Architecture: iphoneos-arm64e
 Version: 1.1.6-4
@@ -1657,6 +1678,23 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.quick.panel.png
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.quick.panel
 
+Package: com.aptzh
+Architecture: iphoneos-arm64e
+Version: 1.3-3+debug
+Section: 红尘琐事
+Maintainer: Custom
+Installed-Size: 240
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.aptzh_1.3-3_debug_iphoneos-arm64e.deb
+Size: 29372
+MD5sum: e42eddc902294bacc1e4da61a4c4bc5e
+SHA1: cf050ebe007fe7e87781848a02f4e9511ff6d8e5
+SHA256: 0275c663a69dc4a1bdc0b4ec04c53ebab141941a5d1869c1de622c0969a4457b
+SHA512: 998207b7c6a0cbcf720ee6fcdcd8edda65f864541b83810a0cf4206f56bef808f62f5be40b13725b57cf18afc3e43dbbde74e6db1e0a5924b7eb2112dd1d2529
+Description:  Sileo软件源刷新、dpkg安装日志完整汉化，覆盖全部报错与输出文本
+Name: Sileo 汉化
+Author: Custom
+
 Package: com.axs.screenshellpro
 Architecture: iphoneos-arm64e
 Version: 5.2.0-61
@@ -1719,6 +1757,23 @@ Name: VolumeManager 音量管理
 Author: sunshinesong
 Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
 Icon: file:///Applications/Cydia.app/Sections/System.png
+
+Package: com.hades.locktouchx
+Architecture: iphoneos-arm64e
+Version: 2.3
+Section: 红尘琐事
+Maintainer: hades
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.hades.locktouchx_2.3_iphoneos-arm64e.deb
+Size: 17176
+MD5sum: 9be4251cf3b3839081535691c2e0a70d
+SHA1: 852533059b5bc1e5059f75283081e4ca900ec452
+SHA256: 8ef9a6e6f68f7480f317b99f27f66195a8419b39fab8c5bb4a3f242769cfc8c7
+SHA512: ccbb19e1ad00652fc193198ee18817d70c94466a8ab489a5ccb7ad13d410ac42fdf7d6930c71c33b88dbf1bc3693f70bb0e0bdcca39e1112a7631ee27050e3c4
+Description: 为 App (文件夹) 添加生物识别锁（Touch ID / Face ID），点击受保护 App (文件夹) 需认证；长按 App (文件夹) 菜单开启/关闭。
+Name: LockTouchX(RootHide)
+Author: hades
 
 Package: com.kernelrw.adytum
 Architecture: iphoneos-arm64e
@@ -1794,6 +1849,27 @@ SHA512: faec1fb9a37f317941c6c17f743fbfa1886eb3454de2e9b4c76c1e5f39e61d4f596800d7
 Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
 Name: insulation
 Author: be-huge & doimty
+
+Package: org.coolstar.libhooker
+Architecture: iphoneos-arm64e
+Version: 1.6.9-11+roothide
+Priority: optional
+Section: 红尘琐事
+Maintainer: libhooker roothide port contributors
+Installed-Size: 892
+Provides: ellekit (= 1.2-3), mobilesubstrate (= 99)
+Depends: firmware (>= 16.0), firmware (<< 18.0), roothide
+Conflicts: ellekit, mobilesubstrate, com.ex.substitute, science.xnu.substitute, com.saurik.substrate.safemode
+Replaces: ellekit, mobilesubstrate, com.ex.libsubstitute
+Filename: debs/libhooker_1.6.9-11_roothide_iphoneos-arm64e.deb
+Size: 49948
+MD5sum: 89afcfb8ad6c56c2a5e64d35598eaacb
+SHA1: d3091ab61ce5dc2de6b5bc852138180e997d7da0
+SHA256: f748eebb42a5e7d8a595e49ef56c74b76810482403e70493a59f071bcd473260
+SHA512: 9fcbad4c94f6fbc7abb1dbb974ca835a1f4fd97cbebcad55575a411d03921b6149bf9b5e25658491d3deedf08c9a6437bb380c3c2be6f1519bc3a40394086d31
+Description: libhooker engine, tweak loader and safe mode for iOS 16+ roothide
+Name: libhooker (roothide port)
+Author: CoolStar and contributors
 
 Package: com.spark.snowboard.masks
 Architecture: iphoneos-arm64e
