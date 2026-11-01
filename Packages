@@ -2110,6 +2110,24 @@ Description: 禁用拍照快门声音
 Name: 禁用拍照快门声音
 Author: Netskao
 
+Package: com.sini921.indicators
+Architecture: iphoneos-arm64e
+Version: 1.2-23
+Section: 红尘琐事
+Maintainer: LacertosusDeus & SINI
+Installed-Size: 584
+Depends: mobilesubstrate
+Filename: debs/com.sini921.indicators_1.2-23_iphoneos-arm64e.deb
+Size: 81600
+MD5sum: 95e3c82421f32ffbf76dd5960b4ca940
+SHA1: 1595b0207f0e48b5e81377534ba4673a3c9d799f
+SHA256: 8eff405ee38e8b83065fe0035d656140e28a7caaeb0a6a74637085cdece284c0
+SHA512: 123fb9b3afa5665be5e8aa8efca6cfc215a1c7e6160945c06a0d71fa1ceb95b3dbc8e75bb3f589d4942f7ccf7e0070008372048b43b37858a990646a298c46b5
+Description: VPN、勿扰模式、手电筒打开时右上角显示对应的指示灯，基于开源重新编译，修复支持iOS15+无根/隐根越狱。
+Name: Indicators
+Icon: https://sini921.github.io/repo/sileodepiction/icon/indicators.png
+Author: LacertosusDeus & SINI
+
 Package: com.snail.always120.roothide
 Architecture: iphoneos-arm64e
 Version: 1.2.0
