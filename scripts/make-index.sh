@@ -39,7 +39,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;backg
 .slide.active{opacity:1}
 .hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(0,0,0,.5) 0%,rgba(0,0,0,.1) 35%,rgba(0,0,0,.15) 60%,rgba(0,0,0,.7) 100%)}
 .heroin{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;justify-content:space-between;align-items:center;padding:12px 14px 8px;text-align:center}
-.dots{position:absolute;left:0;right:0;bottom:40px;z-index:3;display:flex;justify-content:center;gap:7px}
+.dots{display:none}
 .dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.45);cursor:pointer;transition:background .2s}
 .dot.on{background:#fff}
 h1{font-size:24px;margin:0;text-shadow:0 2px 10px rgba(0,0,0,.65);letter-spacing:2px;line-height:1.1;text-align:center;text-indent:6px}
@@ -64,8 +64,7 @@ main{padding:18px 16px 48px;max-width:720px;margin:0 auto}
 <body>
 <div class="hero">
 <div class="slides">
-<div class="slide active" style="background-image:url(assets/banner1.jpg)"></div>
-<div class="slide" style="background-image:url(assets/banner2.jpg)"></div>
+<div class="slide active" style="background-image:url(assets/banner2.jpg)"></div>
 <div class="slide" style="background-image:url(assets/banner3.jpg)"></div>
 <div class="slide" style="background-image:url(assets/banner4.jpg)"></div>
 </div>
@@ -160,4 +159,4 @@ echo "索引完成: $(grep -c '^Package:' Packages) 个包"
 
 # trigger-build: 6个包改名分组(120Hz Always/AmbientBadge/batman/caperfhudmodule/Liquid(G)ass/CursorPro) (2026-11-01)
 
-# trigger-build: 网页hero自动轮播4图(主图banner1+随机)+dots (2026-11-01)
+# trigger-build: 网页hero轮播改为3图(删banner1群像)+隐藏翻页点dots (2026-11-01)
