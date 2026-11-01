@@ -499,7 +499,7 @@ SHA1: 8f525338fbcf19acf66c02f602189889c3d1c09b
 SHA256: 4081026da03c7b2b8f2c4ccef444aa2a26b389c740199c6eb7de2aa428dad0e5
 SHA512: 97ed09621c2a7c9d485771bd4a8c59ee123f4fc23eccd51770fb20a0e286a777db107b9932b4f19f1c641ab973da33eae184ae3e0e06a24220576a5140d284f5
 Description: 分屏而已
-Name: ScreenCore
+Name: ScreenCore 分屏
 Author: SuSu
 Icon: https://repo.susubaby.cn/icons/ScreenCore.png
 
@@ -608,7 +608,7 @@ SHA1: d2cb238fce13f3e82e5d556b93c50729357e93e2
 SHA256: e6212d8e47f3280f417c9efef5f250ce53cc460f92112c954c71b19973056411
 SHA512: f626dfd42b917f7a99d1070a5eb63e9feb7a21356ed458ecaea8f784731737bef149f3738287aff83e3cb183070e0754a748bc7f90d3cadd1a01c463c28d1e7b
 Description: 内置离线版，在16系统隐根状态测试正常，其他系统自测。
-Name: TrollOpen
+Name: TrollOpen 分屏
 Author: 一刀
 
 Package: com.axs.tweakshub
@@ -790,7 +790,7 @@ SHA1: 967a72f9cd26e1e0d7b6cd10b56e955adf49daf6
 SHA256: b399eb43f4babd4da771f39f3e09298e4609122566844420cb5aa9576defddce
 SHA512: a39f0bdd04c9de4bca9734517422b3173bc98757f8a3e5297efda34f3beab770b431a2ad6fc92b13eddbc20da4c39e480852a9db4c9a98ac5a6391c6f7d58c8d
 Description: Enable DND when a screen recording is initiated.
-Name: DNDMyRecording
+Name: DNDMyRecording 屏幕录制时打开勿扰
 Author: gilshahar7, 0xkuj
 
 Package: com.cydia.love.dynamicnotland-Rootless
@@ -1883,7 +1883,7 @@ SHA1: 0036b0f68922138498230c48df959572383a651a
 SHA256: 7ebdbc67e7d398d824996928358c051d29eb5085e61865b96d23b52dde23fab4
 SHA512: 322ff4730dd8bbf49b69482acb7e879f91152014479be52dde52af955f1d2569c0314b9f8e64582d66c50220b84d4fbf7ecbb0af6df6902c701862fa94eeb783
 Description: 分屏，不必太复杂，一切从简即可。
-Name: floatingView
+Name: floatingView 分屏
 Author: be-huge
 
 Package: com.cydia.love.volume-manager-Rootless
@@ -2164,7 +2164,7 @@ SHA1: 07943f20048979e54cac4f5703127c9d3c992a0f
 SHA256: cebb6abe4e7c1be4b7c660c34272fcb840964264c7417e503fbf914b4b892bbc
 SHA512: 8826d9ebdaeb4432cc1ba62af5c38b2b0e3c1c7d978b82a7ed72e23932e8254524185c3fc6c45a7aae60864cb474365bcb335b957692e5fb0ebd127cc99ca7ba
 Description: 分屏，不必太复杂，一切从简即可。
-Name: split-view-pro
+Name: split-view-pro 分屏
 Author: sunshinesong
 TS: sp-sss
 
