@@ -95,8 +95,9 @@ list.addEventListener('click',e=>{const c=e.target.closest('.card');if(!c)return
   var hero=document.querySelector('.hero');
   hero.addEventListener('mouseenter',function(){clearInterval(timer);});
   hero.addEventListener('mouseleave',restart);
-  hero.addEventListener('touchstart',function(){clearInterval(timer);},{passive:true});
-  hero.addEventListener('touchend',restart);
+  var touchX=0;
+  hero.addEventListener('touchstart',function(e){touchX=e.changedTouches[0].clientX;clearInterval(timer);},{passive:true});
+  hero.addEventListener('touchend',function(e){var dx=e.changedTouches[0].clientX-touchX;if(Math.abs(dx)>50){show((idx+(dx<0?1:-1)+slides.length)%slides.length);}restart();},{passive:true});
   restart();
 })();
 </script></body></html>
