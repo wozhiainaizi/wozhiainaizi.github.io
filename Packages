@@ -1886,6 +1886,25 @@ Description: 分屏，不必太复杂，一切从简即可。
 Name: floatingView 分屏
 Author: be-huge
 
+Package: com.crctdd.choicy-whitelist
+Architecture: iphoneos-arm64e
+Version: 1.5.4-11
+Section: 红尘琐事
+Maintainer: crctdd
+Installed-Size: 748
+Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
+Conflicts: com.opa334.choicy, com.crctdd.choicy-patch
+Replaces: com.opa334.choicy, com.crctdd.choicy-patch
+Filename: debs/com.crctdd.choicy-whitelist_1.5.4-11_iphoneos-arm64e.deb
+Size: 156750
+MD5sum: 60b17c2212c4a8a6c67fb30cf81940a0
+SHA1: 5abfecaed49d00b64785077f408e41d5a6a7fcc1
+SHA256: 7573844936fe6fa24665d072023ce93b8130c010d7edd822aa17189c95528ec5
+SHA512: 8d7c4bd8b602419d0fa5711fb2b80d98a7b50da2fd972dbe117cd3918a9da987564bc5122cf37116f7ad486d2ab73d0eb2cf3e0246f59542e6c7408fa7a0aae0
+Description: Choicy白名单 (支持iOS 15-17 roothide)
+Name: Choicy-Whitelist
+Author: crctdd
+
 Package: com.cydia.love.volume-manager-Rootless
 Architecture: iphoneos-arm64e
 Version: 1.0.3
@@ -2295,4 +2314,39 @@ Name: CursorPro(roothide)
 Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/cursorpro.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/cursorpro/js.json
+
+Package: com.kdt.caperfhudmodule
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: 红尘琐事
+Maintainer: khanhduytran0
+Installed-Size: 260
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.opa334.ccsupport, firmware (>= 13.0)
+Filename: debs/全局性能悬浮监测模块caperfhudmodule_1.0.0_e.deb
+Size: 24434
+MD5sum: a347135b2700ca7ab9ed2fe8ee3cafd4
+SHA1: af032ed856705bd33660dfe8a79f940fed77df83
+SHA256: 17f55187bc32379e2b0add5ac053a3ab18d1adf1697aa50996e9a4b26bcecc7f
+SHA512: bb8cd236b9ded2ead0a73e8379023d01f3a7bb00bc9a15b73b5ab13e383108c4d024e3cc3c08ba2820cdf5c40209689efee5d22f35cbd85c5d17d6c81909563a
+Description: Enable system-wide performance HUD from the control center.
+Name: CAPerfHUDModule
+Author: khanhduytran0
+
+Package: daniel.batman
+Architecture: iphoneos-arm64e
+Version: 0.0.2-1+debug
+Section: 红尘琐事
+Maintainer: daniel
+Installed-Size: 156
+Depends: mobilesubstrate
+Filename: debs/显示电池更多信息batman_0.0.2-1_debug_e.deb
+Size: 4912
+MD5sum: 20f986a51d5d52c452c48dc23418651d
+SHA1: f538cbf652245e3b57e4d6b424542f15c8951208
+SHA256: d6e67a00d15bfe437b3ce067e3f582916535549c7d46721fc58b539931ca3135
+SHA512: 2670a82255ca8990ad0e3192b77ed9b308c9e023fb89fe0541dcedc353707670fee2c6b6e415d2371e6849574afff715a593fc23273193206d566454982693dd
+Description: Display much more battery information
+Name: Batman (roothide)
+Author: daniel
 
