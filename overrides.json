@@ -121,5 +121,20 @@
   },
   "120hzstable_1.3.0_e.deb": {
     "name": "120Hz RainFlow"
+  },
+  "dndmyrecording_1.3_e.deb": {
+    "name": "DNDMyRecording 屏幕录制时打开勿扰"
+  },
+  "split-view-pro_1.3.7.deb": {
+    "name": "split-view-pro 分屏"
+  },
+  "com.be-huge.floating-view_1.6.0-6_iphoneos-arm64e.deb": {
+    "name": "floatingView 分屏"
+  },
+  "TrollOpen_1.5.2_e.deb": {
+    "name": "TrollOpen 分屏"
+  },
+  "ScreenCore-2.0.5_1.deb": {
+    "name": "ScreenCore 分屏"
   }
 }

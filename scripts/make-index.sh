@@ -106,3 +106,5 @@ echo "索引完成: $(grep -c '^Package:' Packages) 个包"
 # 触发构建标记: 2026-11-01 批量改名分组(CPU insulation/Snapper/libhooker/LockTouchX/120Hz系/StayAlive/Sileo汉化)
 
 # 触发: RootHide Patcher+Filza64bit移初入仙途
+
+# 触发: DNDMyRecording/floatingView/split-view/TrollOpen/ScreenCore 加中文说明
