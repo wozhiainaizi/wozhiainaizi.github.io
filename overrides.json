@@ -136,5 +136,23 @@
   },
   "ScreenCore-2.0.5_1.deb": {
     "name": "ScreenCore 分屏"
+  },
+  "com.snail.always120.roothide_1.2.0_iphoneos-arm64e.deb": {
+    "name": "120Hz Always"
+  },
+  "iya.banana.billie.ambientbadge_0.1.16_iphoneos-arm64e.deb": {
+    "name": "AmbientBadge 微光角标"
+  },
+  "显示电池更多信息batman_0.0.2-1_debug_e.deb": {
+    "name": "batman 显示电池更多信息"
+  },
+  "全局性能悬浮监测模块caperfhudmodule_1.0.0_e.deb": {
+    "name": "caperfhudmodule 全局性能悬浮监测模块"
+  },
+  "dylv.liquidass.zh-hans_0.0.9a_iphoneos-arm64e.deb": {
+    "name": "Liquid(G)ass 简体中文版"
+  },
+  "光标CursorPro_roothide_-0.0.1-4.deb": {
+    "name": "CursorPro 光标闪现"
   }
 }

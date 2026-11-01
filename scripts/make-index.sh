@@ -118,3 +118,5 @@ echo "索引完成: $(grep -c '^Package:' Packages) 个包"
 # trigger-build: sileo-featured.json itemSize 398x224 symmetric margins (2026-11-01)
 
 # trigger-build: libhooker 微调加载器移到初入仙途 (2026-11-01)
+
+# trigger-build: 6个包改名分组(120Hz Always/AmbientBadge/batman/caperfhudmodule/Liquid(G)ass/CursorPro) (2026-11-01)
