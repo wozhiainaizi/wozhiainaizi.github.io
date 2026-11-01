@@ -33,9 +33,15 @@ cat > index.html <<'HTML'
 <style>
 *{box-sizing:border-box}
 body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;background:#0d1117;color:#e6edf3;margin:0}
-.hero{position:relative;width:100%;aspect-ratio:16/9;max-height:480px;background:url(assets/hero.jpg) center/cover no-repeat}
-.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.5) 0%,rgba(0,0,0,.1) 35%,rgba(0,0,0,.15) 60%,rgba(0,0,0,.7) 100%)}
-.heroin{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:space-between;align-items:center;padding:12px 14px 8px;text-align:center}
+.hero{position:relative;width:100%;aspect-ratio:16/9;max-height:480px;background:#0d1117;overflow:hidden}
+.slides{position:absolute;inset:0;z-index:0}
+.slide{position:absolute;inset:0;background:center/cover no-repeat;opacity:0;transition:opacity .9s ease}
+.slide.active{opacity:1}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(0,0,0,.5) 0%,rgba(0,0,0,.1) 35%,rgba(0,0,0,.15) 60%,rgba(0,0,0,.7) 100%)}
+.heroin{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;justify-content:space-between;align-items:center;padding:12px 14px 8px;text-align:center}
+.dots{position:absolute;left:0;right:0;bottom:40px;z-index:3;display:flex;justify-content:center;gap:7px}
+.dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.45);cursor:pointer;transition:background .2s}
+.dot.on{background:#fff}
 h1{font-size:24px;margin:0;text-shadow:0 2px 10px rgba(0,0,0,.65);letter-spacing:2px;line-height:1.1;text-align:center;text-indent:6px}
 .sub{color:#fff;font-size:14px;margin:14px 0 0;text-shadow:0 1px 7px rgba(0,0,0,.7);line-height:1.2}
 .sub2{color:rgba(255,255,255,.92);font-size:12px;margin:14px 0 0;text-shadow:0 1px 5px rgba(0,0,0,.8);line-height:1.2}
@@ -56,7 +62,14 @@ main{padding:18px 16px 48px;max-width:720px;margin:0 auto}
 @media(min-width:768px){h1{font-size:34px}.sub{font-size:17px}.sub2{font-size:14px}.btn{padding:11px 22px;font-size:15px}.chip{font-size:14px}}
 </style></head>
 <body>
-<div class="hero"><div class="heroin">
+<div class="hero">
+<div class="slides">
+<div class="slide active" style="background-image:url(assets/banner1.jpg)"></div>
+<div class="slide" style="background-image:url(assets/banner2.jpg)"></div>
+<div class="slide" style="background-image:url(assets/banner3.jpg)"></div>
+<div class="slide" style="background-image:url(assets/banner4.jpg)"></div>
+</div>
+<div class="heroin">
 <div class="titles">
 <h1>暗影大人</h1>
 <div class="sub">万物皆为我所用</div>
@@ -67,7 +80,9 @@ main{padding:18px 16px 48px;max-width:720px;margin:0 auto}
 <a class="btn" href="zebra://sources/add/https://wozhiainaizi.github.io/">在 Zebra 中打开</a>
 </div>
 <div class="nav" id="nav"></div>
-</div></div>
+</div>
+<div class="dots"></div>
+</div>
 <main>
 <div class="hint" id="hint">共 105 个软件包，点分组筛选，点卡片查看说明</div>
 <div id="list"></div>
@@ -91,6 +106,30 @@ nav.addEventListener('click',e=>{const c=e.target.closest('.chip');if(!c)return;
 list.addEventListener('click',e=>{const c=e.target.closest('.card');if(!c)return;
   toast.textContent=c.dataset.n+'：安装请添加本源后搜索，或回复本插件名获取指引';toast.classList.add('show');
   clearTimeout(toast._t);toast._t=setTimeout(()=>toast.classList.remove('show'),1800);});
+</script>
+<script>
+(function(){
+  var slides=[].slice.call(document.querySelectorAll('.slide'));
+  var dotsWrap=document.querySelector('.dots');
+  var idx=0,timer=null,INTERVAL=3000;
+  var rest=slides.slice(1);
+  for(var i=rest.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=rest[i];rest[i]=rest[j];rest[j]=t;}
+  var order=[slides[0]].concat(rest);
+  var parent=slides[0].parentNode;
+  order.forEach(function(s){parent.appendChild(s);});
+  slides=order;
+  slides.forEach(function(_,i){var d=document.createElement('span');d.className='dot'+(i===0?' on':'');d.addEventListener('click',function(){show(i);restart();});dotsWrap.appendChild(d);});
+  var dots=[].slice.call(dotsWrap.children);
+  function show(n){slides.forEach(function(s,i){s.classList.toggle('active',i===n);});dots.forEach(function(d,i){d.classList.toggle('on',i===n);});idx=n;}
+  function next(){show((idx+1)%slides.length);}
+  function restart(){clearInterval(timer);timer=setInterval(next,INTERVAL);}
+  var hero=document.querySelector('.hero');
+  hero.addEventListener('mouseenter',function(){clearInterval(timer);});
+  hero.addEventListener('mouseleave',restart);
+  hero.addEventListener('touchstart',function(){clearInterval(timer);},{passive:true});
+  hero.addEventListener('touchend',restart);
+  restart();
+})();
 </script></body></html>
 HTML
 
@@ -120,3 +159,5 @@ echo "索引完成: $(grep -c '^Package:' Packages) 个包"
 # trigger-build: libhooker 微调加载器移到初入仙途 (2026-11-01)
 
 # trigger-build: 6个包改名分组(120Hz Always/AmbientBadge/batman/caperfhudmodule/Liquid(G)ass/CursorPro) (2026-11-01)
+
+# trigger-build: 网页hero自动轮播4图(主图banner1+随机)+dots (2026-11-01)
