@@ -2221,3 +2221,22 @@ SHA512: 30bf2b193e79a07f4b99cf0ec12c070f8a86b44cb302b6ad4a6edd38db21b4ddb2dc962c
 Description: Rule-driven URL scheme interception core. Blocks or redirects URL schemes globally or per calling app, enforced in both the calling app and the Launch Services daemon (lsd). Includes a Settings pane with installed-app and URL-scheme discovery.
 Tag: purpose::uikit, compatible::ios14
 
+Package: com.sini921.cursorpro
+Architecture: iphoneos-arm64e
+Version: 0.0.1-4
+Section: 红尘琐事
+Maintainer: SINI
+Installed-Size: 460
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Filename: debs/光标CursorPro_roothide_-0.0.1-4.deb
+Size: 53650
+MD5sum: 66d57b73ef1a49fe18fbc55cb23b5244
+SHA1: 35b73df8c4346db1144255869eb9c5021b7240c7
+SHA256: 54afec2a0cdf3ec7ebbab2f4869d4545d7f9e9dd96cae6b7330af6420dff559a
+SHA512: e4b2b0cf0888a05bb8acf59873748cbb1287267d6c0783af2ce1e451e8d12f64efec56cb4d2c9f85ad33552cbc09d9ae692657edb7c7a0bda1723631c4f0ef5f
+Description: 光标简单优化
+Name: CursorPro(roothide)
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/cursorpro.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/cursorpro/js.json
+
