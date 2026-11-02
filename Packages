@@ -2498,6 +2498,53 @@ Name: Indicators
 Icon: https://sini921.github.io/repo/sileodepiction/icon/indicators.png
 Author: LacertosusDeus & SINI
 
+Package: com.snapbackup
+Architecture: iphoneos-arm64e
+Version: 3.8.4
+Section: 红尘琐事
+Maintainer: kanuo
+Installed-Size: 648
+Depends: firmware (>= 15.0), mobilesubstrate, apt, dpkg, coreutils, sed
+Filename: debs/com.snapbackup_3.8.4_iphoneos-arm64e.deb
+Size: 1843610
+MD5sum: 77ef31fd79619ff2dad5a77afecdfd4e
+SHA1: f2517e2031eb74eb9af0aad3a092e9e2a92fdb17
+SHA256: 3424394e9897e90ff87edbaff8de27bbd85767c2a7df065ca6e5732bc7a88c10
+SHA512: 81bcf11f49cc3335011bf1c9808aabba1d0710c5f69a344ed1a0052cbfc66df0b138958701c3c19043bd1fc1984353a6b1332ef3345a9360d7cb8d32413dce84
+Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
+ 轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
+ .
+ 【核心功能】
+ - 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist
+ - 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）
+ - 选择性备份：可勾选要备份的插件与配置，自动标记「设置有界面」的插件
+ - 插件、依赖、偏好与配置目录统一归档，记录 SHA-256、权限和所有者
+ .
+ 【恢复流程】
+ - 独立 root helper 校验备份完整性、包元数据与架构，依赖由 Sileo 处理
+ - 恢复插件后自动打开 Sileo 并加入安装队列，用户手动确认安装
+ - 备份结果支持多选恢复，自动处理 Sileo 获取及本地重新安装入队
+ - 可跳过已安装插件，独立入口批量选择本地 deb 加入 Sileo 队列
+ - 失败插件可单独重试并补入原备份，支持查看与复制工具错误日志
+ - 外观支持浅色、深色及跟随系统，自动记住选择
+ - Sileo 内仍支持多选 deb、导入文件夹与 SnapBackup 待恢复任务
+ - 使用 Sileo 原生安装队列；恢复插件与恢复配置为独立按钮
+ - 可单独恢复备份配置，也可按 Sileo 任务核验安装结果后恢复对应配置
+ - 保留恢复日志与配置覆盖前的副本
+ .
+ 【操作流程】
+ ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选的插件+配置 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
+ ② 恢复配置：主页 →「恢复配置」→ 选备份包
+ ③ 恢复插件：主页 →「恢复插件」→ 选备份包 → 自动打开 Sileo 加入队列 → 手动确认安装
+ .
+ RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
+ 备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
+Name: SnapBackup 备份恢复
+Author: kanuo
+dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/icon/snapbackup.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.snapbackup.json
+
 Package: com.squidforce.doubletapflipcamera
 Architecture: iphoneos-arm64e
 Version: 1.1
