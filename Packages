@@ -1415,6 +1415,25 @@ Description: TrollOpen 的越狱版本，支持 ios16 及以上，免费公开�
 Name: TrollOpen
 Author: Charlie Leung
 
+Package: com.axs.tweakshub
+Architecture: iphoneos-arm64e
+Version: 5.2.0-92
+Section: 本命法器
+Maintainer: Axs <qiaozhani000@163.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.nightwind.onesettings, com.creaturecoding.shuffle, com.sop.settingsrevamp, com.hk.settingsrevamp, com.dao.settingsrevamp, byg.iosios.net.settingsrevamp
+Filename: debs/插件收纳tweakshub_5.2.0-92_e.deb
+Size: 74448
+MD5sum: 25a735c570e129560a236ab7221ba8bc
+SHA1: 57e5777db0a04ff1022f87fc1c2ee1d3b646a386
+SHA256: aff51f3fec70de236cdd9fc81237ad1aae771ca840c4d5efd5d0c186709b75fa
+SHA512: b23da92ab8803436d18f85ca10ea06d81f344156fa246e93d9d9aefd13ffb4af8f039c0520e01c7dc4050ae3497ac8f0d12523a6f8d89eb472102bb404c51bcf
+Description: 集中收纳统一管理越狱插件与第三方 App 设置，支持插件自定义名称和图标,支持插件自定义排序，支持屏蔽系统更新、设置小红点、电池信息中的未知部件。
+Name: TweaksHub
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/tweakshub.png
+
 Package: daniel.batman
 Architecture: iphoneos-arm64e
 Version: 0.0.2-1+debug
@@ -3237,23 +3256,4 @@ SHA512: 64be32be5d29c1fb44f2332f5feae93fc28df159a14605f3f8ce138f9edf1fe5cd65e157
 Description: 在设置项中启动，然后把手机塞进去逼里面，或者把手机放进胶袋，然后把78放进胶袋使用即可
 Name: 手机跳蛋
 Author: 水甲嫩鸡
-
-Package: com.yourepo.axs.tweakshub
-Architecture: iphoneos-arm64e
-Version: 5.2.0-92
-Section: 红尘琐事
-Maintainer: Axs <qiaozhani000@163.com>
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.nightwind.onesettings, com.creaturecoding.shuffle, com.sop.settingsrevamp, com.hk.settingsrevamp, com.dao.settingsrevamp, byg.iosios.net.settingsrevamp
-Filename: debs/插件收纳tweakshub_5.2.0-92_e.deb
-Size: 97352
-MD5sum: b954a4e4da8d30a4d34c58b253424597
-SHA1: 3b8362b5cf66d39fbf97210f0867abe04952f14a
-SHA256: a81b145b1d770ac9cae854c6f546c06bd228e445fefec302bc144b5a02432176
-SHA512: 4ac620ca3acaee7b25650ae5379fb84c8ad041e651e62e376560e0a5cb0821fb7bf8207e955b83032c646fb0321e2524f5e551cea12e38b496449eb64b02cf1e
-Description: 集中收纳统一管理越狱插件与第三方 App 设置，支持插件自定义名称和图标,支持插件自定义排序，支持屏蔽系统更新、设置小红点、电池信息中的未知部件。
-Name: TweaksHub
-Author: Axs <qiaozhani000@163.com>
-Icon: https://axs66.github.io/pro/icon/tweakshub.png
 
