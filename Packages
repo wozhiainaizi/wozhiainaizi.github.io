@@ -825,6 +825,25 @@ Description: 为 App (文件夹) 添加生物识别锁（Touch ID / Face ID）�
 Name: LockTouchX
 Author: hades
 
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64e
+Version: 1.6.2-157+isolation.30
+Section: 本命法器
+Maintainer: Huayuarc
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/com.huayuarc.cputhermal_1.6.2-157_isolation.30_iphoneos-arm64e.deb
+Size: 160272
+MD5sum: 4c392c3a10480141b7c4bbafbe27e560
+SHA1: f3ccc051ecd799183210429eabf578594ff67ffb
+SHA256: 4c1f5e81410fb4ff19ffde9abdaa032a6cc3d43b2ebbdb12b684cb38355e717c
+SHA512: 0ef12e63440874df8e8d3ac6b153fc1c20bf9f235cf3072168b2233f3817507cd5c2e451b262dd21863836b00fc16a0fb930a9ca25ddc8555ee90ad968c77af1
+Description: CPUthermal temperature policy, smart charge and dynamic settings with full Hello 120Hz 3.3.3-3 port: preferred 10/30/60/80/120 FPS, global injection, application exclusions, debug HUD and system recording hooks. Requires AltList. Based on isolation.16 SpringBoard stability candidate.
+Name: CPU 解除温控
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
 Package: com.snail.always120.roothide
 Architecture: iphoneos-arm64e
 Version: 1.2.0
@@ -1559,6 +1578,31 @@ Description: 解除隔空投送十分钟限制，支持设置自定义关闭时�
 Name: AirDrop
 Author: iosdump
 
+Package: com.evgeniy558.controlcenter18
+Architecture: iphoneos-arm64e
+Version: 0.3.1
+Section: 红尘琐事
+Maintainer: evgeniy558 (Original); Simplified Chinese resource merge
+Installed-Size: 17045
+Provides: com.sini.locationservicecc, com.brend0n.nopassafterrespringsafe
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0), preferenceloader, com.opa334.ccsupport (>= 1.2), rootless-compat (>= 0.9)
+Conflicts: com.local.controlcenter18.fullchinese, com.sini.locationservicecc, com.brend0n.nopassafterrespringsafe
+Replaces: com.local.controlcenter18.fullchinese, com.sini.locationservicecc, com.brend0n.nopassafterrespringsafe
+Filename: debs/CC18_0.3.1_NoEasterEggs.deb
+Size: 2146056
+MD5sum: 2a71ee27111f10cd0641f041edde69bc
+SHA1: 23607d9a3dee041c308498a4459c9316553edeb6
+SHA256: 7edfa73e89cb738c0c216561a7b5374b3e8965f1e98b3ec358617c1e68674e8c
+SHA512: 49fc43179f33414b68ad4a3cdb9e8dc17f9cb68649036c597f4d764142eb82e510260d316d3a63f2ef1c106bc05ab7026d0ea415e523c093808dd0e73d996806
+Description: ControlCenter18 简体中文整合版，适用于 iOS 16–17 的 iPhone。
+ 将原版控制中心功能与简体中文界面资源整合为单个安装包，保留原版动态库、手势、模块与设置功能。
+ 原作者：evgeniy558；中文资源由语言包合并。当前为 Beta 版本，请先备份原配置。
+Repo: https://repo.ya-ebal.mom
+Name: ControlCenter18 简体中文整合版
+Author: evgeniy558
+Icon: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/header-icon@3x.png
+SileoDepiction: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/Depiction/depiction.json
+
 Package: com.opa334.choicy
 Architecture: iphoneos-arm64e
 Version: 1.5.4
@@ -2151,6 +2195,27 @@ Description: 锁屏时保持 WiFi 连接；热点无客户端时不自动关闭�
 Name: Fiona
 Author: doimty
 
+Package: com.doimty.vedette
+Architecture: iphoneos-arm64e
+Version: 1.1.14-9
+Section: 红尘琐事
+Maintainer: doimty
+Installed-Size: 1532
+Depends: firmware (>= 15.0), roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Conflicts: com.udevs.vedette
+Replaces: com.udevs.vedette
+Filename: debs/com.doimty.vedette_1.1.14-9_iphoneos-arm64e.deb
+Size: 276168
+MD5sum: e49ae77e485467b966fbf34464632838
+SHA1: 46a67a35963c8506c895eed3bd813e107997b852
+SHA256: 47ded6a4a302c7b239ab19cb58840491a15d63d7dd9b2ee48e85d9c25d93ab7a
+SHA512: f9d9e58d53863a28ae5a00f4902881029dd2a14d5b155cd2bc37aa8be7c3759e86cd4bac1ee743fda5ec417c28c2ad0e8b5891d1f7c743f53a565588bddbde32
+Description: 按应用与守护进程独立管理 CPU 限制和 nice 调度优先级，支持内存上限及回收优先级规则
+Name: Vedette
+Author: udevs
+Icon: https://doimty.github.io/icons/com.doimty.vedette.png
+Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
+
 Package: com.iosdump.jumpselect
 Architecture: iphoneos-arm64e
 Version: 1.3
@@ -2245,6 +2310,42 @@ Description: Capture moments with photos, videos, and audio in the background wi
 Name: K2gecamen
 Author: mafu
 Icon: https://m4fn3.github.io/repo/web/images/K2gecamen.png
+
+Package: com.mallin.tunnelsharevpn
+Architecture: iphoneos-arm64e
+Version: 1.2.4
+Section: 红尘琐事
+Maintainer: Mallin
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate | substitute | libhooker | ellekit, com.opa334.ccsupport, preferenceloader
+Filename: debs/com.mallin.tunnelsharevpn_1.2.4_iphoneos-arm64e.deb
+Size: 145920
+MD5sum: 0e8c8d21ff3eec3ae533b1e5db1377ba
+SHA1: 7efacd9efb83cedf2165ef960ea9bdcac4a3f0f1
+SHA256: 605835b7adb970d98cf784874cbaeda40d2c3ceb8ba0cb71386cd59f90aa9171
+SHA512: ce24c21f807174250619b6ad7239436c9ec7e219febf406fea5a93eaabc8b4973744d576d130226bd9bc90d4f1abc7e62e8dc209717acb900fdabb003948630c
+Description: 该插件能够实现该手机的科学上网功能直接通过热点形式分享给其他设备，在“设置-控制中心”添加快捷键，即可实现一键操作，目前测试使用Shadowrocket科学上网，只用于科研与查阅外网资料！
+Name: TunnelShareVPN
+Author: Mallin
+Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
+
+Package: com.mallin.tunnelsharevpn
+Architecture: iphoneos-arm64e
+Version: 1.2.6
+Section: 红尘琐事
+Maintainer: Mallin
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate | substitute | libhooker | ellekit, com.opa334.ccsupport, preferenceloader
+Filename: debs/com.mallin.tunnelsharevpn_1.2.6_iphoneos-arm64e.deb
+Size: 166312
+MD5sum: 9b4f31514cd2ca6e7d41b74bccb3d471
+SHA1: be1329928e83f1c05cd2f20b4240e457ee163484
+SHA256: a60f6c7d0a0175529452257682c450ec5d1410e9ed339ee311ded0eae8598aa9
+SHA512: 9207bbf5a1682f03d94b3d9d61189ffeb4c70d45e32ab405a53cf6e7c9aacf02f9c73ef3e8d707d44ed4becde9dcf7595e8ad1264d7ce5aa03ccf78087e6e586
+Description: 该插件能够实现该手机的科学上网功能直接通过热点形式分享给其他设备，在“设置-控制中心”添加快捷键，即可实现一键操作，目前测试使用Shadowrocket科学上网，只用于科研与查阅外网资料！
+Name: TunnelShareVPN
+Author: Mallin
+Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
 
 Package: com.netskao.disableshuttersound
 Architecture: iphoneos-arm64e
