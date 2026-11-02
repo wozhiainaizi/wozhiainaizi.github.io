@@ -2472,6 +2472,25 @@ Name: MutePlay避免通知影响音量
 Author: uz.ra <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/muteplay.png
 
+Package: com.zqbb.dynamic120hz
+Architecture: iphoneos-arm64e
+Version: 3.3.3-3
+Section: 红尘琐事
+Maintainer: zqbb
+Installed-Size: 1180
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, cn.zqbb.fix120hz
+Filename: debs/com.zqbb.dynamic120hz_3.3.3-3_iphoneos-arm64e.deb
+Size: 393716
+MD5sum: 074c22ceaaaa0540c250db309bf6785d
+SHA1: b7c827ae9d42e2774e9636a37d909f3e9531d5cd
+SHA256: a56d3ddf19e73a4b58811a5fa834a8a23802233321e011dc332d3499cba8dfc4
+SHA512: c8719d44df10c9419da13979c2f289ab3ed9812aa540e13655de54e5a8f99d33c60b7115f69e1105263d7a36373923c353c451cafe5c71f78b777bf5dedb204c
+Description: Unlock dynamic refresh rate from 80hz to 120hz
+Name: 120hz Dynamic
+Author: zqbb
+
 Package: com.zqbb.savephotos
 Architecture: iphoneos-arm64e
 Version: 1.1-1
