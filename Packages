@@ -2475,6 +2475,135 @@ Description: 双击取景框翻转相机前置和后置镜头，无设置项。�
 Name: DoubleTapFlipCamera 双击翻转相机镜头
 Author: SquidForce
 
+Package: com.tsangbaby.galaxy
+Architecture: iphoneos-arm64e
+Version: 0.3.2
+Section: 红尘琐事
+Maintainer: Tsangbaby
+Installed-Size: 2176
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/com.tsangbaby.galaxy_0.3.2_iphoneos-arm64e.deb
+Size: 449328
+MD5sum: 3663cd81b1ac0b2a1f9e03aeb8a2e7ad
+SHA1: 06c1264e548afce5e3eeb1817f567d77094abf98
+SHA256: 45490c0eed2d3eb895a14a1421ab9a40e5d6174d637316081f80100177ed66c5
+SHA512: 0857f19c9e095bd2bfa8054f5c563cbd4f4320cff72a3a733ab5f472bd47f9c99f155eb30a20880074cec73c1d004df19b354a799a07797a0c87ef75bc7403df
+Description: Independent circular app launcher for iOS 15 and later.
+Name: Galaxy
+Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Galaxy.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
+
+Package: com.tsangbaby.galaxy
+Architecture: iphoneos-arm64e
+Version: 0.3.4
+Section: 红尘琐事
+Maintainer: Tsangbaby
+Installed-Size: 2208
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/com.tsangbaby.galaxy_0.3.4_iphoneos-arm64e.deb
+Size: 452844
+MD5sum: 0f7860d6a486a96b1fa5cec2ed75f904
+SHA1: 19a9f8e88dc3bc8233dc7d16ba101e2895f561bb
+SHA256: 00a2aa1c1d54b66b78b7d29cf77b68971b88adc2b955c6f4103b5b98aa6b5ddb
+SHA512: f047358e5ce8e606b66b655c0454f9146024612cccf06c4c777720a34d4d141ef4673a1659a5fd16cdff98472603e631d9d77e745cfed5958054c61028f248a7
+Description: Independent circular app launcher for iOS 15 and later.
+Name: Galaxy
+Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Galaxy.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
+
+Package: com.tsangbaby.pulloverx
+Architecture: iphoneos-arm64e
+Version: 2.0.5
+Priority: optional
+Section: 红尘琐事
+Maintainer: Tsangbaby
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/com.tsangbaby.pulloverx_2.0.5_iphoneos-arm64e.deb
+Size: 582400
+MD5sum: 6806e247b4f2f510d5f90a8890108031
+SHA1: 08ee2da0bc4e0c60860fba21e743925d2db13091
+SHA256: 322e65952a539bee63d50f724f3f0b5a72c46d83721629fa433f739c6121fb65
+SHA512: d99f86c1be1697ff0198e1de0f7482692e19d00652c05a847112b80a23c13f3d546261c8135dc91fa629034997fa3969406a7d0b92276bddd220adfc9f34c2bb
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+
+Package: com.tsangbaby.pulloverx
+Architecture: iphoneos-arm64e
+Version: 2.3.0
+Priority: optional
+Section: 红尘琐事
+Maintainer: Tsangbaby
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/com.tsangbaby.pulloverx_2.3.0_iphoneos-arm64e.deb
+Size: 625520
+MD5sum: 7193d791607efa300c392f34429e5a13
+SHA1: 0991d9d919ded5f5399a45368eab934547d64bf8
+SHA256: 01343f02fa7e5869846c50649dd61c6a21131db687f914d0fe6ea76c59ff9c32
+SHA512: b5bb904b2dd8be75adbdbe7466e682d5565d7db4377f02811f85eabc4892d9da3be38642012af1d051bc9e747d8d6a63e5b0ac785a00e4851ce02990446c662f
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
+
+Package: com.tsangbaby.pulloverx
+Architecture: iphoneos-arm64e
+Version: 2.3.1
+Priority: optional
+Section: 红尘琐事
+Maintainer: Tsangbaby
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/com.tsangbaby.pulloverx_2.3.1_iphoneos-arm64e.deb
+Size: 637420
+MD5sum: b799956c9af3a9dbe966fae9d63a373d
+SHA1: 28f03b923358245a188732a1001afd54537d6f3a
+SHA256: bd8160f340cc8c2f18fefad0186adc6e27d4c9c680edb7305a6824bb52e1149f
+SHA512: 790bcfae42444b2bb7809ebddaf222b29830111b0c7df1e298fd84b6641b1facc5fe6ad8e69c80b250ef866a5e4519a57ce91c2a902bf235976cbff33b1f0235
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
+
+Package: com.tsangbaby.pulloverx
+Architecture: iphoneos-arm64e
+Version: 2.3.2
+Priority: optional
+Section: 红尘琐事
+Maintainer: Tsangbaby
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/com.tsangbaby.pulloverx_2.3.2_iphoneos-arm64e.deb
+Size: 671500
+MD5sum: 0632d92595ca1f1409b39c316026e2ba
+SHA1: 2623b74356459458ef2eef64d5daf7f943bd227b
+SHA256: 1d0aa343f4a12c8defbf943d71d87608254a82b3644e660d0654cdf8bc7828bc
+SHA512: 25e36dc5f3ef1e9f2b8afe24002b670a550dd415fb17bf3eca354b6f9479647a9fbdc59f9148ed098b10b0f348064340f322b9f4d9f7509401984f158b971500
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
+
 Package: com.yourepo.axs.edgesiri
 Architecture: iphoneos-arm64e
 Version: 3.1.1-9
