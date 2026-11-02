@@ -2441,24 +2441,43 @@ Name: 禁用拍照快门声音
 Author: Netskao
 
 Package: com.rain.rainmhz
-Architecture: iphoneos-arm64e
-Version: 6.14.1-1
+Architecture: iphoneos-arm64
+Version: 6.13.0-1
 Section: 红尘琐事
 Maintainer: Rain
-Installed-Size: 1320
-Pre-Depends: rootless-compat(>= 0.9)
+Installed-Size: 1116
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.opa334.altlist (>= 1.0.4)
-Filename: debs/com.rain.rainmhz_6.14.1-1_iphoneos-arm64e.deb
-Size: 191644
-MD5sum: 93b504eff75a701d2911f5af66af4cd9
-SHA1: 97c35cd7d9aaf516c864d7c3856c28c8b76458c3
-SHA256: 9cf0f2e1065af50556dac54191a0a6109f0b52f8e39f9be5bc3a699d7983af28
-SHA512: 92421795f70103a69ffdf1228978a3f5c12632420316131bd32263dc5f5eeb3c802c38319852dfc3f785cca0f91b160702382dcb891e63fc9fb960907c95198d
+Filename: debs/com.rain.rainmhz_6.13.0-1_iphoneos-arm64.deb
+Size: 172852
+MD5sum: d18c9ed029d879d8ffa91f49ad8e3d3c
+SHA1: ff56a78ca7e93086a22d97ccd605a9bf77e4e5b1
+SHA256: 864a5983e59d895354a7081bf4b7979ea0ba85759226a4f227e271de8bdec4c3
+SHA512: 9796584774574a21175d492340a6e79dff6f5fe94875a15f23838a11c4a8e6acbed4f09521603ba03530dfbd95c054cc65b5ac324ea3d08c4e2a3ffccce325b9
 Description: Rain的CPU性能与稳帧控制插件
  通过IOKit控制Apple ARM DVFS，支持低发热、均衡、极限性能、智能与稳帧模式
  包含动态仪表盘、分级设置、场景预设、温控、性能监控与智能后台管控
 Tag: role::hacker, purpose::extension
-Name: Rain 的 Mhz
+Name: Rain的Mhz
+Author: Rain
+
+Package: com.rain.rainmhz
+Architecture: iphoneos-arm64
+Version: 6.14.1-1
+Section: 红尘琐事
+Maintainer: Rain
+Installed-Size: 1320
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.opa334.altlist (>= 1.0.4)
+Filename: debs/com.rain.rainmhz_6.14.1-1_iphoneos-arm64.deb
+Size: 183568
+MD5sum: 4a445c9d83c5bec92cb2965d31e53ca6
+SHA1: 442bdb9fbfbc18478056547a8cb0965e29fcf810
+SHA256: 0f132e246152c433998af1701d46f40ad0a3f45c12c480c2c284f2afd4faa1b4
+SHA512: c6f0688825145bd533f59a4c2b5e90e6a35ce041279dd48253c6cd78c37ebe4aa83653c86d44e418fc1daf0462a3def0184c964d68eac72914e2d403308eb0b2
+Description: Rain的CPU性能与稳帧控制插件
+ 通过IOKit控制Apple ARM DVFS，支持低发热、均衡、极限性能、智能与稳帧模式
+ 包含动态仪表盘、分级设置、场景预设、温控、性能监控与智能后台管控
+Tag: role::hacker, purpose::extension
+Name: Rain的Mhz
 Author: Rain
 
 Package: com.sahinkaa.blockappupdates
