@@ -161,3 +161,5 @@ echo "索引完成: $(grep -c '^Package:' Packages) 个包"
 # trigger-build: 6个包改名分组(120Hz Always/AmbientBadge/batman/caperfhudmodule/Liquid(G)ass/CursorPro) (2026-11-01)
 
 # trigger-build: banner3/4换高清版 + hero支持左右滑动手动翻页(自动轮播保留) + dots隐藏 (2026-11-01)
+
+# trigger-build: SafariExploitGuard+120hz Dynamic 移入本命法器 (2026-11-02)
