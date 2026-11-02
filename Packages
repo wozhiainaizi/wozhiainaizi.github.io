@@ -2292,6 +2292,42 @@ Name: Hammer It
 Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 
+Package: com.local.screenrecord4k60
+Architecture: iphoneos-arm64e
+Version: 0.2.0
+Section: 红尘琐事
+Maintainer: Local
+Installed-Size: 198
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.5), firmware (<< 16.4.2)
+Filename: debs/com.local.screenrecord4k60_0.2.0_iphoneos-arm64e.deb
+Size: 12848
+MD5sum: f062f9656f1d20d7aef0d5b3a6538221
+SHA1: 844013c0c578b2df2fb115976338f482937d32a9
+SHA256: cf642375b0a23359f398ea6cbe14d050ec23269587f36aa5451fab24c1c43476
+SHA512: ea1841094f60be8e894d2dcfacb38a4f18c662fda3c6e698083ebc02cf64ec30b4efee61b65e28fcf9a7bb833a268b494032403dacd75f29c406d2ee713595a4
+Description: Experimental 4K output and 60 fps encoder hints for iPhone 13 Pro Max on iOS 15.5 and iPhone 14 Pro Max on iOS 16.4.1. Runtime API checks required; not a guaranteed native 4K60 recorder.
+Name: ScreenRecord4K60 Experimental
+Author: Local
+
+Package: com.local.screenrecord4k60
+Architecture: iphoneos-arm64e
+Version: 0.2.1
+Section: 红尘琐事
+Maintainer: Local
+Installed-Size: 198
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.5), firmware (<< 16.4.2)
+Filename: debs/com.local.screenrecord4k60_0.2.1_iphoneos-arm64e.deb
+Size: 12812
+MD5sum: 6747e179249bc6809427cf30b2870713
+SHA1: 180f442dd1c5d6c3bd4f93285b11d921b2458192
+SHA256: 96decd9fec1dba8212ad743523cffe5062d623646a607484ef58d8f1dc3347d6
+SHA512: fce1594fd1252aa0a3ef68fbca57e024edf07a51e9ab122e5a66746231cffe114bcf72f529d66a0bda6668c750993eff164fe86c42f2cdfc887788f709146739
+Description: Experimental 4K output and 60 fps encoder hints for iPhone 13 Pro Max on iOS 15.5 and iPhone 14 Pro Max on iOS 16.4.1. Runtime API checks required; not a guaranteed native 4K60 recorder.
+Name: ScreenRecord4K60 Experimental
+Author: Local
+
 Package: com.m4fn3.k2gecamen
 Architecture: iphoneos-arm64e
 Version: 1.1.0
