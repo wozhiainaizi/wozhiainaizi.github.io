@@ -2440,6 +2440,46 @@ Description: 禁用拍照快门声音
 Name: 禁用拍照快门声音
 Author: Netskao
 
+Package: com.sahinkaa.blockappupdates
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: 红尘琐事
+Maintainer: sahinkaa/ichitaso
+Installed-Size: 460
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/com.sahinkaa.blockappupdates_1.0.2_iphoneos-arm64e.deb
+Size: 83154
+MD5sum: e0881b941057c9c5933337febd918d06
+SHA1: 03d42760b6787260f16069edf4f49a45b025083d
+SHA256: 89545b8209ba8cb69bc9859ec0378a4913941be2ed61b154f847f2efdd3b17ff
+SHA512: 5b28a088b7a71ee4c6446fdcef2051d816bac019dae554470a05ee873906754d32a69eb53c06def4b46a847248ee61bf2ad2f5259ec81eece62375aa35132bd0
+Description: Selectively block updates for individual App Store apps on rootless iOS 15 and later.
+Name: Block App Updates
+Author: sahinkaa
+Depiction: https://cydia.ichitaso.com/depiction/blockappupdates.html
+SileoDepiction: https://cydia.ichitaso.com/depiction/blockappupdates.json
+Icon: https://raw.githubusercontent.com/ichitaso/file/refs/heads/main/images/BlockAppUpdates/icon%403x.png
+
+Package: com.sahinkaa.blockappupdates
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: 红尘琐事
+Maintainer: sahinkaa/ichitaso
+Installed-Size: 476
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/com.sahinkaa.blockappupdates_1.0.3_iphoneos-arm64e.deb
+Size: 84204
+MD5sum: 5bce010f3dc6089a7dc1cd6ea367c9cd
+SHA1: 176c1f69a169c620f4e852f83a15f89efae1e456
+SHA256: 321ed6e63f3ecfeca80c3925088f5bcefcdd031222483a8a87f2cd6aab221e1a
+SHA512: 0277a23efcba69674ba6048b3e22592c0d617d824bf3b8dfdb0a55b2eb8ab7d1c3d2d01317ee4dc32d7c7113b901816c335b1e92c4d0b6c1f201c7ea9d749d1c
+Description: Selectively block updates for individual App Store apps on rootless or roothide iOS 15 and later.
+Name: Block App Updates
+Author: sahinkaa
+Depiction: https://cydia.ichitaso.com/depiction/blockappupdates.html
+SileoDepiction: https://cydia.ichitaso.com/depiction/blockappupdates.json
+Icon: https://raw.githubusercontent.com/ichitaso/file/refs/heads/main/images/BlockAppUpdates/icon%403x.png
+
 Package: com.sini921.indicators
 Architecture: iphoneos-arm64e
 Version: 1.2-23
@@ -2711,6 +2751,40 @@ Name: HelloBundleID
 Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.bundleid
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.bundleid
+
+Package: iya.banana.pickerwheeldock
+Architecture: iphoneos-arm64e
+Version: 0.1.2-1
+Section: 红尘琐事
+Maintainer: Banana
+Installed-Size: 556
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iya.banana.pickerwheeldock_0.1.2-1_iphoneos-arm64e.deb
+Size: 67838
+MD5sum: db3dffdcf8a94ec1a335dccfb7ff45ff
+SHA1: 38847b87f2f6910f8d455e07e805c70ac296d682
+SHA256: 7953033639f5fb308b2f0164754e0107d03c03c98ebca8d2b7dd74dfdfff9196
+SHA512: 13e07ed965615b37fd3e5483cd8429c322eb4c8413d968d32c5148b5b9fde42d8c1701531803578267ff22fd992a967cc8615b212109e39767ae00c8c75e6490
+Description: A magnifying and scrolling Dock for iOS 15, 16 and 17.
+Name: KineticDock
+Author: Banana
+
+Package: iya.banana.pickerwheeldock
+Architecture: iphoneos-arm64e
+Version: 0.1.3-1
+Section: 红尘琐事
+Maintainer: Banana
+Installed-Size: 588
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iya.banana.pickerwheeldock_0.1.3-1_iphoneos-arm64e.deb
+Size: 71468
+MD5sum: 2d3256abfe8deb0e88fc22316566c1f3
+SHA1: 8efd9041578c8131454bb3fe110fcbfe8bef9057
+SHA256: a276cf269f0d81405dda7d6b163b4b7bbc85d6c5109233bad0a5eab913c54670
+SHA512: 63eba204723e9e4f2323c7c99c2701630543f3d29420597c04cec4e5d8e8f887d90865f00f6b892b58de6cf158ce7d3116e237486c1b78029fe29ff12642f592
+Description: A magnifying and scrolling Dock for iOS 15, 16 and 17.
+Name: KineticDock
+Author: Banana
 
 Package: jp.dcsyhi.culprit
 Architecture: iphoneos-arm64e
