@@ -1990,24 +1990,6 @@ Description: A modified TrollStore by iosdump for jailbroken iOS
 Name: TrollStore Lite 白巨魔
 Author: opa334&iosdump
 
-Package: com.82flex.unseen
-Architecture: iphoneos-arm64e
-Version: 0.0.5
-Section: 红尘琐事
-Maintainer: 82flex
-Installed-Size: 492
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 14.0), preferenceloader
-Filename: debs/Unseen-.deb
-Size: 63470
-MD5sum: 4fe0b833ea598f82a64e1ac7840a511a
-SHA1: 6e7c2c02072f6bd1f54038f9e403f3d08b0ce9b4
-SHA256: 204e5e0eaf16f8127c519219268a26d969f56a41f33c2809a93a179a06b6c076
-SHA512: 54b81a60ba10b98746aefb504fcbcbee39989bc40c287edf48f992a0bbdba52217dcd9c49123a1fb540054a0734e05d0e11f0c1a147e1fa20439cbf3c36bd4df
-Description: Neutralizes CALayer disableUpdateMask in the render server
-Name: Unseen
-Author: 82flex
-
 Package: com.crctdd.autocopyverify
 Architecture: iphoneos-arm64e
 Version: 0.0.5
@@ -2099,6 +2081,24 @@ Name: Hello QuickPanel
 Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.quick.panel.png
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.quick.panel
+
+Package: com.82flex.unseen
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Section: 红尘琐事
+Maintainer: 82flex
+Installed-Size: 492
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), preferenceloader
+Filename: debs/com.82flex.unseen_0.0.5_iphoneos-arm64e.deb
+Size: 52344
+MD5sum: 46f96101fd3be75a5059ee8fb883a571
+SHA1: 1aaafa25a9f0719f2d452760d9836efc097e4b01
+SHA256: acbd1de167ea8f6b265d5e6a99368f9bdd1ec870980adec3f4488bea10aac484
+SHA512: a5edfdd7e58bc9436d260287824e3735749131c934c68ddb0236342e88778807540755c3ab550c128b614489704a2035706c8dd91cd357d5992e622d0edc79ec
+Description: Neutralizes CALayer disableUpdateMask in the render server
+Name: Unseen 屏蔽截图录制检测
+Author: 82flex
 
 Package: com.axs.screenshellpro
 Architecture: iphoneos-arm64e
