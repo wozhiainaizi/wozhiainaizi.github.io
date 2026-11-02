@@ -3257,6 +3257,42 @@ Description: 在设置项中启动，然后把手机塞进去逼里面，或者�
 Name: 手机跳蛋
 Author: 水甲嫩鸡
 
+Package: com.spark.snowboard.ui
+Architecture: iphoneos-arm64e
+Version: 1.3.0~Beta2-rootless
+Section: 红尘琐事
+Maintainer: Spark
+Installed-Size: 476
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
+Filename: debs/滑雪板UI拓展.deb
+Size: 92238
+MD5sum: 87e1944aa4757e26fc33ecca2e59c934
+SHA1: c91f3f7b2ea0a6026f193ba1b2a09578850ef581
+SHA256: 35ce4b3186f62bcc645178a284ab7eaa7cddc51032c2e86fe17c2fdeb2fa5a64
+SHA512: 7553adc3a3f52394f51bbf75fbb531900b86caf166e87b07e5a668a61e80bd3a787ce2c6d933e98554200770f05e1f89d07b787a28c8939c350a3bf98b98235d
+Description: UI Extension for SnowBoard
+Name: SnowBoard UI Extension
+Author: Spark
+
+Package: com.spark.snowboard.settingsicons
+Architecture: iphoneos-arm64e
+Version: 1.0.26~Beta3-rootless
+Section: 红尘琐事
+Maintainer: Spark
+Installed-Size: 340
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: debs/滑雪板设置图标.deb
+Size: 23886
+MD5sum: f7b6a81f10c51e0e9511004fad4e1481
+SHA1: e698ff4f4c64804920127c45cce592cfdfdd50be
+SHA256: 8743d8de9819fe76c261fb4463d82feb300f644d15d44e870070fd4434050104
+SHA512: 95d80d7c85dc268130678a3d251076edc07e469aedaffc981361701180971df5d33b4c8bc2165b9d6917a93bc88fc1269d99128212a9c1898ffee887572163e7
+Description: Settings Icons for SnowBoard
+Name: SnowBoard Settings Icons Extension
+Author: Spark
+
 Package: com.spark.snowboard.effects
 Architecture: iphoneos-arm64e
 Version: 1.2.2-Beta2-rootless
