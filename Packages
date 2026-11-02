@@ -2440,6 +2440,27 @@ Description: 禁用拍照快门声音
 Name: 禁用拍照快门声音
 Author: Netskao
 
+Package: com.rain.rainmhz
+Architecture: iphoneos-arm64e
+Version: 6.14.1-1
+Section: 红尘琐事
+Maintainer: Rain
+Installed-Size: 1320
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.opa334.altlist (>= 1.0.4)
+Filename: debs/com.rain.rainmhz_6.14.1-1_iphoneos-arm64e.deb
+Size: 191644
+MD5sum: 93b504eff75a701d2911f5af66af4cd9
+SHA1: 97c35cd7d9aaf516c864d7c3856c28c8b76458c3
+SHA256: 9cf0f2e1065af50556dac54191a0a6109f0b52f8e39f9be5bc3a699d7983af28
+SHA512: 92421795f70103a69ffdf1228978a3f5c12632420316131bd32263dc5f5eeb3c802c38319852dfc3f785cca0f91b160702382dcb891e63fc9fb960907c95198d
+Description: Rain的CPU性能与稳帧控制插件
+ 通过IOKit控制Apple ARM DVFS，支持低发热、均衡、极限性能、智能与稳帧模式
+ 包含动态仪表盘、分级设置、场景预设、温控、性能监控与智能后台管控
+Tag: role::hacker, purpose::extension
+Name: Rain 的 Mhz
+Author: Rain
+
 Package: com.sahinkaa.blockappupdates
 Architecture: iphoneos-arm64e
 Version: 1.0.2
@@ -2726,6 +2747,25 @@ Description: Mute notifications while playing music。播放音乐的时候，�
 Name: MutePlay避免通知影响音量
 Author: uz.ra <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/muteplay.png
+
+Package: com.yourepo.axs.tweakshub
+Architecture: iphoneos-arm64e
+Version: 5.2.0-92
+Section: 红尘琐事
+Maintainer: Axs <qiaozhani000@163.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.nightwind.onesettings, com.creaturecoding.shuffle, com.sop.settingsrevamp, com.hk.settingsrevamp, com.dao.settingsrevamp, byg.iosios.net.settingsrevamp
+Filename: debs/com.yourepo.axs.tweakshub_5.2.0-92_iphoneos-arm64e-1.deb
+Size: 97352
+MD5sum: b954a4e4da8d30a4d34c58b253424597
+SHA1: 3b8362b5cf66d39fbf97210f0867abe04952f14a
+SHA256: a81b145b1d770ac9cae854c6f546c06bd228e445fefec302bc144b5a02432176
+SHA512: 4ac620ca3acaee7b25650ae5379fb84c8ad041e651e62e376560e0a5cb0821fb7bf8207e955b83032c646fb0321e2524f5e551cea12e38b496449eb64b02cf1e
+Description: 集中收纳统一管理越狱插件与第三方 App 设置，支持插件自定义名称和图标,支持插件自定义排序，支持屏蔽系统更新、设置小红点、电池信息中的未知部件。
+Name: TweaksHub
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/tweakshub.png
 
 Package: com.zqbb.savephotos
 Architecture: iphoneos-arm64e
