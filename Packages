@@ -3198,3 +3198,20 @@ Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/cursorpro.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/cursorpro/js.json
 
+Package: com.shuijia.phonevibrator
+Architecture: iphoneos-arm64e
+Version: 1.2.5
+Section: 红尘琐事
+Maintainer: 水甲嫩鸡
+Installed-Size: 388
+Depends: firmware (>= 17.0)
+Filename: debs/手机跳蛋飞济杯＿1.2.5-RootHide-arm64e.deb
+Size: 23872
+MD5sum: 912bf5a901392a8aa88db6f59f068eac
+SHA1: 0a3041bf92308d439b2791492fe4fd8a3f142052
+SHA256: f1d11a884ee8b711bd48ba7b656102291cce0e4938bf7260c8d0f62e9b313e22
+SHA512: 64be32be5d29c1fb44f2332f5feae93fc28df159a14605f3f8ce138f9edf1fe5cd65e157addffff70a6ca5e2d3835fadaee4c273924d0021f600d7354be6f381
+Description: 在设置项中启动，然后把手机塞进去逼里面，或者把手机放进胶袋，然后把78放进胶袋使用即可
+Name: 手机跳蛋
+Author: 水甲嫩鸡
+
