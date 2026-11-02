@@ -861,6 +861,25 @@ Description: 使iOS 15/16越狱高刷机型自适应/锁定120HZ。 Make iOS 15/
 Name: 120Hz Always
 Author: Snail <mu514983786@gmail.com>
 
+Package: com.zqbb.dynamic120hz
+Architecture: iphoneos-arm64e
+Version: 3.3.3-3
+Section: 本命法器
+Maintainer: zqbb
+Installed-Size: 1180
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, cn.zqbb.fix120hz
+Filename: debs/com.zqbb.dynamic120hz_3.3.3-3_iphoneos-arm64e.deb
+Size: 393716
+MD5sum: 074c22ceaaaa0540c250db309bf6785d
+SHA1: b7c827ae9d42e2774e9636a37d909f3e9531d5cd
+SHA256: a56d3ddf19e73a4b58811a5fa834a8a23802233321e011dc332d3499cba8dfc4
+SHA512: c8719d44df10c9419da13979c2f289ab3ed9812aa540e13655de54e5a8f99d33c60b7115f69e1105263d7a36373923c353c451cafe5c71f78b777bf5dedb204c
+Description: Unlock dynamic refresh rate from 80hz to 120hz
+Name: 120hz Dynamic
+Author: zqbb
+
 Package: com.squidforce.copyvault
 Architecture: iphoneos-arm64e
 Version: 1.9.0
@@ -1174,6 +1193,26 @@ SHA512: 4c3c26d5e32718585656a5b298dd211a61caa20be7f8bf8545797ed30ced5cb0f9716559
 Description: 三星风格彩虹键盘光效，重写版，支持 arm64e 系统进程注入，含设置页
 Name: 彩虹键盘光效
 Author: JudeGor
+
+Package: com.hbs.safariexploitguard
+Architecture: iphoneos-arm64e
+Version: 0.2.3
+Section: 本命法器
+Maintainer: hbs
+Installed-Size: 268
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: debs/safariexploitguard_0.2.3_e.deb
+Size: 39768
+MD5sum: 82d1dd27baa082a040c9ba2bfd69397c
+SHA1: 4a670c67e7a84ee940b1d2f1febb78fc96c2a6b0
+SHA256: a775de1420b6849c82b2f927538d351981e2b9e3ece4c569cb91dfd384221c4e
+SHA512: f28337ed7484178d357cd8bb3ea3c7853a8eb94487e50650ab5206434caab5699041cb657d1a73589bb4567d5a200c424e4079319656e3f01558b3fea4f7c198
+Description: Coruna / DarkSword 漏洞利用拦截防护插件
+ 通过执行特征拦截与浏览器白名单防护机制，在越狱 iPhone / iPad 上阻止疑似利用 Coruna 或 DarkSword 漏洞链的高危网页。
+ 本插件结合当前项目的拦截能力，并参考 82Flex / Lessica 提供的 WebKitPlayground 思路实现，用于提升浏览安全性并保护用户隐私。
+Name: SafariExploitGuard
+Author: hbs
 
 Package: com.cydia.love.settingswidgets.rootless
 Architecture: iphoneos-arm64e
@@ -2472,25 +2511,6 @@ Name: MutePlay避免通知影响音量
 Author: uz.ra <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/muteplay.png
 
-Package: com.zqbb.dynamic120hz
-Architecture: iphoneos-arm64e
-Version: 3.3.3-3
-Section: 红尘琐事
-Maintainer: zqbb
-Installed-Size: 1180
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
-Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, cn.zqbb.fix120hz
-Filename: debs/com.zqbb.dynamic120hz_3.3.3-3_iphoneos-arm64e.deb
-Size: 393716
-MD5sum: 074c22ceaaaa0540c250db309bf6785d
-SHA1: b7c827ae9d42e2774e9636a37d909f3e9531d5cd
-SHA256: a56d3ddf19e73a4b58811a5fa834a8a23802233321e011dc332d3499cba8dfc4
-SHA512: c8719d44df10c9419da13979c2f289ab3ed9812aa540e13655de54e5a8f99d33c60b7115f69e1105263d7a36373923c353c451cafe5c71f78b777bf5dedb204c
-Description: Unlock dynamic refresh rate from 80hz to 120hz
-Name: 120hz Dynamic
-Author: zqbb
-
 Package: com.zqbb.savephotos
 Architecture: iphoneos-arm64e
 Version: 1.1-1
@@ -2726,26 +2746,6 @@ Description: 获取当前页面的视频并下载，仅Safari浏览器可用；�
  pyvideo://video-downloader
 Name: PyVideo
 Author: crctdd
-
-Package: com.hbs.safariexploitguard
-Architecture: iphoneos-arm64e
-Version: 0.2.3
-Section: 红尘琐事
-Maintainer: hbs
-Installed-Size: 268
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: debs/safariexploitguard_0.2.3_e.deb
-Size: 39768
-MD5sum: 82d1dd27baa082a040c9ba2bfd69397c
-SHA1: 4a670c67e7a84ee940b1d2f1febb78fc96c2a6b0
-SHA256: a775de1420b6849c82b2f927538d351981e2b9e3ece4c569cb91dfd384221c4e
-SHA512: f28337ed7484178d357cd8bb3ea3c7853a8eb94487e50650ab5206434caab5699041cb657d1a73589bb4567d5a200c424e4079319656e3f01558b3fea4f7c198
-Description: Coruna / DarkSword 漏洞利用拦截防护插件
- 通过执行特征拦截与浏览器白名单防护机制，在越狱 iPhone / iPad 上阻止疑似利用 Coruna 或 DarkSword 漏洞链的高危网页。
- 本插件结合当前项目的拦截能力，并参考 82Flex / Lessica 提供的 WebKitPlayground 思路实现，用于提升浏览安全性并保护用户隐私。
-Name: SafariExploitGuard
-Author: hbs
 
 Package: com.spark.snowboard
 Architecture: iphoneos-arm64e
