@@ -3257,3 +3257,21 @@ Description: 在设置项中启动，然后把手机塞进去逼里面，或者�
 Name: 手机跳蛋
 Author: 水甲嫩鸡
 
+Package: com.spark.snowboard.effects
+Architecture: iphoneos-arm64e
+Version: 1.2.2-Beta2-rootless
+Section: 红尘琐事
+Maintainer: Spark
+Installed-Size: 412
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: debs/滑雪板遮罩拓展.deb
+Size: 45618
+MD5sum: b9662e52a16e43043d454066835695ac
+SHA1: 3d92a9c895f4bae6a51e13b7c47f9a9ea6739dea
+SHA256: ee2f34a512b1a6f0036fe8f40255a919290f589415436c8212b9c6b3fb7c0666
+SHA512: 43b4589a22ad4c6abed73a1417d331a6936daf49707e3122e23e7b44fb42e57bc0f876d5f0e8ee0011c21ec42dae86190fdb0ec99cac680697b87a1679fba8b1
+Description: Icon Effects for SnowBoard
+Name: SnowBoard Icon Effects Extension
+Author: Spark
+
