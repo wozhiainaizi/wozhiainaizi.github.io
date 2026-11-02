@@ -2640,6 +2640,25 @@ Author: Tsangbaby
 Icon: https://tsangbaby.github.io/Icon/Galaxy.png
 SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
 
+Package: com.tsangbaby.galaxy
+Architecture: iphoneos-arm64e
+Version: 0.5.3
+Section: 红尘琐事
+Maintainer: Tsangbaby
+Installed-Size: 2852
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/com.tsangbaby.galaxy_0.5.3_iphoneos-arm64e.deb
+Size: 620288
+MD5sum: 2f39510b16f8f041163b0c37a6c99f3a
+SHA1: 5d566013372b74bd7fa40d2d79018d84d50a5368
+SHA256: 58ad9b06a25f175f956329c95cbb6df0f7a98263f0c7cb1e143efebc3b8840c6
+SHA512: bde696a4600f3480b700adc92e7fe52a976bac5f0ca9a4dd4e9283d8c63d8157de2c489f02d3081b251eb6820cb6330420c9ff7e61d60c77668136ba651b4a5d
+Description: Independent circular app launcher for iOS 15 and later.
+Name: Galaxy
+Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Galaxy.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
+
 Package: com.tsangbaby.pulloverx
 Architecture: iphoneos-arm64e
 Version: 2.0.5
@@ -2723,6 +2742,29 @@ MD5sum: 0632d92595ca1f1409b39c316026e2ba
 SHA1: 2623b74356459458ef2eef64d5daf7f943bd227b
 SHA256: 1d0aa343f4a12c8defbf943d71d87608254a82b3644e660d0654cdf8bc7828bc
 SHA512: 25e36dc5f3ef1e9f2b8afe24002b670a550dd415fb17bf3eca354b6f9479647a9fbdc59f9148ed098b10b0f348064340f322b9f4d9f7509401984f158b971500
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
+
+Package: com.tsangbaby.pulloverx
+Architecture: iphoneos-arm64e
+Version: 2.4.0
+Priority: optional
+Section: 红尘琐事
+Maintainer: Tsangbaby
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/com.tsangbaby.pulloverx_2.4.0_iphoneos-arm64e.deb
+Size: 676960
+MD5sum: 2b85d0356c0d514c47eabad50aa079bb
+SHA1: a35ad7cf6db01e574c5318b5af83fabb3b4252db
+SHA256: b8ddce754f68d8ec601e4262e6f0aa86a31413682318fd31352d57d86904843a
+SHA512: 86727f438e7facdd81203e6f86c5157970c6f523985cfef971a27b0a529a8fa38e695565dd32fab50801f8bff824456e50583dbd467840f34e2b51a8112845b0
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
 Name: PullOver X
 Author: Tsangbaby
