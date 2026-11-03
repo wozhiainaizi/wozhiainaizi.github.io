@@ -2492,6 +2492,42 @@ Name: PrefNest
 Icon: https://mlgm66.github.io/icon/prefnest.png
 Author: mlgm
 
+Package: com.nan.disableupdates
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Section: 红尘琐事
+Maintainer: zhaonan
+Pre-Depends: file-cmds
+Filename: debs/com.nan.disableupdates_0.1.1_iphoneos-arm64e.deb
+Size: 1124
+MD5sum: a0a3e3af45498f5db3a7911658c67955
+SHA1: 67721488e9a284cc3350f8ac2f18be7ca55ac44b
+SHA256: 6e25acd15098c1aab8263d105766782b0d6da11817115cca0035c06e609a29a0
+SHA512: fa84554dd2f9a4299742aafe94849a1bb2c618bb0becdda3ccb9c493cb68dc0132f0841714425352fe8b497fa02b0998c6781effc2c6651b9d5d8021efb82c9b
+Description: 通过锁定 /var/MobileSoftwareUpdate/MobileAsset/AssetsV2 来阻止系统更新
+Name: Disable Updates
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.disableupdates/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_fix.png
+
+Package: com.nan.fix-filza-path
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: 红尘琐事
+Maintainer: zhaonan
+Depends: sed, plutil
+Filename: debs/com.nan.fix-filza-path_0.1.0_iphoneos-arm64e.deb
+Size: 1688
+MD5sum: 0010863c61d7724d97c3d04f0b74b7f5
+SHA1: c9749b63c73d18db78526678cd7e221f70f875df
+SHA256: 9e5bfa91102ead2da53c5ae6aca512858f7aaa694cbc5f661257e21469090c28
+SHA512: 456d5274b281df651a5edd29a1ddaa36c803808882907572666ff2b44a0fbb040583baaba9873e00b30ffe153a0602fbb6c1255e1c2d7c970483f3507d23662f
+Description: 缓解 RootHide 下 Filza 经常重启后路径对不上的问题
+Name: Fix Filza Path
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.fix-filza-path/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_fix.png
+
 Package: com.netskao.disableshuttersound
 Architecture: iphoneos-arm64e
 Version: 1.1-2
