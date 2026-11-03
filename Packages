@@ -844,6 +844,26 @@ Author: Huayuarc
 Icon: https://huayuarc.github.io/icon/cputhermal.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64e
+Version: 1.6.2-161+isolation.42
+Section: 本命法器
+Maintainer: Huayuarc
+Installed-Size: 2448
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/com.huayuarc.cputhermal_1.6.2-161_isolation.42_iphoneos-arm64e.deb
+Size: 180460
+MD5sum: 9493488602c901a2a934ef0e35dc6650
+SHA1: 5042d97f0fdf7f78dd1e1195f3fc9dcbb7df9eba
+SHA256: a3b7730bf99d4f24c6d3aa07709e75f33f9c17d58e877015a0b984fc3d3ee93c
+SHA512: 2b4c5c8de85413f40dac1842d11596292a1f005c1eeddc94c2e88edbe827772ae5fa60a5d565245c0d0b80e8a0383ab743531299b3a6eee0af8fc47e20a6dbdb
+Description: CPUthermal temperature policy, smart charge and dynamic settings with full Hello 120Hz 3.3.3-3 port: preferred 10/30/60/80/120 FPS, global injection, application exclusions, debug HUD and system recording hooks. Requires AltList. Based on isolation.16 SpringBoard stability candidate.
+Name: CPU 解除温控
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
 Package: com.snail.always120.roothide
 Architecture: iphoneos-arm64e
 Version: 1.2.0
@@ -2440,6 +2460,60 @@ Description: 该插件能够实现该手机的科学上网功能直接通过热�
 Name: TunnelShareVPN
 Author: Mallin
 Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
+
+Package: com.mlgm.prefnest
+Architecture: iphoneos-arm64e
+Version: 1.2.2
+Section: 红尘琐事
+Maintainer: mlgm
+Installed-Size: 888
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: debs/com.mlgm.prefnest_1.2.2_iphoneos-arm64e.deb
+Size: 170984
+MD5sum: 13e91aecebcc882266eec11934ccf57c
+SHA1: 661b77ce582d3c83112819601c111882aa2f5eac
+SHA256: c63f49cfc92763cb30458cc11c6d7c251276dc11764b1b7da16113efef45f491
+SHA512: a0442f48fba319217cffe207be15b2d7385481123262ada1b7651d00fa902535eee109726121356bf63125414694d1f56117cfa3649e4e39e2caeb8f0566dc5f
+Description: 整理设置首页，集中收纳越狱插件。
+Name: PrefNest
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Author: mlgm
+
+Package: com.mlgm.prefnest
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Section: 红尘琐事
+Maintainer: mlgm
+Installed-Size: 888
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: debs/com.mlgm.prefnest_1.2.3_iphoneos-arm64e.deb
+Size: 171396
+MD5sum: d711334ad1f194e13145aaf715be91fa
+SHA1: 429ec9df7d731dc2902b6908ba1a7b33f37e1eec
+SHA256: 64777b016faab23e5876ff06b8489a00e684c233a0234d9c88108f1687c043bc
+SHA512: c77ea2d170580dfda942a72cfe118c1f861007c0e5da6ae571b35a78aba9cbee2a0fb161f534da328bd85186378225ae745fe06374e808d32ccc827a02e41f45
+Description: 整理设置首页，集中收纳越狱插件。
+Name: PrefNest
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Author: mlgm
+
+Package: com.mlgm.prefnest
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: 红尘琐事
+Maintainer: mlgm
+Installed-Size: 872
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: debs/com.mlgm.prefnest_1.2_iphoneos-arm64e.deb
+Size: 168084
+MD5sum: 7b146f35a80d5f105ca4d89e47b181ab
+SHA1: 949bb5a05b549c9347127e8b1c21a3d231f9dc9c
+SHA256: 914882fd2a80534a636377406219b3852be8b8505756b6b12fcf5a4b82b949b1
+SHA512: 4ec4556c859b19d5f1f1af298ae9dbcc146fa301075e06c444c59bab388061c8fc7759160752027f382915eb09376f64db7217051e91bb2c50d2cba774942b90
+Description: 整理设置首页，集中收纳越狱插件。
+Name: PrefNest
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Author: mlgm
 
 Package: com.netskao.disableshuttersound
 Architecture: iphoneos-arm64e
