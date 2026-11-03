@@ -405,29 +405,6 @@ Description: CocoaTop64 进程查看，基于真皮版定制：中文翻译+UI�
 Name: CocoaTop64 中文版
 Author: Domo, SXX
 
-Package: im.mjh.doleo
-Architecture: iphoneos-arm64e
-Version: 1.0.2
-Section: 本命法器
-Maintainer: Junhong
-Installed-Size: 1008
-Depends: firmware (>= 15.0), mobilesubstrate, dpkg
-Filename: debs/Doleo-1.0.2.deb
-Size: 234568
-MD5sum: 7b6a5fd72323c6e2fe0f5456e837ee61
-SHA1: f0f953f1f187e3a0b2528a94c77de8cd92447247
-SHA256: faa1d9b77f7500ff24e23cb8c437d77e17e436d369b72225e300d682f6c11b8f
-SHA512: 3bf1a626f2243653ceb90428c6f79dccbd579887b7f2ad855482e03e7644599f90294b76cc9f05e2440d956b588242e8605451239d3ec44fcecad8662d75e3e0
-Homepage: https://doleo.goforit.si/
-Description: Sileo 的 DEB 下载与本地仓库工具。
-Name: Doleo
-Author: Junhong
-Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.roothide.html?v=a89cb7b26821
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
-Tags: compatible_min::ios15.0
-
 Package: com.axs.ios16dao
 Architecture: iphoneos-arm64e
 Version: 5.2.0-244
@@ -2973,6 +2950,29 @@ Name: HelloBundleID
 Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.bundleid
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.bundleid
+
+Package: im.mjh.doleo.roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: 红尘琐事
+Maintainer: Junhong
+Installed-Size: 1008
+Depends: firmware (>= 15.0), mobilesubstrate, dpkg
+Filename: debs/im.mjh.doleo.roothide_1.0.2_iphoneos-arm64e.deb
+Size: 234752
+MD5sum: dcf85b59bead8e5220b8124832fad4d4
+SHA1: 378c9ab58b25bf2d64dff0c42046ac2bda1e4bc5
+SHA256: e415c0c42d724a2fde3cdb5bbd4572ddaccceb00bd117e48f173a47f3f89b5d5
+SHA512: 216893f193fbd87eec0e49b1f556f12092407b4b008ac4decc415ac0088c4881dfa0f8ed7205036fd7288610f80e13bd8fd9887a37708ba105cab25f22fb6880
+Homepage: https://doleo.goforit.si/
+Description: Sileo 的 DEB 下载与本地仓库工具。
+Name: Doleo
+Author: Junhong
+Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.roothide.html?v=a89cb7b26821
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
+Tags: compatible_min::ios15.0
 
 Package: iya.banana.pickerwheeldock
 Architecture: iphoneos-arm64e
