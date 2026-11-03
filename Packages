@@ -2610,6 +2610,56 @@ Author: LacertosusDeus & SINI
 
 Package: com.snapbackup
 Architecture: iphoneos-arm64e
+Version: 3.8.11
+Section: 红尘琐事
+Maintainer: kanuo
+Installed-Size: 648
+Depends: firmware (>= 15.0), mobilesubstrate, apt, dpkg, coreutils, sed
+Filename: debs/com.snapbackup_3.8.11_iphoneos-arm64e.deb
+Size: 2059566
+MD5sum: a2e13f311f3651ef275401b93bfc3474
+SHA1: 8613d2898f6f56d5006c0629d3fc25df23f43f8b
+SHA256: 5abe8f0ccc8114eaaa0d12e9dff72e04757f887cecf3b5e2474d90fe058a85a7
+SHA512: 59a69590d315f8824b0b1350d033701af9f7b3caf04047852f4709571261716cbc8ffa9b0d27783a90ad4b929410981628198178e4f92144bedaf29fd15590d2
+Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
+ 轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
+ .
+ 【核心功能】
+ - 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist
+ - 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）
+ - 选择性备份：可勾选要备份的插件与配置，自动标记「设置有界面」的插件
+ - 插件、依赖、偏好与配置目录统一归档，记录 SHA-256、权限和所有者
+ .
+ 【恢复流程】
+ - 独立 root helper 校验备份完整性、包元数据与架构，依赖由 Sileo 处理
+ - 恢复插件后自动打开 Sileo 并加入安装队列，用户手动确认安装
+ - 备份结果支持多选恢复，自动处理 Sileo 获取及本地重新安装入队
+ - 可跳过已安装插件，独立入口批量选择本地 deb 加入 Sileo 队列
+ - 失败插件可单独重试并补入原备份，支持查看与复制工具错误日志
+ - 外观支持浅色、深色及跟随系统，自动记住选择
+ - root 扫描清理，覆盖隐根 AppGroup 缓存与日志，显示删除字节和可用空间变化
+ - 扫描系统目录占用，逐项批注可清理、需手动确认或仅查看，不明数据库禁止删除
+ - 独立文件扫描：从根目录逐层查看全手机容量，大小倒序，保留 Filza 定位且不提供删除
+ - Sileo 内仍支持多选 deb、导入文件夹与 SnapBackup 待恢复任务
+ - 使用 Sileo 原生安装队列；恢复插件与恢复配置为独立按钮
+ - 可单独恢复备份配置，也可按 Sileo 任务核验安装结果后恢复对应配置
+ - 保留恢复日志与配置覆盖前的副本
+ .
+ 【操作流程】
+ ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选的插件+配置 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
+ ② 恢复配置：主页 →「恢复配置」→ 选备份包
+ ③ 恢复插件：主页 →「恢复插件」→ 选备份包 → 自动打开 Sileo 加入队列 → 手动确认安装
+ .
+ RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
+ 备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
+Name: SnapBackup 备份恢复
+Author: kanuo
+dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/icon/snapbackup.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.snapbackup.json
+
+Package: com.snapbackup
+Architecture: iphoneos-arm64e
 Version: 3.8.4
 Section: 红尘琐事
 Maintainer: kanuo
@@ -2951,6 +3001,25 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.bundleid
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.bundleid
 
+Package: im.mjh.alipay2nfc.roothide
+Architecture: iphoneos-arm64e
+Version: 3.5.0
+Section: 红尘琐事
+Maintainer: Junhong
+Installed-Size: 364
+Depends: firmware (>=14.0), preferenceloader
+Conflicts: com.yourname.alipaynfcredirect
+Replaces: com.yourname.alipaynfcredirect
+Filename: debs/im.mjh.alipay2nfc.roothide_3.5.0_iphoneos-arm64e.deb
+Size: 22880
+MD5sum: bb360395cc75dfdbac778145902bf7fc
+SHA1: 56b53e9e5ff55f2e83d03058074c3bfd77f7cfbe
+SHA256: 3637918ba98c3fdaddc4cd7ec9f61443522f0fa210c5aa16295fba8c02edcd62
+SHA512: 6c7e3866d974abc49f60f2ad4ea14759932ee53e939bc7893d5db6183aab77bc82cfe4fb7480b2ac59d45b383315794634df07bd7578781998e50aaf5b2e38a0
+Description: 让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。开源：https://github.com/5hux1n/Alipay2NFC
+Name: Alipay2NFC · 碰一碰转接 (Roothide)
+Author: Junhong
+
 Package: im.mjh.doleo.roothide
 Architecture: iphoneos-arm64e
 Version: 1.0.2
@@ -2973,6 +3042,39 @@ Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.roothide.html?v=a89cb7b
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
 Tags: compatible_min::ios15.0
+
+Package: iya.banana.hide2less.compat
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Section: 红尘琐事
+Maintainer: Banana
+Depends: firmware (>= 15.0)
+Filename: debs/iya.banana.hide2less.compat_0.1.0_iphoneos-arm64.deb
+Size: 31314
+MD5sum: acec38fcfa6b63474507662eb8edbfe6
+SHA1: 4d8aa1c82023e3c6674c6a286b4852058dab12fa
+SHA256: 315cd37b903cd7a90fff890d6b95555f6368d2859142ba868bff4ccfcb804ca8
+SHA512: 338ec772f7874a556f6ea4f9f840927ea49361f55d549200534b25aa18552840b8947e5bec74ece035ace2857dd4485eea6b87068ee63df3fdf5df1c3f1cb045
+Description: Shared path API compatibility for packages converted by Hide2Less.
+Name: Hide2Less Compatibility
+Author: Banana
+
+Package: iya.banana.hide2less
+Architecture: iphoneos-arm64e
+Version: 0.1.3
+Section: 红尘琐事
+Maintainer: Banana
+Installed-Size: 580
+Depends: firmware (>= 15.0), dpkg (>= 1.21.18), ldid, shell-cmds
+Filename: debs/iya.banana.hide2less_0.1.3_iphoneos-arm64e.deb
+Size: 162174
+MD5sum: eee6458e9c04503d710808e6c6b95681
+SHA1: 018db2c3e8d17cad61d6c964be2ca9f13f878101
+SHA256: d7fb3e1d90e2b10cc4bd8188bc9c5e14d3fbdd185b93d2b44f027dd3a272f434
+SHA512: 72c71eb385a940ca51ec315cd8ea272ef74fc7ac8255d5c423dff44e7127fdf322285cc97d52977d986e802753c4aaa3e52c0e359f270d057fc923a2f652e723
+Description: Convert supported RootHide tweak and app packages to Rootless on device.
+Name: Hide2Less
+Author: Banana
 
 Package: iya.banana.pickerwheeldock
 Architecture: iphoneos-arm64e
