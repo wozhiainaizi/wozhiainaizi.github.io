@@ -2438,6 +2438,52 @@ Name: TunnelShareVPN
 Author: Mallin
 Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
 
+Package: com.minis.rainbowkeyboard
+Architecture: iphoneos-arm64e
+Version: 1.0.26~lite40
+Section: 红尘琐事
+Maintainer: kanuo
+Installed-Size: 696
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.minis.rainbowkeyboard_1.0.26_lite40_iphoneos-arm64e.deb
+Size: 262878
+MD5sum: daba6103b1f36256f38f5d29a4982559
+SHA1: 2cd853b25b1c73b299b0a2f22918a1e8f1c82047
+SHA256: cfeca1c57a6bea459da304274079aa7d583540e4a50bd84b22531aea92a8ea46
+SHA512: 8f0fdf9e8635e1168a7d7cfeddb1bbf818a218bfb6ef8b07866030ff07d7a55d4ae7dbc8f30d18ff0044c5cd40d203b5a644a2e29563f3485e4987d426c97baf
+Description: 固定霓虹预设与键盘配色，支持原生键盘和微信输入法
+ 四种固定预设、三星风格扩散与霓虹圆环两种样式，支持单独关闭扩散光效。
+ 微信输入法提供 11 套参考皮肤，包括冰晶玻璃、深色半透明、霓虹星河、花园半透明和彩色糖果键帽。
+ 键盘底色和键帽颜色分别开关，分别覆盖皮肤对应部分，保留按下态及跨 App 配色兼容。
+ 键帽按压反馈自动启用，独立于周边扩散开关：按下轻沉，松手微弹、亮光渐隐。
+ 每次点击使用一种鲜亮色相，亮光仅在当前键帽内部，不做周边发光或扩散。
+ 修复按压发光层误裁剪整片扩散光效，两种效果可以同时启用。
+ 修复全键盘首次按键预览被缓存为扩散遮挡区，切换布局后不再保留首按位置的光效缺口。
+ 修复功能键合成底图与图标一起隐藏，保留删除、空格、中英切换与大小写字样。
+ 键盘弹起主动刷新配色，原生键帽颜色修改同步更新渲染缓存，无需先按键。
+ 最多复用四组按键亮光，保持原始点击区域、文字和保存的键帽配色。
+ 总开关关闭时停止所有反馈；减少动态效果时不缩放，只保留局部亮光。
+ 移除实验背景形变功能及后端，普通透明度、磨砂与皮肤保留。
+ 100% 透明清除黑色遮罩和键帽填色，降低透明度逐步增加灰白磨砂，不再变黑。
+ 磨砂较强时自动使用深色字，通透时按系统明暗选择字色并提供局部对比阴影，自定义字色优先。
+ 保留系统磨砂与 contentView 安全挂载，减少透明玻璃重复叠层。
+ 新增“透明时保留皮肤与配色”开关，默认关闭，底部和键帽透明时仅显示中性玻璃。
+ 开启透明配色开关后，所选皮肤及自定义颜色才参与透明渲染，文字颜色保持独立。
+ 微信键帽文字及图标支持独立选色和开关，工具栏按钮保持原始外观。
+ 限定键盘背景处理的宿主范围，修复 TIM 等应用底部栏误着色。
+ 移除应用窗口扫描及重复键盘重绘，合并弹起与布局刷新，保留换色和键位切换更新。
+ 功能键覆盖普通图片、矢量图标、文字图层与八种组合状态，拦截按下时的旧颜色覆盖。
+ 修复糖果键帽被原生模糊层及小尺寸背景图片覆盖，保留普通和按下态色彩。
+ 九宫格光效排除左侧拼音选择栏、顶部功能区和符号切换键。
+ 键盘配色与搜索词颜色分别开关，支持搜索词单色或双色渐变、自定义颜色。
+ 九宫格及全键盘切换实时刷新粗霓虹边框，可指定微信输入法或原生键盘优先弹出。
+ 最多复用两组光效，默认快速点击预设，低电量或高温时降低光效频率。
+ 不使用截图、显示刷新定时器、键帽外阴影或诊断写盘。
+Name: 彩虹键盘 · 轻量版
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/rainbowkeyboard/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.minis.rainbowkeyboard.json
+
 Package: com.mlgm.actra
 Architecture: iphoneos-arm64e
 Version: 1.3.2
