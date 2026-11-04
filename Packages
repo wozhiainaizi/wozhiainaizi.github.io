@@ -2438,6 +2438,21 @@ Name: TunnelShareVPN
 Author: Mallin
 Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
 
+Package: com.mg.adskip
+Architecture: iphoneos-arm64e
+Version: 3.3.2
+Section: 红尘琐事
+Maintainer: M哥
+Filename: debs/com.mg.adskip_3.3.2_iphoneos-arm64e.deb
+Size: 27102
+MD5sum: b4df1e6c3bb0e72fb5eb2b0d9b9cca60
+SHA1: 3ff1f7148b542ba0c8a5ed3105da44df13cee45d
+SHA256: bf0c2311933ef05b28057c543d4b52e471abf894471052da8d03e0f8937228cd
+SHA512: 171400c4fa604251521e01d975aad03ca74b8b79759d8b0f7cb7a5505ca70657deba3d1f4cd4c921958851d3898124f45a0b94a15da2506e26e71b1ee7ea31e6
+Description: 跳过开屏广告，无黑名单·事件驱动秒跳·容器门控两级词表+防摇一摇+摇一摇带按钮秒跳+防误点广告主图+结构防自点，不影响无广告应用。
+Name: 广告跳过
+Author: M哥
+
 Package: com.minis.rainbowkeyboard
 Architecture: iphoneos-arm64e
 Version: 1.0.26~lite40
