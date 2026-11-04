@@ -2438,6 +2438,25 @@ Name: TunnelShareVPN
 Author: Mallin
 Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
 
+Package: com.mlgm.actra
+Architecture: iphoneos-arm64e
+Version: 1.3.2
+Section: 红尘琐事
+Maintainer: mlgm
+Installed-Size: 4084
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/com.mlgm.actra_1.3.2_iphoneos-arm64e.deb
+Size: 816796
+MD5sum: 8e660c3db388321adfa083afbbe0f7de
+SHA1: cd4331ace0b17ab861b166f4533068b299b9d37e
+SHA256: 2c8cc1d1a61a3b5514cbb98bc2be846e05242c5e430e06ef424ed4437b2876fe
+SHA512: 5c90d889f274f7cc6040dccb33ced3233ea94b9946f7b077d10aa09a14f9bace6a81fa631b29bebcfe2b8b77f51055993162b7547937f6e90a72b6d7a6f4504a
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
 Package: com.mlgm.prefnest
 Architecture: iphoneos-arm64e
 Version: 1.2.2
