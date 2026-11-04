@@ -3013,6 +3013,24 @@ Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
 SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
 Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
 
+Package: com.yourepo.axs.axsclean
+Architecture: iphoneos-arm64e
+Version: 5.2.0-14
+Section: 红尘琐事
+Maintainer: Axs & kanuo <qiaozhani000@163.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Filename: debs/com.yourepo.axs.axsclean_5.2.0-14_iphoneos-arm64e.deb
+Size: 74168
+MD5sum: a976e21b7fb59d66fd5f4848dee7c788
+SHA1: e6a1e45433e0868635358b2a6effa8d2ca5a8e48
+SHA256: 84fbb3231dc12340d9c77cd947c61a2ebf1adfd296a0a3b1faadc398b20c3e3f
+SHA512: b77804b0c6dfe6c1e12698dc453fdf7dc01f2f3b70d77d512a6b4f0a0aa148a1d713d0359657e10a3274127e0f143b7f5dc7098aa3f7acc1dec0f26d57183821
+Description: 这是一款系统快速清理缓存工具。
+Name: AxsClean
+Author: Axs & kanuo <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/clean.png
+
 Package: com.yourepo.axs.edgesiri
 Architecture: iphoneos-arm64e
 Version: 3.1.1-9
@@ -3162,6 +3180,24 @@ Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.roothide.html?v=a89cb7b
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
 Tags: compatible_min::ios15.0
+
+Package: im.mjh.doleo.roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: 红尘琐事
+Maintainer: Junhong
+Installed-Size: 1040
+Depends: mobilesubstrate, dpkg
+Filename: debs/im.mjh.doleo.roothide_1.0.3_iphoneos-arm64e.deb
+Size: 232272
+MD5sum: e1c299a04c0b098b273413f312f334ec
+SHA1: bdc5da3405056ff3df11ec62059cda8acd2e23c8
+SHA256: 178b951a342055e6698fa8e90c5eb09a823a7cd1c71d7e5d2c4be344f7f14f42
+SHA512: 8d409e49c0a754ea8d24fcef4251f30b9a9602ede1fe9b29b6d2575658cf8f17c15947acd6dbd127a496095b8748f00b2b840b42f862ab148e80833726b7b61e
+Description: Download and keep local DEB packages in Sileo.
+Name: Doleo (Roothide)
+Author: Junhong
+Icon: file:///usr/share/doleo/icon.png
 
 Package: iya.banana.hide2less.compat
 Architecture: iphoneos-arm64
