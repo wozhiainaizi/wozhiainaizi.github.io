@@ -2659,6 +2659,32 @@ Author: udevs
 Icon: https://doimty.github.io/icons/com.doimty.vedette.png
 Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
 
+Package: com.hmmzzz.fontmanager
+Architecture: iphoneos-arm64e
+Version: 0.3.8
+Section: 红尘琐事
+Maintainer: Hmmzzz
+Installed-Size: 2512
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Filename: debs/com.hmmzzz.fontmanager_0.3.8_iphoneos-arm64e.deb
+Size: 496768
+MD5sum: fd37c0b069da3c2778cf971c94f3574b
+SHA1: ad9fdf5dbd7e6b93fa4c8d68588f856f11ebac3c
+SHA256: 70a5d96cfc65f56e196cdc450b534d4a225574254b5fb96543d1d99e04093f47
+SHA512: ee53e5bcacca70bae7b8cd58ce6be52f5fd58d152ba58b3ecad632601608d67f5fef998d0cb7f632e273ff3615f2bdb4c97d9826232c77106bf43f37e54cd9d7
+Homepage: https://hmmzzz.github.io/repo/
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ * 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ * 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ * MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ * 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Name: MarkFont 字体管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+
 Package: com.iosdump.jumpselect
 Architecture: iphoneos-arm64e
 Version: 1.3
@@ -2943,6 +2969,26 @@ Name: Actra
 Icon: https://mlgm66.github.io/icon/actra.png
 Author: mlgm
 
+Package: com.mlgm.appdata
+Architecture: iphoneos-arm64e
+Version: 1.3.8
+Section: 红尘琐事
+Maintainer: mlgm
+Installed-Size: 1188
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Replaces: com.fouadraheb.appdata
+Filename: debs/com.mlgm.appdata_1.3.8_iphoneos-arm64e.deb
+Size: 212340
+MD5sum: 914885ed39642a9f6c0221a191816696
+SHA1: 834cec96ac51c1aeb13622ae69d18fe88cfbb7b2
+SHA256: c46be6da360336e2cdef22e3a09feeb2a5ceac69cbf85431f3cccfc3d7db35e1
+SHA512: 7d76beec6e2a8b02f495da074497c338a3c669e1fc701828d7cf8a45accdecaaefda3a81ba75beb01e196311522f32793a979d694ed3498be07323c0ed787971
+Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
+Name: AppData
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mlgm66.github.io/icon/appdata.png
+
 Package: com.mlgm.prefnest
 Architecture: iphoneos-arm64e
 Version: 1.2.2
@@ -2996,6 +3042,45 @@ Description: 整理设置首页，集中收纳越狱插件。
 Name: PrefNest
 Icon: https://mlgm66.github.io/icon/prefnest.png
 Author: mlgm
+
+Package: com.mlgm.taploom
+Architecture: iphoneos-arm64e
+Version: 1.1.7
+Section: 红尘琐事
+Maintainer: mlgm
+Installed-Size: 1124
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: debs/com.mlgm.taploom_1.1.7_iphoneos-arm64e.deb
+Size: 184432
+MD5sum: 6979071d0fe49d1dd5e66a2debba6381
+SHA1: c12c0d6b1204c29334b98876582ea51f3d8cb176
+SHA256: 96bd0e83a2438cf556e742b0ebb2517301745855981e09123f3419ea64f637dd
+SHA512: 06040aef4c1bc44ee7c11efa065095ded6537994ee1175daec002d3bc58219b883680e76e5ce010b0bf353d451d88af9c5851391444e1280493c5c9773edf5f3
+Description: 触摸轨迹可视化
+Name: Taploom
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/taploom.png
+
+Package: com.moxuan.fontchange
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Section: 红尘琐事
+Maintainer: moxuan1121
+Installed-Size: 2016
+Depends: firmware (>= 15.0), unzip
+Filename: debs/com.moxuan.fontchange_1.1.1_iphoneos-arm64e.deb
+Size: 1644268
+MD5sum: 9e256d2bc82db3e6f03312ad312dc7de
+SHA1: b94259efbae6eb14d13fa3343452cde2ad82554e
+SHA256: 21573035ba81f978162f901886fc5aecf0729a75cc15d83996a8cd916ecd168f
+SHA512: f829996da5ad9e31ba52713ace38bd8e308b88ea2b59b681c471297ed1397bb9b4164a537e6a7bc40c22574a4be05f3e9f32ad67c3efa99514fffa328dc4f019
+Description: 字体挂载，支持 Rootless/RootHide
+ * 管理受支持的 iOS 15+ 越狱环境中的自定义系统字体和锁屏字体，刷新语言缓存、恢复系统字体，并重启用户空间。
+ * 界面与操作：点击“导入字体”，选择全局字体压缩包或自定义锁屏时钟字体。在“字体方案”中选择需要使用的组合。点击上方预览卡片，在全局字体与自定义锁屏时钟之间切换预览。点击“检查并开始执行”。FontChange 会依次完成字体替换、临时语言环境切换、全局字体缓存重建、原语言恢复和用户空间重启。如需撤销，点击右上角恢复按钮即可恢复系统原生字体。请将字体文件保存到「我的 iPhone」，不要直接从 iCloud 云盘导入。也可以从其他 App 使用系统分享菜单发送到 FontChange。功能亮点：真正的一键替换与缓存刷新：一次确认即可自动完成字体包校验、字体挂载、语言环境切换、全局字体缓存重建、原语言恢复和用户空间重启，无需手动进入设置反复切换语言。利用系统语言环境刷新全局字体缓存：不是简单覆盖文件或只清理普通缓存，而是调用 iOS 原生语言切换流程促使系统重新加载全局字体，同时由后台恢复任务保障语言设置能够自动还原。全局字体与锁屏时钟自由组合：既可以只替换全局字体或锁屏时钟，也可以为每套全局字体搭配独立的自定义锁屏时钟，所见即所得的实时预览。
+ * Manages custom system and lock-screen fonts on supported iOS 15+ jailbreak environments, refreshes language caches, restores system fonts, and reboots userspace.
+Name: FontChange 字体挂载管理
+Author: moxuan1121
+Icon: https://TrollStoreX.Github.io/sileodepiction/FontChange/icon.png
 
 Package: com.nan.disableupdates
 Architecture: iphoneos-arm64e
