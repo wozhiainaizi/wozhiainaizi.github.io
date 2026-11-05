@@ -3171,7 +3171,7 @@ SHA512: e6b225a0f9058db78d63bdc0a8da851b4e6b31278f22f01a22ac62d055c1ccd501446b41
 Description: 1. 禁用iOS16+粘贴警告弹窗，并自动允许
  2. 禁用粘贴提醒
  * 如只需要禁用警告弹窗，可以降级安装版本0.0.1
-Name: 禁用iOS16+粘贴警告弹窗和粘贴提醒 - DisablePasteAlert16
+Name: DisablePasteAlert16 禁用粘贴提示
 Author: SquidForce
 
 Package: com.squidforce.doubletapflipcamera
@@ -3504,7 +3504,7 @@ SHA1: 56b53e9e5ff55f2e83d03058074c3bfd77f7cfbe
 SHA256: 3637918ba98c3fdaddc4cd7ec9f61443522f0fa210c5aa16295fba8c02edcd62
 SHA512: 6c7e3866d974abc49f60f2ad4ea14759932ee53e939bc7893d5db6183aab77bc82cfe4fb7480b2ac59d45b383315794634df07bd7578781998e50aaf5b2e38a0
 Description: 让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。开源：https://github.com/5hux1n/Alipay2NFC
-Name: Alipay2NFC · 碰一碰转接 (Roothide)
+Name: Alipay2NFC 碰一碰转接
 Author: Junhong
 
 Package: im.mjh.doleo.roothide
@@ -3522,7 +3522,7 @@ SHA256: e415c0c42d724a2fde3cdb5bbd4572ddaccceb00bd117e48f173a47f3f89b5d5
 SHA512: 216893f193fbd87eec0e49b1f556f12092407b4b008ac4decc415ac0088c4881dfa0f8ed7205036fd7288610f80e13bd8fd9887a37708ba105cab25f22fb6880
 Homepage: https://doleo.goforit.si/
 Description: Sileo 的 DEB 下载与本地仓库工具。
-Name: Doleo
+Name: Doleo 插件备份
 Author: Junhong
 Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.roothide.html?v=a89cb7b26821
@@ -3544,7 +3544,7 @@ SHA1: bdc5da3405056ff3df11ec62059cda8acd2e23c8
 SHA256: 178b951a342055e6698fa8e90c5eb09a823a7cd1c71d7e5d2c4be344f7f14f42
 SHA512: 8d409e49c0a754ea8d24fcef4251f30b9a9602ede1fe9b29b6d2575658cf8f17c15947acd6dbd127a496095b8748f00b2b840b42f862ab148e80833726b7b61e
 Description: Download and keep local DEB packages in Sileo.
-Name: Doleo (Roothide)
+Name: Doleo 插件备份
 Author: Junhong
 Icon: file:///usr/share/doleo/icon.png
 
