@@ -683,26 +683,6 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/tweakshub.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/tweakshub/js.json
 
-Package: com.eolnmsuk.antidarksword
-Architecture: iphoneos-arm64e
-Version: 4.9.3
-Section: 本命法器
-Maintainer: EolnMsuk
-Installed-Size: 9148
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/antidarksword_4.9.3_e.deb
-Size: 7159160
-MD5sum: f67f5335f3a7b6145c94790b93a7b006
-SHA1: a7682b25f91177c9d54ee17fca78a00d80f96f0f
-SHA256: bf69e3df83feec3d2ee7f5cd2150f5bdf9e9f4ea09d1af527a56045661aa0c91
-SHA512: f7e057f9aca80d39c46cf509aede99018392149fe181c0060c2bbf1c8c3813daf9f3b930ce16f5c676a4b76035fc365631d45af6ea032fa1d8cae4c4b824ac33
-Description: Security framework to defend against WebKit RCE and iMessage zero-click exploits like Coruna / DarkSword / BLASTPASS. 防御WebKit RCE和iMessage零点击漏洞的安全框架，如Coruna/DarkSword/BLASTPASS。
-Name: AntiDarkSword
-Author: EolnMsuk
-Icon: https://raw.githubusercontent.com/EolnMsuk/AntiDarkSword/refs/heads/main/antidarkswordprefs/Resources/sicon.png
-SileoDepiction: https://raw.githubusercontent.com/EolnMsuk/AntiDarkSword/main/depiction.json
-
 Package: com.cydiabc.appdatas-rootless
 Architecture: iphoneos-arm64e
 Version: 1.9.1
@@ -858,6 +838,24 @@ Description: 使iOS 15/16越狱高刷机型自适应/锁定120HZ。 Make iOS 15/
 Name: 120Hz Always
 Author: Snail <mu514983786@gmail.com>
 
+Package: com.yourepo.axs.axsclean
+Architecture: iphoneos-arm64e
+Version: 5.2.0-14
+Section: 本命法器
+Maintainer: Axs & kanuo <qiaozhani000@163.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Filename: debs/com.yourepo.axs.axsclean_5.2.0-14_iphoneos-arm64e.deb
+Size: 74168
+MD5sum: a976e21b7fb59d66fd5f4848dee7c788
+SHA1: e6a1e45433e0868635358b2a6effa8d2ca5a8e48
+SHA256: 84fbb3231dc12340d9c77cd947c61a2ebf1adfd296a0a3b1faadc398b20c3e3f
+SHA512: b77804b0c6dfe6c1e12698dc453fdf7dc01f2f3b70d77d512a6b4f0a0aa148a1d713d0359657e10a3274127e0f143b7f5dc7098aa3f7acc1dec0f26d57183821
+Description: 这是一款系统快速清理缓存工具。
+Name: AxsClean
+Author: Axs & kanuo <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/clean.png
+
 Package: com.zqbb.dynamic120hz
 Architecture: iphoneos-arm64e
 Version: 3.3.3-3
@@ -998,6 +996,47 @@ Author: Anna
 Sponsor: Anna
 Icon: file:///Applications/Cydia.app/Sections/Utilities.png
 Icon2: 5.png
+
+Package: im.mjh.doleo.roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: 本命法器
+Maintainer: Junhong
+Installed-Size: 1008
+Depends: firmware (>= 15.0), mobilesubstrate, dpkg
+Filename: debs/im.mjh.doleo.roothide_1.0.2_iphoneos-arm64e.deb
+Size: 234752
+MD5sum: dcf85b59bead8e5220b8124832fad4d4
+SHA1: 378c9ab58b25bf2d64dff0c42046ac2bda1e4bc5
+SHA256: e415c0c42d724a2fde3cdb5bbd4572ddaccceb00bd117e48f173a47f3f89b5d5
+SHA512: 216893f193fbd87eec0e49b1f556f12092407b4b008ac4decc415ac0088c4881dfa0f8ed7205036fd7288610f80e13bd8fd9887a37708ba105cab25f22fb6880
+Homepage: https://doleo.goforit.si/
+Description: Sileo 的 DEB 下载与本地仓库工具。
+Name: Doleo 插件备份
+Author: Junhong
+Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.roothide.html?v=a89cb7b26821
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
+Tags: compatible_min::ios15.0
+
+Package: im.mjh.doleo.roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: 本命法器
+Maintainer: Junhong
+Installed-Size: 1040
+Depends: mobilesubstrate, dpkg
+Filename: debs/im.mjh.doleo.roothide_1.0.3_iphoneos-arm64e.deb
+Size: 232272
+MD5sum: e1c299a04c0b098b273413f312f334ec
+SHA1: bdc5da3405056ff3df11ec62059cda8acd2e23c8
+SHA256: 178b951a342055e6698fa8e90c5eb09a823a7cd1c71d7e5d2c4be344f7f14f42
+SHA512: 8d409e49c0a754ea8d24fcef4251f30b9a9602ede1fe9b29b6d2575658cf8f17c15947acd6dbd127a496095b8748f00b2b840b42f862ab148e80833726b7b61e
+Description: Download and keep local DEB packages in Sileo.
+Name: Doleo 插件备份
+Author: Junhong
+Icon: file:///usr/share/doleo/icon.png
 
 Package: xyz.cypwn.immortalizer
 Architecture: iphoneos-arm64e
@@ -1376,24 +1415,6 @@ Name: ZombieReaper 清理子进程
 Author: Mr_佳先生  ♥
 icon: https://huayuarc.github.io/icon/zombiereaper.jpg
 
-Package: com.kdt.caperfhudmodule
-Architecture: iphoneos-arm64e
-Version: 1.0.0
-Section: 本命法器
-Maintainer: khanhduytran0
-Installed-Size: 260
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: com.opa334.ccsupport, firmware (>= 13.0)
-Filename: debs/全局性能悬浮监测模块caperfhudmodule_1.0.0_e.deb
-Size: 24434
-MD5sum: a347135b2700ca7ab9ed2fe8ee3cafd4
-SHA1: af032ed856705bd33660dfe8a79f940fed77df83
-SHA256: 17f55187bc32379e2b0add5ac053a3ab18d1adf1697aa50996e9a4b26bcecc7f
-SHA512: bb8cd236b9ded2ead0a73e8379023d01f3a7bb00bc9a15b73b5ab13e383108c4d024e3cc3c08ba2820cdf5c40209689efee5d22f35cbd85c5d17d6c81909563a
-Description: Enable system-wide performance HUD from the control center.
-Name: caperfhudmodule 全局性能悬浮监测模块
-Author: khanhduytran0
-
 Package: com.charlieleung.trollopenjb
 Architecture: iphoneos-arm64e
 Version: 1.3.7
@@ -1728,6 +1749,55 @@ Description: multiple precision floating-point computation
  well-defined semantics. It copies the good ideas from the
  ANSI/IEEE-754 standard for double-precision floating-point arithmetic
  (53-bit mantissa).
+
+Package: libxar1
+Architecture: iphoneos-arm64e
+Version: 1.8.0.487.100.1-1
+Priority: optional
+Section: 筑基炼气
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 144
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libssl3
+Conflicts: xar (<< 1.8.0.487.100.1-1)
+Replaces: xar (<< 1.8.0.487.100.1-1)
+Filename: debs/libxar1_1.8.0.487.100.1-1_iphoneos-arm64e.deb
+Size: 41958
+MD5sum: df772713ef97fe763720f8eafb5bd55f
+SHA1: 0d6f487ec3ec1931c44fbca0ddbed0320879bc58
+SHA256: edfa5fbadd01b0e9ee3c5bd9794bfe19a7bff403a9977061fa9de7463028d579
+SHA512: 405edfe87d11bc14b3816ea6a51329eabc79f34143172e5b8e9134124ad082fba1f268103a29bd7b6e61e96c7180e1810657b005ee2dd51a409c90fe7b50e697
+Homepage: https://mackyle.github.io/xar/
+Description: eXtensible ARchive format - dynamic library
+
+Package: p7zip
+Architecture: iphoneos-arm64e
+Version: 17.04
+Multi-Arch: foreign
+Priority: optional
+Section: 筑基炼气
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 9764
+Depends: roothide (>= 0.0.7), libiosexec1 (>= 1.3.1)
+Filename: debs/p7zip_17.04_iphoneos-arm64e.deb
+Size: 4355376
+MD5sum: c62ba897c01a61dae0a94edfb5fc3dda
+SHA1: 703990a1f09b3153014b5d3dbc4323dcc734654e
+SHA256: 6ed84242a6eec68dcdb149c4e925fb01027f10b0a5cb544a456e71629427ba16
+SHA512: 3a31cb787c93dd6c1028666a6121680c345d126b55c493746e863b1d07a8b2236d2cb8431323fffcb188b2ff09fb5da222a767b9fbe2cdb5a26b01e69fbf8e58
+Description: 7z and 7za file archivers with high compression ratio
+ .
+ p7zip is the Unix command-line port of 7-Zip, a file archiver that handles the 7z format which features very high compression ratios.
+ .
+ p7zip provides utilities to pack and unpack 7z archives within a shell or using a GUI (such as Ark, File  Roller or Nautilus).
+ .
+ Installing p7zip-full allows File Roller to use the very efficient 7z compression format for packing and unpacking files and directories. Additionally, it provides the 7z and 7za commands.
+ .
+ List of supported formats:
+ . 
+  - Packing / unpacking: 7z, ZIP, GZIP, BZIP2, XZ and TAR
+  - Unpacking only: APM, ARJ, CAB, CHM, CPIO, CramFS, DEB, DMG, FAT,
+    HFS, ISO, LZH, LZMA, LZMA2, MBR, MSI, MSLZ, NSIS, NTFS, RPM, SquashFS, UDF,
+    VHD, WIM, XAR and Z.
 
 Package: plutil
 Architecture: iphoneos-arm64e
@@ -2245,6 +2315,26 @@ SHA512: aaa4b96a5561ecb3e620c27e2d3e1030598ea9b5a4433a1ce0f35f8cbd9c5bf8c8c8a500
 Description: A modified TrollStore by iosdump for jailbroken iOS
 Name: TrollStore Lite 白巨魔
 Author: opa334&iosdump
+
+Package: com.eolnmsuk.antidarksword
+Architecture: iphoneos-arm64e
+Version: 4.9.3
+Section: 红尘琐事
+Maintainer: EolnMsuk
+Installed-Size: 9148
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/antidarksword_4.9.3_e.deb
+Size: 7159160
+MD5sum: f67f5335f3a7b6145c94790b93a7b006
+SHA1: a7682b25f91177c9d54ee17fca78a00d80f96f0f
+SHA256: bf69e3df83feec3d2ee7f5cd2150f5bdf9e9f4ea09d1af527a56045661aa0c91
+SHA512: f7e057f9aca80d39c46cf509aede99018392149fe181c0060c2bbf1c8c3813daf9f3b930ce16f5c676a4b76035fc365631d45af6ea032fa1d8cae4c4b824ac33
+Description: Security framework to defend against WebKit RCE and iMessage zero-click exploits like Coruna / DarkSword / BLASTPASS. 防御WebKit RCE和iMessage零点击漏洞的安全框架，如Coruna/DarkSword/BLASTPASS。
+Name: AntiDarkSword
+Author: EolnMsuk
+Icon: https://raw.githubusercontent.com/EolnMsuk/AntiDarkSword/refs/heads/main/antidarkswordprefs/Resources/sicon.png
+SileoDepiction: https://raw.githubusercontent.com/EolnMsuk/AntiDarkSword/main/depiction.json
 
 Package: com.crctdd.autocopyverify
 Architecture: iphoneos-arm64e
@@ -3362,24 +3452,6 @@ Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
 SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
 Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
 
-Package: com.yourepo.axs.axsclean
-Architecture: iphoneos-arm64e
-Version: 5.2.0-14
-Section: 红尘琐事
-Maintainer: Axs & kanuo <qiaozhani000@163.com>
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0)
-Filename: debs/com.yourepo.axs.axsclean_5.2.0-14_iphoneos-arm64e.deb
-Size: 74168
-MD5sum: a976e21b7fb59d66fd5f4848dee7c788
-SHA1: e6a1e45433e0868635358b2a6effa8d2ca5a8e48
-SHA256: 84fbb3231dc12340d9c77cd947c61a2ebf1adfd296a0a3b1faadc398b20c3e3f
-SHA512: b77804b0c6dfe6c1e12698dc453fdf7dc01f2f3b70d77d512a6b4f0a0aa148a1d713d0359657e10a3274127e0f143b7f5dc7098aa3f7acc1dec0f26d57183821
-Description: 这是一款系统快速清理缓存工具。
-Name: AxsClean
-Author: Axs & kanuo <qiaozhani000@163.com>
-Icon: https://axs66.github.io/pro/icon/clean.png
-
 Package: com.yourepo.axs.edgesiri
 Architecture: iphoneos-arm64e
 Version: 3.1.1-9
@@ -3507,47 +3579,6 @@ Description: 让支付宝「碰一碰」唤起你指定的第二个支付宝客�
 Name: Alipay2NFC 碰一碰转接
 Author: Junhong
 
-Package: im.mjh.doleo.roothide
-Architecture: iphoneos-arm64e
-Version: 1.0.2
-Section: 红尘琐事
-Maintainer: Junhong
-Installed-Size: 1008
-Depends: firmware (>= 15.0), mobilesubstrate, dpkg
-Filename: debs/im.mjh.doleo.roothide_1.0.2_iphoneos-arm64e.deb
-Size: 234752
-MD5sum: dcf85b59bead8e5220b8124832fad4d4
-SHA1: 378c9ab58b25bf2d64dff0c42046ac2bda1e4bc5
-SHA256: e415c0c42d724a2fde3cdb5bbd4572ddaccceb00bd117e48f173a47f3f89b5d5
-SHA512: 216893f193fbd87eec0e49b1f556f12092407b4b008ac4decc415ac0088c4881dfa0f8ed7205036fd7288610f80e13bd8fd9887a37708ba105cab25f22fb6880
-Homepage: https://doleo.goforit.si/
-Description: Sileo 的 DEB 下载与本地仓库工具。
-Name: Doleo 插件备份
-Author: Junhong
-Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.roothide.html?v=a89cb7b26821
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
-Tags: compatible_min::ios15.0
-
-Package: im.mjh.doleo.roothide
-Architecture: iphoneos-arm64e
-Version: 1.0.3
-Section: 红尘琐事
-Maintainer: Junhong
-Installed-Size: 1040
-Depends: mobilesubstrate, dpkg
-Filename: debs/im.mjh.doleo.roothide_1.0.3_iphoneos-arm64e.deb
-Size: 232272
-MD5sum: e1c299a04c0b098b273413f312f334ec
-SHA1: bdc5da3405056ff3df11ec62059cda8acd2e23c8
-SHA256: 178b951a342055e6698fa8e90c5eb09a823a7cd1c71d7e5d2c4be344f7f14f42
-SHA512: 8d409e49c0a754ea8d24fcef4251f30b9a9602ede1fe9b29b6d2575658cf8f17c15947acd6dbd127a496095b8748f00b2b840b42f862ab148e80833726b7b61e
-Description: Download and keep local DEB packages in Sileo.
-Name: Doleo 插件备份
-Author: Junhong
-Icon: file:///usr/share/doleo/icon.png
-
 Package: iya.banana.hide2less.compat
 Architecture: iphoneos-arm64
 Version: 0.1.0
@@ -3636,25 +3667,6 @@ Icon: https://dcsyhi1998.github.io/icons/Culprit/Culprit.png
 Author: Dcsyhi
 Translator: 灰灰 与 MIAO (=^･ω･^=)
 
-Package: libxar1
-Architecture: iphoneos-arm64e
-Version: 1.8.0.487.100.1-1
-Priority: optional
-Section: 红尘琐事
-Maintainer: RootHide <RootHideDev@twitter>
-Installed-Size: 144
-Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libssl3
-Conflicts: xar (<< 1.8.0.487.100.1-1)
-Replaces: xar (<< 1.8.0.487.100.1-1)
-Filename: debs/libxar1_1.8.0.487.100.1-1_iphoneos-arm64e.deb
-Size: 41958
-MD5sum: df772713ef97fe763720f8eafb5bd55f
-SHA1: 0d6f487ec3ec1931c44fbca0ddbed0320879bc58
-SHA256: edfa5fbadd01b0e9ee3c5bd9794bfe19a7bff403a9977061fa9de7463028d579
-SHA512: 405edfe87d11bc14b3816ea6a51329eabc79f34143172e5b8e9134124ad082fba1f268103a29bd7b6e61e96c7180e1810657b005ee2dd51a409c90fe7b50e697
-Homepage: https://mackyle.github.io/xar/
-Description: eXtensible ARchive format - dynamic library
-
 Package: com.spark.snowboard.masks
 Architecture: iphoneos-arm64e
 Version: 1.2.2-Beta2-rootless
@@ -3712,36 +3724,6 @@ Name: OneSettings
 Sponsor: sini921
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/onesettings/js.json
 icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
-
-Package: p7zip
-Architecture: iphoneos-arm64e
-Version: 17.04
-Multi-Arch: foreign
-Priority: optional
-Section: 红尘琐事
-Maintainer: roothide <roothideDev@twitter>
-Installed-Size: 9764
-Depends: roothide (>= 0.0.7), libiosexec1 (>= 1.3.1)
-Filename: debs/p7zip_17.04_iphoneos-arm64e.deb
-Size: 4355376
-MD5sum: c62ba897c01a61dae0a94edfb5fc3dda
-SHA1: 703990a1f09b3153014b5d3dbc4323dcc734654e
-SHA256: 6ed84242a6eec68dcdb149c4e925fb01027f10b0a5cb544a456e71629427ba16
-SHA512: 3a31cb787c93dd6c1028666a6121680c345d126b55c493746e863b1d07a8b2236d2cb8431323fffcb188b2ff09fb5da222a767b9fbe2cdb5a26b01e69fbf8e58
-Description: 7z and 7za file archivers with high compression ratio
- .
- p7zip is the Unix command-line port of 7-Zip, a file archiver that handles the 7z format which features very high compression ratios.
- .
- p7zip provides utilities to pack and unpack 7z archives within a shell or using a GUI (such as Ark, File  Roller or Nautilus).
- .
- Installing p7zip-full allows File Roller to use the very efficient 7z compression format for packing and unpacking files and directories. Additionally, it provides the 7z and 7za commands.
- .
- List of supported formats:
- . 
-  - Packing / unpacking: 7z, ZIP, GZIP, BZIP2, XZ and TAR
-  - Unpacking only: APM, ARJ, CAB, CHM, CPIO, CramFS, DEB, DMG, FAT,
-    HFS, ISO, LZH, LZMA, LZMA2, MBR, MSI, MSLZ, NSIS, NTFS, RPM, SquashFS, UDF,
-    VHD, WIM, XAR and Z.
 
 Package: byg.iosios.net.classickeyboardxs-rootless
 Architecture: iphoneos-arm64e
@@ -3969,6 +3951,24 @@ Name: CursorPro 光标闪现
 Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/cursorpro.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/cursorpro/js.json
+
+Package: com.kdt.caperfhudmodule
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: 红尘琐事
+Maintainer: khanhduytran0
+Installed-Size: 260
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.opa334.ccsupport, firmware (>= 13.0)
+Filename: debs/全局性能悬浮监测模块caperfhudmodule_1.0.0_e.deb
+Size: 24434
+MD5sum: a347135b2700ca7ab9ed2fe8ee3cafd4
+SHA1: af032ed856705bd33660dfe8a79f940fed77df83
+SHA256: 17f55187bc32379e2b0add5ac053a3ab18d1adf1697aa50996e9a4b26bcecc7f
+SHA512: bb8cd236b9ded2ead0a73e8379023d01f3a7bb00bc9a15b73b5ab13e383108c4d024e3cc3c08ba2820cdf5c40209689efee5d22f35cbd85c5d17d6c81909563a
+Description: Enable system-wide performance HUD from the control center.
+Name: caperfhudmodule 全局性能悬浮监测模块
+Author: khanhduytran0
 
 Package: com.shuijia.phonevibrator
 Architecture: iphoneos-arm64e
