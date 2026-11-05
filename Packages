@@ -2195,6 +2195,24 @@ Description: 在Filza内的.deb/.ipa/.tipa安装包长按可规范命名。
 Name: Filza Rename
 Author: crctdd
 
+Package: com.crctdd.memtrim
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Section: 红尘琐事
+Maintainer: crctdd
+Installed-Size: 464
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/com.crctdd.memtrim_0.0.3_iphoneos-arm64e.deb
+Size: 76796
+MD5sum: 6ca6a0e2013f64fb48c775efe7bf8148
+SHA1: cb3d01e50c34796d8cdfdbb65ec279e171563b1a
+SHA256: 091d748d203b96bf62bfe3a9b53c8b78897c7ce0725ba8f0dd948617adbfe5ca
+SHA512: 54181a8d6d190a066c74b077bebff70762a6547543b4e8477d069b07ebd59181e3cba224478b6110702d5b3e9802b3b35ae17028459fef7b0f2797017631f2e2
+Homepage: https://crctdd.github.io/repo/
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Name: MemTrim
+Author: crctdd
+
 Package: com.crctdd.mobileslideshowhook
 Architecture: iphoneos-arm64e
 Version: 0.0.5
@@ -2437,6 +2455,24 @@ Description: 该插件能够实现该手机的科学上网功能直接通过热�
 Name: TunnelShareVPN
 Author: Mallin
 Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
+
+Package: com.mg.adskip
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Section: 红尘琐事
+Maintainer: M哥
+Installed-Size: 532
+Depends: mobilesubstrate
+Filename: debs/com.mg.adskip_1.0.6_iphoneos-arm64e.deb
+Size: 78236
+MD5sum: ccad9a3de788e3055f62453d1d37fa2f
+SHA1: 74224071a9d34cd55877db39dbf2fbd232b89c84
+SHA256: 15e902f4cc90e212783ba8213dfb7448e716c7f4fd8bb7f5ae2d9b45bdf5b711
+SHA512: 763ebefff52e9b235c83736d6b317353123227f01d2112a2bb381482eafb755692113b11a4eee1302766149ac31982d7aea9bc2b08be6e53d3f41681a5bb712f
+Description: 在「设置 > 广告跳过」中为已安装的 App 单独开启，仅对开启的 App 生效，自动识别开屏广告跳过，系统应用不受影响；此为通用规则跳过，仅支持大多数应用跳过开屏广告，未支持跳过的等待适配。支持 rootless / RootHide
+Name: 广告跳过
+Author: M哥
+SileoDepiction: https://wwg135.github.io/depictions/com.mg.adskip.json
 
 Package: com.mg.adskip
 Architecture: iphoneos-arm64e
