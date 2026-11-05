@@ -1560,6 +1560,23 @@ Description: load preferences in style
 Author: Dhinak G <dhinak@dhinak.net>
 Name: PreferenceLoader
 
+Package: com.roothide.patchloader
+Architecture: iphoneos-arm64e
+Version: 0.0.8
+Section: 筑基炼气
+Maintainer: roothide
+Installed-Size: 132
+Filename: debs/com.roothide.patchloader_0.0.8_iphoneos-arm64e.deb
+Size: 3930
+MD5sum: 50811beb07159320a3606de37b4604dc
+SHA1: a5e692536cf006f32a80be98131c546047405643
+SHA256: ed3d0c2e72865e70166752d8508006a9a32b4d76407fb838a2c485d5e6613d3a
+SHA512: 6c9a305bff836dc4bf686472425bf634af88eb62c9cd0c6131ed74982987c3c584d3aafee44cb87baddbd82f8ce95a805b7e12b8ea6735a831c7aa4905fef729
+Description: RootHide Dynamic Patches Loader
+Tag: role::developer
+Name: PatchLoader
+Author: roothide
+
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2-3+deadlockfix1
@@ -1581,6 +1598,77 @@ Name: ElleKit
 Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 
+Package: file
+Architecture: iphoneos-arm64e
+Version: 5.43
+Priority: important
+Section: 筑基炼气
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 100
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libmagic1 (= 5.43), liblzma5 (>= 5.2.5)
+Filename: debs/file_5.43_iphoneos-arm64e.deb
+Size: 21150
+MD5sum: df8c10322becd81cc744bebeadea54bc
+SHA1: 3c5031f33baf44a0ff287ef168fd8bffacb3cde5
+SHA256: b2bed0f18c85a2b08cc5d2f5790fc4889f3361630230a97791a831d654ca70fc
+SHA512: 3c4c07594fb8745220b66176fcd127418114607f352ea0f04eb1b822b8489062cd98f5c1ac5b190e4076ccbb4350483a88e4fd2cca753ab3f73b889ed64cc17e
+Description: Recognize the type of data in a file using "magic" numbers
+ The file command is "a file type guesser", a command-line tool that
+ tells you in words what kind of data a file contains.
+ .
+ This package contains the file program itself.
+
+Package: gawk
+Architecture: iphoneos-arm64e
+Version: 5.1.0-2
+Multi-Arch: foreign
+Priority: important
+Section: 筑基炼气
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 3236
+Provides: awk
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libintl8, libreadline8, libmpfr6, libgmp10
+Filename: debs/gawk_5.1.0-2_iphoneos-arm64e.deb
+Size: 742612
+MD5sum: dcacff662da360f9056850345c7f3518
+SHA1: abd54d20c427e3e916ad12568b8c15c0abd9b9a9
+SHA256: 178ce9a25c4c127c2c61fb801c442156c5bdc9e6d6b9830fd0284ec6e5dc3152
+SHA512: 0d51831cb5ba413f308f7645a7b00a09ed746ca96589efc9b9dfbf446817b921e8014f30398e591a36ed0231fd3d715d26f10a325aeb0dd2daecb6397ecffbf2
+Homepage: http://www.gnu.org/software/gawk/
+Description: GNU awk, a pattern scanning and processing language
+ `awk', a program that you can use to select particular records in a
+ file and perform operations upon them.
+ .
+ Gawk is the GNU Project's implementation of the AWK programming language.
+ It conforms to the definition of the language in the POSIX 1003.2 Command
+ Language And Utilities Standard. This version in turn is based on the
+ description in The AWK Programming Language, by Aho, Kernighan, and
+ Weinberger, with the additional features defined in the System V Release
+ 4 version of UNIX awk. Gawk also provides more recent Bell Labs awk
+ extensions, and some GNU-specific extensions.
+
+Package: gzip
+Architecture: iphoneos-arm64e
+Version: 1.12
+Multi-Arch: foreign
+Priority: standard
+Section: 筑基炼气
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 324
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
+Filename: debs/gzip_1.12_iphoneos-arm64e.deb
+Size: 112924
+MD5sum: a8ba2f1f9c06c9ef3db92eda86df0cf5
+SHA1: d1fc6d312705d3c2f6f65f165b3207ac3145dfb4
+SHA256: 274dc030a0208494e9a4751f9b6ffb4db43cf727b9473b789a5a3f9668f18088
+SHA512: 205d779591085559fc1dc09d9e7a92f0f45034656dec93c53308bea8d26d0441aad7ba69a6a27225c6e5d9a93d99be026a45e161bfeea85a42306321a225f2fd
+Homepage: http://www.gzip.org/
+Description: GNU compression utilities
+ This package provides the standard GNU file compression utilities, which
+ are also the default compression tools for Debian.  They typically operate
+ on files with names ending in '.gz', but can also decompress files ending
+ in '.Z' created with 'compress'.
+
 Package: com.opa334.libsandy
 Architecture: iphoneos-arm64e
 Version: 1.1.6-4
@@ -1599,6 +1687,86 @@ Name: libSandy
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
 Author: opa334
 
+Package: libmagic1
+Architecture: iphoneos-arm64e
+Version: 5.43
+Priority: important
+Section: 筑基炼气
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 7996
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), liblzma5 (>= 5.2.5)
+Conflicts: file (<< 5.43)
+Replaces: file (<< 5.43)
+Filename: debs/libmagic1_5.43_iphoneos-arm64e.deb
+Size: 430198
+MD5sum: b6c96fcabf95c9369a89ec2de691ce55
+SHA1: 271bcef843332b3eaa80770dbfaca949245fbd7e
+SHA256: 8b3df39460d2772ee04f7eaf4c54a1a7658d30d4a6293d554efbb8a35e1036bb
+SHA512: 3c52437c693e4b85a8ef33b39323e8716a3987bcf1c522b752bd2ecd1e8203e2841e250492972814870edbca4b3b8090aad471779f649b206bbfd4462876c622
+Description: Recognize the type of data in a file using "magic" numbers - library
+ This library can be used to classify files according to magic number
+ tests. It implements the core functionality of the file command.
+
+Package: libmpfr6
+Architecture: iphoneos-arm64e
+Version: 4.1.0
+Priority: optional
+Section: 筑基炼气
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 516
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libgmp10
+Filename: debs/libmpfr6_4.1.0_iphoneos-arm64e.deb
+Size: 243126
+MD5sum: 3970dc28b62f183249d69597260ea1c7
+SHA1: d2ff2f16cdf0b490a660b99e28d1aa5382ecc11f
+SHA256: 494bba9638926d6fdc3fdf76a2c5adf877cfb89ded6dc15bc73919f7febd7669
+SHA512: 4bba0f799c324ad6d5f75f02dcfd4857a31ed79e513122c8e527dfeab2a929ff7237bebcf14b08dfe01b0465e06dd9014ccfed786fe6babe5446b2e0a9d813ec
+Homepage: https://www.mpfr.org
+Description: multiple precision floating-point computation
+ MPFR provides a library for multiple-precision floating-point computation
+ with correct rounding.  The computation is both efficient and has a
+ well-defined semantics. It copies the good ideas from the
+ ANSI/IEEE-754 standard for double-precision floating-point arithmetic
+ (53-bit mantissa).
+
+Package: plutil
+Architecture: iphoneos-arm64e
+Version: 0.2.2+2
+Section: 筑基炼气
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 124
+Provides: com.bingner.plutil (=0.2.2+2)
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Conflicts: com.ericasadun.utilities, com.bingner.plutil
+Filename: debs/plutil_0.2.2_2_iphoneos-arm64e.deb
+Size: 29668
+MD5sum: ce7415b1b056b4ea06337d18a500254e
+SHA1: 374f82b5b62314f3243548b3ecb7b0e4415d4743
+SHA256: 34254ec25bf5af419c23018e8a25cc68c99f2a2ed54c1ecca7cace3fd4474da5
+SHA512: 5496371001b77cc611897a43293a8e156775c9a3f4cf7c338f8728a0df7031094d491b57caa6fc32e707e97bc500e93cf44322e55be101a78f172e9e6f000ee7
+Description: Utility for creating and editing Apple property list files.
+Author: Samuel Bingner
+
+Package: roothide.patches.filza
+Architecture: iphoneos-arm64e
+Version: 0.6-1
+Section: 筑基炼气
+Maintainer: roothide
+Installed-Size: 284
+Provides: patches-com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
+Depends: com.roothide.patchloader
+Recommends: com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
+Conflicts: com.tigisoftware.filza64bit(>> 4.0.1-4~roothide), com.tigisoftware.filza64bit(<< 4.0.1-4~roothide)
+Filename: debs/roothide.patches.filza_0.6-1_iphoneos-arm64e.deb
+Size: 36152
+MD5sum: 5b86e8a09e6e4b703495d064a17ea358
+SHA1: 73bbdfcc347db7ce7a5516bfd5fef9f52fa682fb
+SHA256: e2793dbcd4e2cdc6aaa4eea5787430b2330d997013aba423584f4591bf9dc752
+SHA512: 1c72e526c5e8cc3157cde282e48753fb3fd449bd211a54743621480d1e12888e165b4722c331b4ab7128ae71684c752140d506357fc6c890f914083df6edc678
+Description: RootHide Dynamic Patches For Filza
+Name: Patches for Filza 64bit
+Author: roothide
+
 Package: rootless-compat
 Architecture: iphoneos-arm64e
 Version: 2.0.1
@@ -1615,6 +1783,97 @@ SHA512: b991c042024e37a5d8d119dd6e6a8707a7f126675a097ae59ccc5098b8ae189ffa316517
 Description: Compat Layer for Rootless Tweaks
 Name: rootless-compat
 Author: roothide
+
+Package: unrar
+Architecture: iphoneos-arm64e
+Version: 6.2.6
+Multi-Arch: foreign
+Priority: optional
+Section: 筑基炼气
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 420
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
+Filename: debs/unrar_6.2.6_iphoneos-arm64e.deb
+Size: 194732
+MD5sum: b9a43dc1cb054a94c9595cc0c767d58c
+SHA1: 9b4e9d57170321ccf2b2fffe8bfd570d89f49491
+SHA256: 4a33f8b8616feefd314fd9c29cd3f37606fb2f9a782456e6dbe2bfd1c651846c
+SHA512: 76bfdd570838cf0b0ee5fa2b5a1a5d12ef6dada5f271db6dab858761c70208172a64be96e1d577f6b7fe920c7eab13e23cd3854df0622a63c8f3ee96bc8dc792
+Homepage: http://www.rarlab.com/rar_add.htm
+Description: Unarchiver for .rar files (non-free version)
+ Unrar can extract files from .rar archives. If you want to create .rar
+ archives, install package rar.
+
+Package: unzip
+Architecture: iphoneos-arm64e
+Version: 6.0-28
+Priority: important
+Section: 筑基炼气
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 620
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
+Filename: debs/unzip_6.0-28_iphoneos-arm64e.deb
+Size: 148616
+MD5sum: 135d2ca8814846b6c09fc244da8f074d
+SHA1: 8db2047f9914097de66f2fed312267312c9eeecc
+SHA256: a1a11a8c883beb83d5697a56ec0397e2b4a1322380b9eceacb2eb3bd7e46e14b
+SHA512: 4de477ce1402bf52cb8529c42263a2144f05d8daea1dd4107df40dc026ac2c14603e1b9e38299bceb641c3afc2fb2ecc0246b3a6323b582a93953cf85a23204d
+Description: de-compesses files in zip format
+
+Package: xz-utils
+Architecture: iphoneos-arm64e
+Version: 5.4.1
+Priority: standard
+Section: 筑基炼气
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 888
+Provides: xz (=1:0), lzma (=3:0)
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), liblzma5 (>= 5.4.1), libintl8
+Conflicts: xz (<<1:0), lzma (<<3:0)
+Replaces: xz, lzma
+Filename: debs/xz-utils_5.4.1_iphoneos-arm64e.deb
+Size: 214742
+MD5sum: f5da76495bf7bd0b242cf2aafb50433d
+SHA1: af14066b700a65be29dc4672e37660a325adae3c
+SHA256: ac4f955fc1325e85ddcf6eecffdcf02bacbac7f565f2346406f18166378f8bf6
+SHA512: 37f83a1844202d3e5671f12f2a10044e531aaacd941143e97fe883699aa20a21bffc345b655d04b936abc2aa8d257b051c11308a3eb0703c35da7f7e4cebeba1
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression utilities
+ XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
+ compression format, which provides memory-hungry but powerful
+ compression (often better than bzip2) and fast, easy decompression.
+ .
+ This package provides the command line tools for working with XZ
+ compression, including xz, unxz, xzcat, xzgrep, and so on. They can
+ also handle the older LZMA format, and if invoked via appropriate
+ symlinks will emulate the behavior of the commands in the lzma
+ package.
+ .
+ The XZ format is similar to the older LZMA format but includes some
+ improvements for general use:
+ .
+  * 'file' magic for detecting XZ files;
+  * crc64 data integrity check;
+  * limited random-access reading support;
+  * improved support for multithreading (not used in xz-utils);
+  * support for flushing the encoder.
+
+Package: zip
+Architecture: iphoneos-arm64e
+Version: 3.0-12
+Multi-Arch: foreign
+Priority: important
+Section: 筑基炼气
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 592
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
+Filename: debs/zip_3.0-12_iphoneos-arm64e.deb
+Size: 158208
+MD5sum: e791ed06aece9d8c0d4af52366891ed7
+SHA1: ee8cf1cd946567183da4f2466e33f76a3eb02fbd
+SHA256: 01b67e484bde37d337cbeb61975557d5c6a0a54b6b9278192e390e319fae6bf1
+SHA512: 79d84cf1ebe4c012fc92ef9e78f1b46a13b1f34a6b45dae902673a85f1ee8eea2dff074f5c8536d3ff30bff6d9d496f7a21ddf4405bd48e40b99fcb362c1106a
+Description: standard Windows compression tool
 
 Package: com.iosdump.airdrop
 Architecture: iphoneos-arm64e
@@ -2742,23 +3001,6 @@ Tag: role::hacker, purpose::extension
 Name: Rain的Mhz
 Author: Rain
 
-Package: com.roothide.patchloader
-Architecture: iphoneos-arm64e
-Version: 0.0.8
-Section: 红尘琐事
-Maintainer: roothide
-Installed-Size: 132
-Filename: debs/com.roothide.patchloader_0.0.8_iphoneos-arm64e.deb
-Size: 3930
-MD5sum: 50811beb07159320a3606de37b4604dc
-SHA1: a5e692536cf006f32a80be98131c546047405643
-SHA256: ed3d0c2e72865e70166752d8508006a9a32b4d76407fb838a2c485d5e6613d3a
-SHA512: 6c9a305bff836dc4bf686472425bf634af88eb62c9cd0c6131ed74982987c3c584d3aafee44cb87baddbd82f8ce95a805b7e12b8ea6735a831c7aa4905fef729
-Description: RootHide Dynamic Patches Loader
-Tag: role::developer
-Name: PatchLoader
-Author: roothide
-
 Package: com.sahinkaa.blockappupdates
 Architecture: iphoneos-arm64e
 Version: 1.0.2
@@ -3228,77 +3470,6 @@ Description: 灵动岛背景？
 Name: DynamicFX
 Author: 冰蓝
 
-Package: file
-Architecture: iphoneos-arm64e
-Version: 5.43
-Priority: important
-Section: 红尘琐事
-Maintainer: RootHide <RootHideDev@twitter>
-Installed-Size: 100
-Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libmagic1 (= 5.43), liblzma5 (>= 5.2.5)
-Filename: debs/file_5.43_iphoneos-arm64e.deb
-Size: 21150
-MD5sum: df8c10322becd81cc744bebeadea54bc
-SHA1: 3c5031f33baf44a0ff287ef168fd8bffacb3cde5
-SHA256: b2bed0f18c85a2b08cc5d2f5790fc4889f3361630230a97791a831d654ca70fc
-SHA512: 3c4c07594fb8745220b66176fcd127418114607f352ea0f04eb1b822b8489062cd98f5c1ac5b190e4076ccbb4350483a88e4fd2cca753ab3f73b889ed64cc17e
-Description: Recognize the type of data in a file using "magic" numbers
- The file command is "a file type guesser", a command-line tool that
- tells you in words what kind of data a file contains.
- .
- This package contains the file program itself.
-
-Package: gawk
-Architecture: iphoneos-arm64e
-Version: 5.1.0-2
-Multi-Arch: foreign
-Priority: important
-Section: 红尘琐事
-Maintainer: RootHide <RootHideDev@twitter>
-Installed-Size: 3236
-Provides: awk
-Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libintl8, libreadline8, libmpfr6, libgmp10
-Filename: debs/gawk_5.1.0-2_iphoneos-arm64e.deb
-Size: 742612
-MD5sum: dcacff662da360f9056850345c7f3518
-SHA1: abd54d20c427e3e916ad12568b8c15c0abd9b9a9
-SHA256: 178ce9a25c4c127c2c61fb801c442156c5bdc9e6d6b9830fd0284ec6e5dc3152
-SHA512: 0d51831cb5ba413f308f7645a7b00a09ed746ca96589efc9b9dfbf446817b921e8014f30398e591a36ed0231fd3d715d26f10a325aeb0dd2daecb6397ecffbf2
-Homepage: http://www.gnu.org/software/gawk/
-Description: GNU awk, a pattern scanning and processing language
- `awk', a program that you can use to select particular records in a
- file and perform operations upon them.
- .
- Gawk is the GNU Project's implementation of the AWK programming language.
- It conforms to the definition of the language in the POSIX 1003.2 Command
- Language And Utilities Standard. This version in turn is based on the
- description in The AWK Programming Language, by Aho, Kernighan, and
- Weinberger, with the additional features defined in the System V Release
- 4 version of UNIX awk. Gawk also provides more recent Bell Labs awk
- extensions, and some GNU-specific extensions.
-
-Package: gzip
-Architecture: iphoneos-arm64e
-Version: 1.12
-Multi-Arch: foreign
-Priority: standard
-Section: 红尘琐事
-Maintainer: RootHide <RootHideDev@twitter>
-Installed-Size: 324
-Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
-Filename: debs/gzip_1.12_iphoneos-arm64e.deb
-Size: 112924
-MD5sum: a8ba2f1f9c06c9ef3db92eda86df0cf5
-SHA1: d1fc6d312705d3c2f6f65f165b3207ac3145dfb4
-SHA256: 274dc030a0208494e9a4751f9b6ffb4db43cf727b9473b789a5a3f9668f18088
-SHA512: 205d779591085559fc1dc09d9e7a92f0f45034656dec93c53308bea8d26d0441aad7ba69a6a27225c6e5d9a93d99be026a45e161bfeea85a42306321a225f2fd
-Homepage: http://www.gzip.org/
-Description: GNU compression utilities
- This package provides the standard GNU file compression utilities, which
- are also the default compression tools for Debian.  They typically operate
- on files with names ending in '.gz', but can also decompress files ending
- in '.Z' created with 'compress'.
-
 Package: cn.zqbb.hello.bundleid
 Architecture: iphoneos-arm64e
 Version: 1.6.1-5
@@ -3465,48 +3636,6 @@ Icon: https://dcsyhi1998.github.io/icons/Culprit/Culprit.png
 Author: Dcsyhi
 Translator: 灰灰 与 MIAO (=^･ω･^=)
 
-Package: libmagic1
-Architecture: iphoneos-arm64e
-Version: 5.43
-Priority: important
-Section: 红尘琐事
-Maintainer: RootHide <RootHideDev@twitter>
-Installed-Size: 7996
-Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), liblzma5 (>= 5.2.5)
-Conflicts: file (<< 5.43)
-Replaces: file (<< 5.43)
-Filename: debs/libmagic1_5.43_iphoneos-arm64e.deb
-Size: 430198
-MD5sum: b6c96fcabf95c9369a89ec2de691ce55
-SHA1: 271bcef843332b3eaa80770dbfaca949245fbd7e
-SHA256: 8b3df39460d2772ee04f7eaf4c54a1a7658d30d4a6293d554efbb8a35e1036bb
-SHA512: 3c52437c693e4b85a8ef33b39323e8716a3987bcf1c522b752bd2ecd1e8203e2841e250492972814870edbca4b3b8090aad471779f649b206bbfd4462876c622
-Description: Recognize the type of data in a file using "magic" numbers - library
- This library can be used to classify files according to magic number
- tests. It implements the core functionality of the file command.
-
-Package: libmpfr6
-Architecture: iphoneos-arm64e
-Version: 4.1.0
-Priority: optional
-Section: 红尘琐事
-Maintainer: RootHide <RootHideDev@twitter>
-Installed-Size: 516
-Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libgmp10
-Filename: debs/libmpfr6_4.1.0_iphoneos-arm64e.deb
-Size: 243126
-MD5sum: 3970dc28b62f183249d69597260ea1c7
-SHA1: d2ff2f16cdf0b490a660b99e28d1aa5382ecc11f
-SHA256: 494bba9638926d6fdc3fdf76a2c5adf877cfb89ded6dc15bc73919f7febd7669
-SHA512: 4bba0f799c324ad6d5f75f02dcfd4857a31ed79e513122c8e527dfeab2a929ff7237bebcf14b08dfe01b0465e06dd9014ccfed786fe6babe5446b2e0a9d813ec
-Homepage: https://www.mpfr.org
-Description: multiple precision floating-point computation
- MPFR provides a library for multiple-precision floating-point computation
- with correct rounding.  The computation is both efficient and has a
- well-defined semantics. It copies the good ideas from the
- ANSI/IEEE-754 standard for double-precision floating-point arithmetic
- (53-bit mantissa).
-
 Package: com.spark.snowboard.masks
 Architecture: iphoneos-arm64e
 Version: 1.2.2-Beta2-rootless
@@ -3628,24 +3757,6 @@ Name: PleaseDontStopTheMusic 请别暂停音乐
 Icon: https://img.chariz.cloud/icon/pleasedontstopmusic/icon@3x.png
 Depiction: https://chariz.com/get/pleasedontstopmusic
 
-Package: plutil
-Architecture: iphoneos-arm64e
-Version: 0.2.2+2
-Section: 红尘琐事
-Maintainer: roothide <roothideDev@twitter>
-Installed-Size: 124
-Provides: com.bingner.plutil (=0.2.2+2)
-Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
-Conflicts: com.ericasadun.utilities, com.bingner.plutil
-Filename: debs/plutil_0.2.2_2_iphoneos-arm64e.deb
-Size: 29668
-MD5sum: ce7415b1b056b4ea06337d18a500254e
-SHA1: 374f82b5b62314f3243548b3ecb7b0e4415d4743
-SHA256: 34254ec25bf5af419c23018e8a25cc68c99f2a2ed54c1ecca7cace3fd4474da5
-SHA512: 5496371001b77cc611897a43293a8e156775c9a3f4cf7c338f8728a0df7031094d491b57caa6fc32e707e97bc500e93cf44322e55be101a78f172e9e6f000ee7
-Description: Utility for creating and editing Apple property list files.
-Author: Samuel Bingner
-
 Package: com.crctdd.pyvideo
 Architecture: iphoneos-arm64e
 Version: 0.0.3
@@ -3667,26 +3778,6 @@ Description: 获取当前页面的视频并下载，仅Safari浏览器可用；�
  pyvideo://video-downloader
 Name: PyVideo
 Author: crctdd
-
-Package: roothide.patches.filza
-Architecture: iphoneos-arm64e
-Version: 0.6-1
-Section: 红尘琐事
-Maintainer: roothide
-Installed-Size: 284
-Provides: patches-com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
-Depends: com.roothide.patchloader
-Recommends: com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
-Conflicts: com.tigisoftware.filza64bit(>> 4.0.1-4~roothide), com.tigisoftware.filza64bit(<< 4.0.1-4~roothide)
-Filename: debs/roothide.patches.filza_0.6-1_iphoneos-arm64e.deb
-Size: 36152
-MD5sum: 5b86e8a09e6e4b703495d064a17ea358
-SHA1: 73bbdfcc347db7ce7a5516bfd5fef9f52fa682fb
-SHA256: e2793dbcd4e2cdc6aaa4eea5787430b2330d997013aba423584f4591bf9dc752
-SHA512: 1c72e526c5e8cc3157cde282e48753fb3fd449bd211a54743621480d1e12888e165b4722c331b4ab7128ae71684c752140d506357fc6c890f914083df6edc678
-Description: RootHide Dynamic Patches For Filza
-Name: Patches for Filza 64bit
-Author: roothide
 
 Package: com.spark.snowboard
 Architecture: iphoneos-arm64e
@@ -3764,42 +3855,6 @@ Description: 锁屏时保持 Surge-iOS-NE 的活跃性。(支持iOS 15-17)
 Name: SurgeActive
 Author: crctdd
 
-Package: unrar
-Architecture: iphoneos-arm64e
-Version: 6.2.6
-Multi-Arch: foreign
-Priority: optional
-Section: 红尘琐事
-Maintainer: RootHide <RootHideDev@twitter>
-Installed-Size: 420
-Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
-Filename: debs/unrar_6.2.6_iphoneos-arm64e.deb
-Size: 194732
-MD5sum: b9a43dc1cb054a94c9595cc0c767d58c
-SHA1: 9b4e9d57170321ccf2b2fffe8bfd570d89f49491
-SHA256: 4a33f8b8616feefd314fd9c29cd3f37606fb2f9a782456e6dbe2bfd1c651846c
-SHA512: 76bfdd570838cf0b0ee5fa2b5a1a5d12ef6dada5f271db6dab858761c70208172a64be96e1d577f6b7fe920c7eab13e23cd3854df0622a63c8f3ee96bc8dc792
-Homepage: http://www.rarlab.com/rar_add.htm
-Description: Unarchiver for .rar files (non-free version)
- Unrar can extract files from .rar archives. If you want to create .rar
- archives, install package rar.
-
-Package: unzip
-Architecture: iphoneos-arm64e
-Version: 6.0-28
-Priority: important
-Section: 红尘琐事
-Maintainer: RootHide <RootHideDev@twitter>
-Installed-Size: 620
-Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
-Filename: debs/unzip_6.0-28_iphoneos-arm64e.deb
-Size: 148616
-MD5sum: 135d2ca8814846b6c09fc244da8f074d
-SHA1: 8db2047f9914097de66f2fed312267312c9eeecc
-SHA256: a1a11a8c883beb83d5697a56ec0397e2b4a1322380b9eceacb2eb3bd7e46e14b
-SHA512: 4de477ce1402bf52cb8529c42263a2144f05d8daea1dd4107df40dc026ac2c14603e1b9e38299bceb641c3afc2fb2ecc0246b3a6323b582a93953cf85a23204d
-Description: de-compesses files in zip format
-
 Name: URL Scheme Guard Core
 Package: com.doimty.urlschemeguard
 Architecture: iphoneos-arm64e
@@ -3846,61 +3901,6 @@ Icon: https://owngoal-dev.github.io/Inspector/icon.png
 Depiction: https://owngoal-dev.github.io/Inspector/
 SileoDepiction: https://owngoal-dev.github.io/Inspector/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-
-Package: xz-utils
-Architecture: iphoneos-arm64e
-Version: 5.4.1
-Priority: standard
-Section: 红尘琐事
-Maintainer: RootHide <RootHideDev@twitter>
-Installed-Size: 888
-Provides: xz (=1:0), lzma (=3:0)
-Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), liblzma5 (>= 5.4.1), libintl8
-Conflicts: xz (<<1:0), lzma (<<3:0)
-Replaces: xz, lzma
-Filename: debs/xz-utils_5.4.1_iphoneos-arm64e.deb
-Size: 214742
-MD5sum: f5da76495bf7bd0b242cf2aafb50433d
-SHA1: af14066b700a65be29dc4672e37660a325adae3c
-SHA256: ac4f955fc1325e85ddcf6eecffdcf02bacbac7f565f2346406f18166378f8bf6
-SHA512: 37f83a1844202d3e5671f12f2a10044e531aaacd941143e97fe883699aa20a21bffc345b655d04b936abc2aa8d257b051c11308a3eb0703c35da7f7e4cebeba1
-Homepage: https://tukaani.org/xz/
-Description: XZ-format compression utilities
- XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
- compression format, which provides memory-hungry but powerful
- compression (often better than bzip2) and fast, easy decompression.
- .
- This package provides the command line tools for working with XZ
- compression, including xz, unxz, xzcat, xzgrep, and so on. They can
- also handle the older LZMA format, and if invoked via appropriate
- symlinks will emulate the behavior of the commands in the lzma
- package.
- .
- The XZ format is similar to the older LZMA format but includes some
- improvements for general use:
- .
-  * 'file' magic for detecting XZ files;
-  * crc64 data integrity check;
-  * limited random-access reading support;
-  * improved support for multithreading (not used in xz-utils);
-  * support for flushing the encoder.
-
-Package: zip
-Architecture: iphoneos-arm64e
-Version: 3.0-12
-Multi-Arch: foreign
-Priority: important
-Section: 红尘琐事
-Maintainer: RootHide <RootHideDev@twitter>
-Installed-Size: 592
-Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
-Filename: debs/zip_3.0-12_iphoneos-arm64e.deb
-Size: 158208
-MD5sum: e791ed06aece9d8c0d4af52366891ed7
-SHA1: ee8cf1cd946567183da4f2466e33f76a3eb02fbd
-SHA256: 01b67e484bde37d337cbeb61975557d5c6a0a54b6b9278192e390e319fae6bf1
-SHA512: 79d84cf1ebe4c012fc92ef9e78f1b46a13b1f34a6b45dae902673a85f1ee8eea2dff074f5c8536d3ff30bff6d9d496f7a21ddf4405bd48e40b99fcb362c1106a
-Description: standard Windows compression tool
 
 Package: com.sini921.cursorpro
 Architecture: iphoneos-arm64e
