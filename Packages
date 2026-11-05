@@ -3628,6 +3628,24 @@ Name: PleaseDontStopTheMusic 请别暂停音乐
 Icon: https://img.chariz.cloud/icon/pleasedontstopmusic/icon@3x.png
 Depiction: https://chariz.com/get/pleasedontstopmusic
 
+Package: plutil
+Architecture: iphoneos-arm64e
+Version: 0.2.2+2
+Section: 红尘琐事
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 124
+Provides: com.bingner.plutil (=0.2.2+2)
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Conflicts: com.ericasadun.utilities, com.bingner.plutil
+Filename: debs/plutil_0.2.2_2_iphoneos-arm64e.deb
+Size: 29668
+MD5sum: ce7415b1b056b4ea06337d18a500254e
+SHA1: 374f82b5b62314f3243548b3ecb7b0e4415d4743
+SHA256: 34254ec25bf5af419c23018e8a25cc68c99f2a2ed54c1ecca7cace3fd4474da5
+SHA512: 5496371001b77cc611897a43293a8e156775c9a3f4cf7c338f8728a0df7031094d491b57caa6fc32e707e97bc500e93cf44322e55be101a78f172e9e6f000ee7
+Description: Utility for creating and editing Apple property list files.
+Author: Samuel Bingner
+
 Package: com.crctdd.pyvideo
 Architecture: iphoneos-arm64e
 Version: 0.0.3
@@ -3649,6 +3667,26 @@ Description: 获取当前页面的视频并下载，仅Safari浏览器可用；�
  pyvideo://video-downloader
 Name: PyVideo
 Author: crctdd
+
+Package: roothide.patches.filza
+Architecture: iphoneos-arm64e
+Version: 0.6-1
+Section: 红尘琐事
+Maintainer: roothide
+Installed-Size: 284
+Provides: patches-com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
+Depends: com.roothide.patchloader
+Recommends: com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
+Conflicts: com.tigisoftware.filza64bit(>> 4.0.1-4~roothide), com.tigisoftware.filza64bit(<< 4.0.1-4~roothide)
+Filename: debs/roothide.patches.filza_0.6-1_iphoneos-arm64e.deb
+Size: 36152
+MD5sum: 5b86e8a09e6e4b703495d064a17ea358
+SHA1: 73bbdfcc347db7ce7a5516bfd5fef9f52fa682fb
+SHA256: e2793dbcd4e2cdc6aaa4eea5787430b2330d997013aba423584f4591bf9dc752
+SHA512: 1c72e526c5e8cc3157cde282e48753fb3fd449bd211a54743621480d1e12888e165b4722c331b4ab7128ae71684c752140d506357fc6c890f914083df6edc678
+Description: RootHide Dynamic Patches For Filza
+Name: Patches for Filza 64bit
+Author: roothide
 
 Package: com.spark.snowboard
 Architecture: iphoneos-arm64e
@@ -3726,6 +3764,42 @@ Description: 锁屏时保持 Surge-iOS-NE 的活跃性。(支持iOS 15-17)
 Name: SurgeActive
 Author: crctdd
 
+Package: unrar
+Architecture: iphoneos-arm64e
+Version: 6.2.6
+Multi-Arch: foreign
+Priority: optional
+Section: 红尘琐事
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 420
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
+Filename: debs/unrar_6.2.6_iphoneos-arm64e.deb
+Size: 194732
+MD5sum: b9a43dc1cb054a94c9595cc0c767d58c
+SHA1: 9b4e9d57170321ccf2b2fffe8bfd570d89f49491
+SHA256: 4a33f8b8616feefd314fd9c29cd3f37606fb2f9a782456e6dbe2bfd1c651846c
+SHA512: 76bfdd570838cf0b0ee5fa2b5a1a5d12ef6dada5f271db6dab858761c70208172a64be96e1d577f6b7fe920c7eab13e23cd3854df0622a63c8f3ee96bc8dc792
+Homepage: http://www.rarlab.com/rar_add.htm
+Description: Unarchiver for .rar files (non-free version)
+ Unrar can extract files from .rar archives. If you want to create .rar
+ archives, install package rar.
+
+Package: unzip
+Architecture: iphoneos-arm64e
+Version: 6.0-28
+Priority: important
+Section: 红尘琐事
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 620
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
+Filename: debs/unzip_6.0-28_iphoneos-arm64e.deb
+Size: 148616
+MD5sum: 135d2ca8814846b6c09fc244da8f074d
+SHA1: 8db2047f9914097de66f2fed312267312c9eeecc
+SHA256: a1a11a8c883beb83d5697a56ec0397e2b4a1322380b9eceacb2eb3bd7e46e14b
+SHA512: 4de477ce1402bf52cb8529c42263a2144f05d8daea1dd4107df40dc026ac2c14603e1b9e38299bceb641c3afc2fb2ecc0246b3a6323b582a93953cf85a23204d
+Description: de-compesses files in zip format
+
 Name: URL Scheme Guard Core
 Package: com.doimty.urlschemeguard
 Architecture: iphoneos-arm64e
@@ -3772,6 +3846,61 @@ Icon: https://owngoal-dev.github.io/Inspector/icon.png
 Depiction: https://owngoal-dev.github.io/Inspector/
 SileoDepiction: https://owngoal-dev.github.io/Inspector/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: xz-utils
+Architecture: iphoneos-arm64e
+Version: 5.4.1
+Priority: standard
+Section: 红尘琐事
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 888
+Provides: xz (=1:0), lzma (=3:0)
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), liblzma5 (>= 5.4.1), libintl8
+Conflicts: xz (<<1:0), lzma (<<3:0)
+Replaces: xz, lzma
+Filename: debs/xz-utils_5.4.1_iphoneos-arm64e.deb
+Size: 214742
+MD5sum: f5da76495bf7bd0b242cf2aafb50433d
+SHA1: af14066b700a65be29dc4672e37660a325adae3c
+SHA256: ac4f955fc1325e85ddcf6eecffdcf02bacbac7f565f2346406f18166378f8bf6
+SHA512: 37f83a1844202d3e5671f12f2a10044e531aaacd941143e97fe883699aa20a21bffc345b655d04b936abc2aa8d257b051c11308a3eb0703c35da7f7e4cebeba1
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression utilities
+ XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
+ compression format, which provides memory-hungry but powerful
+ compression (often better than bzip2) and fast, easy decompression.
+ .
+ This package provides the command line tools for working with XZ
+ compression, including xz, unxz, xzcat, xzgrep, and so on. They can
+ also handle the older LZMA format, and if invoked via appropriate
+ symlinks will emulate the behavior of the commands in the lzma
+ package.
+ .
+ The XZ format is similar to the older LZMA format but includes some
+ improvements for general use:
+ .
+  * 'file' magic for detecting XZ files;
+  * crc64 data integrity check;
+  * limited random-access reading support;
+  * improved support for multithreading (not used in xz-utils);
+  * support for flushing the encoder.
+
+Package: zip
+Architecture: iphoneos-arm64e
+Version: 3.0-12
+Multi-Arch: foreign
+Priority: important
+Section: 红尘琐事
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 592
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
+Filename: debs/zip_3.0-12_iphoneos-arm64e.deb
+Size: 158208
+MD5sum: e791ed06aece9d8c0d4af52366891ed7
+SHA1: ee8cf1cd946567183da4f2466e33f76a3eb02fbd
+SHA256: 01b67e484bde37d337cbeb61975557d5c6a0a54b6b9278192e390e319fae6bf1
+SHA512: 79d84cf1ebe4c012fc92ef9e78f1b46a13b1f34a6b45dae902673a85f1ee8eea2dff074f5c8536d3ff30bff6d9d496f7a21ddf4405bd48e40b99fcb362c1106a
+Description: standard Windows compression tool
 
 Package: com.sini921.cursorpro
 Architecture: iphoneos-arm64e
