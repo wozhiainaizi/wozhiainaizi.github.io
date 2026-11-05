@@ -3636,6 +3636,25 @@ Icon: https://dcsyhi1998.github.io/icons/Culprit/Culprit.png
 Author: Dcsyhi
 Translator: 灰灰 与 MIAO (=^･ω･^=)
 
+Package: libxar1
+Architecture: iphoneos-arm64e
+Version: 1.8.0.487.100.1-1
+Priority: optional
+Section: 红尘琐事
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 144
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libssl3
+Conflicts: xar (<< 1.8.0.487.100.1-1)
+Replaces: xar (<< 1.8.0.487.100.1-1)
+Filename: debs/libxar1_1.8.0.487.100.1-1_iphoneos-arm64e.deb
+Size: 41958
+MD5sum: df772713ef97fe763720f8eafb5bd55f
+SHA1: 0d6f487ec3ec1931c44fbca0ddbed0320879bc58
+SHA256: edfa5fbadd01b0e9ee3c5bd9794bfe19a7bff403a9977061fa9de7463028d579
+SHA512: 405edfe87d11bc14b3816ea6a51329eabc79f34143172e5b8e9134124ad082fba1f268103a29bd7b6e61e96c7180e1810657b005ee2dd51a409c90fe7b50e697
+Homepage: https://mackyle.github.io/xar/
+Description: eXtensible ARchive format - dynamic library
+
 Package: com.spark.snowboard.masks
 Architecture: iphoneos-arm64e
 Version: 1.2.2-Beta2-rootless
@@ -3693,6 +3712,36 @@ Name: OneSettings
 Sponsor: sini921
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/onesettings/js.json
 icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
+
+Package: p7zip
+Architecture: iphoneos-arm64e
+Version: 17.04
+Multi-Arch: foreign
+Priority: optional
+Section: 红尘琐事
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 9764
+Depends: roothide (>= 0.0.7), libiosexec1 (>= 1.3.1)
+Filename: debs/p7zip_17.04_iphoneos-arm64e.deb
+Size: 4355376
+MD5sum: c62ba897c01a61dae0a94edfb5fc3dda
+SHA1: 703990a1f09b3153014b5d3dbc4323dcc734654e
+SHA256: 6ed84242a6eec68dcdb149c4e925fb01027f10b0a5cb544a456e71629427ba16
+SHA512: 3a31cb787c93dd6c1028666a6121680c345d126b55c493746e863b1d07a8b2236d2cb8431323fffcb188b2ff09fb5da222a767b9fbe2cdb5a26b01e69fbf8e58
+Description: 7z and 7za file archivers with high compression ratio
+ .
+ p7zip is the Unix command-line port of 7-Zip, a file archiver that handles the 7z format which features very high compression ratios.
+ .
+ p7zip provides utilities to pack and unpack 7z archives within a shell or using a GUI (such as Ark, File  Roller or Nautilus).
+ .
+ Installing p7zip-full allows File Roller to use the very efficient 7z compression format for packing and unpacking files and directories. Additionally, it provides the 7z and 7za commands.
+ .
+ List of supported formats:
+ . 
+  - Packing / unpacking: 7z, ZIP, GZIP, BZIP2, XZ and TAR
+  - Unpacking only: APM, ARJ, CAB, CHM, CPIO, CramFS, DEB, DMG, FAT,
+    HFS, ISO, LZH, LZMA, LZMA2, MBR, MSI, MSLZ, NSIS, NTFS, RPM, SquashFS, UDF,
+    VHD, WIM, XAR and Z.
 
 Package: byg.iosios.net.classickeyboardxs-rootless
 Architecture: iphoneos-arm64e
