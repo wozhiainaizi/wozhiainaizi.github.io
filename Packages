@@ -2742,6 +2742,23 @@ Tag: role::hacker, purpose::extension
 Name: Rain的Mhz
 Author: Rain
 
+Package: com.roothide.patchloader
+Architecture: iphoneos-arm64e
+Version: 0.0.8
+Section: 红尘琐事
+Maintainer: roothide
+Installed-Size: 132
+Filename: debs/com.roothide.patchloader_0.0.8_iphoneos-arm64e.deb
+Size: 3930
+MD5sum: 50811beb07159320a3606de37b4604dc
+SHA1: a5e692536cf006f32a80be98131c546047405643
+SHA256: ed3d0c2e72865e70166752d8508006a9a32b4d76407fb838a2c485d5e6613d3a
+SHA512: 6c9a305bff836dc4bf686472425bf634af88eb62c9cd0c6131ed74982987c3c584d3aafee44cb87baddbd82f8ce95a805b7e12b8ea6735a831c7aa4905fef729
+Description: RootHide Dynamic Patches Loader
+Tag: role::developer
+Name: PatchLoader
+Author: roothide
+
 Package: com.sahinkaa.blockappupdates
 Architecture: iphoneos-arm64e
 Version: 1.0.2
@@ -2896,6 +2913,24 @@ Author: kanuo
 dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depictions/icon/snapbackup.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.snapbackup.json
+
+Package: com.squidforce.disablepastealert16
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: 红尘琐事
+Maintainer: SquidForce
+Installed-Size: 168
+Filename: debs/com.squidforce.disablepastealert16_1.0_iphoneos-arm64e.deb
+Size: 3916
+MD5sum: 3c7e52ce811b27d4d6165f8b63334988
+SHA1: c6fad0d5f8c2af1fca1ced728f716b0ef83b4bca
+SHA256: 5e87f94f5a09a83ac5c91fb5ce6a290a8c98e0f1673de1ff4a8957ad8cea51e3
+SHA512: e6b225a0f9058db78d63bdc0a8da851b4e6b31278f22f01a22ac62d055c1ccd501446b41682ff467373e8e95fa47fb923a935e94c7b027e429d5dd908eff61e1
+Description: 1. 禁用iOS16+粘贴警告弹窗，并自动允许
+ 2. 禁用粘贴提醒
+ * 如只需要禁用警告弹窗，可以降级安装版本0.0.1
+Name: 禁用iOS16+粘贴警告弹窗和粘贴提醒 - DisablePasteAlert16
+Author: SquidForce
 
 Package: com.squidforce.doubletapflipcamera
 Architecture: iphoneos-arm64e
@@ -3193,6 +3228,77 @@ Description: 灵动岛背景？
 Name: DynamicFX
 Author: 冰蓝
 
+Package: file
+Architecture: iphoneos-arm64e
+Version: 5.43
+Priority: important
+Section: 红尘琐事
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 100
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libmagic1 (= 5.43), liblzma5 (>= 5.2.5)
+Filename: debs/file_5.43_iphoneos-arm64e.deb
+Size: 21150
+MD5sum: df8c10322becd81cc744bebeadea54bc
+SHA1: 3c5031f33baf44a0ff287ef168fd8bffacb3cde5
+SHA256: b2bed0f18c85a2b08cc5d2f5790fc4889f3361630230a97791a831d654ca70fc
+SHA512: 3c4c07594fb8745220b66176fcd127418114607f352ea0f04eb1b822b8489062cd98f5c1ac5b190e4076ccbb4350483a88e4fd2cca753ab3f73b889ed64cc17e
+Description: Recognize the type of data in a file using "magic" numbers
+ The file command is "a file type guesser", a command-line tool that
+ tells you in words what kind of data a file contains.
+ .
+ This package contains the file program itself.
+
+Package: gawk
+Architecture: iphoneos-arm64e
+Version: 5.1.0-2
+Multi-Arch: foreign
+Priority: important
+Section: 红尘琐事
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 3236
+Provides: awk
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libintl8, libreadline8, libmpfr6, libgmp10
+Filename: debs/gawk_5.1.0-2_iphoneos-arm64e.deb
+Size: 742612
+MD5sum: dcacff662da360f9056850345c7f3518
+SHA1: abd54d20c427e3e916ad12568b8c15c0abd9b9a9
+SHA256: 178ce9a25c4c127c2c61fb801c442156c5bdc9e6d6b9830fd0284ec6e5dc3152
+SHA512: 0d51831cb5ba413f308f7645a7b00a09ed746ca96589efc9b9dfbf446817b921e8014f30398e591a36ed0231fd3d715d26f10a325aeb0dd2daecb6397ecffbf2
+Homepage: http://www.gnu.org/software/gawk/
+Description: GNU awk, a pattern scanning and processing language
+ `awk', a program that you can use to select particular records in a
+ file and perform operations upon them.
+ .
+ Gawk is the GNU Project's implementation of the AWK programming language.
+ It conforms to the definition of the language in the POSIX 1003.2 Command
+ Language And Utilities Standard. This version in turn is based on the
+ description in The AWK Programming Language, by Aho, Kernighan, and
+ Weinberger, with the additional features defined in the System V Release
+ 4 version of UNIX awk. Gawk also provides more recent Bell Labs awk
+ extensions, and some GNU-specific extensions.
+
+Package: gzip
+Architecture: iphoneos-arm64e
+Version: 1.12
+Multi-Arch: foreign
+Priority: standard
+Section: 红尘琐事
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 324
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
+Filename: debs/gzip_1.12_iphoneos-arm64e.deb
+Size: 112924
+MD5sum: a8ba2f1f9c06c9ef3db92eda86df0cf5
+SHA1: d1fc6d312705d3c2f6f65f165b3207ac3145dfb4
+SHA256: 274dc030a0208494e9a4751f9b6ffb4db43cf727b9473b789a5a3f9668f18088
+SHA512: 205d779591085559fc1dc09d9e7a92f0f45034656dec93c53308bea8d26d0441aad7ba69a6a27225c6e5d9a93d99be026a45e161bfeea85a42306321a225f2fd
+Homepage: http://www.gzip.org/
+Description: GNU compression utilities
+ This package provides the standard GNU file compression utilities, which
+ are also the default compression tools for Debian.  They typically operate
+ on files with names ending in '.gz', but can also decompress files ending
+ in '.Z' created with 'compress'.
+
 Package: cn.zqbb.hello.bundleid
 Architecture: iphoneos-arm64e
 Version: 1.6.1-5
@@ -3358,6 +3464,48 @@ SileoDepiction: https://dcsyhi1998.github.io/Sileodepiction/Culprit.json
 Icon: https://dcsyhi1998.github.io/icons/Culprit/Culprit.png
 Author: Dcsyhi
 Translator: 灰灰 与 MIAO (=^･ω･^=)
+
+Package: libmagic1
+Architecture: iphoneos-arm64e
+Version: 5.43
+Priority: important
+Section: 红尘琐事
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 7996
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), liblzma5 (>= 5.2.5)
+Conflicts: file (<< 5.43)
+Replaces: file (<< 5.43)
+Filename: debs/libmagic1_5.43_iphoneos-arm64e.deb
+Size: 430198
+MD5sum: b6c96fcabf95c9369a89ec2de691ce55
+SHA1: 271bcef843332b3eaa80770dbfaca949245fbd7e
+SHA256: 8b3df39460d2772ee04f7eaf4c54a1a7658d30d4a6293d554efbb8a35e1036bb
+SHA512: 3c52437c693e4b85a8ef33b39323e8716a3987bcf1c522b752bd2ecd1e8203e2841e250492972814870edbca4b3b8090aad471779f649b206bbfd4462876c622
+Description: Recognize the type of data in a file using "magic" numbers - library
+ This library can be used to classify files according to magic number
+ tests. It implements the core functionality of the file command.
+
+Package: libmpfr6
+Architecture: iphoneos-arm64e
+Version: 4.1.0
+Priority: optional
+Section: 红尘琐事
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 516
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libgmp10
+Filename: debs/libmpfr6_4.1.0_iphoneos-arm64e.deb
+Size: 243126
+MD5sum: 3970dc28b62f183249d69597260ea1c7
+SHA1: d2ff2f16cdf0b490a660b99e28d1aa5382ecc11f
+SHA256: 494bba9638926d6fdc3fdf76a2c5adf877cfb89ded6dc15bc73919f7febd7669
+SHA512: 4bba0f799c324ad6d5f75f02dcfd4857a31ed79e513122c8e527dfeab2a929ff7237bebcf14b08dfe01b0465e06dd9014ccfed786fe6babe5446b2e0a9d813ec
+Homepage: https://www.mpfr.org
+Description: multiple precision floating-point computation
+ MPFR provides a library for multiple-precision floating-point computation
+ with correct rounding.  The computation is both efficient and has a
+ well-defined semantics. It copies the good ideas from the
+ ANSI/IEEE-754 standard for double-precision floating-point arithmetic
+ (53-bit mantissa).
 
 Package: com.spark.snowboard.masks
 Architecture: iphoneos-arm64e
