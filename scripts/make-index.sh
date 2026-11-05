@@ -163,3 +163,5 @@ echo "索引完成: $(grep -c '^Package:' Packages) 个包"
 # trigger-build: banner3/4换高清版 + hero支持左右滑动手动翻页(自动轮播保留) + dots隐藏 (2026-11-01)
 
 # trigger-build: SafariExploitGuard+120hz Dynamic 移入本命法器 (2026-11-02)
+
+# trigger-build: 12个命令行工具包移入筑基炼气 (2026-11-05)
