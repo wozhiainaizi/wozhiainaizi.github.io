@@ -2251,6 +2251,27 @@ Author: sunshinesong
 Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
 Icon: file:///Applications/Cydia.app/Sections/System.png
 
+Package: com.cydiabc.callassist16-roothide
+Architecture: iphoneos-arm64e
+Version: 3.3.3+local1
+Priority: optional
+Section: 红尘琐事
+Maintainer: xybp888
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Filename: debs/com.cydiabc.callassist16-roothide_3.3.3_local1_iphoneos-arm64e.deb
+Size: 3605744
+MD5sum: b869deb702aec3166b67fb46210deec6
+SHA1: 2e083628b3d68cec5d07714441dc3a03e0425229
+SHA256: 613cf2d32065cc26e92443f376f5c1de7bca4a39ffa0f2f208b85180769b9451
+SHA512: 82fd609aeb89883e2001aad13410e32c81e0420b91c5aa08d76369396c5eee1c66b1a3bee4559a083100d2fd8eb7eaddb7a676a94024c510d3d11ff20ca98884
+Description: 电话助手本地免卡密测试版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+A12: 1
+Name: 电话助手iOS16-Roothide（免卡密本地版）
+Author: xybp888
+Sponsor: Ai-小苹果™
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Icon2: 17.png
+
 Package: com.doimty.fiona
 Architecture: iphoneos-arm64e
 Version: 0.3
