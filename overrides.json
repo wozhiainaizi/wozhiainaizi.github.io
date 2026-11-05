@@ -154,5 +154,17 @@
   },
   "光标CursorPro_roothide_-0.0.1-4.deb": {
     "name": "CursorPro 光标闪现"
+  },
+  "im.mjh.alipay2nfc.roothide_3.5.0_iphoneos-arm64e.deb": {
+    "name": "Alipay2NFC 碰一碰转接"
+  },
+  "im.mjh.doleo.roothide_1.0.2_iphoneos-arm64e.deb": {
+    "name": "Doleo 插件备份"
+  },
+  "im.mjh.doleo.roothide_1.0.3_iphoneos-arm64e.deb": {
+    "name": "Doleo 插件备份"
+  },
+  "com.squidforce.disablepastealert16_1.0_iphoneos-arm64e.deb": {
+    "name": "DisablePasteAlert16 禁用粘贴提示"
   }
 }
