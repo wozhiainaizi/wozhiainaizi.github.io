@@ -2371,6 +2371,69 @@ Tag: purpose::uikit, compatible::ios14
 Name: URL 管家
 Author: 来了老弟
 
+Package: cn.therm120
+Architecture: iphoneos-arm64e
+Version: 6.6.6-2
+Section: 红尘琐事
+Maintainer: haoge
+Installed-Size: 316
+Provides: cn.zqbb.fix120hz
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Replaces: cn.zqbb.fix120hz
+Filename: debs/cn.therm120_6.6.6-2_iphoneos-arm64e.deb
+Size: 69840
+MD5sum: f2a97ac5e026fd020ef672a3182e2ba1
+SHA1: 728d5b702eab6e77bc380eba2824e8ef788055cf
+SHA256: bde236f7611d049121a92e79cb01ac0768e5e3e577955d61491662a66464a0cf
+SHA512: e9d5e3dc9189930715c944ac68d855dc3bed48a82b1771c55c1f75562d3c6653f53d111da6f5c165222c59f7eb1cd89d29272f2731f08883660a1b8e56636456
+Description: Unlock dynamic refresh rate from 80Hz to 120Hz.
+Name: 稳帧温控120
+Author: haoge
+Icon: file:///Library/PreferenceBundles/therm120hz.bundle/icon@3x.png
+
+Package: cn.therm120
+Architecture: iphoneos-arm64e
+Version: 6.6.6-3
+Section: 红尘琐事
+Maintainer: haoge
+Installed-Size: 316
+Provides: cn.zqbb.fix120hz
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Replaces: cn.zqbb.fix120hz
+Filename: debs/cn.therm120_6.6.6-3_iphoneos-arm64e.deb
+Size: 69858
+MD5sum: 1c819722d50b4b94d9d8b9392c0585b6
+SHA1: 8dc490543cb0b186ad36cfd6ee4fdcfc8ce06446
+SHA256: d880f9265252cb937ff5fd328a7a23faf6dc58eed13818951b2fe2c4482f6436
+SHA512: 1f27cb9ad985d472c10468fd7cde0cfdddef61d6a662374bb5fa17da95694134403e18dbbaac148f5ed71ae3db1755deb280512d8dfa6a578a62ccccd62c98f8
+Description: Unlock dynamic refresh rate from 80Hz to 120Hz.
+Name: 稳帧温控120
+Author: haoge
+Icon: file:///Library/PreferenceBundles/therm120hz.bundle/icon@3x.png
+
+Package: cn.therm120
+Architecture: iphoneos-arm64e
+Version: 6.6.6-6
+Section: 红尘琐事
+Maintainer: haoge
+Installed-Size: 320
+Provides: cn.zqbb.fix120hz
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Replaces: cn.zqbb.fix120hz
+Filename: debs/cn.therm120_6.6.6-6_iphoneos-arm64e.deb
+Size: 70214
+MD5sum: 61e181422470ba748a6fb1510a86e305
+SHA1: beaae808057ae52a70c23cd676e6ed3abdb8fb24
+SHA256: b648f20e6754e07e95ba7b2dd9fb68c38c8c0ff10c877ea67f7f3a0ca1d9de52
+SHA512: f11cf8aa8fce1ca32f491c8d523d63b48e32a7f76f8d5d4de76424651dcd04eb3fadca2251575fbff17eddffce8da238c80ae55f543e55fac4a7ba07ee71a344
+Description: Unlock dynamic refresh rate from 80Hz to 120Hz.
+Name: 稳帧温控120
+Author: haoge
+Icon: file:///Library/PreferenceBundles/therm120hz.bundle/icon@3x.png
+
 Package: cn.zqbb.hello.memorystatus
 Architecture: iphoneos-arm64e
 Version: 3.9.0-6
