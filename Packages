@@ -821,6 +821,25 @@ Author: Huayuarc
 Icon: https://huayuarc.github.io/icon/cputhermal.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
+Package: com.sini.photos
+Architecture: iphoneos-arm64e
+Version: 0.0.6-16
+Section: 本命法器
+Maintainer: iOSign
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.sini.photos_0.0.6-16_iphoneos-arm64e.deb
+Size: 3900
+MD5sum: 041069f0010750695f2b4a8dc8bfa48d
+SHA1: 7b9d7c657059ea950f5ad983b03ed837ccc6a837
+SHA256: 06846636376872ba15e49955907fc79d0df36d523d6f9fcdc168ba57a8fca1f0
+SHA512: 729aebf2c6435cdd7e45ed55265991f24d3c8163f7ea6c0f67bd2fdd5b8d662ef0fbbbf5de4fac8fe7b6caee5dad4f3e12577bf913f0e005e63583eb8dc80267
+Description: 自用备份。
+Author: iOSign
+icon: https://huayuarc.github.io/icon/xc.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/photos/js.json
+Name: 相册增强
+
 Package: com.snail.always120.roothide
 Architecture: iphoneos-arm64e
 Version: 1.2.0
@@ -2205,6 +2224,24 @@ Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Icon2: 16.png
 
+Package: com.local.screenrecord4k60
+Architecture: iphoneos-arm64e
+Version: 0.3.0-4klite
+Section: 红尘琐事
+Maintainer: Local
+Installed-Size: 198
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.5), firmware (<< 16.4.2)
+Filename: debs/ScreenRecord4K60_0.3.0_4klite.deb
+Size: 12566
+MD5sum: 59a26e4c98c82a4849deeaf0b648893f
+SHA1: 8fd459fd04f80c323e16fd8ed092c930f1b4f46a
+SHA256: 26669445983e0391d4fbca26615d50c5c467dcc49d877ff2d36d991c6483bd53
+SHA512: c4acbb2d6f5f66f7518263e2b5a0e96cd0bdc4d10830d76d82c8a04a81ffe78dac95804814f6f98208322ce21baa47f472cae46fc747d3870400c442357175e2
+Description: Keeps 4K output but cuts encoder/disk load: 28 Mbps instead of 50 Mbps, 4s keyframe interval, no frame reordering. Reduces heat and write stalls while staying 4K. iPhone 13 Pro Max (iOS 15.5) and iPhone 14 Pro Max (iOS 16.4.1).
+Name: ScreenRecord4K60 Optimized
+Author: Local
+
 Package: com.susudear.sharingdalertwatchdog
 Architecture: iphoneos-arm64e
 Version: 1.0.8
@@ -2857,6 +2894,24 @@ SHA1: 180f442dd1c5d6c3bd4f93285b11d921b2458192
 SHA256: 96decd9fec1dba8212ad743523cffe5062d623646a607484ef58d8f1dc3347d6
 SHA512: fce1594fd1252aa0a3ef68fbca57e024edf07a51e9ab122e5a66746231cffe114bcf72f529d66a0bda6668c750993eff164fe86c42f2cdfc887788f709146739
 Description: Experimental 4K output and 60 fps encoder hints for iPhone 13 Pro Max on iOS 15.5 and iPhone 14 Pro Max on iOS 16.4.1. Runtime API checks required; not a guaranteed native 4K60 recorder.
+Name: ScreenRecord4K60 Experimental
+Author: Local
+
+Package: com.local.screenrecord4k60
+Architecture: iphoneos-arm64e
+Version: 0.3.0
+Section: 红尘琐事
+Maintainer: Local
+Installed-Size: 198
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.5), firmware (<< 16.4.2)
+Filename: debs/com.local.screenrecord4k60_0.3.0_iphoneos-arm64e.deb
+Size: 11614
+MD5sum: b0b844f3806bc4cf9478e0fb0465cc3e
+SHA1: f45e85b38664818fe91f7399ab09359f78240da6
+SHA256: b69d9f86454463e3a1b79b7c5cae5efeaaf6a910e8f578405c4f02e057c4a7d5
+SHA512: 7efb92df01a042c17f5455f6fe487a410cb4d24bfa5de323dc33ff519e9f0ca7e2cd352f596d799bf0bd030b0246154cbe5b3a525f9b681c812ea43aff59247e
+Description: Experimental 4K recording with smoother-encode tuning - 30 Mbps average, 4 s keyframe interval and frame reordering (B-frames) enabled, so the hardware encoder and disk writer keep up instead of dropping frames. iPhone 13 Pro Max on iOS 15.5+, iPhone 14 Pro Max on iOS 16.4.1. Runtime API checks required; still not a guaranteed native 4K60 recorder.
 Name: ScreenRecord4K60 Experimental
 Author: Local
 
