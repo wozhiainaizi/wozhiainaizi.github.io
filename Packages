@@ -840,6 +840,25 @@ icon: https://huayuarc.github.io/icon/xc.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/photos/js.json
 Name: 相册增强
 
+Package: com.sini.photos
+Architecture: iphoneos-arm64e
+Version: 0.0.6-2
+Section: 本命法器
+Maintainer: iOSign
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.sini.photos_0.0.6-2_iphoneos-arm64e.deb
+Size: 3900
+MD5sum: 95c92d1f8c474cb08ed614bb8617366b
+SHA1: 0381f0577a8af4201d7b3764a4bf453e55e53770
+SHA256: 6731b5bded1d50ba51a93c3974a0a92a32d716c6fcb5b53aac1e871a048abc75
+SHA512: 329f6a4196814e2c7be21f33b135380d3042b1f89a858e48d8ccb9afa13ddc02f26522c5b7f04593c5aeb4d5119e903664b1caeb402de91468e8e07774e1851d
+Description: 自用备份。
+Author: iOSign
+icon: https://huayuarc.github.io/icon/xc.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/photos/js.json
+Name: 相册增强
+
 Package: com.snail.always120.roothide
 Architecture: iphoneos-arm64e
 Version: 1.2.0
