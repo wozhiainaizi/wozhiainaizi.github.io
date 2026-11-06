@@ -884,6 +884,40 @@ Description: 轻量后台守护插件，支持多种运行方式与任务角色�
 Name: StayAlive Lite
 Author: crctdd
 
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.4.2
+Section: 本命法器
+Maintainer: crctdd
+Installed-Size: 1280
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/com.crctdd.stayalivelite_0.4.2_iphoneos-arm64e.deb
+Size: 194008
+MD5sum: 502b78656d1c46816500ba36a897c547
+SHA1: 96e73c11a22905bb9f90661993964712d1cea6a2
+SHA256: 2efc0f626490f17286bd3f8150ff4bfd9fe6ff4e26d45067a8ad83212fe3d5e2
+SHA512: c881516db41ad9b80b648df7d20fda3d8951ead048b4da5c22b7e5cf09da7bf360ea2adceda690fbc23ef194836754473e9ac6142fe5ba8b615fff46e45f5674
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.4.3
+Section: 本命法器
+Maintainer: crctdd
+Installed-Size: 1328
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/com.crctdd.stayalivelite_0.4.3_iphoneos-arm64e.deb
+Size: 203170
+MD5sum: b4e329c353587cabe8e8f6205e0a370f
+SHA1: 434e436e91d4c7abbd42c8d845cd0b04813da7e4
+SHA256: 47ceadf2bf4abb1ce6abdcb24131a3edf8a56bea8e04161a50c2e70cf2eab4cf
+SHA512: f02d311c2d8fdf83a6e4fd8d84a3cceccef8eaf62051da21180a3cda7ebe968e55aa5184512a549ec5974b07ae5bad0f6626e023e218900df9e268c5b0e95433
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+
 Package: com.hades.locktouchx
 Architecture: iphoneos-arm64e
 Version: 2.3
@@ -3961,6 +3995,25 @@ Description: 灵动岛背景？
 Name: DynamicFX
 Author: 冰蓝
 
+Package: gettext-localizations
+Architecture: iphoneos-arm64e
+Version: 2020.10.07
+Priority: important
+Section: 红尘琐事
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 2628
+Provides: com.linusyang.localeutf8 (= 99.9)
+Depends: roothide (>= 0.0.6), libintl8 (>= 0.20.0)
+Conflicts: com.linusyang.localeutf8
+Replaces: com.linusyang.localeutf8
+Filename: debs/gettext-localizations_2020.10.07_iphoneos-arm64e.deb
+Size: 339174
+MD5sum: 7383febeeb943f2761fa3bc4831335fd
+SHA1: 398b527c6072ab41f57036268483089180e8648d
+SHA256: 52a86a3677142cf13a3845e6d12f7001bd197984fc36ae278bac16440a82559d
+SHA512: 79e2e9062244693f68d3b5a61df88a2b441c9b7dadaa8c746e60ff48bc20517fff9214c9eb3936fe72c1d1b1c0248a334d65b271173c720f482a902487880fed
+Description: Locale files necessary for command line tool translation.
+
 Package: cn.zqbb.hello.bundleid
 Architecture: iphoneos-arm64e
 Version: 1.6.1-5
@@ -4351,6 +4404,54 @@ Icon: https://owngoal-dev.github.io/Inspector/icon.png
 Depiction: https://owngoal-dev.github.io/Inspector/
 SileoDepiction: https://owngoal-dev.github.io/Inspector/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: ws.hbang.newterm3
+Architecture: iphoneos-arm64e
+Version: 3.0~beta1-1042+debug
+Section: 红尘琐事
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 31496
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Filename: debs/ws.hbang.newterm3_3.0_beta1-1042_debug_iphoneos-arm64e.deb
+Size: 6628694
+MD5sum: 6990e49ae10bf81442f3c91b6f74628d
+SHA1: 7be7b2b04ec2d81d00229a4b918cca1a236e8db4
+SHA256: 1b6f10525f00d85edd76b597c33187ac2498cd9b260e00d1d63afcd38d8677aa
+SHA512: 755d8fee4d58eaa033fb02b72081b6222d2cb426c197c07d44fc946d5e0d399060844770430a13117c98666731c4b1b3a934d484fafbb583136785b85a3d5398
+Description: Powerful terminal app for iOS
+Tag: compatible_min::ios14.0
+Name: NewTerm 3 Beta
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Depiction: https://chariz.com/get/newterm-beta
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.newterm3
+Architecture: iphoneos-arm64e
+Version: 3.0~beta1-670+debug
+Section: 红尘琐事
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 24128
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Filename: debs/ws.hbang.newterm3_3.0_beta1-670_debug_iphoneos-arm64e.deb
+Size: 4738394
+MD5sum: fcdb774634eb41e936b949ab70bebe47
+SHA1: 7555f45ba3e9883fa147914aeeca0b9401465aec
+SHA256: a39c394d57b3ef1b7bfb575b5d990071e3c9de7a4c09bfd4fc0dda9993a04b1f
+SHA512: ba0ddb1535ed92b0e284b2176327213f3e325805337a37e427dcfe3878e33740faa4d6cf63de671402ea2de5311fc327bf28b5088a36b3606f87226d5fe3360a
+Description: Powerful terminal app for iOS
+Tag: compatible_min::ios14.0
+Name: NewTerm 3 Beta
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Depiction: https://chariz.com/get/newterm-beta
+Support: https://hashbang.productions/support/
 
 Package: com.sini921.cursorpro
 Architecture: iphoneos-arm64e
