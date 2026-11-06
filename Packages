@@ -3317,6 +3317,24 @@ Name: Taploom
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/taploom.png
 
+Package: com.mlgm.taploom
+Architecture: iphoneos-arm64e
+Version: 1.1.8
+Section: 红尘琐事
+Maintainer: mlgm
+Installed-Size: 1124
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: debs/com.mlgm.taploom_1.1.8_iphoneos-arm64e.deb
+Size: 184652
+MD5sum: 13a0b873c634a9e63ff68a2b80935782
+SHA1: 5241fdd83f0f8088f6cca8adfcb22daf549a35ed
+SHA256: 90e630e4bca47c908f62af68738fbaa8e0d1a08d881e188e98fe423cd64b2df6
+SHA512: 98489140da7255ce9bf051334780955848ae5661ba340d64fc953ed23d594a8e8f4f90184e138d40909442251678fc928f5442641f8a7b814cadeb28120e92d1
+Description: 触摸轨迹可视化
+Name: Taploom
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/taploom.png
+
 Package: com.moxuan.fontchange
 Architecture: iphoneos-arm64e
 Version: 1.1.1
