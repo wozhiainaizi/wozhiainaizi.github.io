@@ -974,6 +974,25 @@ Author: Huayuarc
 Icon: https://huayuarc.github.io/icon/cputhermal.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64e
+Version: 1.6.2-90
+Section: 本命法器
+Maintainer: Huayuarc
+Installed-Size: 1992
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.huayuarc.cputhermal_1.6.2-90_iphoneos-arm64e.deb
+Size: 153234
+MD5sum: 05d7d8b9a40584a37123c561c6cfa929
+SHA1: 6d6df0a69617a4dbbd3cb04f5ca51f8ad2565320
+SHA256: 483cedeb77f203fab853a5f9d67f68c4cfee06472e2731f2ea1ef27bd0fe61ab
+SHA512: 5f862c3af318cd20c7bbcc5224f7321b3da410689807c645ae34a1d7fbea86019f0fb6e1dce23b97d8db513de5258bd4fd826f45185241b5be81d20d0bb93ed6
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，固定解除温控模式，支持 CPU/GPU/Package 温控旁路、ProMotion 120Hz 与 /System/Library/ThermalMonitor 一键挂载优化。
+Name: CPU 解除温控(roothide)
+Author: Huayuarc
+Icon: https://muzikeji.github.io/Sileo/icons/com.huayuarc.cputhermal.png
+Sileodepiction: https://muzikeji.github.io/Sileo/depictions/com.huayuarc.cputhermal.json
+
 Package: com.sini.photos
 Architecture: iphoneos-arm64e
 Version: 0.0.6-16
@@ -3940,6 +3959,24 @@ Description: Mute notifications while playing music。播放音乐的时候，�
 Name: MutePlay避免通知影响音量
 Author: uz.ra <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/muteplay.png
+
+Package: com.yunx.app.ios
+Architecture: iphoneos-arm64e
+Version: 0.1.1-14
+Section: 红尘琐事
+Maintainer: muzikeji
+Installed-Size: 76836
+Depends: firmware (>= 15.0)
+Filename: debs/com.yunx.app.ios_0.1.1-14_iphoneos-arm64e.deb
+Size: 20990212
+MD5sum: 42a2da4d3f02d8c2a101ac75a21ab6a3
+SHA1: a29c37cd201ae45588f4d632ead190af50847fd4
+SHA256: d9a61dbff5153807b200de1ae5ce17f19b4132bc6292584f81504d1c811bf94e
+SHA512: 81b77a773dc2efc2224120bcee6044b915b43b987bd5268ca747b546f3de2ca1022f96b9f5b79136e9bef13cfee4bc0ee38d9a2980d0981398447e1b42cd1a4f
+Description: 云析 YunX —— 夸克/UC/迅雷/百度/139/123 等网盘分享链接解析与 Range 分片并发下载（iOS 移植版越狱包）
+Name: YunX 云析
+Author: cc1477 (iOS 移植), CYQawa (上游)
+Icon: https://muzikeji.github.io/sileo/icons/com.yunx.app.ios.png
 
 Package: com.zqbb.savephotos
 Architecture: iphoneos-arm64e
