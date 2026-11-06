@@ -3225,6 +3225,25 @@ Name: Actra
 Icon: https://mlgm66.github.io/icon/actra.png
 Author: mlgm
 
+Package: com.mlgm.actra
+Architecture: iphoneos-arm64e
+Version: 1.3.5
+Section: 红尘琐事
+Maintainer: mlgm
+Installed-Size: 4116
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/com.mlgm.actra_1.3.5_iphoneos-arm64e.deb
+Size: 818212
+MD5sum: 212e54e2794f7ce533ad61d9f552dfb5
+SHA1: 3bab30f83b5a0394c780db778dee69aac0af9af2
+SHA256: a7963708f64be12c763b1474f912c7d0245ae9e9225bdcdc2a0ddc191e0d26be
+SHA512: e6f421e44b8f3c81ba568bac928a49af692311f41d37591931e4cf6c4c8d58997342227cc2bfba312625448febeb3f5f8f6a636fcb4aad2a084c3f6fcc6057fc
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
 Package: com.mlgm.appdata
 Architecture: iphoneos-arm64e
 Version: 1.3.8
@@ -3244,6 +3263,47 @@ Description: 上滑或长按桌面图标，即可查看和管理应用数据，�
 Name: AppData
 Author: Fouad Raheb <support@fouadraheb.com>
 Icon: https://mlgm66.github.io/icon/appdata.png
+
+Package: com.mlgm.appdata
+Architecture: iphoneos-arm64e
+Version: 1.3.9
+Section: 红尘琐事
+Maintainer: mlgm
+Installed-Size: 1236
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Replaces: com.fouadraheb.appdata
+Filename: debs/com.mlgm.appdata_1.3.9_iphoneos-arm64e.deb
+Size: 212656
+MD5sum: d01df4a0f528fae72a3645c99773aab3
+SHA1: e4c0be6f21d5baa78b3ed9363e1f123e7611d9fe
+SHA256: b38948fe7daac79a1730e37605d298b91ad6a562d2ced6522e11a82be27de9a4
+SHA512: c18358ff65a1cacfda47ec56c0cf091b37d39859103a24e9f4d417bad97745dfc4470d97abf0f6f8a8424b7142a6e130fe95a3ad30b1aa3deef2cbe6aef280b7
+Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
+Name: AppData
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mlgm66.github.io/icon/appdata.png
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64e
+Version: 5.1.2
+Section: 红尘琐事
+Maintainer: mlgm
+Installed-Size: 3864
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/com.mlgm.kayoko_5.1.2_iphoneos-arm64e.deb
+Size: 814484
+MD5sum: 98f9e8edbb12d1762fd0c7bc668c3dfa
+SHA1: cec09ed1b850c14a9ee98d66b044f2fde697ef37
+SHA256: 187999be953b45d25fc610e3df8114f51f6d8abb2caa2cb8d2d5fe582f396051
+SHA512: 1563b4456d700d40ba00ee8d58968e19fa6e4dda1159c6f7f6d69ca4c8f8401f00cbeef222e673d3f8b3a185d8c13fb5a542f61a8b7d03f0b717765e4fac9b86
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
 Package: com.mlgm.prefnest
 Architecture: iphoneos-arm64e
