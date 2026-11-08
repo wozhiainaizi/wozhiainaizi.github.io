@@ -3542,6 +3542,23 @@ Description: 禁用拍照快门声音
 Name: 禁用拍照快门声音
 Author: Netskao
 
+Package: com.ntm.batteryanalyzer
+Architecture: iphoneos-arm64e
+Version: 1.6.10
+Section: 红尘琐事
+Maintainer: yzdmm2024
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/com.ntm.batteryanalyzer_1.6.10_iphoneos-arm64e.deb
+Size: 132968
+MD5sum: d43263874b20367e3b9f7cd47ab63d72
+SHA1: f8df1a1dcb7f1572d5da1b89dfb03941e00fe03a
+SHA256: b31c99148ac8927808413aff87c1981608921de2687a0532868ae2ffa2210380
+SHA512: 76f0cde03e3a82074f8592457be0668812b08f67eccba86808478a1f39dd49de1101fe1010657dad362741e9b991b647104c8fa9242c030a74b2742b65460763
+Description: 电池耗电分析：注入SpringBoard监控每App前台/后台运行时间与电量变化，估算每App耗电，显示电量历史与本次耗电统计
+Name: 电池耗电分析
+Author: yzdmm2024
+
 Package: com.rain.rainmhz
 Architecture: iphoneos-arm64
 Version: 6.13.0-1
