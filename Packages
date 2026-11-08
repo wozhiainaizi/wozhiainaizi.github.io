@@ -2779,6 +2779,25 @@ Description: 分屏，不必太复杂，一切从简即可。
 Name: floatingView 分屏
 Author: be-huge
 
+Package: com.binglan.dynamicfx
+Architecture: iphoneos-arm64e
+Version: 1.0.7-1
+Section: 红尘琐事
+Maintainer: 冰蓝
+Installed-Size: 772
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.binglan.dynamicfx_1.0.7-1_iphoneos-arm64e.deb
+Size: 113292
+MD5sum: a64626d1fc9b1fb9f604eda7111f61d0
+SHA1: c61751051458777e9191fd72cce536dc7c3b8b47
+SHA256: a61957e6657cf0d5e1437b1c12f3a041dd1e1b7920ffcecb2e26693657db10c3
+SHA512: 7ecf809bfc5a6c79f66e60b7c588794ca28960b59c8428932afdb41ec561b08d830cb29e33acb84d179c2f54bf0afda4a46355401419fd4369a9dfbc602f9f5d
+Description: DynamicFX 用于美化 iPhone 灵动岛，支持自定义灵动岛背景、颜色、透明度、圆角以及过渡动画。
+Name: DynamicFX
+Author: 冰蓝
+Icon: https://huayuarc.github.io/icon/DynamicFX.png
+
 Package: com.crctdd.choicy-whitelist
 Architecture: iphoneos-arm64e
 Version: 1.5.4-11
