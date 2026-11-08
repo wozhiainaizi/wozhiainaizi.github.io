@@ -1696,6 +1696,23 @@ Description: 解除温控，一切从简即可。支持命令行切换模式：i
 Name: insulation
 Author: be-huge & doimty
 
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64e
+Version: 0.1.38.9
+Section: 本命法器
+Maintainer: doimty
+Installed-Size: 1648
+Depends: firmware (>= 15.0)
+Filename: debs/温控_智能停充_挂载管理_0.1.38.9_iphoneos-arm64e.deb
+Size: 118262
+MD5sum: 8d27e844eadfed8b51fa77bac4089439
+SHA1: be7baa32fb87af282641fabb9956e098859d822c
+SHA256: 19e6eeef139dcba17a09514e15025c5547800902ba6b25b00fb9e88848227bcb
+SHA512: c71bf117802bde03b66ea7da7b99f659c67a1b8075593c26817bb046a979945e3e7505b05acf43b208c64e0a890676b0acaf6b886c83380a0d7f7bac403b7185
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。已内置 SmartBatteryAPI 智能停充（设置页可调停充电量，配置已与停充守护打通，掉线自动修复）和挂载路径管理（一键挂载温控路径、重新挂载全部、优化与恢复）。
+Name: insulation
+Author: be-huge & doimty
+
 Package: com.xybp888.perfectdynamiclsland.roothide
 Architecture: iphoneos-arm64e
 Version: 1.4.0
