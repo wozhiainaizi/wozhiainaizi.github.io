@@ -2283,6 +2283,25 @@ Description: 给Choicy增加已设置置顶 / 进程页面本地缓存。(支持
 Name: Choicy Patch
 Author: crctdd
 
+Package: com.binglan.dynamicfx
+Architecture: iphoneos-arm64e
+Version: 1.0.7-3
+Section: 红尘琐事
+Maintainer: 冰蓝
+Installed-Size: 772
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/DynamicFX_1.0.7-3_mod.deb
+Size: 113696
+MD5sum: 27e5f3b0097d5e2c10524ba1a13bbcc5
+SHA1: afd64324e6797e390fd6f6d96162c97f5c8ad60b
+SHA256: a928f13be1fb51668cf9965160f7b1dff65fd3118ac9e9be329f3e1e90113713
+SHA512: 45be59989431e2d40829e1fd2f5cc4492ab7f1a7b5fc9d655d983b5c07b124f3589e4cab3a774df03c176a19495be62a8d96fb18bd0bf1ab6412afd24add5873
+Description: DynamicFX 用于美化 iPhone 灵动岛，支持自定义灵动岛背景、颜色、透明度、圆角以及过渡动画。
+Name: DynamicFX
+Author: 冰蓝
+Icon: https://huayuarc.github.io/icon/DynamicFX.png
+
 Package: com.jaysuen.ccflex16
 Architecture: iphoneos-arm64e
 Version: 1.0.0-beta.1
@@ -4003,6 +4022,29 @@ MD5sum: 2b85d0356c0d514c47eabad50aa079bb
 SHA1: a35ad7cf6db01e574c5318b5af83fabb3b4252db
 SHA256: b8ddce754f68d8ec601e4262e6f0aa86a31413682318fd31352d57d86904843a
 SHA512: 86727f438e7facdd81203e6f86c5157970c6f523985cfef971a27b0a529a8fa38e695565dd32fab50801f8bff824456e50583dbd467840f34e2b51a8112845b0
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
+
+Package: com.tsangbaby.pulloverx
+Architecture: iphoneos-arm64e
+Version: 2.4.1
+Priority: optional
+Section: 红尘琐事
+Maintainer: Tsangbaby
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/com.tsangbaby.pulloverx_2.4.1_iphoneos-arm64e.deb
+Size: 675804
+MD5sum: 0faefd18400f838782b1000cc09b2fc2
+SHA1: 8f86d8096d66af3107cc79e9f18af0f4fb8255fa
+SHA256: 168570c122bebea574696dfdc6d9d8cfd1bf718d4fc5e93a4d6bf86921eedb1f
+SHA512: c91d4e7e4ee377fed414a518d0bb0f0d5279f98738e4f2b3703580315e762378a923700b324c53c181d5cb10eab6faa7defadb1da1490230dd25c0409692dcb0
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
 Name: PullOver X
 Author: Tsangbaby
