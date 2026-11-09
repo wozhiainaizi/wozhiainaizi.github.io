@@ -4631,6 +4631,28 @@ SHA512: 30bf2b193e79a07f4b99cf0ec12c070f8a86b44cb302b6ad4a6edd38db21b4ddb2dc962c
 Description: Rule-driven URL scheme interception core. Blocks or redirects URL schemes globally or per calling app, enforced in both the calling app and the Launch Services daemon (lsd). Includes a Settings pane with installed-app and URL-scheme discovery.
 Tag: purpose::uikit, compatible::ios14
 
+Package: wacljcr.keepalive
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: 红尘琐事
+Maintainer: wacljcr
+Installed-Size: 572
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/wacljcr.keepalive_1.0.3_iphoneos-arm64e.deb
+Size: 30532
+MD5sum: aad0ca30e261a1485fc336a56eefb4c9
+SHA1: b5b70f8fb3e309e9e593bc3697622a04a90d284e
+SHA256: f944ba108468472bbfc473f35e08c64fca2c0b7eba9ca0f6552d098bc3b4c728
+SHA512: dfd7180d7f7d4ecf90d14aa03801e756e5de0fde610faea2d0faed25b3475d2a453b81b3550652b657efb7723e721a70be03d6c5d25daba974c5141fc1271662
+Description: 让选定的 app 退到后台保持常驻不被杀，重新打开直接回到上次界面
+ 微信、QQ、闲鱼、淘宝、京东、抖音、小红书、支付宝、微博等 app 退到后台经常被系统杀掉，
+ 重新打开只能冷启动。本插件让勾选的 app 退到后台后保持常驻，过很久再打开直接回到上次界面。
+ 支持 iOS 15.0 – 16.6 的 rootless 越狱（Relaxin / RootHide / Dopamine）。
+Name: 常驻后台
+Author: wacljcr
+icon: https://huayuarc.github.io/icon/keepalive.png
+
 Package: wiki.qaq.inspector
 Architecture: iphoneos-arm64e
 Version: 0.6.8
