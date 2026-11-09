@@ -3100,6 +3100,24 @@ Description: 系统相机开启全屏拍照，禁用拍照快门声音
 Name: 全屏相机
 Author: iOSign
 
+Package: com.jumping.thermaldetect
+Architecture: iphoneos-arm64e
+Version: 1.0.32
+Section: 红尘琐事
+Maintainer: jumping8
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: org.coolstar.ellekit | mobilesubstrate | com.ex.substitute
+Filename: debs/com.jumping.thermaldetect_1.0.32_iphoneos-arm64e.deb
+Size: 190030
+MD5sum: 57c026cb3492c98be6673c34ccf1578b
+SHA1: 7f52a31d4a156e47013336af6080a777b4b0b365
+SHA256: caa9d097116d63af540864d711dfabb4c2c6b5248177b2dcc55921deb90c970b
+SHA512: 346191f2e190783c87e693cd5aa61e37a441ba77a3e3f8fc710ded1818d60d0e3447b4db3d48e6125e2efeffa8d01e8e14e2b970ace2f4572b3801fc875d6730
+Description: 定位导致设备过热/耗电的进程/插件/App（thermalState + 每进程 CPU + 插件 Filter 匹配）（无根/rootless 版：安装到 /var/jb，适用 Dopamine 等无根越狱；roothide 环境请装隐根版）
+Name: 耗电发热排行榜
+Author: jumping8
+Icon: file:///var/jb/Library/PreferenceBundles/com.jumping.thermaldetect.bundle/Icon-sileo.png
+
 Package: com.kernelrw.adytum
 Architecture: iphoneos-arm64e
 Version: 3.0
