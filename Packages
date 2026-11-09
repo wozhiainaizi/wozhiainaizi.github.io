@@ -3594,6 +3594,24 @@ Author: zhaonan
 SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.fix-filza-path/js.json
 Icon: https://invalidunit.github.io/sileodepiction/default/image_fix.png
 
+Package: com.necromancy.tweak
+Architecture: iphoneos-arm64e
+Version: 1.2.6
+Section: 红尘琐事
+Maintainer: colorBlack
+Installed-Size: 1200
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/com.necromancy.tweak_1.2.6_iphoneos-arm64e.deb
+Size: 341636
+MD5sum: 5e895c193af672fd942250a5097cb3fd
+SHA1: 9875128c02ba9439bb4846129694bafe50d49c51
+SHA256: 357ce4a231665042a807d6ebdb5908e500e5178861e271a1309818ed23ca922e
+SHA512: e5941a31cf6dba4e3ffe80bfe99639a022f140ac7dd0bf7b7448347fb8605db7e8e742b639b08f057bbb808a5f9735a1f13a8a521932353c5666e68e54e4ffcb
+Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
+Name: Necromancy
+Author: colorBlack
+icon: https://huayuarc.github.io/icon/Necromancy.png
+
 Package: com.netskao.disableshuttersound
 Architecture: iphoneos-arm64e
 Version: 1.1-2
