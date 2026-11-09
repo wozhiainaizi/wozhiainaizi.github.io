@@ -1730,6 +1730,24 @@ Description: 解除温控，一切从简即可。支持命令行切换模式：i
 Name: insulation
 Author: be-huge & doimty
 
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64e
+Version: 0.1.84
+Section: 本命法器
+Maintainer: doimty
+Installed-Size: 1840
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/温控insulation_0.1.84_e.deb
+Size: 188584
+MD5sum: 6b4e7228db095ab478a13ad8bff3cf7c
+SHA1: 3289d493dd0a2dd06be5dd465a5a2a67882194c1
+SHA256: fb169d515493ae1ac7cd4526a0b9a6bf07f86bd543f97edcf7c9e3f5aecebdd8
+SHA512: 15e6a5a28cbc539b283a8652a5e23562d7e39c1bea920508790519c04a9853406d93f2fa4585c4857bc9097b07be57256e9d8b69261c32a73c9b5f4ca414c87e
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及 Hello 120Hz 3.3.3-3 完整移植（帧率覆盖 / 全局注入 / 应用排除 / 调试 HUD / 系统录屏 120 帧）。
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
 Package: com.xybp888.perfectdynamiclsland.roothide
 Architecture: iphoneos-arm64e
 Version: 1.4.0
@@ -2222,6 +2240,24 @@ SHA512: 5fdd5c216c2f662fb4f153333dc568dd8ecc07f04939180fd0471e18cd10ed477d4ac059
 Description: 解除隔空投送十分钟限制，支持设置自定义关闭时间，4秒内控制中心隔空投送连续点击两次所有人即可触发设置弹窗，支持iOS16.1.1+
 Name: AirDrop
 Author: iosdump
+
+Package: com.yourepo.axs.axsram
+Architecture: iphoneos-arm64e
+Version: 5.2.0-12
+Section: 红尘琐事
+Maintainer: Axs <qiaozhani000@163.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/AxsRam.deb
+Size: 66474
+MD5sum: dbff3c0d55291e192c12c0116a1a13ca
+SHA1: 66bf37719639e128f6519afa643d8bc82f19770b
+SHA256: ee0060ee30baa258f3a2459cbf3bbe5eddf81a29b7783c7795232ab0dde80d34
+SHA512: 2965a5e3713c2dbe0c1aee88fe5670ee57db104b7cf9012c56f00d495994ab7effa7b27c2e9029cdd29612c06144e6633eebffc5dd92f5526418bb0a2aba5f1d
+Description: 自动回收/释放内存的工具
+Name: AxsRAM
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ram.png
 
 Package: com.evgeniy558.controlcenter18
 Architecture: iphoneos-arm64e
