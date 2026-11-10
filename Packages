@@ -3227,6 +3227,41 @@ Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/System.png
 Icon2: 17.png
 
+Package: com.dao.keybar
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: 红尘琐事
+Maintainer: daodao
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.dao.keybar_1.0_iphoneos-arm64e.deb
+Size: 10380
+MD5sum: ed9847fe535494cda3ed4a5a6b4c72b1
+SHA1: fcfb6813df2e8ef0a2b792a6b128510007f74c0f
+SHA256: 58c715b6ca83afe436654646759097e0ee186a7dfac498fceb144d0172692d9f
+SHA512: fb809cd61e6c73438c6ea9b2eaa9b49dfd17e6490e42ba1b85887e683bbb88b7b8df6e04a1a807f254d83c424f7ae0c28a0d05e7e0713071358330e7173fccf7
+Description: X键盘下方添加快捷按钮(全选/复制/剪切/粘贴)，自适应深色/浅色，上下距离跟随地球键/听写键的高度，无设置项。
+Name: KeyBar
+Author: daodao
+
+Package: com.dao.keybar
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: 红尘琐事
+Maintainer: daodao
+Installed-Size: 428
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.dao.keybar_1.1_iphoneos-arm64e.deb
+Size: 48852
+MD5sum: 5d00fa976a7dae106afe21faa689c4ce
+SHA1: e8c98ce873f924ebd2d99fb022c9a54285305399
+SHA256: 871cd1c23e238cc220c0ca9269873153a2fb494b72a95e2987eb75a9ed0df1e4
+SHA512: fc4036c93932f06b59e38e435dd19bd9861f33f7be46807e281340ea33779ad13d2c0712704872e98b23eba840913761aa624de449d1d72934c62da2040b709a
+Description: 键盘增强插件，支持调整键盘底部间距及地球键、听写键的垂直位置，并在键盘下方添加全选、复制、剪切和粘贴快捷按钮，长按即可快速收起键盘，让输入操作更加便捷。
+Name: KeyBar
+Author: daodao
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/keybar/js.json
+
 Package: com.doimty.fiona
 Architecture: iphoneos-arm64e
 Version: 0.3
