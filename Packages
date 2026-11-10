@@ -1973,7 +1973,7 @@ SHA1: 756e70f684327466743204b748327cedc6d40198
 SHA256: eb0498633bea9229b7816e4190d2f10f5d3fb241b934cba3501f1cdcdaa105da
 SHA512: e5ca6c5c8089176894f4e73b9bc9f399f0860626fcc73a1ae408404453f2b973f1af23d0ca4cbe26f24546ebcd4cae56ff19d6293aac36f57320bd9ebcd10895
 Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。已内置 SmartBatteryAPI 智能停充（设置页可调停充电量，配置已与停充守护打通）和挂载路径管理（一键挂载温控路径、重新挂载全部、优化与恢复）。
-Name: insulation
+Name: CPU insulation
 Author: be-huge & doimty
 
 Package: com.be-huge.insulation
@@ -1990,7 +1990,7 @@ SHA1: be7baa32fb87af282641fabb9956e098859d822c
 SHA256: 19e6eeef139dcba17a09514e15025c5547800902ba6b25b00fb9e88848227bcb
 SHA512: c71bf117802bde03b66ea7da7b99f659c67a1b8075593c26817bb046a979945e3e7505b05acf43b208c64e0a890676b0acaf6b886c83380a0d7f7bac403b7185
 Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。已内置 SmartBatteryAPI 智能停充（设置页可调停充电量，配置已与停充守护打通，掉线自动修复）和挂载路径管理（一键挂载温控路径、重新挂载全部、优化与恢复）。
-Name: insulation
+Name: CPU insulation
 Author: be-huge & doimty
 
 Package: com.be-huge.insulation
@@ -2007,7 +2007,7 @@ SHA1: 40384e44d7bfce8e93b64ac899526c2cd6ab1ff4
 SHA256: ae08a9218f809624ab270977b1dba0aa4882a6ad50473e8f42ec6b1c697ac63e
 SHA512: 9e91aee0a6885c838cb424e7c0a6af543727303080c146463fe45d06804a1d356e9c8781aa1f072578c0f9dc797706049572d2f38dac0bffd6a9f8fb9d5f294c
 Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。已内置 SmartBatteryAPI 智能停充（设置页可调停充电量，配置已与停充守护打通，掉线自动修复）和挂载路径管理（一键挂载温控路径、重新挂载全部、优化与恢复）。
-Name: insulation
+Name: CPU insulation
 Author: be-huge & doimty
 
 Package: com.be-huge.insulation
@@ -2024,7 +2024,7 @@ SHA1: 3289d493dd0a2dd06be5dd465a5a2a67882194c1
 SHA256: fb169d515493ae1ac7cd4526a0b9a6bf07f86bd543f97edcf7c9e3f5aecebdd8
 SHA512: 15e6a5a28cbc539b283a8652a5e23562d7e39c1bea920508790519c04a9853406d93f2fa4585c4857bc9097b07be57256e9d8b69261c32a73c9b5f4ca414c87e
 Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及 Hello 120Hz 3.3.3-3 完整移植（帧率覆盖 / 全局注入 / 应用排除 / 调试 HUD / 系统录屏 120 帧）。
-Name: insulation
+Name: CPU insulation
 Author: be-huge & doimty
 icon: https://huayuarc.github.io/icon/Insulation.png
 
@@ -3221,7 +3221,7 @@ SHA256: 613cf2d32065cc26e92443f376f5c1de7bca4a39ffa0f2f208b85180769b9451
 SHA512: 82fd609aeb89883e2001aad13410e32c81e0420b91c5aa08d76369396c5eee1c66b1a3bee4559a083100d2fd8eb7eaddb7a676a94024c510d3d11ff20ca98884
 Description: 电话助手本地免卡密测试版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
 A12: 1
-Name: 电话助手iOS16-Roothide（免卡密本地版）
+Name: 电话助手iOS16 免卡密本地版
 Author: xybp888
 Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/System.png
