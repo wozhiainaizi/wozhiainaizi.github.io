@@ -2066,6 +2066,24 @@ Author: xybp888
 Depiction: https://apt.htv123.com/view/1111
 SileoDepiction: https://apt.htv123.com/sileo/1111
 
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.2.5-1
+Section: 本命法器
+Maintainer: Huayuarc
+Installed-Size: 1424
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/隐私相机2.2.5_1_e.deb
+Size: 124820
+MD5sum: 2236c5455738cbfb2115d5d9a3c043c1
+SHA1: 403b9b03d7ead28d1cb09b9ea6804ab386c196ea
+SHA256: 5f0d721d9e6c1dc6abb0a03d9a3ea42f736196cffbfd9db2151f45a726f11503
+SHA512: 55c9c53515617c0421679247c1cd74dc0821010f36ae516f6381f2e8398becb370a0e189b3baadf6155affd2733b2e248d874ed8d29520b43453e2e1d22a1018
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Media/Camera。
+Name: SneakyCam 隐私相机
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2-3
@@ -4370,6 +4388,40 @@ Description: next level diarrhea. 完善了简体中文翻译，默认设置简�
 Name: Liquid(G)ass 简体中文版
 Author: dylv
 Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+
+Package: dylv.liquidass
+Architecture: iphoneos-arm64e
+Version: 2-0.1.1-2c+island136
+Section: 红尘琐事
+Maintainer: dylv&泽哥
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.zege.liquidass, dylv.blurless
+Replaces: dylv.zege.liquidass, dylv.blurless
+Filename: debs/dylv.liquidass_2-0.1.1-2c_island136_iphoneos-arm64e.deb
+Size: 3528476
+MD5sum: 1b9dae5afbbfc512eccee1f81dbe6e18
+SHA1: e07c1e19914fad58b0d41414b82e0f665100be66
+SHA256: a02ef2a0898c84ad1e1a2dda2eea13e22591ab9bc86639dfa875dc3bee4c156c
+SHA512: 6069ec27f66ad34272685ba87fbd31547c498730f8662b211b6277fc844f0494b846be5545f5ec3e91e615e27ed9b50d692fffbce2d2c2961556f7c5f82c1b00
+Description: 基于原作者 dylv 的 Liquid (Gl)ass 0.1.1-2b 维护自用。
+ 本版的改动
+ - 修复锁屏快捷操作在 iOS 17 不生效的 bug
+ - 新增底部弹窗/App弹窗液态玻璃；新增灵动岛液态玻璃（壁纸实时采样，展开/收起全程几何跟随）；
+   新增锁屏日期/农历行、通知清除按钮液态玻璃；新增锁屏时钟/日期渐变色
+ - 新增音量 HUD 液态玻璃（iOS 17，锚点 SBElasticVolumeViewController + SBElasticSliderView）
+ - 音量胶囊：修正默认色调透明度过高（80%→10%）；隐藏胶囊内 depth2/depth3 原生材质让位玻璃，
+   白色填充条/音量图标保留；玻璃几何按原生胶囊内容链同心 1.318 倍对齐（修复内缩轮廓线、
+   跳位、内部小胶囊等动画异常）；胶囊形 mask 裁剪内容；每帧守护同步几何
+ - 修复灵动岛黑块：对内容子树套合成级 screenBlendMode（屏幕混合方案）
+ - 呼出/收起两态均显示玻璃；bezel 渲染参数修正为 7（prefs 覆盖，backboardd 立即重载）
+ - 重写音量 HUD 玻璃的注入位置（二十修，经实机逐帧定位后的关键结论）：玻璃改插到
+   _CCUIBaseSliderContentView（内容视图）内部，其 bounds 就是真胶囊尺寸 46.5×146.6，
+   天然重合 —— 废弃此前"1.318 同心放大 + 自定义 mask + 宿主不能裁剪"的整套绕法
+   （那是因为玻璃一直插在外层滑块里，而外层 bounds 只有胶囊的 0.76 倍，才派生出
+   内缩线/跳位/白条错位/内部小胶囊）
+Name: Liquid (Gl)ass · 泽哥维护兼容版
+Author: dylv&泽哥
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon.png
 
 Package: cn.zqbb.hello.bundleid
 Architecture: iphoneos-arm64e
