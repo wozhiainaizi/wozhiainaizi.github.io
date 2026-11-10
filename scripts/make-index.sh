@@ -171,3 +171,5 @@ echo "索引完成: $(grep -c '^Package:' Packages) 个包"
 # trigger-build: AxsClean/Doleo->本命法器, caperfhud/AntiDarkSword->红尘琐事, libxar1/p7zip->筑基炼气 (2026-11-05)
 
 # trigger-build: 2026-11-10 sections update adskip/taploom/newterm/memtrim/dynamicfx/disablepaste/choicy/axsram/gettext 20261110-114246
+
+# trigger-build: 2026-11-10 rename insulation->CPU insulation x5, callassist local->电话助手iOS16 免卡密本地版 114447

@@ -166,5 +166,20 @@
   },
   "com.squidforce.disablepastealert16_1.0_iphoneos-arm64e.deb": {
     "name": "DisablePasteAlert16 禁用粘贴提示"
+  },
+  "温控_智能停充_挂载管理_0.1.38.6_iphoneos-arm64e.deb": {
+    "name": "CPU insulation"
+  },
+  "温控_智能停充_挂载管理_0.1.38.9_iphoneos-arm64e.deb": {
+    "name": "CPU insulation"
+  },
+  "温控_智能停充_挂载管理_0.1.39.0_iphoneos-arm64e.deb": {
+    "name": "CPU insulation"
+  },
+  "温控insulation_0.1.84_e.deb": {
+    "name": "CPU insulation"
+  },
+  "com.cydiabc.callassist16-roothide_3.3.3_local1_iphoneos-arm64e.deb": {
+    "name": "电话助手iOS16 免卡密本地版"
   }
 }
