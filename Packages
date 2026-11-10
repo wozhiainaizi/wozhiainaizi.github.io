@@ -271,6 +271,24 @@ Description: 伪装成合适的iOS版本，并获取需高iOS版本的应用。
 Name: AppStoreTroller
 Author: Mineek
 
+Package: com.yourepo.axs.axsram
+Architecture: iphoneos-arm64e
+Version: 5.2.0-12
+Section: 本命法器
+Maintainer: Axs <qiaozhani000@163.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/AxsRam.deb
+Size: 66474
+MD5sum: dbff3c0d55291e192c12c0116a1a13ca
+SHA1: 66bf37719639e128f6519afa643d8bc82f19770b
+SHA256: ee0060ee30baa258f3a2459cbf3bbe5eddf81a29b7783c7795232ab0dde80d34
+SHA512: 2965a5e3713c2dbe0c1aee88fe5670ee57db104b7cf9012c56f00d495994ab7effa7b27c2e9029cdd29612c06144e6633eebffc5dd92f5526418bb0a2aba5f1d
+Description: 自动回收/释放内存的工具
+Name: AxsRAM
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ram.png
+
 Package: com.dao.betteralarm
 Architecture: iphoneos-arm64e
 Version: 1.5
@@ -387,6 +405,41 @@ Name: CPU Free
 Author: Axs<qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/cpufree.png
 
+Package: com.opa334.choicy
+Architecture: iphoneos-arm64e
+Version: 1.5.4
+Section: 本命法器
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 1104
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: debs/Choicy-1.5.4.deb
+Size: 162750
+MD5sum: 43d59e200ea8effd088f2d78925adfa9
+SHA1: d1c2e3c5b4ea6c123dbd42fbfa8e7b4bf98fe65a
+SHA256: adc5b9e75ad86a1dd37da04a65188ac9e02b72701ba35b90e0111e61bd2ec54b
+SHA512: 851c91a8225b34919029fd313557a9f44084020e96c201a39103b042ed54eca5c29a40661594e181a935cb3cdcd24ad1972ad7f01d006eda85ef05e5377c66c3
+Description: Advanced Tweak Configuration!
+Name: Choicy
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Author: opa334 <opa334@protonmail.com>
+
+Package: com.crctdd.choicy-patch
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: 本命法器
+Maintainer: crctdd
+Installed-Size: 96
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, com.opa334.choicy (>= 1.4), com.opa334.altlist (>= 1.0.4)
+Filename: debs/Choicy_choicy-patch_0.0.2_e.deb
+Size: 13342
+MD5sum: ff5474b5214367a8a9d5dd796853f4c8
+SHA1: 867684810d26bf47a051cdf68c08cb593b111d46
+SHA256: 62cceb0fd744056a193957923b665d19a983b5936d3b05a9a476d7d019817836
+SHA512: 3c431f911788c8375aae83456c0ee018b4887e1bca357c3a8a7797f2652c7c2b56188820e4d523405628ac1458b1ee1088939ad04ac831ba962910570d3fe8fc
+Description: 给Choicy增加已设置置顶 / 进程页面本地缓存。(支持iOS 15-17)
+Name: Choicy Patch
+Author: crctdd
+
 Package: cn.dao.relaxin.cocoatop
 Architecture: iphoneos-arm64e
 Version: 2.3.3.1
@@ -404,6 +457,25 @@ SHA512: 2fca811d6d88227f5daa6a06f97c9dce53b4b353fe7a621b1e843b2cfb0d26b859173227
 Description: CocoaTop64 进程查看，基于真皮版定制：中文翻译+UI微调+更新图标等。
 Name: CocoaTop64 中文版
 Author: Domo, SXX
+
+Package: com.binglan.dynamicfx
+Architecture: iphoneos-arm64e
+Version: 1.0.7-3
+Section: 本命法器
+Maintainer: 冰蓝
+Installed-Size: 772
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/DynamicFX_1.0.7-3_mod.deb
+Size: 113696
+MD5sum: 27e5f3b0097d5e2c10524ba1a13bbcc5
+SHA1: afd64324e6797e390fd6f6d96162c97f5c8ad60b
+SHA256: a928f13be1fb51668cf9965160f7b1dff65fd3118ac9e9be329f3e1e90113713
+SHA512: 45be59989431e2d40829e1fd2f5cc4492ab7f1a7b5fc9d655d983b5c07b124f3589e4cab3a774df03c176a19495be62a8d96fb18bd0bf1ab6412afd24add5873
+Description: DynamicFX 用于美化 iPhone 灵动岛，支持自定义灵动岛背景、颜色、透明度、圆角以及过渡动画。
+Name: DynamicFX
+Author: 冰蓝
+Icon: https://huayuarc.github.io/icon/DynamicFX.png
 
 Package: com.axs.ios16dao
 Architecture: iphoneos-arm64e
@@ -765,6 +837,43 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
 SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
 
+Package: com.binglan.dynamicfx
+Architecture: iphoneos-arm64e
+Version: 1.0.7-1
+Section: 本命法器
+Maintainer: 冰蓝
+Installed-Size: 772
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.binglan.dynamicfx_1.0.7-1_iphoneos-arm64e.deb
+Size: 113292
+MD5sum: a64626d1fc9b1fb9f604eda7111f61d0
+SHA1: c61751051458777e9191fd72cce536dc7c3b8b47
+SHA256: a61957e6657cf0d5e1437b1c12f3a041dd1e1b7920ffcecb2e26693657db10c3
+SHA512: 7ecf809bfc5a6c79f66e60b7c588794ca28960b59c8428932afdb41ec561b08d830cb29e33acb84d179c2f54bf0afda4a46355401419fd4369a9dfbc602f9f5d
+Description: DynamicFX 用于美化 iPhone 灵动岛，支持自定义灵动岛背景、颜色、透明度、圆角以及过渡动画。
+Name: DynamicFX
+Author: 冰蓝
+Icon: https://huayuarc.github.io/icon/DynamicFX.png
+
+Package: com.crctdd.memtrim
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Section: 本命法器
+Maintainer: crctdd
+Installed-Size: 464
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/com.crctdd.memtrim_0.0.3_iphoneos-arm64e.deb
+Size: 76796
+MD5sum: 6ca6a0e2013f64fb48c775efe7bf8148
+SHA1: cb3d01e50c34796d8cdfdbb65ec279e171563b1a
+SHA256: 091d748d203b96bf62bfe3a9b53c8b78897c7ce0725ba8f0dd948617adbfe5ca
+SHA512: 54181a8d6d190a066c74b077bebff70762a6547543b4e8477d069b07ebd59181e3cba224478b6110702d5b3e9802b3b35ae17028459fef7b0f2797017631f2e2
+Homepage: https://crctdd.github.io/repo/
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Name: MemTrim
+Author: crctdd
+
 Package: com.crctdd.stayalivelite
 Architecture: iphoneos-arm64e
 Version: 0.3.0
@@ -993,6 +1102,75 @@ Author: Huayuarc
 Icon: https://muzikeji.github.io/Sileo/icons/com.huayuarc.cputhermal.png
 Sileodepiction: https://muzikeji.github.io/Sileo/depictions/com.huayuarc.cputhermal.json
 
+Package: com.mg.adskip
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Section: 本命法器
+Maintainer: M哥
+Installed-Size: 532
+Depends: mobilesubstrate
+Filename: debs/com.mg.adskip_1.0.6_iphoneos-arm64e.deb
+Size: 78236
+MD5sum: ccad9a3de788e3055f62453d1d37fa2f
+SHA1: 74224071a9d34cd55877db39dbf2fbd232b89c84
+SHA256: 15e902f4cc90e212783ba8213dfb7448e716c7f4fd8bb7f5ae2d9b45bdf5b711
+SHA512: 763ebefff52e9b235c83736d6b317353123227f01d2112a2bb381482eafb755692113b11a4eee1302766149ac31982d7aea9bc2b08be6e53d3f41681a5bb712f
+Description: 在「设置 > 广告跳过」中为已安装的 App 单独开启，仅对开启的 App 生效，自动识别开屏广告跳过，系统应用不受影响；此为通用规则跳过，仅支持大多数应用跳过开屏广告，未支持跳过的等待适配。支持 rootless / RootHide
+Name: 广告跳过
+Author: M哥
+SileoDepiction: https://wwg135.github.io/depictions/com.mg.adskip.json
+
+Package: com.mg.adskip
+Architecture: iphoneos-arm64e
+Version: 3.3.2
+Section: 本命法器
+Maintainer: M哥
+Filename: debs/com.mg.adskip_3.3.2_iphoneos-arm64e.deb
+Size: 27102
+MD5sum: b4df1e6c3bb0e72fb5eb2b0d9b9cca60
+SHA1: 3ff1f7148b542ba0c8a5ed3105da44df13cee45d
+SHA256: bf0c2311933ef05b28057c543d4b52e471abf894471052da8d03e0f8937228cd
+SHA512: 171400c4fa604251521e01d975aad03ca74b8b79759d8b0f7cb7a5505ca70657deba3d1f4cd4c921958851d3898124f45a0b94a15da2506e26e71b1ee7ea31e6
+Description: 跳过开屏广告，无黑名单·事件驱动秒跳·容器门控两级词表+防摇一摇+摇一摇带按钮秒跳+防误点广告主图+结构防自点，不影响无广告应用。
+Name: 广告跳过
+Author: M哥
+
+Package: com.mlgm.taploom
+Architecture: iphoneos-arm64e
+Version: 1.1.7
+Section: 本命法器
+Maintainer: mlgm
+Installed-Size: 1124
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: debs/com.mlgm.taploom_1.1.7_iphoneos-arm64e.deb
+Size: 184432
+MD5sum: 6979071d0fe49d1dd5e66a2debba6381
+SHA1: c12c0d6b1204c29334b98876582ea51f3d8cb176
+SHA256: 96bd0e83a2438cf556e742b0ebb2517301745855981e09123f3419ea64f637dd
+SHA512: 06040aef4c1bc44ee7c11efa065095ded6537994ee1175daec002d3bc58219b883680e76e5ce010b0bf353d451d88af9c5851391444e1280493c5c9773edf5f3
+Description: 触摸轨迹可视化
+Name: Taploom
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/taploom.png
+
+Package: com.mlgm.taploom
+Architecture: iphoneos-arm64e
+Version: 1.1.8
+Section: 本命法器
+Maintainer: mlgm
+Installed-Size: 1124
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: debs/com.mlgm.taploom_1.1.8_iphoneos-arm64e.deb
+Size: 184652
+MD5sum: 13a0b873c634a9e63ff68a2b80935782
+SHA1: 5241fdd83f0f8088f6cca8adfcb22daf549a35ed
+SHA256: 90e630e4bca47c908f62af68738fbaa8e0d1a08d881e188e98fe423cd64b2df6
+SHA512: 98489140da7255ce9bf051334780955848ae5661ba340d64fc953ed23d594a8e8f4f90184e138d40909442251678fc928f5442641f8a7b814cadeb28120e92d1
+Description: 触摸轨迹可视化
+Name: Taploom
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/taploom.png
+
 Package: com.sini.photos
 Architecture: iphoneos-arm64e
 Version: 0.0.6-16
@@ -1047,6 +1225,24 @@ SHA512: d54ce6766ff593d98684cb0c2099bf77bcaf14e6087a56399fca9ec2a395ec304d44f2b6
 Description: 使iOS 15/16越狱高刷机型自适应/锁定120HZ。 Make iOS 15/16 ProMotion Devices auto-adpat/reach to 120Hz.
 Name: 120Hz Always
 Author: Snail <mu514983786@gmail.com>
+
+Package: com.squidforce.disablepastealert16
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: 本命法器
+Maintainer: SquidForce
+Installed-Size: 168
+Filename: debs/com.squidforce.disablepastealert16_1.0_iphoneos-arm64e.deb
+Size: 3916
+MD5sum: 3c7e52ce811b27d4d6165f8b63334988
+SHA1: c6fad0d5f8c2af1fca1ced728f716b0ef83b4bca
+SHA256: 5e87f94f5a09a83ac5c91fb5ce6a290a8c98e0f1673de1ff4a8957ad8cea51e3
+SHA512: e6b225a0f9058db78d63bdc0a8da851b4e6b31278f22f01a22ac62d055c1ccd501446b41682ff467373e8e95fa47fb923a935e94c7b027e429d5dd908eff61e1
+Description: 1. 禁用iOS16+粘贴警告弹窗，并自动允许
+ 2. 禁用粘贴提醒
+ * 如只需要禁用警告弹窗，可以降级安装版本0.0.1
+Name: DisablePasteAlert16 禁用粘贴提示
+Author: SquidForce
 
 Package: com.yourepo.axs.axsclean
 Architecture: iphoneos-arm64e
@@ -1139,6 +1335,24 @@ SHA512: a39f0bdd04c9de4bca9734517422b3173bc98757f8a3e5297efda34f3beab770b431a2ad
 Description: Enable DND when a screen recording is initiated.
 Name: DNDMyRecording 屏幕录制时打开勿扰
 Author: gilshahar7, 0xkuj
+
+Package: com.binglan.dynamicfx
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Section: 本命法器
+Maintainer: 冰蓝
+Installed-Size: 772
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/dynamicfx_1.0.7_e.deb
+Size: 103194
+MD5sum: 9300858b253f551613de66d63515acca
+SHA1: c0a47556483a8481540112f194194dd1a69145fd
+SHA256: f6b67b38d4176a2fbab3c7226b85570d0377b96deb8b89ddf789000cd1f2bb92
+SHA512: 286c6476cc7e37bed4413d571a9b8009b75818f910895d164931fd3c0660fc9e25143a47cbe7df270e7f2cbe4ae98c99ab415f467d25e165c8d9849d66e6db10
+Description: 灵动岛背景？
+Name: DynamicFX
+Author: 冰蓝
 
 Package: com.cydia.love.dynamicnotland-Rootless
 Architecture: iphoneos-arm64e
@@ -1323,6 +1537,24 @@ Name: 灵动岛跳舞动画
 Author: Simon
 Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+
+Package: com.crctdd.memtrim
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: 本命法器
+Maintainer: crctdd
+Installed-Size: 388
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/memtrim_0.0.2_e.deb
+Size: 71676
+MD5sum: 13868da5467edc7ebef48f4887a8f14b
+SHA1: c4051eeb9b5a21c1533871afb252185b66c806a6
+SHA256: 2bb22166f174bb72bae2d0487d6dffcb475fc3f847c43ae5961a9125478cfc97
+SHA512: 56115c12efd09c8cda350c2f61dc3f571ca42fa16d4d25ad6268b188b6c714af214661fe4f0a4ed56c6c5a38e3130c642e8c40fc46f4e3ab015a7171be0401f6
+Homepage: https://crctdd.github.io/repo/
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Name: MemTrim
+Author: crctdd
 
 Package: com.brend0n.nopassafterrespringsafe
 Architecture: iphoneos-arm64e
@@ -1606,6 +1838,54 @@ Description: Lightweight system cleaner for rootless and roothide jailbreaks.
  can clean automatically on a schedule.
 Name: Voidy
 Author: xsxs18
+
+Package: ws.hbang.newterm3
+Architecture: iphoneos-arm64e
+Version: 3.0~beta1-1042+debug
+Section: 本命法器
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 31496
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Filename: debs/ws.hbang.newterm3_3.0_beta1-1042_debug_iphoneos-arm64e.deb
+Size: 6628694
+MD5sum: 6990e49ae10bf81442f3c91b6f74628d
+SHA1: 7be7b2b04ec2d81d00229a4b918cca1a236e8db4
+SHA256: 1b6f10525f00d85edd76b597c33187ac2498cd9b260e00d1d63afcd38d8677aa
+SHA512: 755d8fee4d58eaa033fb02b72081b6222d2cb426c197c07d44fc946d5e0d399060844770430a13117c98666731c4b1b3a934d484fafbb583136785b85a3d5398
+Description: Powerful terminal app for iOS
+Tag: compatible_min::ios14.0
+Name: NewTerm 3 Beta
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Depiction: https://chariz.com/get/newterm-beta
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.newterm3
+Architecture: iphoneos-arm64e
+Version: 3.0~beta1-670+debug
+Section: 本命法器
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 24128
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Filename: debs/ws.hbang.newterm3_3.0_beta1-670_debug_iphoneos-arm64e.deb
+Size: 4738394
+MD5sum: fcdb774634eb41e936b949ab70bebe47
+SHA1: 7555f45ba3e9883fa147914aeeca0b9401465aec
+SHA256: a39c394d57b3ef1b7bfb575b5d990071e3c9de7a4c09bfd4fc0dda9993a04b1f
+SHA512: ba0ddb1535ed92b0e284b2176327213f3e325805337a37e427dcfe3878e33740faa4d6cf63de671402ea2de5311fc327bf28b5088a36b3606f87226d5fe3360a
+Description: Powerful terminal app for iOS
+Tag: compatible_min::ios14.0
+Name: NewTerm 3 Beta
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Depiction: https://chariz.com/get/newterm-beta
+Support: https://hashbang.productions/support/
 
 Package: com.huayuarc.zombiereaper
 Architecture: iphoneos-arm64e
@@ -1947,6 +2227,25 @@ Description: GNU awk, a pattern scanning and processing language
  4 version of UNIX awk. Gawk also provides more recent Bell Labs awk
  extensions, and some GNU-specific extensions.
 
+Package: gettext-localizations
+Architecture: iphoneos-arm64e
+Version: 2020.10.07
+Priority: important
+Section: 筑基炼气
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 2628
+Provides: com.linusyang.localeutf8 (= 99.9)
+Depends: roothide (>= 0.0.6), libintl8 (>= 0.20.0)
+Conflicts: com.linusyang.localeutf8
+Replaces: com.linusyang.localeutf8
+Filename: debs/gettext-localizations_2020.10.07_iphoneos-arm64e.deb
+Size: 339174
+MD5sum: 7383febeeb943f2761fa3bc4831335fd
+SHA1: 398b527c6072ab41f57036268483089180e8648d
+SHA256: 52a86a3677142cf13a3845e6d12f7001bd197984fc36ae278bac16440a82559d
+SHA512: 79e2e9062244693f68d3b5a61df88a2b441c9b7dadaa8c746e60ff48bc20517fff9214c9eb3936fe72c1d1b1c0248a334d65b271173c720f482a902487880fed
+Description: Locale files necessary for command line tool translation.
+
 Package: gzip
 Architecture: iphoneos-arm64e
 Version: 1.12
@@ -2241,24 +2540,6 @@ Description: 解除隔空投送十分钟限制，支持设置自定义关闭时�
 Name: AirDrop
 Author: iosdump
 
-Package: com.yourepo.axs.axsram
-Architecture: iphoneos-arm64e
-Version: 5.2.0-12
-Section: 红尘琐事
-Maintainer: Axs <qiaozhani000@163.com>
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/AxsRam.deb
-Size: 66474
-MD5sum: dbff3c0d55291e192c12c0116a1a13ca
-SHA1: 66bf37719639e128f6519afa643d8bc82f19770b
-SHA256: ee0060ee30baa258f3a2459cbf3bbe5eddf81a29b7783c7795232ab0dde80d34
-SHA512: 2965a5e3713c2dbe0c1aee88fe5670ee57db104b7cf9012c56f00d495994ab7effa7b27c2e9029cdd29612c06144e6633eebffc5dd92f5526418bb0a2aba5f1d
-Description: 自动回收/释放内存的工具
-Name: AxsRAM
-Author: Axs <qiaozhani000@163.com>
-Icon: https://axs66.github.io/pro/icon/ram.png
-
 Package: com.evgeniy558.controlcenter18
 Architecture: iphoneos-arm64e
 Version: 0.3.1
@@ -2283,60 +2564,6 @@ Name: ControlCenter18 简体中文整合版
 Author: evgeniy558
 Icon: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/header-icon@3x.png
 SileoDepiction: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/Depiction/depiction.json
-
-Package: com.opa334.choicy
-Architecture: iphoneos-arm64e
-Version: 1.5.4
-Section: 红尘琐事
-Maintainer: opa334 <opa334@protonmail.com>
-Installed-Size: 1104
-Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Filename: debs/Choicy-1.5.4.deb
-Size: 162750
-MD5sum: 43d59e200ea8effd088f2d78925adfa9
-SHA1: d1c2e3c5b4ea6c123dbd42fbfa8e7b4bf98fe65a
-SHA256: adc5b9e75ad86a1dd37da04a65188ac9e02b72701ba35b90e0111e61bd2ec54b
-SHA512: 851c91a8225b34919029fd313557a9f44084020e96c201a39103b042ed54eca5c29a40661594e181a935cb3cdcd24ad1972ad7f01d006eda85ef05e5377c66c3
-Description: Advanced Tweak Configuration!
-Name: Choicy
-Depiction: https://opa334.github.io/depic/Choicy/index.html
-Author: opa334 <opa334@protonmail.com>
-
-Package: com.crctdd.choicy-patch
-Architecture: iphoneos-arm64e
-Version: 0.0.2
-Section: 红尘琐事
-Maintainer: crctdd
-Installed-Size: 96
-Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, com.opa334.choicy (>= 1.4), com.opa334.altlist (>= 1.0.4)
-Filename: debs/Choicy_choicy-patch_0.0.2_e.deb
-Size: 13342
-MD5sum: ff5474b5214367a8a9d5dd796853f4c8
-SHA1: 867684810d26bf47a051cdf68c08cb593b111d46
-SHA256: 62cceb0fd744056a193957923b665d19a983b5936d3b05a9a476d7d019817836
-SHA512: 3c431f911788c8375aae83456c0ee018b4887e1bca357c3a8a7797f2652c7c2b56188820e4d523405628ac1458b1ee1088939ad04ac831ba962910570d3fe8fc
-Description: 给Choicy增加已设置置顶 / 进程页面本地缓存。(支持iOS 15-17)
-Name: Choicy Patch
-Author: crctdd
-
-Package: com.binglan.dynamicfx
-Architecture: iphoneos-arm64e
-Version: 1.0.7-3
-Section: 红尘琐事
-Maintainer: 冰蓝
-Installed-Size: 772
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: debs/DynamicFX_1.0.7-3_mod.deb
-Size: 113696
-MD5sum: 27e5f3b0097d5e2c10524ba1a13bbcc5
-SHA1: afd64324e6797e390fd6f6d96162c97f5c8ad60b
-SHA256: a928f13be1fb51668cf9965160f7b1dff65fd3118ac9e9be329f3e1e90113713
-SHA512: 45be59989431e2d40829e1fd2f5cc4492ab7f1a7b5fc9d655d983b5c07b124f3589e4cab3a774df03c176a19495be62a8d96fb18bd0bf1ab6412afd24add5873
-Description: DynamicFX 用于美化 iPhone 灵动岛，支持自定义灵动岛背景、颜色、透明度、圆角以及过渡动画。
-Name: DynamicFX
-Author: 冰蓝
-Icon: https://huayuarc.github.io/icon/DynamicFX.png
 
 Package: com.jaysuen.ccflex16
 Architecture: iphoneos-arm64e
@@ -2885,25 +3112,6 @@ Description: 分屏，不必太复杂，一切从简即可。
 Name: floatingView 分屏
 Author: be-huge
 
-Package: com.binglan.dynamicfx
-Architecture: iphoneos-arm64e
-Version: 1.0.7-1
-Section: 红尘琐事
-Maintainer: 冰蓝
-Installed-Size: 772
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: debs/com.binglan.dynamicfx_1.0.7-1_iphoneos-arm64e.deb
-Size: 113292
-MD5sum: a64626d1fc9b1fb9f604eda7111f61d0
-SHA1: c61751051458777e9191fd72cce536dc7c3b8b47
-SHA256: a61957e6657cf0d5e1437b1c12f3a041dd1e1b7920ffcecb2e26693657db10c3
-SHA512: 7ecf809bfc5a6c79f66e60b7c588794ca28960b59c8428932afdb41ec561b08d830cb29e33acb84d179c2f54bf0afda4a46355401419fd4369a9dfbc602f9f5d
-Description: DynamicFX 用于美化 iPhone 灵动岛，支持自定义灵动岛背景、颜色、透明度、圆角以及过渡动画。
-Name: DynamicFX
-Author: 冰蓝
-Icon: https://huayuarc.github.io/icon/DynamicFX.png
-
 Package: com.crctdd.choicy-whitelist
 Architecture: iphoneos-arm64e
 Version: 1.5.4-11
@@ -2958,24 +3166,6 @@ SHA256: bc41f7acdae11db2ea806950267dfaa0e506214aa3732924dc6a20d12bae0a63
 SHA512: 898f96f07adf70967a18b716891910b12821b01802bba3a8f9f828066ec938517fb625b327f32fdeeb93b707e776c9685d712f6531284581fa49109bb3573e8b
 Description: 在Filza内的.deb/.ipa/.tipa安装包长按可规范命名。
 Name: Filza Rename
-Author: crctdd
-
-Package: com.crctdd.memtrim
-Architecture: iphoneos-arm64e
-Version: 0.0.3
-Section: 红尘琐事
-Maintainer: crctdd
-Installed-Size: 464
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
-Filename: debs/com.crctdd.memtrim_0.0.3_iphoneos-arm64e.deb
-Size: 76796
-MD5sum: 6ca6a0e2013f64fb48c775efe7bf8148
-SHA1: cb3d01e50c34796d8cdfdbb65ec279e171563b1a
-SHA256: 091d748d203b96bf62bfe3a9b53c8b78897c7ce0725ba8f0dd948617adbfe5ca
-SHA512: 54181a8d6d190a066c74b077bebff70762a6547543b4e8477d069b07ebd59181e3cba224478b6110702d5b3e9802b3b35ae17028459fef7b0f2797017631f2e2
-Homepage: https://crctdd.github.io/repo/
-Description: 优化并释放部分运行内存。(支持iOS 15-17)
-Name: MemTrim
 Author: crctdd
 
 Package: com.crctdd.mobileslideshowhook
@@ -3304,39 +3494,6 @@ Name: TunnelShareVPN
 Author: Mallin
 Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
 
-Package: com.mg.adskip
-Architecture: iphoneos-arm64e
-Version: 1.0.6
-Section: 红尘琐事
-Maintainer: M哥
-Installed-Size: 532
-Depends: mobilesubstrate
-Filename: debs/com.mg.adskip_1.0.6_iphoneos-arm64e.deb
-Size: 78236
-MD5sum: ccad9a3de788e3055f62453d1d37fa2f
-SHA1: 74224071a9d34cd55877db39dbf2fbd232b89c84
-SHA256: 15e902f4cc90e212783ba8213dfb7448e716c7f4fd8bb7f5ae2d9b45bdf5b711
-SHA512: 763ebefff52e9b235c83736d6b317353123227f01d2112a2bb381482eafb755692113b11a4eee1302766149ac31982d7aea9bc2b08be6e53d3f41681a5bb712f
-Description: 在「设置 > 广告跳过」中为已安装的 App 单独开启，仅对开启的 App 生效，自动识别开屏广告跳过，系统应用不受影响；此为通用规则跳过，仅支持大多数应用跳过开屏广告，未支持跳过的等待适配。支持 rootless / RootHide
-Name: 广告跳过
-Author: M哥
-SileoDepiction: https://wwg135.github.io/depictions/com.mg.adskip.json
-
-Package: com.mg.adskip
-Architecture: iphoneos-arm64e
-Version: 3.3.2
-Section: 红尘琐事
-Maintainer: M哥
-Filename: debs/com.mg.adskip_3.3.2_iphoneos-arm64e.deb
-Size: 27102
-MD5sum: b4df1e6c3bb0e72fb5eb2b0d9b9cca60
-SHA1: 3ff1f7148b542ba0c8a5ed3105da44df13cee45d
-SHA256: bf0c2311933ef05b28057c543d4b52e471abf894471052da8d03e0f8937228cd
-SHA512: 171400c4fa604251521e01d975aad03ca74b8b79759d8b0f7cb7a5505ca70657deba3d1f4cd4c921958851d3898124f45a0b94a15da2506e26e71b1ee7ea31e6
-Description: 跳过开屏广告，无黑名单·事件驱动秒跳·容器门控两级词表+防摇一摇+摇一摇带按钮秒跳+防误点广告主图+结构防自点，不影响无广告应用。
-Name: 广告跳过
-Author: M哥
-
 Package: com.minis.rainbowkeyboard
 Architecture: iphoneos-arm64e
 Version: 1.0.26~lite40
@@ -3554,42 +3711,6 @@ Description: 整理设置首页，集中收纳越狱插件。
 Name: PrefNest
 Icon: https://mlgm66.github.io/icon/prefnest.png
 Author: mlgm
-
-Package: com.mlgm.taploom
-Architecture: iphoneos-arm64e
-Version: 1.1.7
-Section: 红尘琐事
-Maintainer: mlgm
-Installed-Size: 1124
-Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
-Filename: debs/com.mlgm.taploom_1.1.7_iphoneos-arm64e.deb
-Size: 184432
-MD5sum: 6979071d0fe49d1dd5e66a2debba6381
-SHA1: c12c0d6b1204c29334b98876582ea51f3d8cb176
-SHA256: 96bd0e83a2438cf556e742b0ebb2517301745855981e09123f3419ea64f637dd
-SHA512: 06040aef4c1bc44ee7c11efa065095ded6537994ee1175daec002d3bc58219b883680e76e5ce010b0bf353d451d88af9c5851391444e1280493c5c9773edf5f3
-Description: 触摸轨迹可视化
-Name: Taploom
-Author: mlgm
-Icon: https://mlgm66.github.io/icon/taploom.png
-
-Package: com.mlgm.taploom
-Architecture: iphoneos-arm64e
-Version: 1.1.8
-Section: 红尘琐事
-Maintainer: mlgm
-Installed-Size: 1124
-Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
-Filename: debs/com.mlgm.taploom_1.1.8_iphoneos-arm64e.deb
-Size: 184652
-MD5sum: 13a0b873c634a9e63ff68a2b80935782
-SHA1: 5241fdd83f0f8088f6cca8adfcb22daf549a35ed
-SHA256: 90e630e4bca47c908f62af68738fbaa8e0d1a08d881e188e98fe423cd64b2df6
-SHA512: 98489140da7255ce9bf051334780955848ae5661ba340d64fc953ed23d594a8e8f4f90184e138d40909442251678fc928f5442641f8a7b814cadeb28120e92d1
-Description: 触摸轨迹可视化
-Name: Taploom
-Author: mlgm
-Icon: https://mlgm66.github.io/icon/taploom.png
 
 Package: com.moxuan.fontchange
 Architecture: iphoneos-arm64e
@@ -3895,24 +4016,6 @@ Author: kanuo
 dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depictions/icon/snapbackup.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.snapbackup.json
-
-Package: com.squidforce.disablepastealert16
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: 红尘琐事
-Maintainer: SquidForce
-Installed-Size: 168
-Filename: debs/com.squidforce.disablepastealert16_1.0_iphoneos-arm64e.deb
-Size: 3916
-MD5sum: 3c7e52ce811b27d4d6165f8b63334988
-SHA1: c6fad0d5f8c2af1fca1ced728f716b0ef83b4bca
-SHA256: 5e87f94f5a09a83ac5c91fb5ce6a290a8c98e0f1673de1ff4a8957ad8cea51e3
-SHA512: e6b225a0f9058db78d63bdc0a8da851b4e6b31278f22f01a22ac62d055c1ccd501446b41682ff467373e8e95fa47fb923a935e94c7b027e429d5dd908eff61e1
-Description: 1. 禁用iOS16+粘贴警告弹窗，并自动允许
- 2. 禁用粘贴提醒
- * 如只需要禁用警告弹窗，可以降级安装版本0.0.1
-Name: DisablePasteAlert16 禁用粘贴提示
-Author: SquidForce
 
 Package: com.squidforce.doubletapflipcamera
 Architecture: iphoneos-arm64e
@@ -4233,43 +4336,6 @@ Name: Liquid(G)ass 简体中文版
 Author: dylv
 Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
 
-Package: com.binglan.dynamicfx
-Architecture: iphoneos-arm64e
-Version: 1.0.7
-Section: 红尘琐事
-Maintainer: 冰蓝
-Installed-Size: 772
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: debs/dynamicfx_1.0.7_e.deb
-Size: 103194
-MD5sum: 9300858b253f551613de66d63515acca
-SHA1: c0a47556483a8481540112f194194dd1a69145fd
-SHA256: f6b67b38d4176a2fbab3c7226b85570d0377b96deb8b89ddf789000cd1f2bb92
-SHA512: 286c6476cc7e37bed4413d571a9b8009b75818f910895d164931fd3c0660fc9e25143a47cbe7df270e7f2cbe4ae98c99ab415f467d25e165c8d9849d66e6db10
-Description: 灵动岛背景？
-Name: DynamicFX
-Author: 冰蓝
-
-Package: gettext-localizations
-Architecture: iphoneos-arm64e
-Version: 2020.10.07
-Priority: important
-Section: 红尘琐事
-Maintainer: RootHide <RootHideDev@twitter>
-Installed-Size: 2628
-Provides: com.linusyang.localeutf8 (= 99.9)
-Depends: roothide (>= 0.0.6), libintl8 (>= 0.20.0)
-Conflicts: com.linusyang.localeutf8
-Replaces: com.linusyang.localeutf8
-Filename: debs/gettext-localizations_2020.10.07_iphoneos-arm64e.deb
-Size: 339174
-MD5sum: 7383febeeb943f2761fa3bc4831335fd
-SHA1: 398b527c6072ab41f57036268483089180e8648d
-SHA256: 52a86a3677142cf13a3845e6d12f7001bd197984fc36ae278bac16440a82559d
-SHA512: 79e2e9062244693f68d3b5a61df88a2b441c9b7dadaa8c746e60ff48bc20517fff9214c9eb3936fe72c1d1b1c0248a334d65b271173c720f482a902487880fed
-Description: Locale files necessary for command line tool translation.
-
 Package: cn.zqbb.hello.bundleid
 Architecture: iphoneos-arm64e
 Version: 1.6.1-5
@@ -4412,24 +4478,6 @@ SHA512: 5acc2b6680babc88e3a0995dc90e9662c337de06805cea2fb97faf531630d3ced32affd0
 Description: Icon masks for SnowBoard
 Name: SnowBoard Icon Masks Extension
 Author: Spark
-
-Package: com.crctdd.memtrim
-Architecture: iphoneos-arm64e
-Version: 0.0.2
-Section: 红尘琐事
-Maintainer: crctdd
-Installed-Size: 388
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
-Filename: debs/memtrim_0.0.2_e.deb
-Size: 71676
-MD5sum: 13868da5467edc7ebef48f4887a8f14b
-SHA1: c4051eeb9b5a21c1533871afb252185b66c806a6
-SHA256: 2bb22166f174bb72bae2d0487d6dffcb475fc3f847c43ae5961a9125478cfc97
-SHA512: 56115c12efd09c8cda350c2f61dc3f571ca42fa16d4d25ad6268b188b6c714af214661fe4f0a4ed56c6c5a38e3130c642e8c40fc46f4e3ab015a7171be0401f6
-Homepage: https://crctdd.github.io/repo/
-Description: 优化并释放部分运行内存。(支持iOS 15-17)
-Name: MemTrim
-Author: crctdd
 
 Package: com.sini.onesettings
 Architecture: iphoneos-arm64e
@@ -4682,54 +4730,6 @@ Icon: https://owngoal-dev.github.io/Inspector/icon.png
 Depiction: https://owngoal-dev.github.io/Inspector/
 SileoDepiction: https://owngoal-dev.github.io/Inspector/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-
-Package: ws.hbang.newterm3
-Architecture: iphoneos-arm64e
-Version: 3.0~beta1-1042+debug
-Section: 红尘琐事
-Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 31496
-Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
-Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
-Conflicts: ws.hbang.newterm, ws.hbang.newterm2
-Replaces: ws.hbang.newterm, ws.hbang.newterm2
-Filename: debs/ws.hbang.newterm3_3.0_beta1-1042_debug_iphoneos-arm64e.deb
-Size: 6628694
-MD5sum: 6990e49ae10bf81442f3c91b6f74628d
-SHA1: 7be7b2b04ec2d81d00229a4b918cca1a236e8db4
-SHA256: 1b6f10525f00d85edd76b597c33187ac2498cd9b260e00d1d63afcd38d8677aa
-SHA512: 755d8fee4d58eaa033fb02b72081b6222d2cb426c197c07d44fc946d5e0d399060844770430a13117c98666731c4b1b3a934d484fafbb583136785b85a3d5398
-Description: Powerful terminal app for iOS
-Tag: compatible_min::ios14.0
-Name: NewTerm 3 Beta
-Author: HASHBANG Productions <support@hbang.ws>
-Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
-Depiction: https://chariz.com/get/newterm-beta
-Support: https://hashbang.productions/support/
-
-Package: ws.hbang.newterm3
-Architecture: iphoneos-arm64e
-Version: 3.0~beta1-670+debug
-Section: 红尘琐事
-Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 24128
-Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
-Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
-Conflicts: ws.hbang.newterm, ws.hbang.newterm2
-Replaces: ws.hbang.newterm, ws.hbang.newterm2
-Filename: debs/ws.hbang.newterm3_3.0_beta1-670_debug_iphoneos-arm64e.deb
-Size: 4738394
-MD5sum: fcdb774634eb41e936b949ab70bebe47
-SHA1: 7555f45ba3e9883fa147914aeeca0b9401465aec
-SHA256: a39c394d57b3ef1b7bfb575b5d990071e3c9de7a4c09bfd4fc0dda9993a04b1f
-SHA512: ba0ddb1535ed92b0e284b2176327213f3e325805337a37e427dcfe3878e33740faa4d6cf63de671402ea2de5311fc327bf28b5088a36b3606f87226d5fe3360a
-Description: Powerful terminal app for iOS
-Tag: compatible_min::ios14.0
-Name: NewTerm 3 Beta
-Author: HASHBANG Productions <support@hbang.ws>
-Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
-Depiction: https://chariz.com/get/newterm-beta
-Support: https://hashbang.productions/support/
 
 Package: com.sini921.cursorpro
 Architecture: iphoneos-arm64e
