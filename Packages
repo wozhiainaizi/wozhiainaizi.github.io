@@ -112,7 +112,7 @@ SHA1: bbd1fda787866d154fa27abda837dc551218bdd2
 SHA256: 5d396d70d4bcbbf4dfa7fac919a33ebc45f9e5379413bca7f195f526583e1766
 SHA512: 2e6b0c93dd9da949e67ec268ad447c797cca125532cd1025f3e05c16ba2008e50fc3da5ee7e92a434f92f0776577bfc5e431dacac1c757ff6d8209db8299eb42
 Description: libhooker engine, tweak loader and safe mode for iOS 16+ roothide
-Name: libhooker (roothide port)
+Name: libhooker
 Author: CoolStar and contributors
 Icon: https://apt.002599.xyz/web/icon/org.coolstar.libhooker.png
 SileoDepiction: https://apt.002599.xyz/web/org.coolstar.libhooker
@@ -135,7 +135,7 @@ SHA1: 99676d4a4e9e8c380e17f798f973ed2b495cff8c
 SHA256: ba6997d4492e66381d2e7d6bdf07e11a012b172a3a25134835f3f1b20d4a76cd
 SHA512: 172e1785576d8c1c7f6f5228cc513e5ab4c7129ad065626b1e3e12488adf9c6e85c290407d3c1311561fbef8756aaf634854be8c7eb6cbd15a9dd3555ecadacd
 Description: libhooker engine, tweak loader and safe mode for iOS 16+ roothide
-Name: libhooker (roothide port)
+Name: libhooker
 Author: CoolStar and contributors
 Icon: https://apt.002599.xyz/web/icon/org.coolstar.libhooker.png
 SileoDepiction: https://apt.002599.xyz/web/org.coolstar.libhooker
