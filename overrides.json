@@ -181,5 +181,11 @@
   },
   "com.cydiabc.callassist16-roothide_3.3.3_local1_iphoneos-arm64e.deb": {
     "name": "电话助手iOS16 免卡密本地版"
+  },
+  "org.coolstar.libhooker_1.6.9-21_roothide_iphoneos-arm64e.deb": {
+    "name": "libhooker"
+  },
+  "org.coolstar.libhooker_1.6.9-22_roothide_iphoneos-arm64e.deb": {
+    "name": "libhooker"
   }
 }

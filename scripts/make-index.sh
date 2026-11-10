@@ -173,3 +173,5 @@ echo "索引完成: $(grep -c '^Package:' Packages) 个包"
 # trigger-build: 2026-11-10 sections update adskip/taploom/newterm/memtrim/dynamicfx/disablepaste/choicy/axsram/gettext 20261110-114246
 
 # trigger-build: 2026-11-10 rename insulation->CPU insulation x5, callassist local->电话助手iOS16 免卡密本地版 114447
+
+# trigger-build: 2026-11-10 rename libhooker (roothide port)->libhooker (21/22) 114922
