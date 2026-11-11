@@ -4070,6 +4070,23 @@ dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depictions/icon/snapbackup.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.snapbackup.json
 
+Package: com.spark.sneakyaudiofix
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: 红尘琐事
+Maintainer: spark
+Installed-Size: 16
+Depends: firmware (>= 15.0)
+Filename: debs/com.spark.sneakyaudiofix_1.0.0_iphoneos-arm64e.deb
+Size: 1812
+MD5sum: 6ab1e8e0f72bb0edb563072903ac7aa3
+SHA1: 955237feb595d5b84da69644ee150079c96d60bf
+SHA256: aa5089f4de13ad6b7652942fbd3f392f5410ffe68875bdc90f9e1a7f052187a3
+SHA512: 249d9027bd3873cabefcb51b3f00d4dec3c089fc63ee3420d15cec8af053632be62506f41da18ef2ea8b8bd0d7e1ae1996255dfc125020215b6f569221375fc3
+Description: 修复 SneakyCam 录完视频后后台音乐被持续压制的问题：检测录制落盘后自动释放音频会话，无需注销。
+Name: SneakyCam 音频修复
+Author: spark
+
 Package: com.squidforce.doubletapflipcamera
 Architecture: iphoneos-arm64e
 Version: 1.1
