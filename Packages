@@ -3344,6 +3344,25 @@ Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
 Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
 SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
 
+Package: com.huayuarc.ccsim
+Architecture: iphoneos-arm64e
+Version: 2.1
+Section: 红尘琐事
+Maintainer: Huayuarc
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.netskao.ccsim.pro, com.netskao.ccsim, com.huayuarc.ccsimfix
+Replaces: com.netskao.ccsim.pro, com.netskao.ccsim, com.huayuarc.ccsimfix
+Filename: debs/com.huayuarc.ccsim-2.1-roothide-1.deb
+Size: 54840
+MD5sum: 95a0624420e3ef7e7bc2daa50367b232
+SHA1: ace3e00bad123fc50ed3ae60f9cb3ec3048b3f3e
+SHA256: 9c635bf75d19d6b6a8ffb475147054939c88725ee9c056c1bb769c251f132649
+SHA512: fabe1f9a4e3041b2b1bb6eefb466cdcc67299acd12fd312b06ed7f71ea2462316f0a693bb1eacc260122e6f21d5f109c85dfecf2cbf700ced17e52a26287697c
+Description: 控制中心 SIM 卡管理：单击或长按均展开同一 SIM 管理面板，点卡即可启用 / 关闭。
+Name: CCSIM
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/ccsim.jpg
+
 Package: com.iosdump.jumpselect
 Architecture: iphoneos-arm64e
 Version: 1.3
