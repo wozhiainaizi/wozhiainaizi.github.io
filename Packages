@@ -2643,6 +2643,40 @@ Author: Jonathan Winger Lang <jontelang@gmail.com>
 Name: InstaLauncher 2 快捷应用
 icon: https://huayuarc.github.io/icon/Icon-small.png
 
+Package: com.crctdd.memtrim.apps
+Architecture: iphoneos-arm64e
+Version: 1.3
+Section: 红尘琐事
+Maintainer: crctdd
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.crctdd.memtrim
+Filename: debs/MemTrim快捷清理图标.deb
+Size: 623338
+MD5sum: be3d74e55543dfc657d25fce2fdb8b84
+SHA1: 169b92c2e3dfdcbee5dde854c1a1d713e3ab55f2
+SHA256: b40588d5cf94a6eaa5e45b54c4cfc2319d995ace0b15bb9b9feeb54a268ea591
+SHA512: 8653b87442472ce09ea3323a21919cc0ec0164b14878e2710d730efae89ce622015dbb642ce7b71a071392bfa143487a95e428cf6aa0af33e2809dbcf7a86a93
+Description: 桌面图标与快捷指令触发器。深度优化：memtrim://deep 或 memtrim-deep://；一键清理：memtrim-clean://。点图标或打开URL即触发清理。
+Name: MemTrim 快捷清理图标
+Author: crctdd
+
+Package: com.crctdd.memtrim.notify
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: 红尘琐事
+Maintainer: crctdd
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.crctdd.memtrim
+Filename: debs/MemTrim通知触发器.deb
+Size: 3780
+MD5sum: 3a9521e08c48bf3624d0eaecb30a516a
+SHA1: 29d6af93986a1604b07e98a2fb7f1e5c6e110085
+SHA256: 3624140c13ae107ce01e98b42aa108f716287b64e6f85e22ca7695e456f1bdf7
+SHA512: 0b64157c452704ebb0d7753573b48ae06689516abdb865128cf76d7e0ce4a3f32f3d69dc2e20201c2e6e7d05807391f1b2276c90b716bcee4d2d5a81e887ec33
+Description: 命令行工具 mtnotify，用于无感触发 MemTrim 清理。用法：mtnotify deep / mtnotify normal。发送 Darwin 通知后立即返回，不阻塞、不卡屏。
+Name: MemTrim 通知触发器
+Author: crctdd
+
 Package: com.m4fn3.mikkyy
 Architecture: iphoneos-arm64e
 Version: 1.0.1
@@ -3088,6 +3122,50 @@ Description: Neutralizes CALayer disableUpdateMask in the render server
 Name: Unseen 屏蔽截图录制检测
 Author: 82flex
 
+Package: com.anthopak.powercuts-rootless
+Architecture: iphoneos-arm64e
+Version: 1.2.2
+Section: 红尘琐事
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=14.0), mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/com.anthopak.powercuts-rootless_1.2.2_iphoneos-arm64e.deb
+Size: 278712
+MD5sum: dbbf755c9ab2989f1105d7b6119fd4e3
+SHA1: a1b13dd219b5e959b2a4bfb72cbccbfbfd8c2300
+SHA256: 0cfe64376af80449b277b480ed56ee688e73b2b211325d318da294e419e316bf
+SHA512: 399c12cb7af1b2366403149d64f01c1e7316f21bb926164f486f8a294294e40f0e5667142ea4b62b288abb8cb98a7058f499272cfa834e643b64375af137b251
+Homepage: https://repo.anthopak.dev
+Description: A library and additions to supercharge Shortcuts!
+Name: Powercuts
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.powercuts-rootless.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.powercuts-rootless.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.powercuts-rootless.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.powercuts-rootless/icon.png
+Author: AnthoPak <anthopakdev@gmail.com>
+
+Package: com.anthopak.powercutsactionspack-rootless
+Architecture: iphoneos-arm64e
+Version: 1.3.1
+Section: 红尘琐事
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=14.0), mobilesubstrate, firmware (>= 14.0), com.anthopak.powercuts | com.anthopak.powercuts-rootless
+Filename: debs/com.anthopak.powercutsactionspack-rootless_1.3.1_iphoneos-arm64e.deb
+Size: 61752
+MD5sum: 073d5c306677be521d3dd4b0ad8ee9f9
+SHA1: 1873b9f9aa94ea042ddd0e320a2372bda11ecf9f
+SHA256: 2df24d9cadfd61b4d2ab1fabefb6e933c89dcc032c251724e2218fcaf61eb8ac
+SHA512: 9a32ff3bc19716d412507789161d1f2fcce64c4252a5a8b0d55e64a5d2923cddc79769ed01ac46ac4c8c2777a2aeea90835586436f725772155141b269cb6f81
+Homepage: https://repo.anthopak.dev
+Description: Pack of actions for Powercuts
+Name: Powercuts Actions Pack
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.powercutsactionspack-rootless.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.powercutsactionspack-rootless.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.powercutsactionspack-rootless.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.powercutsactionspack-rootless/icon.png
+Author: AnthoPak <anthopakdev@gmail.com>
+
 Package: com.axs.screenshellpro
 Architecture: iphoneos-arm64e
 Version: 5.2.0-61
@@ -3397,6 +3475,23 @@ SHA512: 8f23515a719c5ccd71824636deb3e5c98317a594ff95bae1e57529572e27efe60fcf7d21
 Description: 系统相机开启全屏拍照，禁用拍照快门声音
 Name: 全屏相机
 Author: iOSign
+
+Package: com.jumping.thermaldetect
+Architecture: iphoneos-arm64e
+Version: 1.0.32-2
+Section: 红尘琐事
+Maintainer: jumping8
+Depends: org.coolstar.ellekit | mobilesubstrate | com.ex.substitute
+Filename: debs/com.jumping.thermaldetect_1.0.32-2_iphoneos-arm64e_roothide.deb
+Size: 360628
+MD5sum: 55cafa5d93c25714e35b7f0fb50e8392
+SHA1: d709d437ddd980ebbbb32d51eaa6fea571546e86
+SHA256: 00dbfe3d5e3dee37348fdaa42ef491d14fae82a4d2d4509aca6090fdfd25a5f8
+SHA512: 96bd1565e1d7bccf04367f38901bad8736c9c11e68ebcc20e56036ef1900be678101f206b46c066508cc89f88c9d2def16b8aaca942300f57dd6f2b5ed19b52b
+Description: 定位哪个插件耗电发热排行榜，仅16.2系统真机，其他系统要安装自行负责。（roothide 隐根版：dpkg 自动装入随机 jbroot，适用 RootHide / Dopamine roothide 等，仅 A12+ arm64e）
+Name: 耗电发热排行榜
+Author: jumping8
+Icon: file:///Library/PreferenceBundles/com.jumping.thermaldetect.bundle/Icon-sileo.png
 
 Package: com.jumping.thermaldetect
 Architecture: iphoneos-arm64e
@@ -3784,6 +3879,25 @@ Name: PrefNest
 Icon: https://mlgm66.github.io/icon/prefnest.png
 Author: mlgm
 
+Package: com.moss.pczhexecutor
+Architecture: iphoneos-arm64e
+Version: 0.6.0
+Section: 红尘琐事
+Maintainer: moss <moss@local>
+Installed-Size: 104
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.moss.pczhexecutor_0.6.0_iphoneos-arm64e.deb
+Size: 16644
+MD5sum: e5471af96142afb00a33cd7c8ab5dc3c
+SHA1: 2e8de83f45b8d02f97f82f25f1606f9aac1e0778
+SHA256: 006d88bf7ca82e54f31dbb75f7ace7694fdda0c5bfb9b750bc124a9dec72a17a
+SHA512: fc74357121531e66637f25e3c1cf634554b6c8b567f2c87df0fed345e4c54eac1134761f2b5fa5878ca3ecc4a1e14e5bca5417cb8c191e1ce2c8aa1e87e01fe2
+Description: 扩展原生「快捷指令」实现深度自动化；界面与动作描述已汉化；
+ ☑ 修复「关闭 Siri」动作在 iOS 16+ 崩溃进安全模式的问题
+Name: Powercuts 汉化补丁
+Icon: https://repo.anthopak.dev/assets/com.anthopak.powercutsactionspack-rootless/icon.png
+Author: moss <moss@local>
+
 Package: com.moxuan.fontchange
 Architecture: iphoneos-arm64e
 Version: 1.1.1
@@ -3804,6 +3918,25 @@ Description: 字体挂载，支持 Rootless/RootHide
 Name: FontChange 字体挂载管理
 Author: moxuan1121
 Icon: https://TrollStoreX.Github.io/sileodepiction/FontChange/icon.png
+
+Package: com.nan.bindfs
+Architecture: iphoneos-arm64e
+Version: 0.7.3
+Section: 红尘琐事
+Maintainer: 无尽伤痛都锁进黑夜 & Grok & zhaonan
+Depends: firmware (>> 14.0), preferenceloader
+Conflicts: mobilesubstrate (= 999)
+Filename: debs/com.nan.bindfs_0.7.3_iphoneos-arm64e.deb
+Size: 50388
+MD5sum: b2f1e5e9d08309e86bf4752b001680e2
+SHA1: 4a484674eed7b5dc36dd05f98f346dcb4831087e
+SHA256: 43c67efff3e611a64e4c9152bccb68ddbf00d1b53d026b26b6fbdc81c8cce2a5
+SHA512: 9ce188264c3e42977308d385eb1c04bbc23853635b92f82c73e0f5dd52f4550055a87bb7533e501bfe02e4a8dc6bb870111f07cf689c1a498bfd06814b66f090
+Description: bindfs 挂载工具
+Name: mount_bindfs
+Author: 无尽伤痛都锁进黑夜 & Grok & zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
 
 Package: com.nan.disableupdates
 Architecture: iphoneos-arm64e
@@ -4309,6 +4442,29 @@ MD5sum: 0faefd18400f838782b1000cc09b2fc2
 SHA1: 8f86d8096d66af3107cc79e9f18af0f4fb8255fa
 SHA256: 168570c122bebea574696dfdc6d9d8cfd1bf718d4fc5e93a4d6bf86921eedb1f
 SHA512: c91d4e7e4ee377fed414a518d0bb0f0d5279f98738e4f2b3703580315e762378a923700b324c53c181d5cb10eab6faa7defadb1da1490230dd25c0409692dcb0
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
+
+Package: com.tsangbaby.pulloverx
+Architecture: iphoneos-arm64e
+Version: 2.4.3
+Priority: optional
+Section: 红尘琐事
+Maintainer: Tsangbaby
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/com.tsangbaby.pulloverx_2.4.3_iphoneos-arm64e.deb
+Size: 678864
+MD5sum: 40472da082e8ded6888dd2baf13dd7f3
+SHA1: 7e4aef85197e091d0db5830899a06a9c234f2c79
+SHA256: 3f51593e3af13b7fbd15a1474d7ed03f0c6418727354e5c8f44e1bc3d0f9b1ba
+SHA512: 8bf68f47d6f148ecb28105179079d8e1ba61a6030f4ae4d2e8a63ce968978358c51b69610475688eadba27c1cff0f48ea5c0ef433aa522727a120446b72da484
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
 Name: PullOver X
 Author: Tsangbaby
