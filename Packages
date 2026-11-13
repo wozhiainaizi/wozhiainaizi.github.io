@@ -861,6 +861,30 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
 SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
 
+Package: com.axs.ios16dao
+Architecture: iphoneos-arm64e
+Version: 5.2.1-161
+Section: 本命法器
+Maintainer: Axs
+Installed-Size: 932
+Pre-Depends: rootless-compat(>=0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Conflicts: com.nathan.dynamicnotland, com.cydia.love.dynamicnotland, com.cydia.love.dynamicnotland-Rootless
+Filename: debs/com.axs.ios16dao_5.2.1-161_iphoneos-arm64e_1.deb
+Size: 85864
+MD5sum: 0f794fa71490d5666b7b4e7084286861
+SHA1: 765f04336552b0ee5d0c9ec97beb4f609f932b2a
+SHA256: 96cb4eb2ab2cc33d420bbbf5f38cff88577dee989b917c71f960c24d8835140e
+SHA512: 9f9bbf2da0361cb842a2b96d7e31ff5acd2a6e68347d40b4c0ba68cf6caf214522f85d745bdbdf3f168dec978e525cbbd414070048717760d65bc424b41d819e
+Description: 一款市面上最优秀、功能最完整、最稳定的灵动岛插件。
+ * 1. 灵动岛自定义背景，支持 PNG/JPG/GIF/MP4。
+ * 2. 内置原生岛隐藏
+ * 3. 支持单独禁用原生岛的阴影与模糊。
+Name: 灵动岛视频背景
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
+SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
+
 Package: com.binglan.dynamicfx
 Architecture: iphoneos-arm64e
 Version: 1.0.7-1
