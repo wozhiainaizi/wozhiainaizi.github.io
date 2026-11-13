@@ -5134,6 +5134,24 @@ Author: khanhduytran0
 
 Package: com.wkk.recordeyex
 Architecture: iphoneos-arm64e
+Version: 1.0-20
+Section: 红尘琐事
+Maintainer: wkk
+Installed-Size: 532
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/快捷录屏写轮眼_圆框原图_1.0-20.deb
+Size: 59800
+MD5sum: 05225ef9ec3034c1355518e25c52e5f0
+SHA1: 2c7e2aa8c243cc2f9f2d5884129828a9d0dce7e8
+SHA256: e45cd8c6200a26f27f26b03e88a7ad496fdda5d751ad50652849524ebe85bbbd
+SHA512: ec07e093a4724eec592a2ca79f7ee3527e8990bb0e35be5bbd77e0c4f3378edd39fde6d6cf095370d35aa3bf929851bae67c8c622f58e4b35183908941d8238f
+Description: 自定义快捷录屏的灵动岛录制指示点（圆框+原图）
+Name: RecordEyeX
+Author: wkk
+
+Package: com.wkk.recordeyex
+Architecture: iphoneos-arm64e
 Version: 1.0-11
 Section: 红尘琐事
 Maintainer: wkk
