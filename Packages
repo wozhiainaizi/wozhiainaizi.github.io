@@ -837,6 +837,30 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
 SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
 
+Package: com.axs.ios16dao
+Architecture: iphoneos-arm64e
+Version: 5.2.1-131
+Section: 本命法器
+Maintainer: Axs
+Installed-Size: 932
+Pre-Depends: rootless-compat(>=0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Conflicts: com.nathan.dynamicnotland, com.cydia.love.dynamicnotland, com.cydia.love.dynamicnotland-Rootless
+Filename: debs/com.axs.ios16dao_5.2.1-131_iphoneos-arm64e.deb
+Size: 93708
+MD5sum: 790863c9dfb16be5847cb688e113a1b8
+SHA1: 499814eb7b2ba5c46d41c32ce15ce6ebc91db5c4
+SHA256: d0051ca3a318f9f26d6affa9f0c22770abc57cc14076d42912f04040207687b6
+SHA512: 658e2fac52814505eb5a9ae5d8f1797f6de5e4b2b6a792537ddd3e0fc3749eb383e4e7d17961e0a304a8ef6f8d99bd6897105748f67b7f7e61c14dcb72a8fc1f
+Description: 一款市面上最优秀、功能最完整、最稳定的灵动岛插件。
+ * 1. 动态岛自定义背景，支持 PNG/JPG/GIF/MP4。
+ * 2. 内置原生岛隐藏
+ * 3. 支持单独禁用原生岛的阴影与模糊。
+Name: 灵动岛视频背景
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
+SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
+
 Package: com.binglan.dynamicfx
 Architecture: iphoneos-arm64e
 Version: 1.0.7-1
@@ -1026,6 +1050,26 @@ SHA512: f02d311c2d8fdf83a6e4fd8d84a3cceccef8eaf62051da21180a3cda7ebe968e55aa5184
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Name: StayAlive Lite
 Author: crctdd
+
+Package: com.cydia.love.lindongdaodonhua-rootless
+Architecture: iphoneos-arm64e
+Version: 1.1.9
+Section: 本命法器
+Maintainer: Ant 蚂蚁源™ <admin@cydia.pro>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/com.cydia.love.lindongdaodonhua-rootless_1.1.9_iphoneos-arm64e.deb
+Size: 30704
+MD5sum: f50ba2c6a8f152f41a2a872a7f1f5104
+SHA1: 7fd57bf4139da0545249cd3f06ff1b8798801070
+SHA256: e075f998ace5840b923ff49916b16acbef1b1d2d0df60356d017a507deb6dd84
+SHA512: fd1a423e5c0d328418a52acc002604eb741ab54de6002f369369edf8c421ebc056dba5a71b39018316afe1f2fc8cc4bd6fe8bac8bda497de408fa6385ccb0302
+Description: 用于灵动岛专辑及屏幕录制动态跳舞动画整合，只支持有灵动岛的用户，大家自行测试，灵动半岛就不用试了哈！
+Tag: 1
+Name: 灵动岛跳舞动画
+Author: Simon
+Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 
 Package: com.hades.locktouchx
 Architecture: iphoneos-arm64e
@@ -1922,6 +1966,29 @@ SHA512: 93c079ac2e3913a57aca7e96dde0dcf5d3b25d3f2b04bfd5aeeb5ba9c9e4b6de5d73ddf0
 Description: TrollOpen 的越狱版本，支持 ios16 及以上，免费公开版，无后续更新，不需要反馈 bug。QQ 群：1094778353，后续付费更新联系群主或群管理。小黑子闭嘴吧，看看什么是最强分屏！
 Name: TrollOpen
 Author: Charlie Leung
+
+Package: com.axs.ios16dao
+Architecture: iphoneos-arm64e
+Version: 5.2.0-245
+Section: 本命法器
+Maintainer: Axs
+Installed-Size: 704
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: debs/原.deb
+Size: 89968
+MD5sum: 1e446c4ae2f6e79d0266669bdb3136a5
+SHA1: c304c83cdd47bdaf61191177a867a82ce088c46a
+SHA256: 21729c90c57adf4a8bd916049e52649474441c1849f6689ade5548ac99cd1276
+SHA512: 3370228f0f0991ece9faaefcd9fdbdfc558b606aa97f74703bf258c492e1d4ea128b92f618039b728cfa31516773b42e136f71be0b1ecad852e3992e80313f33
+Description: 一款市面上最优秀、功能最完整、最稳定的灵动岛插件。集成授权校验联系:VCR66T
+ * 1. 动态岛自定义背景，支持 PNG/JPG/GIF/MP4。
+ * 2. 录屏的时候，可以隐藏原生岛黑色区域，让效果更美观。
+ * 5. 本插件无需任何依赖、支持手势录屏触发，已经达到极致水平。
+Name: ios16~17动态岛
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
+SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
 
 Package: com.axs.tweakshub
 Architecture: iphoneos-arm64e
@@ -5064,6 +5131,24 @@ SHA512: bb8cd236b9ded2ead0a73e8379023d01f3a7bb00bc9a15b73b5ab13e383108c4d024e3cc
 Description: Enable system-wide performance HUD from the control center.
 Name: caperfhudmodule 全局性能悬浮监测模块
 Author: khanhduytran0
+
+Package: com.wkk.recordeyex
+Architecture: iphoneos-arm64e
+Version: 1.0-11
+Section: 红尘琐事
+Maintainer: wkk
+Installed-Size: 532
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/快捷录屏写轮眼_正圆_1.0-11.deb
+Size: 59856
+MD5sum: 31c2873771fa81dcdea26abace206ce4
+SHA1: 0e4b84f9991487a2d019d3fc7c96c2b886bbabe2
+SHA256: b1539fff70efaf8cc97ac4a28be56f79919490169f800de7cb05568fe7b0b191
+SHA512: 39a4c019ca2824dc9217c6bdd6a091c6022f2bdd0534668606835ecbb7d9eaa961dc819ab800371ced2d8e2f5a0c629cd3ef3f02b7885c34670653af712021a4
+Description: 自定义快捷录屏的灵动岛录制指示点（专辑封面正圆 v4）
+Name: RecordEyeX
+Author: wkk
 
 Package: com.shuijia.phonevibrator
 Architecture: iphoneos-arm64e
