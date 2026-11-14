@@ -1206,6 +1206,24 @@ Author: Huayuarc
 Icon: https://muzikeji.github.io/Sileo/icons/com.huayuarc.cputhermal.png
 Sileodepiction: https://muzikeji.github.io/Sileo/depictions/com.huayuarc.cputhermal.json
 
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.2.5-3+mute
+Section: 本命法器
+Maintainer: Huayuarc
+Installed-Size: 1424
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.huayuarc.sneakycam_2.2.5-3+mute_iphoneos-arm64e.deb
+Size: 124524
+MD5sum: c5ad4ee65221efaf658ddde265228d35
+SHA1: e61b434edc606cfe49ffb0e04a4b70e47393e128
+SHA256: 898a07f5e977e882eece6f2971d7e45a26ff3d215d89f9739bbc49acc5639b1b
+SHA512: 4b94f3beb0607190b6afbdaf265bad2fbfd52ee43adc7f9a4600cdd7ebb4df3226e23c1412e3e1c68dfb01908b87869dad96813c24ec824cb4164e90dd62da02
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Media/Camera。
+Name: SneakyCam 隐私相机（视频静音）
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
 Package: com.mg.adskip
 Architecture: iphoneos-arm64e
 Version: 1.0.6
@@ -1850,24 +1868,6 @@ SHA512: 999665fe3fa0cd48766ad4b95889ef17f71c1dbb52d9333c3c60039269d7ffd5beee71ac
 Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
 Name: ShortBar
 Author: crctdd
-
-Package: com.huayuarc.sneakycam
-Architecture: iphoneos-arm64e
-Version: 2.2.5-3+mute
-Section: 本命法器
-Maintainer: Huayuarc
-Installed-Size: 1424
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: debs/sneakycam_2.2.5-3_mute_iphoneos-arm64e.deb
-Size: 124704
-MD5sum: 6495d2889f87e9f113e5fc189f8c328d
-SHA1: f4d3b387f413ee688cdb868c24532efc2f907367
-SHA256: 4ad37ffa969e69036209553fe43f5a8ba799bbd80932f0cb3a94f91b494a2423
-SHA512: 3582c847c59736ac2d7afc46c327bfd5844def138dcbf67d768a327e36a21a913d0d9a6f0cc7352257da88da35c0dc49e7965ec4f1e67e669d4f1ffdd2b3ba51
-Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Media/Camera。
-Name: SneakyCam 隐私相机
-Author: Spark
-icon: https://huayuarc.github.io/icon/SneakyCam.png
 
 Package: com.crctdd.stayalivelite
 Architecture: iphoneos-arm64e
