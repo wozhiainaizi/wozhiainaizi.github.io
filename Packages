@@ -921,6 +921,25 @@ Name: DynamicFX
 Author: 冰蓝
 Icon: https://huayuarc.github.io/icon/DynamicFX.png
 
+Package: com.binglan.dynamicfx
+Architecture: iphoneos-arm64e
+Version: 1.0.7-6
+Section: 本命法器
+Maintainer: 冰蓝
+Installed-Size: 772
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.binglan.dynamicfx_1.0.7-6_iphoneos-arm64e.deb
+Size: 113664
+MD5sum: 62487759d5971ab8cf811de996810c79
+SHA1: 08b43ab82604ccedf76d320988971cc7ac60f453
+SHA256: 757a88c172c649e8a8455a385b1514967e1641aa2b7c53665d36b390a22ea4cc
+SHA512: c0603bb3b179d1714ff8799f8f33ebcedeb28fdc64037c2b994ce8d1629d9c73d66c47ef720f34cd4f3d08c2da914c3bb4f52f80839bba8cb26c61ce81f790f1
+Description: DynamicFX 用于美化 iPhone 灵动岛，支持自定义灵动岛背景、颜色、透明度、圆角以及过渡动画。
+Name: DynamicFX
+Author: 冰蓝
+Icon: https://huayuarc.github.io/icon/DynamicFX.png
+
 Package: com.crctdd.memtrim
 Architecture: iphoneos-arm64e
 Version: 0.0.3
