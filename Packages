@@ -885,6 +885,23 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
 SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
 
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64e
+Version: 0.1.38.6
+Section: 本命法器
+Maintainer: doimty
+Installed-Size: 1604
+Depends: firmware (>= 15.0)
+Filename: debs/com.be-huge.insulation_0.1.38.6_iphoneos-arm64e.deb
+Size: 105280
+MD5sum: d3a4ce4ce28215909509eb7ce9cc4184
+SHA1: 667b3b8b338ed94f02da7d64cf648d9d5e56d7bc
+SHA256: 31dd68d5ca3507fe811a16c35f282a3fd7afc7a3030408adcc88da7343926461
+SHA512: 15aa0b944f0e29f3c17754c28e0037d4a49c42dde70ee2c9b21e96d465b17399ab2ebdde71c71c4eca1a908e128ed9fbee82ead7b2e9fd100a1514a7a412b890
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。已内置 SmartBatteryAPI 智能停充（设置页可调停充电量，配置已与停充守护打通）和挂载路径管理（一键挂载温控路径、重新挂载全部、优化与恢复）。
+Name: insulation
+Author: be-huge & doimty
+
 Package: com.binglan.dynamicfx
 Architecture: iphoneos-arm64e
 Version: 1.0.7-1
@@ -2049,23 +2066,6 @@ SHA512: 2670a82255ca8990ad0e3192b77ed9b308c9e023fb89fe0541dcedc353707670fee2c6b6
 Description: Display much more battery information
 Name: batman 显示电池更多信息
 Author: daniel
-
-Package: com.be-huge.insulation
-Architecture: iphoneos-arm64e
-Version: 0.1.38.6
-Section: 本命法器
-Maintainer: doimty
-Installed-Size: 1604
-Depends: firmware (>= 15.0)
-Filename: debs/温控_智能停充_挂载管理_0.1.38.6_iphoneos-arm64e.deb
-Size: 116748
-MD5sum: 225640ba68a4f3ce7f0913eaba353080
-SHA1: 756e70f684327466743204b748327cedc6d40198
-SHA256: eb0498633bea9229b7816e4190d2f10f5d3fb241b934cba3501f1cdcdaa105da
-SHA512: e5ca6c5c8089176894f4e73b9bc9f399f0860626fcc73a1ae408404453f2b973f1af23d0ca4cbe26f24546ebcd4cae56ff19d6293aac36f57320bd9ebcd10895
-Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。已内置 SmartBatteryAPI 智能停充（设置页可调停充电量，配置已与停充守护打通）和挂载路径管理（一键挂载温控路径、重新挂载全部、优化与恢复）。
-Name: CPU insulation
-Author: be-huge & doimty
 
 Package: com.be-huge.insulation
 Architecture: iphoneos-arm64e
