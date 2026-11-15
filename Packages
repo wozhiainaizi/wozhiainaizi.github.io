@@ -1584,6 +1584,23 @@ Name: Doleo 插件备份
 Author: Junhong
 Icon: file:///usr/share/doleo/icon.png
 
+Package: im.mjh.doleo.roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Section: 本命法器
+Maintainer: Junhong
+Installed-Size: 1008
+Filename: debs/im.mjh.doleo.roothide_1.0.4_iphoneos-arm64e.deb
+Size: 241568
+MD5sum: 89bef34efce027a460b3fa00b04fcb3a
+SHA1: 48602daddfcd2a58e856d0a7e85db89be2c75388
+SHA256: 9f45f92870db2c43308f8df51e91000e815b90758e12f2b1bafe0572504e92bb
+SHA512: b4e659ab88c63d9a2f60a253d881b6348b01f6c9fe23d53a32cea3b100f992d514c49edd6bf722a3dfaea0f9b1261abd6a61cf56a6f0ba200e7f0e35d21d7289
+Description: Download and keep local DEB packages in Sileo.
+Name: Doleo (Roothide)
+Author: Junhong
+Icon: file:///usr/share/doleo/icon.png
+
 Package: xyz.cypwn.immortalizer
 Architecture: iphoneos-arm64e
 Version: 2.2
