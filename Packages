@@ -4479,6 +4479,25 @@ Author: Tsangbaby
 Icon: https://tsangbaby.github.io/Icon/Galaxy.png
 SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
 
+Package: com.tsangbaby.galaxy
+Architecture: iphoneos-arm64e
+Version: 0.6.4
+Section: 红尘琐事
+Maintainer: Tsangbaby
+Installed-Size: 2960
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/com.tsangbaby.galaxy_0.6.4_iphoneos-arm64e.deb
+Size: 656642
+MD5sum: 4847a18779414e198ed43743d84d8bd0
+SHA1: f95e587789c16169dd6a38698652f00fb6b5c378
+SHA256: ffdf3bde0a85fc7a8bbd4ba08997b532bab189eeee0c42fa7322ef7db321d4d9
+SHA512: 6113ddabcb76a2931fd092df1952cbc951ca578f58bca801b6752b7a2a5d2cdfe3ac994ea5bfb85a18e920d7f6905e5b98b62553de64355aee80481d398f7929
+Description: Independent circular app launcher for iOS 15 and later.
+Name: Galaxy
+Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Galaxy.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
+
 Package: com.tsangbaby.pulloverx
 Architecture: iphoneos-arm64e
 Version: 2.0.5
