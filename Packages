@@ -890,15 +890,15 @@ Architecture: iphoneos-arm64e
 Version: 0.1.38.6
 Section: 本命法器
 Maintainer: doimty
-Installed-Size: 1604
+Installed-Size: 1608
 Depends: firmware (>= 15.0)
 Filename: debs/com.be-huge.insulation_0.1.38.6_iphoneos-arm64e.deb
-Size: 105280
-MD5sum: d3a4ce4ce28215909509eb7ce9cc4184
-SHA1: 667b3b8b338ed94f02da7d64cf648d9d5e56d7bc
-SHA256: 31dd68d5ca3507fe811a16c35f282a3fd7afc7a3030408adcc88da7343926461
-SHA512: 15aa0b944f0e29f3c17754c28e0037d4a49c42dde70ee2c9b21e96d465b17399ab2ebdde71c71c4eca1a908e128ed9fbee82ead7b2e9fd100a1514a7a412b890
-Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。已内置 SmartBatteryAPI 智能停充（设置页可调停充电量，配置已与停充守护打通）和挂载路径管理（一键挂载温控路径、重新挂载全部、优化与恢复）。
+Size: 106964
+MD5sum: 746c35cec14e7875dd52953cdbca2925
+SHA1: 79db35e2a7e81d5e83ca9e563ad0ad5b231e4fd6
+SHA256: b7ccb79f4e166c1b2c25eaad756d844aabf6a54232748cd375c0e0dc67866af1
+SHA512: 7abf5b9f347b7b6f6990bd4dd35aceed7e8290a4e617871fa4969ac45e459d522898ca2eea6ef2b4d4f6f7abce7e800e3d56bea37712653d7816044ed485ebef
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。已内置 SmartBatteryAPI 智能停充（设置页可调停充电量，配置已与停充守护打通，掉线自动修复）和挂载路径管理（一键挂载温控路径、重新挂载全部、优化与恢复）。
 Name: insulation
 Author: be-huge & doimty
 
@@ -4084,6 +4084,26 @@ Author: 无尽伤痛都锁进黑夜 & Grok & zhaonan
 SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
 Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
 
+Package: com.nan.csp
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: 红尘琐事
+Maintainer: zhaonan
+Pre-Depends: openssh-server | openssh
+Depends: sed, uikittools, uikittools-extra, lsof, plutil | com.bingner.plutil | com.ericasadun.utilities
+Conflicts: com.nan.localhostssh
+Filename: debs/com.nan.csp_0.1.0_iphoneos-arm64e.deb
+Size: 2396
+MD5sum: e60fb64827793d88ad9f1f0b9e9d6de2
+SHA1: 310ff5aec43a163112b2a024bc2ffd5d7616f4f7
+SHA256: 102a130975478d5a284f3e35f166e2198ca1945fa04ee06c537dbb7a924efc80
+SHA512: a851b4002f61c3bb61318cebc1b56e6be0c29eee2cc7d10262d072f8ea23c956aea1c801068f47721f088718765ae3d0d07ac5ce233d07aade96c5c4cd2615d9
+Description: 自定义 SSH 端口
+Name: Custom SSH Port
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.csp/js.json
+Icon: https://invalidunit.github.io/sileodepiction/com.nan.csp/image.png
+
 Package: com.nan.disableupdates
 Architecture: iphoneos-arm64e
 Version: 0.1.1
@@ -4925,6 +4945,24 @@ Name: OneSettings
 Sponsor: sini921
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/onesettings/js.json
 icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm64e
+Version: 2.5.1-15
+Section: 红尘琐事
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: debs/org.coolstar.sileo_2.5.1-15_iphoneos-arm64e.deb
+Size: 3080196
+MD5sum: 39f190327d89d5f1f95526890ea7c145
+SHA1: 65959e24b55154b57582ad20f68f90a362deec99
+SHA256: 1bda467ad49a418728f358d09035cdf175e20dd80c3dc289b9cf62f1db44950a
+SHA512: 87594000c73546905e5c511e2fb79329a6804152ecdb7b0f425e2427f24521240b99583165c56a340d2e3f0dbd9e98525dd4575f7999946437bbcf7864addbdc
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
 Package: byg.iosios.net.classickeyboardxs-rootless
 Architecture: iphoneos-arm64e
