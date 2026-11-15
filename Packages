@@ -5027,6 +5027,29 @@ Name: PleaseDontStopTheMusic 请别暂停音乐
 Icon: https://img.chariz.cloud/icon/pleasedontstopmusic/icon@3x.png
 Depiction: https://chariz.com/get/pleasedontstopmusic
 
+Package: com.tsangbaby.pulloverx
+Architecture: iphoneos-arm64e
+Version: 2.4.3-1
+Priority: optional
+Section: 红尘琐事
+Maintainer: Tsangbaby
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/pulloverx_2.4.3-1_iphoneos-arm64e.deb
+Size: 678784
+MD5sum: 2eb9a56d17aa331213404bd432b2c7ae
+SHA1: a6be3007f05cc78ab12a0bd2c4cfe48d1602f5dd
+SHA256: c8857f07d6701a37bef79ad152bf4efcd0601505318e8f790376d3a9be0871b5
+SHA512: 35a380a4378bd57756caec4063267191405ac63353a193873b24804674ec4a213cfec040fe50d1bfb2f15ce42c37471e0dc09bc594c3ba90962bab638fcbbdfd
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X 隐藏把手
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
+
 Package: com.crctdd.pyvideo
 Architecture: iphoneos-arm64e
 Version: 0.0.3
