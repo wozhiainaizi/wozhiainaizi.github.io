@@ -892,7 +892,7 @@ Section: 本命法器
 Maintainer: doimty
 Installed-Size: 1608
 Depends: firmware (>= 15.0)
-Filename: debs/com.be-huge.insulation_0.1.38.6_iphoneos-arm64e.deb
+Filename: debs/com.be-huge.insulation_0.1.38.6.deb
 Size: 106964
 MD5sum: 746c35cec14e7875dd52953cdbca2925
 SHA1: 79db35e2a7e81d5e83ca9e563ad0ad5b231e4fd6
