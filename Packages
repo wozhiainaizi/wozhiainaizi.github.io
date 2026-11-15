@@ -4658,6 +4658,23 @@ Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
 SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
 Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
 
+Package: com.tsangbaby.springanimation
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: 红尘琐事
+Maintainer: Tsangbaby
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/com.tsangbaby.springanimation_0.0.2_iphoneos-arm64e.deb
+Size: 2928
+MD5sum: 130d9d52dcee4d436150a133e054aa9c
+SHA1: a6a4346305fba0008d46944562fcbe41771559ee
+SHA256: 88c905126497575e3f89459f8b6ccbf890d24bb911cd9ca0ebac09cfdd26b21d
+SHA512: c5b4c37f12b1c18ee73aa4c532df89b73ec2f069520aabdba329881d648ad32efa94a3462bbfbd4fd0ef49f6a54e1d91adc7acfddb8acf0873ac72346e9d07cf
+Description: 神奇的交互动画
+Name: SpringAnimation
+Author: Tsangbaby
+
 Package: com.yourepo.axs.edgesiri
 Architecture: iphoneos-arm64e
 Version: 3.1.1-9
@@ -5198,6 +5215,28 @@ MD5sum: aad0ca30e261a1485fc336a56eefb4c9
 SHA1: b5b70f8fb3e309e9e593bc3697622a04a90d284e
 SHA256: f944ba108468472bbfc473f35e08c64fca2c0b7eba9ca0f6552d098bc3b4c728
 SHA512: dfd7180d7f7d4ecf90d14aa03801e756e5de0fde610faea2d0faed25b3475d2a453b81b3550652b657efb7723e721a70be03d6c5d25daba974c5141fc1271662
+Description: 让选定的 app 退到后台保持常驻不被杀，重新打开直接回到上次界面
+ 微信、QQ、闲鱼、淘宝、京东、抖音、小红书、支付宝、微博等 app 退到后台经常被系统杀掉，
+ 重新打开只能冷启动。本插件让勾选的 app 退到后台后保持常驻，过很久再打开直接回到上次界面。
+ 支持 iOS 15.0 – 16.6 的 rootless 越狱（Relaxin / RootHide / Dopamine）。
+Name: 常驻后台
+Author: wacljcr
+icon: https://huayuarc.github.io/icon/keepalive.png
+
+Package: wacljcr.keepalive
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Section: 红尘琐事
+Maintainer: wacljcr
+Installed-Size: 612
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/wacljcr.keepalive_1.0.5_iphoneos-arm64e.deb
+Size: 37380
+MD5sum: 16c43e3c3f68068ca67e62ff1f85cdad
+SHA1: f17f9fb4f5d0d23498537da947a373bc1256df92
+SHA256: c32e5e6c73e7b53ebfaa60eef7a4748202ab14d5ff1444ac135efebc6eabf977
+SHA512: 8d18e437e165b807383d7c17ad74accec8c8a4be253428814800a6e776002ba80786989ffa067e80b3bc01647041a2781d04e636fac36874e841930c92a815ff
 Description: 让选定的 app 退到后台保持常驻不被杀，重新打开直接回到上次界面
  微信、QQ、闲鱼、淘宝、京东、抖音、小红书、支付宝、微博等 app 退到后台经常被系统杀掉，
  重新打开只能冷启动。本插件让勾选的 app 退到后台后保持常驻，过很久再打开直接回到上次界面。
