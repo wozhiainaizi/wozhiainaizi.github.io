@@ -4834,6 +4834,73 @@ Description: 神奇的交互动画
 Name: SpringAnimation
 Author: Tsangbaby
 
+Package: com.yourepo.axs.appdata
+Architecture: iphoneos-arm64
+Version: 5.2.0-107
+Section: 红尘琐事
+Maintainer: Axs <a200591949@gmail.com>
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Filename: debs/com.yourepo.axs.appdata_5.2.0-107_iphoneos-arm64.deb
+Size: 175286
+MD5sum: b3204bb24edfbc55016f0d877323c4ea
+SHA1: aa1bc35161f88ecbcdbd434513e5484e2a224752
+SHA256: 34284bfc7185870e5dd8c48db4c6ef217e06e1ed3d78aed8125393e49525d521
+SHA512: 25da3b36807a09a397d5423af5cd1a30aa4f427a1a87653959e1cc24b4f89ece69b0f52a15c60e8ac3900fc6ae4daee82e3c7798962516f8eb00036530f86412
+Description: 从主屏幕查看和管理应用数据，持续扩展附加功能中，目前包含：应用静音、120Hz、真后台、CPU、FPS等。
+Name: AppData
+Author: Axs <a200591949@gmail.com>
+Icon: https://axs66.github.io/pro/icon/appdata.png
+
+Package: com.yourepo.axs.appguard
+Architecture: iphoneos-arm64
+Version: 5.2.0-2
+Section: 红尘琐事
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.yourepo.axs.appguard_5.2.0-2_iphoneos-arm64.deb
+Size: 62892
+MD5sum: 83d602642cc56e92a6e750eb0fcb229f
+SHA1: 37da74c63485b42ba30dbe8c20adac0928f6fb36
+SHA256: 1680fa2527a23d5391241815433878d3459b962300460c7cb3d44f21f436aaf7
+SHA512: 891e0c09bfae342d8db88abb46010067d0533607a3ee3d10e1cca754d83c012a7a9fc109c01df3a3cfef581776625b2e7cecb289d97df4c4de25901cd62a506b
+Description: iOS 14-17 进程守护与性能优化工具，支持针对每个进程独立设置活跃/非活跃内存限制、Jetsam 优先级、CPU Nice 调度优先级，并可剥离系统托管标记阻止内核自动覆盖配置。内置后台守护进程实时监控进程状态，支持有根/无根/隐藏越狱三种环境。
+Name: AppGuard
+Author: Axs <qiaozhani000@163.com>
+
+Package: com.yourepo.axs.appselect
+Architecture: iphoneos-arm64
+Version: 5.2.0-12
+Section: 红尘琐事
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.yourepo.axs.appselect_5.2.0-12_iphoneos-arm64.deb
+Size: 43520
+MD5sum: 49c3cae0ef39687e7b1a4417eff67fff
+SHA1: 99550fda48c31c50c86db4992c296f9402a315cd
+SHA256: 9bdc37bafc8ff094de3315b71255f35ef3d5f8b9d4a4fb31e64cce7e6ad54490
+SHA512: 8c5b197fb0704851ddeef9239583c8e0dc159994769bb3f9434a66625df7d55785392fa03ea1ffc744ccdb0fee5e8f38f0cf613eb722e8a80cbe2486a36cc76c
+Description: App跳转拦截重定向选择器
+Name: AppSelect
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/appselect.png
+
+Package: com.yourepo.axs.clickvibration
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: 红尘琐事
+Maintainer: developlab <qiaozhani000@163.com>
+Depends: qiaozhani000@163.com
+Filename: debs/com.yourepo.axs.clickvibration_1.0_iphoneos-arm64.deb
+Size: 8156
+MD5sum: 3856f7b9506a550aacca5cad8dc7bc56
+SHA1: 252e5cd93d7fbbc10773584feceb2c83ae90724f
+SHA256: 887f2fa8c4a6ca841504cd3a4734b6d0e6bb519c00aebafcd8b9c40a49bf02b1
+SHA512: ef89a9bf3bb064632062f8f9c3377c0ac71bba689e553cbd630f71a4885caf678e2da9bfd367f881d7d86d6406b45896d78c9b81d8150ce1ecfd67ad0b478076
+Description: 点击或者滑动震动效果，以及声音效果
+Name: clickvibration触摸震动音效
+Author: developlab <a200591949@gmail.com>
+Icon: https://axs66.github.io/pro/icon/clickvibration.png
+
 Package: com.yourepo.axs.edgesiri
 Architecture: iphoneos-arm64e
 Version: 3.1.1-9
