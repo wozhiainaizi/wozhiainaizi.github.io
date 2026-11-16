@@ -1147,26 +1147,6 @@ Description: 轻量后台守护插件，支持多种运行方式与任务角色�
 Name: StayAlive Lite
 Author: crctdd
 
-Package: com.cydia.love.lindongdaodonhua-rootless
-Architecture: iphoneos-arm64e
-Version: 1.1.9
-Section: 本命法器
-Maintainer: Ant 蚂蚁源™ <admin@cydia.pro>
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/com.cydia.love.lindongdaodonhua-rootless_1.1.9_iphoneos-arm64e.deb
-Size: 30704
-MD5sum: f50ba2c6a8f152f41a2a872a7f1f5104
-SHA1: 7fd57bf4139da0545249cd3f06ff1b8798801070
-SHA256: e075f998ace5840b923ff49916b16acbef1b1d2d0df60356d017a507deb6dd84
-SHA512: fd1a423e5c0d328418a52acc002604eb741ab54de6002f369369edf8c421ebc056dba5a71b39018316afe1f2fc8cc4bd6fe8bac8bda497de408fa6385ccb0302
-Description: 用于灵动岛专辑及屏幕录制动态跳舞动画整合，只支持有灵动岛的用户，大家自行测试，灵动半岛就不用试了哈！
-Tag: 1
-Name: 灵动岛跳舞动画
-Author: Simon
-Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-
 Package: com.hades.locktouchx
 Architecture: iphoneos-arm64e
 Version: 2.3
