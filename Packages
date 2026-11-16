@@ -5429,6 +5429,28 @@ Tag: purpose::uikit, compatible::ios14
 
 Package: wacljcr.keepalive
 Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: 红尘琐事
+Maintainer: wacljcr
+Installed-Size: 572
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/wacljcr.keepalive_1.0.0_iphoneos-arm64e.deb
+Size: 29940
+MD5sum: b2b7a60fe04f7c4b262717fed488968d
+SHA1: 82b7b8df5be7c6941f0a113c5481fac8c3c5ae61
+SHA256: 4f160ef53dbdce3ab8bc901f39108dbeb56517410ec10229e01c52c4add80530
+SHA512: 6bdda9646926917a99cb3ae21d7695df83ba5c54e720c777418e6ea55822be0c940748a5f825d4cad26e08d9bc278f0d8baace7b8b456b9afa2873d270de7aca
+Description: 让选定的 app 退到后台保持常驻不被杀，重新打开直接回到上次界面
+ 微信、QQ、闲鱼、淘宝、京东、抖音、小红书、支付宝、微博等 app 退到后台经常被系统杀掉，
+ 重新打开只能冷启动。本插件让勾选的 app 退到后台后保持常驻，过很久再打开直接回到上次界面。
+ 支持 iOS 15.0 – 16.6 的 rootless 越狱（Relaxin / RootHide / Dopamine）。
+Name: 常驻后台
+Author: wacljcr
+icon: https://huayuarc.github.io/icon/keepalive.png
+
+Package: wacljcr.keepalive
+Architecture: iphoneos-arm64e
 Version: 1.0.3
 Section: 红尘琐事
 Maintainer: wacljcr
