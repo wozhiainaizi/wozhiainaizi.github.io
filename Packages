@@ -3691,6 +3691,132 @@ Author: jumping8
 icon: https://huayuarc.github.io/icon/thermaldetect.png
 
 Package: com.kernelrw.adytum
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: 红尘琐事
+Maintainer: Kernelrw <drtramadolmorphine@gmail.com>
+Installed-Size: 1066
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist, preferenceloader
+Conflicts: com.sergy.immortalizer, com.sergy.immortalizerjailed, com.sergy.immortalizers, com.dao.immortalizer, com.evgeniy.immortalizerreborn, xyz.cypwn.immortalizer
+Filename: debs/com.kernelrw.adytum_1.0_iphoneos-arm64.deb
+Size: 135746
+MD5sum: 836fca8dd1050cc61cc5e9f81d88a51c
+SHA1: 2428244cd1dbd84da0d936fb5959c55e18c22c9a
+SHA256: 8a6d586d81a98f50aa3f479bade06c7ae49c1efd46cb6c44ee5e015e6ce9bf42
+SHA512: 054249cb32e17fd994249bcdb12c6d2cef21a38e04fc6a077c9fdd49b3229e59a981f4b86a8362a7f140db9279ec3f287684e48244fa9451521e84a8942dbf46
+Description: True application backgrounding management.
+Tag: compatible_min::ios15.0
+Author: Kernelrw <drtramadolmorphine@gmail.com>
+Name: Adytum
+Icon: https://img.chariz.cloud/icon/adytum/icon@3x.png
+Depiction: https://chariz.com/get/adytum
+
+Package: com.kernelrw.adytum
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: 红尘琐事
+Maintainer: Kernelrw <drtramadolmorphine@gmail.com>
+Installed-Size: 2875
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist, com.opa334.ccsupport, preferenceloader
+Conflicts: com.sergy.immortalizer, com.sergy.immortalizerjailed, com.sergy.immortalizers, com.dao.immortalizer, com.evgeniy.immortalizerreborn, xyz.cypwn.immortalizer
+Filename: debs/com.kernelrw.adytum_1.1_iphoneos-arm64.deb
+Size: 286748
+MD5sum: 28328a1fd0025bd61c3167af05537870
+SHA1: aa86f7ad977fae768dc45c3f77ce1cd2435b0400
+SHA256: e57725d558019732edede4f411cf8d6f990206cebb3503e8bd1d4abc9309d491
+SHA512: d8ae62f6b56f8810016ec5f2830df5b85f82cbedbdfca724174acaba9519ece56af7913e1a4d3aa728b2364b74f39e7f301665c87a440a7005c2ec157cdae109
+Description: True application backgrounding management.
+Tag: compatible_min::ios15.0
+Author: Kernelrw <drtramadolmorphine@gmail.com>
+Name: Adytum
+Icon: https://img.chariz.cloud/icon/adytum/icon@3x.png
+Depiction: https://chariz.com/get/adytum
+
+Package: com.kernelrw.adytum
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: 红尘琐事
+Maintainer: Kernelrw <drtramadolmorphine@gmail.com>
+Installed-Size: 1718
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist, preferenceloader
+Conflicts: com.sergy.immortalizer, com.sergy.immortalizerjailed, com.sergy.immortalizers, com.dao.immortalizer, com.evgeniy.immortalizerreborn, xyz.cypwn.immortalizer
+Filename: debs/com.kernelrw.adytum_2.0_iphoneos-arm64.deb
+Size: 197078
+MD5sum: af5a14bb5a42472007c9bfc44bee6d87
+SHA1: cebdf7d1b147f84db6bd0e1efffb778f6317f3f9
+SHA256: 41836c01cec3aa43619f59f8ea0f0236bcea4c1dd95b2f5fa50fc2b532eae035
+SHA512: 21e1aa1c6eb0b811aba94d0b839b22d0ce38afb265f48af8ae73aa8a51ed21dd21cabda827b17dd80aedf33802d6b1129c721a85b65bb9929ffe3c25d48833b4
+Description: True application backgrounding management.
+Tag: compatible_min::ios15.0
+Author: Kernelrw <drtramadolmorphine@gmail.com>
+Name: Adytum
+Icon: https://img.chariz.cloud/icon/adytum/icon@3x.png
+Depiction: https://chariz.com/get/adytum
+
+Package: com.kernelrw.adytum
+Architecture: iphoneos-arm64
+Version: 2.1
+Section: 红尘琐事
+Maintainer: Kernelrw <drtramadolmorphine@gmail.com>
+Installed-Size: 1806
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist, preferenceloader
+Conflicts: com.sergy.immortalizer, com.sergy.immortalizerjailed, com.sergy.immortalizers, com.dao.immortalizer, com.evgeniy.immortalizerreborn, xyz.cypwn.immortalizer
+Filename: debs/com.kernelrw.adytum_2.1_iphoneos-arm64.deb
+Size: 187210
+MD5sum: 0e8e9036b95bc91db2ea75292a585c5d
+SHA1: 5d5fbfb9b730d34a3bdd6800e91644f720d24a5c
+SHA256: 7d90d344ef28557907a6c324bf0afc7da6f4e54c533ca89238d645edc894739b
+SHA512: 60085ac8e3088a6947917bb1309dab647def5649a303fe59d44c129dbc3fc65883eae260dce7365cd814483c5a5c85f6ee9d06b5763daec1aa7406313a32153c
+Description: True application backgrounding management.
+Tag: compatible_min::ios15.0
+Author: Kernelrw <drtramadolmorphine@gmail.com>
+Name: Adytum
+Icon: https://img.chariz.cloud/icon/adytum/icon@3x.png
+Depiction: https://chariz.com/get/adytum
+
+Package: com.kernelrw.adytum
+Architecture: iphoneos-arm64
+Version: 2.2.1
+Section: 红尘琐事
+Maintainer: Kernelrw <drtramadolmorphine@gmail.com>
+Installed-Size: 1805
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist, preferenceloader
+Conflicts: com.sergy.immortalizer, com.sergy.immortalizerjailed, com.sergy.immortalizers, com.dao.immortalizer, com.evgeniy.immortalizerreborn, xyz.cypwn.immortalizer
+Filename: debs/com.kernelrw.adytum_2.2.1_iphoneos-arm64.deb
+Size: 198344
+MD5sum: abf7572c06372c25bbe9dbd8e7ec8c2d
+SHA1: 31e5d0b9de97ab30a8142d67f881e22f60595458
+SHA256: 90d8747d722bcdf909e54da16f6fa86d505ed733153ba290e734340f259d73c0
+SHA512: 68a8332eb7bfc4379cae657c6ad922240c55eadfc13a1f519490058ead47911cae872c32be706cb9a57a2a15a88bf1f1bf09d7f65907327ceb1bb7cb42091115
+Description: True application backgrounding management.
+Tag: compatible_min::ios15.0
+Author: Kernelrw <drtramadolmorphine@gmail.com>
+Name: Adytum
+Icon: https://img.chariz.cloud/icon/adytum/icon@3x.png
+Depiction: https://chariz.com/get/adytum
+
+Package: com.kernelrw.adytum
+Architecture: iphoneos-arm64
+Version: 2.2
+Section: 红尘琐事
+Maintainer: Kernelrw <drtramadolmorphine@gmail.com>
+Installed-Size: 1805
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist, preferenceloader
+Conflicts: com.sergy.immortalizer, com.sergy.immortalizerjailed, com.sergy.immortalizers, com.dao.immortalizer, com.evgeniy.immortalizerreborn, xyz.cypwn.immortalizer
+Filename: debs/com.kernelrw.adytum_2.2_iphoneos-arm64.deb
+Size: 197968
+MD5sum: 3c924aff4fc8c16a2c92496d605ca65a
+SHA1: eba47772724d37797d10bc19711a5b4605a559a6
+SHA256: a1aa26a158a2e4411f2b45af4d7a034ab38115c2a8c4e7e8a8fbefda5fd5e1ed
+SHA512: 277270236384abb20cc2cacf66b2061e1d931d319de24f1fad872ad4a0e49b8dbd5f232d0e94dad06ce075036f7f9e58b308f3303cd73687d989c231af2a2c17
+Description: True application backgrounding management.
+Tag: compatible_min::ios15.0
+Author: Kernelrw <drtramadolmorphine@gmail.com>
+Name: Adytum
+Icon: https://img.chariz.cloud/icon/adytum/icon@3x.png
+Depiction: https://chariz.com/get/adytum
+
+Package: com.kernelrw.adytum
 Architecture: iphoneos-arm64e
 Version: 3.0
 Section: 红尘琐事
