@@ -5608,6 +5608,28 @@ Description: Enable system-wide performance HUD from the control center.
 Name: caperfhudmodule 全局性能悬浮监测模块
 Author: khanhduytran0
 
+Package: com.kernelrw.adytum
+Architecture: iphoneos-arm64e
+Version: 3.0-1
+Section: 红尘琐事
+Maintainer: Kernelrw <drtramadolmorphine@gmail.com>
+Installed-Size: 2757
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist, com.opa334.ccsupport, preferenceloader
+Conflicts: com.sergy.immortalizer, com.sergy.immortalizerjailed, com.sergy.immortalizers, com.dao.immortalizer, com.evgeniy.immortalizerreborn, xyz.cypwn.immortalizer
+Filename: debs/原版丝滑滑动adytum.deb
+Size: 301932
+MD5sum: a587074dfe1c0e5834735f59d83b73d2
+SHA1: c7a52576b2145aad1d1e03d8d9dd8ae7d6e890ae
+SHA256: 3a7c46788d469d198e82f44b165bd985f4f01c06ae63e8c18064f59a23c1191c
+SHA512: e9d6eaeabc750cfe61b0f416e933ebf346a4b17f9b0bc534f2bac144c997f113683aeea39bc55f932bf05e0c4e684af0318435b50ede1cdd93774ce913695c97
+Description: True application backgrounding management.
+Tag: compatible_min::ios15.0
+Author: Kernelrw <drtramadolmorphine@gmail.com>
+Name: Adytum
+Icon: https://img.chariz.cloud/icon/adytum/icon@3x.png
+Depiction: https://chariz.com/get/adytum
+
 Package: com.wkk.recordeyex
 Architecture: iphoneos-arm64e
 Version: 1.0-20
