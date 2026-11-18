@@ -969,6 +969,30 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
 SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
 
+Package: com.axs.ios16dao
+Architecture: iphoneos-arm64e
+Version: 5.2.1-168
+Section: 本命法器
+Maintainer: Axs
+Installed-Size: 932
+Pre-Depends: rootless-compat(>=0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Conflicts: com.nathan.dynamicnotland, com.cydia.love.dynamicnotland, com.cydia.love.dynamicnotland-Rootless
+Filename: debs/com.axs.ios16dao_5.2.1-168_iphoneos-arm64e.deb
+Size: 143448
+MD5sum: 163be49488dc86e81a6821fbffbb3478
+SHA1: 06efae7c1ff7df42e42eb4bd1c936a1c40c463d3
+SHA256: a4b1c33530b8db7dcf0283d9399cc4c865c550276c0e58196d1a613a0fc0e500
+SHA512: 3a88cd0113b52b7aeb3afd55598e1bd3bdc7d0a70d050fc6b7143dfcd4b823dbde7973131d2a0aefe4a86467f20993170dc0275d15aa974b4ff6b2eb61441d3f
+Description: 一款市面上最优秀、功能最完整、最稳定的灵动岛插件。
+ * 1. 灵动岛自定义背景，支持 PNG/JPG/GIF/MP4。
+ * 2. 内置原生岛隐藏
+ * 3. 支持单独禁用原生岛的阴影与模糊。
+Name: 灵动岛视频背景
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
+SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
+
 Package: com.be-huge.insulation
 Architecture: iphoneos-arm64e
 Version: 0.1.38.6
@@ -5511,6 +5535,28 @@ MD5sum: aad0ca30e261a1485fc336a56eefb4c9
 SHA1: b5b70f8fb3e309e9e593bc3697622a04a90d284e
 SHA256: f944ba108468472bbfc473f35e08c64fca2c0b7eba9ca0f6552d098bc3b4c728
 SHA512: dfd7180d7f7d4ecf90d14aa03801e756e5de0fde610faea2d0faed25b3475d2a453b81b3550652b657efb7723e721a70be03d6c5d25daba974c5141fc1271662
+Description: 让选定的 app 退到后台保持常驻不被杀，重新打开直接回到上次界面
+ 微信、QQ、闲鱼、淘宝、京东、抖音、小红书、支付宝、微博等 app 退到后台经常被系统杀掉，
+ 重新打开只能冷启动。本插件让勾选的 app 退到后台后保持常驻，过很久再打开直接回到上次界面。
+ 支持 iOS 15.0 – 16.6 的 rootless 越狱（Relaxin / RootHide / Dopamine）。
+Name: 常驻后台
+Author: wacljcr
+icon: https://huayuarc.github.io/icon/keepalive.png
+
+Package: wacljcr.keepalive
+Architecture: iphoneos-arm64e
+Version: 1.0.5-1
+Section: 红尘琐事
+Maintainer: wacljcr
+Installed-Size: 612
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/wacljcr.keepalive_1.0.5-1_iphoneos-arm64e.deb
+Size: 45208
+MD5sum: 9a94fc1f7bda2a0d07f72be8e412921e
+SHA1: 7c711afe304d3b133c06f17f9d846a653456bfbf
+SHA256: f8434c1484acf4a7aea2248a0e33373a5e28fa1e0f81631cb7a9914124941ea9
+SHA512: b6cb3e18a71a5d68c677edd614b39c21959f7c9c6232ffd556cc6e628702b41c9db9d678fc99033788ee55ab2b50c4203ba6b28fbc0c9b435d250eed3ee8b362
 Description: 让选定的 app 退到后台保持常驻不被杀，重新打开直接回到上次界面
  微信、QQ、闲鱼、淘宝、京东、抖音、小红书、支付宝、微博等 app 退到后台经常被系统杀掉，
  重新打开只能冷启动。本插件让勾选的 app 退到后台后保持常驻，过很久再打开直接回到上次界面。
