@@ -834,6 +834,27 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 
+Package: cn.zqbb.stopautolaunchapps
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: 本命法器
+Maintainer: zqbb
+Installed-Size: 232
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
+Conflicts: zp.stopautolaunchapps
+Filename: debs/cn.zqbb.stopautolaunchapps_1.1_iphoneos-arm64e.deb
+Size: 26504
+MD5sum: 39e5898a054ffe614005486a04f93f54
+SHA1: 6ed877f0c5330350c74fdf91cd192e73dc9b4531
+SHA256: 6b9729596683758e067f6ea41cc24893d57018cc944d92d0b27e94085e13fbbd
+SHA512: 9d720f4af647f012d0f266371cf2d8090f5d5d98948a2d445f90ddf5ab648ddfe18111f0d482c140cdb1568823624d41692460acce64364e4feab8a62c373756
+Description: 禁用ios热启动神经网络引擎,别在后台热加载app咯! 
+ - 优点:节约内存,少杀后台. 
+ - 玄学:减少重启概率
+Author: zqbb
+Name: Hello 3Q
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
+
 Package: com.anthopak.powercuts-rootless
 Architecture: iphoneos-arm64e
 Version: 1.2.2
