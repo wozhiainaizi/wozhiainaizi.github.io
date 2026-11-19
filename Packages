@@ -3447,6 +3447,26 @@ Description: 使手机在锁屏状态也可以继续录屏。修复支持Dopamin
 Name: RecordAnywhere 锁屏录屏
 Author: Muirey03 & lclrc
 
+Package: com.roothide.manager
+Architecture: iphoneos-arm64e
+Version: 1.4.1
+Section: 红尘琐事
+Maintainer: roothide
+Installed-Size: 1148
+Depends: firmware (>= 15.0)
+Filename: debs/RootHide_Manager-1.4.1-kulinichx-iphoneos-arm64e.deb
+Size: 760012
+MD5sum: 9aa765d4fb1b4086c95e8cb5463c4489
+SHA1: a9789e8eb0301a42e5bfb86d275bb1b22fe2e271
+SHA256: 2731fa6a3fa44b7078ea32ac2097150a50577914bfdeafbe8e81dcab17ce4b4a
+SHA512: 7c852ed4f755889c56b86c99c18371d3e224fbed6a099ca66bc4966e5d3ab83f299d2f036061c5e36310c86edaa320e080f0231e46b69a664c4a8873a6e93568
+Description: Configuare RootHide's Features
+Name: RootHide Manager
+Author: roothide
+Icon:
+Depiction: https://github.com/roothide/RootHideManagerApp
+Support: https://github.com/roothide/RootHideManagerApp
+
 Package: com.cydiabc.satella-rootless
 Architecture: iphoneos-arm64e
 Version: 1.9.0-1
@@ -4366,6 +4386,44 @@ Name: Actra
 Icon: https://mlgm66.github.io/icon/actra.png
 Author: mlgm
 
+Package: com.mlgm.actra
+Architecture: iphoneos-arm64e
+Version: 1.4.1
+Section: 红尘琐事
+Maintainer: mlgm
+Installed-Size: 4196
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/com.mlgm.actra_1.4.1_iphoneos-arm64e.deb
+Size: 842216
+MD5sum: 0433250789055a7568db8910c5c4ed5c
+SHA1: 7ab4d8060c6c28ccc59bb5b66f5495dedde6adbf
+SHA256: 832635f8bb46e5514e7d796b2bbd9767cc9ec7b75e3e6480b45b4e116670f46e
+SHA512: 2d96c45fa5ba2e0f239f575555a1c610f9f8b99b9c540c1d5764ad3c35b871b1082b398fec3fe1966f7bdcb5aac521a398896f33ecafe72824293883fb64f68f
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
+Package: com.mlgm.actra
+Architecture: iphoneos-arm64e
+Version: 1.4
+Section: 红尘琐事
+Maintainer: mlgm
+Installed-Size: 4164
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/com.mlgm.actra_1.4_iphoneos-arm64e.deb
+Size: 832932
+MD5sum: 8f8106b4988f54193bebb158f5071af8
+SHA1: eed26b518ee7f22fa592cfb8332d511c7fe4c4fe
+SHA256: 7c2234c869504b4f33527ac2cae3cf05a4cb012cc7fde1cb49a5a52f41bdb21b
+SHA512: 385e585574431d8e3312743b9d7689674a43ee009edc129ce284dc89265cddf5bd8bdbe9c42bbc20dfdb7865ae6e2942e5f4942c849f03b3d6119d0422ba1c15
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
 Package: com.mlgm.kayoko
 Architecture: iphoneos-arm64e
 Version: 5.1.2
@@ -4629,6 +4687,26 @@ Description: Rain的CPU性能与稳帧控制插件
 Tag: role::hacker, purpose::extension
 Name: Rain的Mhz
 Author: Rain
+
+Package: com.roothide.manager
+Architecture: iphoneos-arm64e
+Version: 1.4.0
+Section: 红尘琐事
+Maintainer: roothide
+Installed-Size: 1120
+Depends: firmware (>= 15.0)
+Filename: debs/com.roothide.manager_1.4.0-trust-port_iphoneos-arm64e.deb
+Size: 755286
+MD5sum: 37e94da149a8389145827d6a0f11a95a
+SHA1: 2281e91afe0691c538ac05ba4a8cbc8440941549
+SHA256: 806336b0ab96e90b87f699f4158ae306718e7e220662f5a62255beb36d4d5887
+SHA512: e815b6f133ab3857892038d27e93ea5cf449ff54696f406ac31d65f59f7539bb445d933a8380bbae52f3599a8f689f2ae8b316541445612df5fd4e2307cfe97e
+Description: Configuare RootHide's Features
+Name: RootHide Manager
+Author: roothide
+Icon:
+Depiction: https://github.com/roothide/RootHideManagerApp
+Support: https://github.com/roothide/RootHideManagerApp
 
 Package: com.sahinkaa.blockappupdates
 Architecture: iphoneos-arm64e
