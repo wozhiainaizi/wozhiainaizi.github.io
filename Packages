@@ -1161,23 +1161,6 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
 SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
 
-Package: com.be-huge.insulation
-Architecture: iphoneos-arm64e
-Version: 0.1.38.6
-Section: 本命法器
-Maintainer: doimty
-Installed-Size: 1608
-Depends: firmware (>= 15.0)
-Filename: debs/com.be-huge.insulation_0.1.38.6.deb
-Size: 106964
-MD5sum: 746c35cec14e7875dd52953cdbca2925
-SHA1: 79db35e2a7e81d5e83ca9e563ad0ad5b231e4fd6
-SHA256: b7ccb79f4e166c1b2c25eaad756d844aabf6a54232748cd375c0e0dc67866af1
-SHA512: 7abf5b9f347b7b6f6990bd4dd35aceed7e8290a4e617871fa4969ac45e459d522898ca2eea6ef2b4d4f6f7abce7e800e3d56bea37712653d7816044ed485ebef
-Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。已内置 SmartBatteryAPI 智能停充（设置页可调停充电量，配置已与停充守护打通，掉线自动修复）和挂载路径管理（一键挂载温控路径、重新挂载全部、优化与恢复）。
-Name: insulation
-Author: be-huge & doimty
-
 Package: com.binglan.dynamicfx
 Architecture: iphoneos-arm64e
 Version: 1.0.7-1
