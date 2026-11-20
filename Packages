@@ -4352,6 +4352,24 @@ Name: TunnelShareVPN
 Author: Mallin
 Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
 
+Package: com.minis.cardlock
+Architecture: iphoneos-arm64e
+Version: 1.1.2
+Section: 红尘琐事
+Maintainer: Minis
+Installed-Size: 352
+Depends: mobilesubstrate, firmware (>= 16.3.1), firmware (<< 16.3.2), preferenceloader, com.opa334.altlist
+Filename: debs/com.minis.cardlock_1.1.2_iphoneos-arm64e.deb
+Size: 29980
+MD5sum: 3a9a21112c4d0c041ef6a9a4139393b9
+SHA1: 2a687822db9a88295930d4d5daa0eadcbe6c4d73
+SHA256: e077f168966ce215c7fb2abb4bcc2ea820fc3229bc12af574048a8f8eab21d3c
+SHA512: ffb256e6650158e5ce1be4853b809c6c301d0a133e7f0ec80f4f9078c00d079035213574b77e171ff33d63763520192470f26344970f78a8c3280b59cc235bd0
+Description: 选中 App 的后台卡片正常划走，仅保护本次手势不终止应用与原场景。iOS 16.3.1 专用候选版；不提供后台保活。
+Name: 后台划卡保护
+Author: Minis
+Icon: file:///Library/PreferenceBundles/CardLockPrefs.bundle/PackageIcon.png
+
 Package: com.minis.rainbowkeyboard
 Architecture: iphoneos-arm64e
 Version: 1.0.26~lite40
