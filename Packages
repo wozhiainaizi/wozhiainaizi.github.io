@@ -5434,6 +5434,23 @@ Author: Nathan
 Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 
+Package: com.iosdump.hotaiqingli
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: 红尘琐事
+Maintainer: iosdump
+Installed-Size: 407
+Depends: mobilesubstrate
+Filename: debs/hotaiqingli_0.0.2.deb
+Size: 33904
+MD5sum: c9e109d3e784e683bf5a415132dbd403
+SHA1: 3e412a72823c8114cbc12e71d12965eaf58c957d
+SHA256: c1a1158db8e94c8b9b0a72073cd758705cd10c2ab6da2573148c5af1dcd2f791
+SHA512: 3ff84c147e90c01baf31a74460365f48ecb3db004f45f75a38d3e394164e255ee9671e1a6f933758b837c16248b7f1238e1110d98a4e98883bb918ae4c1ea801
+Description: 后台一键清理，无设置，可下拉锁定。支持iOS14-17
+Name: 后台一键清理
+Author: iosdump
+
 Package: cn.zqbb.hello.bundleid
 Architecture: iphoneos-arm64e
 Version: 1.6.1-5
