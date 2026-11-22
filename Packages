@@ -5434,23 +5434,6 @@ Author: Nathan
 Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 
-Package: com.iosdump.hotaiqingli
-Architecture: iphoneos-arm64e
-Version: 0.0.2
-Section: 红尘琐事
-Maintainer: iosdump
-Installed-Size: 407
-Depends: mobilesubstrate
-Filename: debs/hotaiqingli_0.0.2.deb
-Size: 33904
-MD5sum: c9e109d3e784e683bf5a415132dbd403
-SHA1: 3e412a72823c8114cbc12e71d12965eaf58c957d
-SHA256: c1a1158db8e94c8b9b0a72073cd758705cd10c2ab6da2573148c5af1dcd2f791
-SHA512: 3ff84c147e90c01baf31a74460365f48ecb3db004f45f75a38d3e394164e255ee9671e1a6f933758b837c16248b7f1238e1110d98a4e98883bb918ae4c1ea801
-Description: 后台一键清理，无设置，可下拉锁定。支持iOS14-17
-Name: 后台一键清理
-Author: iosdump
-
 Package: cn.zqbb.hello.bundleid
 Architecture: iphoneos-arm64e
 Version: 1.6.1-5
@@ -5921,6 +5904,23 @@ SHA512: bb8cd236b9ded2ead0a73e8379023d01f3a7bb00bc9a15b73b5ab13e383108c4d024e3cc
 Description: Enable system-wide performance HUD from the control center.
 Name: caperfhudmodule 全局性能悬浮监测模块
 Author: khanhduytran0
+
+Package: com.iosdump.hotaiqingli
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: 红尘琐事
+Maintainer: iosdump
+Installed-Size: 407
+Depends: mobilesubstrate
+Filename: debs/后台划卡保护 hotaiqingli_0.0.2_e.deb
+Size: 33912
+MD5sum: 440129900222afddf812ceba632865aa
+SHA1: 15f7c30e67604b3fe3546a878efa9c4dd7ed96b7
+SHA256: 7dd238aad164703a4430dba3172d0a12c8340919ba6dc1ed31c071537f032ef7
+SHA512: c8982b772b2fdb10f944bf93cc0be8146feb9962a651b0dda06f51fca354833421338a8c057b58301127d820021bcd5750b101197611fca6d61d3113846b7011
+Description: 后台一键清理，无设置，可下拉锁定。已锁应该滑掉不杀后台。支持iOS14-17
+Name: 后台一键清理
+Author: iosdump
 
 Package: com.wkk.recordeyex
 Architecture: iphoneos-arm64e
