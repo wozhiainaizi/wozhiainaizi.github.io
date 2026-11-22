@@ -4136,23 +4136,6 @@ Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
 Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
 SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
 
-Package: com.iosdump.hotaiqingli
-Architecture: iphoneos-arm64e
-Version: 0.0.2
-Section: 红尘琐事
-Maintainer: iosdump
-Installed-Size: 407
-Depends: mobilesubstrate
-Filename: debs/com.iosdump.hotaiqingli_0.0.2_iphoneos-arm64e.deb
-Size: 33912
-MD5sum: d809590102ed0f7eb34fa5d45e41dacd
-SHA1: d6e815cdb45d60139fecf35232c4bf48365fceb1
-SHA256: 1084cfc36aca39db3b0fb9f69ce86b8e9f50c0c5904c133d80698c2de6e68a96
-SHA512: 470ccc7f823f1c9044a92c9cd1b696d9a3ddc9b6e477cffcdccc332d4aa93af17717be2c7446b06b25ca42c89551f1d4a3c499e4fcc8c01eae0c54fe4095afea
-Description: 后台一键清理，无设置，可下拉锁定。已锁应用滑掉不杀后台。支持iOS14-17
-Name: 后台一键清理
-Author: iosdump
-
 Package: com.iosdump.jumpselect
 Architecture: iphoneos-arm64e
 Version: 1.3
