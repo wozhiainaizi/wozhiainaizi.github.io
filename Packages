@@ -5239,6 +5239,29 @@ Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
 SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
 Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
 
+Package: com.tsangbaby.pulloverx
+Architecture: iphoneos-arm64e
+Version: 2.5.0
+Priority: optional
+Section: 红尘琐事
+Maintainer: Tsangbaby
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/com.tsangbaby.pulloverx_2.5.0_iphoneos-arm64e.deb
+Size: 691380
+MD5sum: f35e881457a419464788c5fafb30a865
+SHA1: 021d99a8b159717887eabb297726c59ef80e2b98
+SHA256: 26e353c7c8b784383b3551517f6e5f29c52d493624db08530178097a2ad634e5
+SHA512: 558eb3c0306ebd63411e466ad1d29972e562473ea91e7402c7d107c9f2d346a6614fefc29d9ea727487282e2d8fe0cc3a42b65f1715805b80d4a7fa66f9ddf7b
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
+
 Package: com.tsangbaby.springanimation
 Architecture: iphoneos-arm64e
 Version: 0.0.2
