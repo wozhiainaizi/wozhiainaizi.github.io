@@ -1903,6 +1903,24 @@ Name: AppData
 Author: Axs <a200591949@gmail.com>
 Icon: https://axs66.github.io/pro/icon/appdata.png
 
+Package: com.yourepo.axs.appdata
+Architecture: iphoneos-arm64e
+Version: 5.2.0-107
+Section: 本命法器
+Maintainer: Axs <a200591949@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Filename: debs/com.yourepo.axs.appdata_5.2.0-107_iphoneos-arm64e.deb
+Size: 240626
+MD5sum: 7de2bd2b643d32bd63825e08ed0d4cc4
+SHA1: a53209e51c8d62f81e244e5c9cf6bbc6836fbedd
+SHA256: 18fe833ae26b63c14a63d6a216b029aa2d9a7a7e431fed9ce5b1305bae65b256
+SHA512: b1fc9bb9df7df1078d63a04ddb3541f4ab3969519d87cb307d70b2f27129a0f510e9a4e182290732ec3db8f074408b9f53d35097e92e76b20798c75e8b8d5131
+Description: 从主屏幕查看和管理应用数据，持续扩展附加功能中，目前包含：应用静音、120Hz、真后台、CPU、FPS等。
+Name: AppData
+Author: Axs <a200591949@gmail.com>
+Icon: https://axs66.github.io/pro/icon/appdata.png
+
 Package: com.yourepo.axs.axsclean
 Architecture: iphoneos-arm64e
 Version: 5.2.0-14
