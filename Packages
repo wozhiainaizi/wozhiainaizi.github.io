@@ -5280,6 +5280,29 @@ Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
 SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
 Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
 
+Package: com.tsangbaby.pulloverx
+Architecture: iphoneos-arm64e
+Version: 2.5.6
+Priority: optional
+Section: 红尘琐事
+Maintainer: Tsangbaby
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/com.tsangbaby.pulloverx_2.5.6_iphoneos-arm64e.deb
+Size: 737692
+MD5sum: af79e56b2e62136dc71ab12135e6b37e
+SHA1: 5c8be99dff7fd4fe6e867ada38cd4f4fb0ec7f16
+SHA256: eef9e9dc41f7ed74b28022d8d7ba9be54a2e5f0beaffef4d3fe1dfb46e5fc804
+SHA512: 7a29a0ea811dc6c1777888081c38cfcf9790cf4717235bff6d0a1f1fbe7e8e4c72f3070863d3946c93532f8bc2ef2469717628b25f2d279d5af2efdcd32c3a81
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
+
 Package: com.tsangbaby.springanimation
 Architecture: iphoneos-arm64e
 Version: 0.0.2
@@ -5944,6 +5967,30 @@ Icon: https://owngoal-dev.github.io/Inspector/icon.png
 Depiction: https://owngoal-dev.github.io/Inspector/
 SileoDepiction: https://owngoal-dev.github.io/Inspector/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: xyz.cypwn.anxietea
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Section: 红尘琐事
+Maintainer: CyPwn
+Installed-Size: 3789
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: dev.tattle
+Replaces: dev.tattle
+Filename: debs/xyz.cypwn.anxietea_1.0.6_iphoneos-arm64e.deb
+Size: 2074988
+MD5sum: bc4d765350d483b4c843d3f09fac0b4b
+SHA1: 8e4cf8cd62fb6c0a7ed573f9b7af682757f02eaa
+SHA256: cb581466b02fd29afa6b1e0482a1edf229cf7b376a83295c49d67d918d9bed41
+SHA512: b5ef9b0cac317b4015e906d29db483aed01cea2449ca9ca534972d0349f89df8ad00a5462c81f367ddcbf727c5dfd904bec4537aaec7708528b6ff96a0bf5cae
+Homepage: https://anxietea.app
+Description: Network monitor and firewall for your iPhone. Cracked by trwmd34.
+Depiction: https://repo.cypwn.xyz/depiction/3619
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3619
+Icon: https://repo.cypwn.xyz/packages/AnxieTea-Rootless/icon.png
+Name: AnxieTea
+Author: AADiOS
 
 Package: com.sini921.cursorpro
 Architecture: iphoneos-arm64e
