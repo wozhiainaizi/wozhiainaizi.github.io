@@ -5677,6 +5677,29 @@ Icon: https://dcsyhi1998.github.io/icons/Culprit/Culprit.png
 Author: Dcsyhi
 Translator: 灰灰 与 MIAO (=^･ω･^=)
 
+Package: jp.soh.reprovisions
+Architecture: iphoneos-arm64e
+Version: 1.1.164
+Priority: optional
+Section: 红尘琐事
+Maintainer: AmorCool <admin@reprovision.dev>
+Depends: firmware (>= 15.0), zip, unzip
+Conflicts: jp.soh.reprovision
+Filename: debs/jp.soh.reprovisions_1.1.164_iphoneos-arm64e.deb
+Size: 4200184
+MD5sum: 1f860128f2100b9974a79655e50f8281
+SHA1: 9da0c291b98626393f66718b1d1ecb35d2422dcd
+SHA256: f5cf8db4356bb24a6107eb639ba03ccd20ac183b44091883cc5a772f482d77d3
+SHA512: cbe058c7aee4890d07437930b61ef743284cbd9307cf7409cdda991681ec9943e58302a2a6cd383b8c9a724487f8f62c08900468c056fac3a435cd7f0b2fa459
+Description: 使用 苹果 ID 续签 IPA
+ * 仅支持 iOS 17 Relaxin 越狱
+ * 解决非巨魔设备签名 Relaxin IPA 问题
+ * Re-signing tool for iOS jailbreak
+Name: ReSign 苹果 ID 续签
+Author: Coolapk@Analytics
+Icon: https://TrollStoreX.Github.io/sileodepiction/ReSign/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/ReSign/js.json
+
 Package: com.cydia.love.lindongdaodonhua-rootless
 Architecture: iphoneos-arm64e
 Version: 1.1.8
