@@ -1888,6 +1888,24 @@ Author: SquidForce
 
 Package: com.susudear.screencore
 Architecture: iphoneos-arm64e
+Version: 2.0.1
+Section: 本命法器
+Maintainer: SuSu
+Installed-Size: 2944
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.susudear.screencore_2.0.1_iphoneos-arm64e.deb
+Size: 461544
+MD5sum: 3f9a4908138f3c85d075c43605045318
+SHA1: dd02b9e11e56c53cf6566743062f8e6f4c23974d
+SHA256: 8b858e2fa97518f0afd7d7d577470946c98e4e51b742108ff680e3266a010ec6
+SHA512: 196fc99934f4a6cebaf9ada8e7b59fa9bb2c38211fe0ba2e9f2b7b42d07a05a08a33e643195d20b2f953d72cff3cf93123968f9ee184f5c991af2f36ded2f5e0
+Description: 分屏而已
+Name: ScreenCore
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+
+Package: com.susudear.screencore
+Architecture: iphoneos-arm64e
 Version: 2.0.2
 Section: 本命法器
 Maintainer: SuSu
@@ -1899,6 +1917,42 @@ MD5sum: c300523114cce4c1739827abd879fb9c
 SHA1: 01714d46f6c576b5f9b7fee7e62560736d331780
 SHA256: a7ecd6e30a61ab930f05e0db774e56bc31ee7d855e5808cca95da676c8fdfe29
 SHA512: 1fbc31e797a9cebad04ff7cc081ed56771e1ec9ace9b7ed9473efaaafed5da164013a7e7aa5ef8000bd4a023702f3c8d766dd55e8443f0f0b44688da8145d898
+Description: 分屏而已
+Name: ScreenCore
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+
+Package: com.susudear.screencore
+Architecture: iphoneos-arm64e
+Version: 2.0.3
+Section: 本命法器
+Maintainer: SuSu
+Installed-Size: 2964
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.susudear.screencore_2.0.3_iphoneos-arm64e.deb
+Size: 464978
+MD5sum: 8c80529ac18d2dbfe77002a0a30ca8cd
+SHA1: 9feb2706e73aa2a602c5d7d0ec8bddc2890a66cb
+SHA256: 0b9445ac7ef6ed9894c8ec82776cbcd2b0ab90a508ba185258534db451e31e2b
+SHA512: 1576257a4093040589075c78854b57323bfad784d0b60556de39a2eb7ac402c6759722b42a13fd232bef797b23804891c66729110431ca43c70cbfe3663db889
+Description: 分屏而已
+Name: ScreenCore
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+
+Package: com.susudear.screencore
+Architecture: iphoneos-arm64e
+Version: 2.0.4
+Section: 本命法器
+Maintainer: SuSu
+Installed-Size: 3076
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.susudear.screencore_2.0.4_iphoneos-arm64e.deb
+Size: 481612
+MD5sum: 13bdc2917e3337220f9cebfce50ec25d
+SHA1: 82a7d246d5bb4269280d60d53777dbb83ba3f251
+SHA256: 5292989e0da912a393ca1af5434702063560647229fc963bda0914c59e00433f
+SHA512: 2925589f4a24a6b815b7d65221e76c0b4747ec440987429771965184633368eafe473df872586d514259458376e717e80286aab868b913e952a899388c5cadec
 Description: 分屏而已
 Name: ScreenCore
 Author: SuSu
