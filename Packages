@@ -1886,6 +1886,24 @@ Description: 1. 禁用iOS16+粘贴警告弹窗，并自动允许
 Name: DisablePasteAlert16 禁用粘贴提示
 Author: SquidForce
 
+Package: com.susudear.screencore
+Architecture: iphoneos-arm64e
+Version: 2.0.2
+Section: 本命法器
+Maintainer: SuSu
+Installed-Size: 2964
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.susudear.screencore_2.0.2_iphoneos-arm64e.deb
+Size: 461936
+MD5sum: c300523114cce4c1739827abd879fb9c
+SHA1: 01714d46f6c576b5f9b7fee7e62560736d331780
+SHA256: a7ecd6e30a61ab930f05e0db774e56bc31ee7d855e5808cca95da676c8fdfe29
+SHA512: 1fbc31e797a9cebad04ff7cc081ed56771e1ec9ace9b7ed9473efaaafed5da164013a7e7aa5ef8000bd4a023702f3c8d766dd55e8443f0f0b44688da8145d898
+Description: 分屏而已
+Name: ScreenCore
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+
 Package: com.yourepo.axs.appdata
 Architecture: iphoneos-arm64
 Version: 5.2.0-107
